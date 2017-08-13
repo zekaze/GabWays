@@ -1,0 +1,68 @@
+@mixin transition($sec){
+  -webkit-transition: all $sec ease-in-out;
+  -moz-transition: all $sec ease-in-out;
+  -o-transition: all $sec ease-in-out;
+  transition: all $sec ease-in-out;
+}
+
+
+@mixin animation-duration($time){
+  -webkit-animation-duration: $time;
+  -moz-animation-duration: $time;
+  -o-animation-duration: $time;
+  animation-duration: $time;
+}
+
+
+@mixin linear-gradient($angle, $from, $to){
+  background: -webkit-linear-gradient($angle, $from, $to);
+  background: -moz-linear-gradient($angle, $from, $to);
+  background: -ms-linear-gradient($angle, $from, $to);
+  background: -o-linear-gradient($angle, $from, $to);
+  background:  linear-gradient($angle, $from, $to);
+}
+
+
+@mixin transform($params){
+  -webkit-transform: $params;
+  -moz-transform: $params;
+  -o-transform: $params;
+  -ms-transform: $params;
+  transform: $params;
+}
+
+@mixin transform-origin($params){
+  -webkit-transform-origin: $params;
+  -moz-transform-origin: $params;
+  -o-transform-origin: $params;
+  -ms-transform-origin: $params;
+  transform-origin: $params;
+}
+
+@mixin animation($params){
+  -webkit-animation: $params;
+  -moz-animation: $params;
+  -o-animation: $params;
+  -ms-animation: $params;
+  animation: $params;
+}
+@mixin animation-delay($delay){
+  -webkit-animation-delay: $delay;
+  -moz-animation-delay: $delay;
+  -o-animation-delay: $delay;
+  -ms-animation-delay: $delay;
+  animation-delay: $delay;
+}
+
+
+@mixin after($color,$opacity){
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  background: rgba($color, $opacity);
+}
