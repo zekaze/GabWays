@@ -183,6 +183,54 @@ $(function () {
         carousel.slick({
         infinite: true,
         slidesToShow: 8,
-        slidesToScroll: 3
+        slidesToScroll: 3,
+            responsive: [
+                {
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 4,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                }
+            ]
     });
 })
+
+$(function () {
+    var windowWidth = $(window).width(),
+        google_maps = $('#google-map'),
+        carousel = google_maps.find('.etablissements');
+    if(windowWidth < 769){
+        carousel.slick({
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                    }
+                }
+            ]
+        })
+    }
+})
+

@@ -56,18 +56,23 @@ header{
     padding: 5px 0;
     background-color: $gray-3;
     font-size: 12px;
-    .navbar{
-      padding: .5rem 1rem;
+    overflow: hidden;
 
-      .navbar-collapse{
-        justify-content: flex-end;
-      }
+    .logo{
+      float: left;
+    }
+  }
+  .navbar{
+    margin: 0;
+
+    .navbar-nav{
+      float: right;
     }
 
-    .nav-link{
+    a{
+      color: $gray-2;
       text-transform: uppercase;
       font-weight: 700;
-      color: $gray-1;
     }
   }
 }

@@ -64,7 +64,7 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    width: 30%;
+    width: 35%;
     height: 100%;
     z-index: 100; }
     #google-map .etablissements .etablissement {
@@ -132,18 +132,87 @@ header .navbar-toggler {
 header #nav-menu {
   padding: 5px 0;
   background-color: #868686;
-  font-size: 12px; }
-  header #nav-menu .navbar {
-    padding: .5rem 1rem; }
-    header #nav-menu .navbar .navbar-collapse {
-      justify-content: flex-end; }
-  header #nav-menu .nav-link {
+  font-size: 12px;
+  overflow: hidden; }
+  header #nav-menu .logo {
+    float: left; }
+header .navbar {
+  margin: 0; }
+  header .navbar .navbar-nav {
+    float: right; }
+  header .navbar a {
+    color: #b9b9b9;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #dfdfdf; }
+    font-weight: 700; }
 
 @media (max-width: 967px) {
-  header #nav-menu .navbar .navbar-collapse {
-    justify-content: flex-end; } }
+  header #top-nav-menu .nav-contact {
+    clear: both;
+    margin-bottom: 10px; }
+    header #top-nav-menu .nav-contact li {
+      float: left;
+      margin-right: 15px; }
+  header #top-nav-menu .nav-social-media {
+    float: left; }
+    header #top-nav-menu .nav-social-media li {
+      float: left;
+      margin-left: 15px; }
+  header #top-nav-menu .social-icon {
+    display: inline-block;
+    font-size: 12px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #f8f8f8;
+    color: #666666; }
+  header #top-nav-menu .button {
+    padding: 5px 10px;
+    color: #666666;
+    background-color: #dfdfdf;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase; }
+  header .navbar {
+    margin: 0; }
+    header .navbar .icon-bar {
+      background-color: #dfdfdf; }
+    header .navbar .navbar-nav {
+      float: none; }
+    header .navbar a {
+      color: #b9b9b9;
+      text-transform: uppercase;
+      font-weight: 700; }
+
+  #google-map .etablissements {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 100; }
+    #google-map .etablissements .etablissement {
+      position: relative;
+      background-color: #b9b9b9;
+      overflow: hidden;
+      margin: 1px 0;
+      cursor: pointer; }
+      #google-map .etablissements .etablissement .photo_etablissement {
+        float: left;
+        margin-right: 8px; }
+      #google-map .etablissements .etablissement .details_etablissement {
+        font-size: 12px;
+        margin-left: 5px;
+        padding: 5px; }
+        #google-map .etablissements .etablissement .details_etablissement .nom_etablissement {
+          font-weight: 700;
+          font-size: 13px;
+          margin-bottom: 5px; }
+        #google-map .etablissements .etablissement .details_etablissement .quartier_etablissement {
+          font-style: italic; } }
 
 /*# sourceMappingURL=style.css.map */
