@@ -175,3 +175,14 @@ function initMap() {
         ]
     });
 }
+
+$(function () {
+    var categories_carousel = $('.categories_carousel'),
+        carousel = categories_carousel.find('.carousel');
+
+        carousel.slick({
+        infinite: true,
+        slidesToShow: 8,
+        slidesToScroll: 3
+    });
+})

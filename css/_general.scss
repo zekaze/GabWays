@@ -5,3 +5,69 @@ body{
 *, *:focus, *:active{
   outline: none !important;
 }
+.search_bar{
+  background-color: $gray-5;
+  padding: 15px 0;
+
+  form{
+    padding: 15px;
+    background-color: $gray-6;
+
+
+    $input_height: 60px;
+    $input_font_size: 13px;
+    .form_input{
+      display: block;
+      padding: 8px 15px;
+      height: $input_height;
+      width: 100%;
+      border: none;
+      font-size: $input_font_size;
+    }
+
+    .submit_button{
+      border-radius: 0;
+      font-size: $input_font_size;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #fff;
+      background-color: $gray-2;
+      height: $input_height;
+      cursor: pointer;
+    }
+  }
+}
+
+.categories_carousel{
+  padding: 15px;
+  background-color: #fff;
+  margin: 15px 0;
+
+  .carousel{
+    margin: 0;
+    padding: 0;
+  }
+
+  .category{
+    text-align: center;
+
+    .fa{
+      font-size: 25px;
+      line-height: 60px;
+      background-color: $gray-2;
+      color: $gray-4;
+      display: inline-block;
+      height: 60px;
+      width: 60px;
+      border-radius: 100%;
+      margin-bottom: 8px;
+    }
+
+    .category_name{
+      display: block;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 12px;
+    }
+  }
+}
