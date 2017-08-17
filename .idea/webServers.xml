@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="db9866d3-f1e1-4c57-90b6-e0dac11356eb" name="GabWays" url="http://gabways.com">
+        <fileTransfer host="gabways.com" port="21" password="dfc8df9edf9adf9bdf9edfdcdfdbdfd3dfdcdf98" username="admin@gabways.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

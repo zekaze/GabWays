@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="GabWays" uploadOnCheckin="db9866d3-f1e1-4c57-90b6-e0dac11356eb">
+    <serverData>
+      <paths name="GabWays">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="GabWays" />
+  </component>
+</project>

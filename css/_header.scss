@@ -36,6 +36,15 @@ header{
       background-color: $gray-0;
       color: $gray-4;
     }
+    .button{
+      padding: 5px 10px;
+      color: $gray-4;
+      background-color: $gray-1;
+      border-radius: 3px;
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
   }
   .navbar-toggler{
     font-size: 13px;
@@ -46,9 +55,13 @@ header{
   #nav-menu{
     padding: 5px 0;
     background-color: $gray-3;
-    font-size: 14px;
+    font-size: 12px;
     .navbar{
-      padding: .7rem 1rem;
+      padding: .5rem 1rem;
+
+      .navbar-collapse{
+        justify-content: flex-end;
+      }
     }
 
     .nav-link{

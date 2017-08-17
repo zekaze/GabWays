@@ -5,6 +5,40 @@ body {
 *, *:focus, *:active {
   outline: none !important; }
 
+#google-map {
+  position: relative;
+  height: 500px; }
+  #google-map #map {
+    height: 500px;
+    background-color: #dfdfdf; }
+  #google-map .etablissements {
+    overflow: hidden;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    z-index: 100; }
+    #google-map .etablissements .etablissement {
+      position: relative;
+      background-color: #b9b9b9;
+      overflow: hidden;
+      margin: 1px 0;
+      cursor: pointer; }
+      #google-map .etablissements .etablissement .photo_etablissement {
+        float: left;
+        margin-right: 8px; }
+      #google-map .etablissements .etablissement .details_etablissement {
+        font-size: 12px;
+        margin-left: 5px;
+        padding: 5px; }
+        #google-map .etablissements .etablissement .details_etablissement .nom_etablissement {
+          font-weight: 700;
+          font-size: 13px;
+          margin-bottom: 5px; }
+        #google-map .etablissements .etablissement .details_etablissement .quartier_etablissement {
+          font-style: italic; }
+
 header #top-nav-menu {
   background-color: #b9b9b9;
   overflow: hidden;
@@ -35,6 +69,14 @@ header #top-nav-menu {
     border-radius: 100%;
     background-color: #f8f8f8;
     color: #666666; }
+  header #top-nav-menu .button {
+    padding: 5px 10px;
+    color: #666666;
+    background-color: #dfdfdf;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase; }
 header .navbar-toggler {
   font-size: 13px;
   text-transform: uppercase;
@@ -42,12 +84,18 @@ header .navbar-toggler {
 header #nav-menu {
   padding: 5px 0;
   background-color: #868686;
-  font-size: 14px; }
+  font-size: 12px; }
   header #nav-menu .navbar {
-    padding: .7rem 1rem; }
+    padding: .5rem 1rem; }
+    header #nav-menu .navbar .navbar-collapse {
+      justify-content: flex-end; }
   header #nav-menu .nav-link {
     text-transform: uppercase;
     font-weight: 700;
     color: #dfdfdf; }
+
+@media (max-width: 967px) {
+  header #nav-menu .navbar .navbar-collapse {
+    justify-content: flex-end; } }
 
 /*# sourceMappingURL=style.css.map */

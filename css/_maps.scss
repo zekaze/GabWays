@@ -1,0 +1,44 @@
+#google-map{
+  position: relative;
+  height: 500px;
+  #map{
+    height: 500px;
+    background-color: $gray-1;
+  }
+
+  .etablissements{
+    overflow: hidden;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    z-index: 100;
+
+    .etablissement{
+      position: relative;
+      background-color: $gray-2;
+      overflow: hidden;
+      margin: 1px 0;
+      cursor: pointer;
+      .photo_etablissement{
+        float: left;
+        margin-right: 8px;
+      }
+      .details_etablissement{
+        font-size: 12px;
+        margin-left: 5px;
+        padding: 5px;
+
+        .nom_etablissement{
+          font-weight: 700;
+          font-size: 13px;
+          margin-bottom: 5px;
+        }
+        .quartier_etablissement{
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
