@@ -181,7 +181,7 @@ $(function () {
         carousel = categories_carousel.find('.carousel');
 
         carousel.slick({
-        infinite: true,
+        infinite: false,
         slidesToShow: 8,
         slidesToScroll: 3,
             responsive: [
@@ -190,7 +190,7 @@ $(function () {
                     settings: {
                         slidesToShow: 4,
                         slidesToScroll: 4,
-                        infinite: true,
+                        infinite: false,
                         dots: true
                     }
                 },
@@ -199,7 +199,7 @@ $(function () {
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 2,
-                        infinite: true,
+                        infinite: false,
                         dots: true
                     }
                 }
@@ -213,7 +213,7 @@ $(function () {
         carousel = google_maps.find('.etablissements');
     if(windowWidth < 769){
         carousel.slick({
-            infinite: true,
+            infinite: false,
             slidesToShow: 2,
             slidesToScroll: 2,
             autoplay: true,

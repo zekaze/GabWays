@@ -5,6 +5,13 @@
     height: 500px;
     background-color: $gray-1;
   }
+  .etablissements:hover{
+    opacity: 1;
+    .controls{
+      .prev{  top: 0;  }
+      .next{  bottom: 0;  }
+    }
+  }
 
   .etablissements{
     overflow: hidden;
@@ -14,6 +21,43 @@
     width: 35%;
     height: 100%;
     z-index: 100;
+    opacity: 0.4;
+    @include transition(0.3s);
+
+    .controls{
+      span{
+        display: block;
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        z-index: 101;
+        background-color: rgba($gray-5,0.3);
+        left: 0;
+        cursor: pointer;
+        font-family: "FontAwesome", sans-serif;
+        text-align: center;
+        color: #fff;
+        line-height: 40px;
+      }
+      span:hover{
+        background-color: rgba($gray-5,0.9);
+      }
+      .prev{
+        top: -45px;
+        @include transition(0.3s);
+      }
+      .next{
+        bottom: -45px;
+        @include transition(0.3s);
+      }
+
+      .prev:after{
+        content: '\f077';
+      }
+      .next:after{
+        content: '\f078';
+      }
+    }
 
     .etablissement{
       position: relative;
