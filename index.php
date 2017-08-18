@@ -69,7 +69,7 @@
 <div id="google-map">
     <div class="etablissements">
         <div class="list">
-            <?php for($i =1; $i <= 18; $i++):?>
+            <?php for($i =1; $i <= 10; $i++):?>
                 <div class="etablissement">
                     <div class="photo_etablissement"><img src="holder.js/180x100"></div>
                     <div class="details_etablissement">

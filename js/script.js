@@ -224,10 +224,23 @@ $(function () {
         nextArrow: next,
         responsive: [
             {
-                breakpoint: 769,
+                breakpoint: 1365,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    verticalSwiping: false,
+                    vertical: false,
+                    infinite: false,
+                    autoplay: true,
+                    autoplaySpeed: 2000
+                }
+            },
+            {
+                breakpoint: 1280,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
+                    verticalSwiping: false,
                     vertical: false,
                     infinite: false,
                     autoplay: true,
@@ -239,6 +252,8 @@ $(function () {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    verticalSwiping: false,
+                    vertical: false,
                     infinite: false,
                     autoplay: true,
                     autoplaySpeed: 2000
