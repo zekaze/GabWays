@@ -68,16 +68,19 @@
 
 <div id="google-map">
     <div class="etablissements">
-        <?php for($i =1; $i <= 8; $i++):?>
-        <div class="etablissement">
-            <div class="photo_etablissement"><img src="holder.js/180x100"></div>
-            <div class="details_etablissement">
-                <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
-                <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
-                <div class="desc_etablissement">Aenean faucibus, arcu sed posuere congue, neque orci scelerisque purus</div>
-            </div>
+        <div class="list">
+            <?php for($i =1; $i <= 17; $i++):?>
+                <div class="etablissement">
+                    <div class="photo_etablissement"><img src="holder.js/180x100"></div>
+                    <div class="details_etablissement">
+                        <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
+                        <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
+                        <div class="desc_etablissement">Aenean faucibus, arcu sed posuere congue, neque orci scelerisque purus</div>
+                    </div>
+                </div>
+            <?php endfor; ?>
         </div>
-        <?php endfor; ?>
+
         <div class="controls">
             <span class="prev"></span>
             <span class="next"></span>

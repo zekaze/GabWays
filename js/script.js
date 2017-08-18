@@ -210,27 +210,42 @@ $(function () {
 $(function () {
     var windowWidth = $(window).width(),
         google_maps = $('#google-map'),
-        carousel = google_maps.find('.etablissements');
-    if(windowWidth < 769){
-        carousel.slick({
-            infinite: false,
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            responsive: [
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        autoplay: true,
-                        autoplaySpeed: 2000,
-                    }
+        carousel = google_maps.find('.list'),
+        prev = google_maps.find('.prev'),
+        next = google_maps.find('.next');
+    carousel.slick({
+        infinite: false,
+        vertical: true,
+        slidesToShow: 5,
+        verticalSwiping: true,
+        slidesToScroll: 2,
+        autoplay: false,
+        prevArrow: prev,
+        nextArrow: next,
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    vertical: false,
+                    infinite: false,
+                    autoplay: true,
+                    autoplaySpeed: 2000
                 }
-            ]
-        })
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: false,
+                    autoplay: true,
+                    autoplaySpeed: 2000
+                }
+            }
+        ]
+    })
+    if(windowWidth < 769){
     }
 })
-
