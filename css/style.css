@@ -38,6 +38,8 @@ body {
   .categories_carousel .carousel {
     margin: 0;
     padding: 0; }
+  .categories_carousel .slick-prev:before, .categories_carousel .slick-next:before {
+    color: #666666; }
   .categories_carousel .category {
     text-align: center; }
     .categories_carousel .category .fa {
