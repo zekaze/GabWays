@@ -145,9 +145,11 @@
                         </div>
 
                         <div class="section-body">
+                            <?php $i = 1;?>
+                            <?php for ($j = 1; $j <= 2; $j++):?>
                             <div class="slide">
                                 <div class="articles">
-                                    <?php for ($i = 1; $i <= 4; $i++):?>
+                                    <?php for ($k = 1; $k <= 4; $k++):?>
                                         <a href="#">
                                             <div class="article">
                                                 <div class="article_picture_frame">
@@ -157,9 +159,11 @@
                                                 <div class="article_abstract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam consequatur cumque esse ipsum iusto libero magni nemo, omnis quisquam recusandae sunt voluptas voluptatibus. A dolore sed suscipit voluptatem voluptatibus!</div>
                                             </div>
                                         </a>
+                                        <?php $i++;?>
                                     <?php endfor;?>
                                 </div>
                             </div>
+                            <?php endfor;?>
                         </div>
                     </div>
                 </div>

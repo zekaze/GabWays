@@ -178,8 +178,6 @@ function initMap() {
 
 
 $(document).ready(function () {
-
-
     $(function () {
         var categories_carousel = $('.categories_carousel'),
             carousel = categories_carousel.find('.carousel');
@@ -274,9 +272,24 @@ $(document).ready(function () {
                 }
             ]
         })
-        if(windowWidth < 769){
-        }
     })
+
+    $(function () {
+        var sectionSlider =  $('.section-slider'),
+            carousel = sectionSlider.find('.section-body'),
+            prev = sectionSlider.find('.prev'),
+            next = sectionSlider.find('.next');
+        carousel.slick({
+            infinite: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+            prevArrow: prev,
+            nextArrow: next
+        })
+    })
+
+
 
     var eventData = [
         {"date":"2017-08-17","badge":false,"title":"Fête de l'indépendance"},
