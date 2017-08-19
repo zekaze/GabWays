@@ -1,5 +1,7 @@
 <div class="sidebar">
-    <div class="widget calendar"></div>
+    <div class="widget calendar">
+        <div id="calendar"></div>
+    </div>
     <!--end of calendar-->
     <div class="publicite">
         <div class="placeholder">

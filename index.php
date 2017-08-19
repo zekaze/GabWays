@@ -17,6 +17,8 @@
      <!-- Slick Carousel -->
     <link href="plugins/slick/slick.css" rel="stylesheet">
     <link href="plugins/slick/slick-theme.css" rel="stylesheet">
+    <!--Zabuto calendar-->
+    <link href="plugins/zabuto-calendar/zabuto_calendar.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -149,7 +151,7 @@
                                         <a href="#">
                                             <div class="article">
                                                 <div class="article_picture_frame">
-                                                    <img src="holder.js/360x200" alt="Holder">
+                                                    <img src="holder.js/560x400" alt="Holder">
                                                 </div>
                                                 <div class="article_title">Titre de l'article <?php echo $i;?></div>
                                                 <div class="article_abstract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam consequatur cumque esse ipsum iusto libero magni nemo, omnis quisquam recusandae sunt voluptas voluptatibus. A dolore sed suscipit voluptatem voluptatibus!</div>
@@ -177,8 +179,8 @@
 <script src="plugins/slick/slick.min.js"></script>
 <!--Holder.js-->
 <script src="plugins/holder.js/holder.min.js"></script>
-<!--Full calendar-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
+<!--Zabuto calendar-->
+<script src="plugins/zabuto-calendar/zabuto_calendar.js"></script>
 <!--Custom script-->
 <script src="js/script.js"></script>
 <!--Google Maps-->

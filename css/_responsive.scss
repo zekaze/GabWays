@@ -40,7 +40,7 @@
   }
 }
 
-@media (max-width: 967px) {
+@media (max-width: 767px) {
   header{
     #top-nav-menu{
       .nav-contact{
@@ -126,6 +126,34 @@
                 height: 200px;
                 overflow: hidden;
               }
+              .article_title{
+                color: $gray-6;
+                font-weight: 700;
+                margin: 5px 0 8px;
+              }
+              .article_abstract{
+                font-size: 12px;
+                color: $gray-4;
+                height: 100px;
+                overflow: hidden;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 640px){
+  .body{
+    .main-body{
+      .section.section-slider{
+        .section-body{
+          .articles{
+            display: block;
+
+            a{
               .article_title{
                 color: $gray-6;
                 font-weight: 700;

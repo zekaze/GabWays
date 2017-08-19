@@ -176,15 +176,28 @@ function initMap() {
     });
 }
 
-$(function () {
-    var categories_carousel = $('.categories_carousel'),
-        carousel = categories_carousel.find('.carousel');
+
+$(document).ready(function () {
+
+
+    $(function () {
+        var categories_carousel = $('.categories_carousel'),
+            carousel = categories_carousel.find('.carousel');
 
         carousel.slick({
-        infinite: false,
-        slidesToShow: 8,
-        slidesToScroll: 3,
+            infinite: false,
+            slidesToShow: 8,
+            slidesToScroll: 3,
             responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 6,
+                        slidesToScroll: 6,
+                        infinite: false,
+                        dots: true
+                    }
+                },
                 {
                     breakpoint: 769,
                     settings: {
@@ -204,63 +217,66 @@ $(function () {
                     }
                 }
             ]
-    });
-})
-
-$(function () {
-    var windowWidth = $(window).width(),
-        google_maps = $('#google-map'),
-        carousel = google_maps.find('.list'),
-        prev = google_maps.find('.prev'),
-        next = google_maps.find('.next');
-    carousel.slick({
-        infinite: false,
-        vertical: true,
-        slidesToShow: 5,
-        verticalSwiping: true,
-        slidesToScroll: 2,
-        autoplay: false,
-        prevArrow: prev,
-        nextArrow: next,
-        responsive: [
-            {
-                breakpoint: 1365,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    verticalSwiping: false,
-                    vertical: false,
-                    infinite: false,
-                    autoplay: true,
-                    autoplaySpeed: 2000
-                }
-            },
-            {
-                breakpoint: 1280,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    verticalSwiping: false,
-                    vertical: false,
-                    infinite: false,
-                    autoplay: true,
-                    autoplaySpeed: 2000
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    verticalSwiping: false,
-                    vertical: false,
-                    infinite: false,
-                    autoplay: true,
-                    autoplaySpeed: 2000
-                }
-            }
-        ]
+        });
     })
-    if(windowWidth < 769){
-    }
+
+    $(function () {
+        var windowWidth = $(window).width(),
+            google_maps = $('#google-map'),
+            carousel = google_maps.find('.list'),
+            prev = google_maps.find('.prev'),
+            next = google_maps.find('.next');
+        carousel.slick({
+            infinite: false,
+            vertical: true,
+            slidesToShow: 5,
+            verticalSwiping: true,
+            slidesToScroll: 2,
+            autoplay: false,
+            prevArrow: prev,
+            nextArrow: next,
+            responsive: [
+                {
+                    breakpoint: 1365,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        verticalSwiping: false,
+                        vertical: false,
+                        infinite: false,
+                        autoplay: true,
+                        autoplaySpeed: 2000
+                    }
+                },
+                {
+                    breakpoint: 1280,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        verticalSwiping: false,
+                        vertical: false,
+                        infinite: false,
+                        autoplay: true,
+                        autoplaySpeed: 2000
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        verticalSwiping: false,
+                        vertical: false,
+                        infinite: false,
+                        autoplay: true,
+                        autoplaySpeed: 2000
+                    }
+                }
+            ]
+        })
+        if(windowWidth < 769){
+        }
+    })
+
+    $('#calendar').zabuto_calendar({language: "fr"});
 })
