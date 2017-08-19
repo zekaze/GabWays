@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
      <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
+    <!--Full Calendar-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.css" rel="stylesheet">
      <!-- Slick Carousel -->
     <link href="plugins/slick/slick.css" rel="stylesheet">
     <link href="plugins/slick/slick-theme.css" rel="stylesheet">
@@ -73,7 +75,7 @@
                 <div class="etablissement">
                     <div class="photo_etablissement"><img src="holder.js/180x100"></div>
                     <div class="details_etablissement">
-                        <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
+                            <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
                         <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
                         <div class="desc_etablissement">Aenean faucibus, arcu sed posuere congue, neque orci scelerisque purus</div>
                     </div>
@@ -126,12 +128,60 @@
     </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<div class="body">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="main-body">
+                    <div class="section section-slider">
+                        <div class="section-header">
+                            <h3 class="section-title">Événements du mois</h3>
+                            <div class="slider-controls">
+                                <span class="prev"></span>
+                                <span class="next"></span>
+                            </div>
+                        </div>
 
+                        <div class="section-body">
+                            <div class="slide">
+                                <div class="articles">
+                                    <?php for ($i = 1; $i <= 4; $i++):?>
+                                        <a href="#">
+                                            <div class="article">
+                                                <div class="article_picture_frame">
+                                                    <img src="holder.js/360x200" alt="Holder">
+                                                </div>
+                                                <div class="article_title">Titre de l'article <?php echo $i;?></div>
+                                                <div class="article_abstract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam consequatur cumque esse ipsum iusto libero magni nemo, omnis quisquam recusandae sunt voluptas voluptatibus. A dolore sed suscipit voluptatem voluptatibus!</div>
+                                            </div>
+                                        </a>
+                                    <?php endfor;?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <?php include_once "sidebar-1.php";?>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<!--Bootstrap-->
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<!--Slick Carousel-->
 <script src="plugins/slick/slick.min.js"></script>
+<!--Holder.js-->
 <script src="plugins/holder.js/holder.min.js"></script>
+<!--Full calendar-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
+<!--Custom script-->
 <script src="js/script.js"></script>
+<!--Google Maps-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApxXN5unjrDLDHHrq2gcVlKt_zncDvpWA&callback=initMap" async defer></script>
 </body>
 </html>
