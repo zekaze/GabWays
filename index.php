@@ -133,7 +133,7 @@
 <div class="body">
     <div class="container">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-9">
                 <div class="main-body">
                     <div class="section section-slider">
                         <div class="section-header">
@@ -168,7 +168,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
                 <?php include_once "sidebar-1.php";?>
             </div>
         </div>
