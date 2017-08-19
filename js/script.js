@@ -278,5 +278,15 @@ $(document).ready(function () {
         }
     })
 
-    $('#calendar').zabuto_calendar({language: "fr"});
+    var eventData = [
+        {"date":"2017-08-17","badge":false,"title":"Fête de l'indépendance"},
+        {"date":"2017-08-21","badge":true,"title":"Anniversaire de Freddy"}
+    ];
+
+    $('#calendar').zabuto_calendar({
+        language: "fr",
+        show_previous: false,
+        today: true,
+        data: eventData
+    });
 })
