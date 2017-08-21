@@ -28,15 +28,19 @@
     <!--end of publicité-->
     <div class="widget">
         <h4 class="widget-title">Établissements à la une</h4>
+
+        <ul class="widget-link-list">
         <?php for($i = 1; $i <= 5; $i++):?>
-            <a href="#">
-                <div class="photo_etablissement"><img src="holder.js/80x80"></div>
-                <div class="details_etablissement">
-                    <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
-                    <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
-                    <div class="desc_etablissement">Aenean faucibus, arcu sed posuere congue, neque orci scelerisque purus</div>
-                </div>
-            </a>
+            <li class="list-item">
+                <a href="#">
+                    <div class="photo_etablissement"><img src="holder.js/80x80"></div>
+                    <div class="details_etablissement">
+                        <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
+                        <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
+                    </div>
+                </a>
+            </li>
         <?php endfor; ?>
+        </ul>
     </div>
 </div>

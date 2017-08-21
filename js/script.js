@@ -275,7 +275,7 @@ $(document).ready(function () {
     })
 
     $(function () {
-        var sectionSlider =  $('.section-slider'),
+        var sectionSlider =  $('.top-evenements'),
             carousel = sectionSlider.find('.section-body'),
             prev = sectionSlider.find('.prev'),
             next = sectionSlider.find('.next');
@@ -286,6 +286,40 @@ $(document).ready(function () {
             autoplay: false,
             prevArrow: prev,
             nextArrow: next
+        })
+    })
+    $(function () {
+        var sectionSlider =  $('.top-categories'),
+            carousel = sectionSlider.find('.section-body'),
+            prev = sectionSlider.find('.prev'),
+            next = sectionSlider.find('.next');
+        carousel.slick({
+            infinite: false,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            prevArrow: prev,
+            nextArrow: next,
+            responsive: [
+                {
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: false,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: false,
+                        dots: true
+                    }
+                }
+            ]
         })
     })
 

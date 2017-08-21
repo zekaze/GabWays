@@ -1,5 +1,5 @@
-a:hover{
-  text-decoration: none;
+a:hover, a:focus{
+  text-decoration: none !important;
 }
 body{
   font-family: $roboto;
@@ -40,6 +40,11 @@ body{
     }
   }
 }
+/*
+end of search bar
+*/
+
+
 
 .categories_carousel{
   padding: 15px;
@@ -77,6 +82,9 @@ body{
     }
   }
 }
+/*
+end of categories carousel
+*/
 
 .body{
   .main-body{
@@ -84,9 +92,12 @@ body{
     background-color: #fff;
 
     .section{
+      border-bottom: solid 1px $gray-1;
       .section-header{
         position: relative;
         overflow: hidden;
+        margin-bottom: 15px;
+        border-bottom: solid 1px $gray-1;
 
         .slider-controls{
           float: right;
@@ -116,12 +127,43 @@ body{
           }
         }
       }
+      //end of section header
+
     }
+    .popular-tags{
+      .section-body{
+        list-style: none;
+
+        .popular-tag{
+          display: inline-block;
+          vertical-align: top;
+          width: 30%;
+          font-size: 12px;
+          position: relative;
+          a{
+            display: block;
+            color: $gray-4;
+            padding: 2px;
+          }
+        }
+        .popular-tag:before{
+          content: '\f105';
+          font-family: "FontAwesome", sans-serif;
+          position: absolute;
+          left: -8px;
+          top: 2px;
+        }
+      }
+    }
+    //end of section
+
     .section.section-slider{
       .section-title{
         float: left;
       }
       .section-body{
+        padding: 0;
+
         .articles{
           display: flex;
           flex-direction: row;
@@ -155,6 +197,50 @@ body{
             }
           }
         }
+        /*end of articles*/
+
+        .top-category{
+          text-align: center;
+          a{
+            display: inline-block;
+            padding: 15px;
+            position: relative;
+
+            .top_category_picture_frame{
+              overflow: hidden;
+              height: 140px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .top_category_name{
+              margin: 10px 0;
+              text-transform: uppercase;
+              font-weight: 700;
+              color: $gray-5;
+            }
+          }
+        }
+        //end of top-categories
+      }
+    }
+    //end of section-slider
+
+    .publicite{
+      text-align: center;
+      background-color: $gray-2;
+      padding: 15px 0;
+      margin: 15px 0;
+
+      .placeholder{
+        height: 130px;
+        width: 80%;
+        margin: 0 auto;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #fff;
+        line-height: 130px;
+        background-color: $gray-4;
       }
     }
   }

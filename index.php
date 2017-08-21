@@ -129,13 +129,14 @@
         </ul>
     </div>
 </div>
+<!--end of categories carousel-->
 
 <div class="body">
     <div class="container">
         <div class="row">
             <div class="col-sm-9">
                 <div class="main-body">
-                    <div class="section section-slider">
+                    <div class="section top-evenements section-slider">
                         <div class="section-header">
                             <h3 class="section-title">Événements du mois</h3>
                             <div class="slider-controls">
@@ -166,8 +167,64 @@
                             <?php endfor;?>
                         </div>
                     </div>
+<!--end of top evenements-->
+                    <div class="publicite">
+                        <div class="placeholder">
+                            Publicité
+                        </div>
+                    </div>
+<!--end of publicite-->
+
+                    <div class="section top-categories section-slider">
+                        <div class="section-header">
+                            <h3 class="section-title">Top catégories</h3>
+                            <div class="slider-controls">
+                                <span class="prev"></span>
+                                <span class="next"></span>
+                            </div>
+                        </div>
+
+
+                        <ul class="section-body">
+                            <?php for ($i = 1; $i <= 10; $i++):?>
+                                <li class="top-category">
+                                    <a href="#">
+                                        <div class="top_category_picture_frame">
+                                            <img src="holder.js/320x180" class="img-responsive" alt="Holder">
+                                        </div>
+                                        <div class="top_category_name">Catégorie <?php echo $i; ?></div>
+                                    </a>
+                                </li>
+                            <?php endfor;?>
+                        </ul>
+                    </div>
+<!--end of top categories-->
+
+                    <div class="section popular-tags">
+                        <div class="section-header">
+                            <h3 class="section-title">Tags populaires</h3>
+                        </div>
+
+
+                        <ul class="section-body">
+                            <?php for ($i = 1; $i <= 15; $i++):?>
+                                <li class="popular-tag"><a href="#">Tag <?php echo $i;?></a></li>
+                            <?php endfor;?>
+                        </ul>
+                    </div>
+                    <!--end of popular-tags-->
+
+
+                    <div class="publicite">
+                        <div class="placeholder">
+                            Publicité
+                        </div>
+                    </div>
+                    <!--end of publicite-->
                 </div>
+<!--end of main body-->
             </div>
+<!--end of clo-sm-9-->
             <div class="col-sm-3">
                 <?php include_once "sidebar-1.php";?>
             </div>

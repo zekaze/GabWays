@@ -99,20 +99,38 @@
   }
   .body{
     .main-body{
-      .section{
-        .section-header{
-          .slider-controls{
-            float: none;
-            margin: 10px 0;
+      .popular-tags{
+        .section-body{
+          .popular-tag{
+            width: 45%;
+            a{
+              display: block;
+              color: $gray-4;
+              padding: 2px;
+            }
+          }
+          .popular-tag:before{
+            content: '\f105';
+            font-family: "FontAwesome", sans-serif;
+            position: absolute;
+            left: -8px;
+            top: 2px;
           }
         }
       }
+      //end of section
+
       .section.section-slider{
         .section-title{
-          float: none;
+          float: left;
         }
         .section-body{
+          padding: 0;
+
           .articles{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
 
             a{
               position: relative;
@@ -125,6 +143,9 @@
                 width: 100%;
                 height: 200px;
                 overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
               }
               .article_title{
                 color: $gray-6;
@@ -139,6 +160,50 @@
               }
             }
           }
+          /*end of articles*/
+
+          .top-category{
+            text-align: center;
+            a{
+              display: inline-block;
+              padding: 15px;
+              position: relative;
+
+              .top_category_picture_frame{
+                overflow: hidden;
+                height: 140px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              .top_category_name{
+                margin: 10px 0;
+                text-transform: uppercase;
+                font-weight: 700;
+                color: $gray-5;
+              }
+            }
+          }
+          //end of top-categories
+        }
+      }
+      //end of section-slider
+
+      .publicite{
+        text-align: center;
+        background-color: $gray-2;
+        padding: 15px 0;
+        margin: 15px 0;
+
+        .placeholder{
+          height: 130px;
+          width: 80%;
+          margin: 0 auto;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: #fff;
+          line-height: 130px;
+          background-color: $gray-4;
         }
       }
     }
