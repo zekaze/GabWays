@@ -97,6 +97,13 @@
        }
      }
   }
+  .search_bar{
+    form{
+      .form_input{
+        flex-direction: column;
+      }
+    }
+  }
   .body{
     .main-body{
       .popular-tags{

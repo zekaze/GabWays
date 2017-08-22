@@ -480,6 +480,9 @@ header .navbar {
       text-transform: uppercase;
       font-weight: 700; }
 
+  .search_bar form .form_input {
+    flex-direction: column; }
+
   .body .main-body .popular-tags .section-body .popular-tag {
     width: 45%; }
     .body .main-body .popular-tags .section-body .popular-tag a {
