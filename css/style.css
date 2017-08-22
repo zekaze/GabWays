@@ -15,12 +15,30 @@ body {
     padding: 15px;
     background-color: #333333; }
     .search_bar form .form_input {
-      display: block;
-      padding: 8px 15px;
+      display: flex;
       height: 60px;
+      background-color: #fff;
       width: 100%;
       border: none;
       font-size: 13px; }
+      .search_bar form .form_input input[type=text] {
+        border: none;
+        flex-grow: 5;
+        padding: 5px 10px; }
+      .search_bar form .form_input label {
+        margin: 0;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer; }
+        .search_bar form .form_input label input {
+          margin: 0; }
+    .search_bar form .col-sm-6 {
+      position: relative; }
+      .search_bar form .col-sm-6 .check-button {
+        color: #fff;
+        background-color: #4d4d4d; }
     .search_bar form .submit_button {
       border-radius: 0;
       font-size: 13px;
@@ -74,6 +92,8 @@ end of categories carousel
       overflow: hidden;
       margin-bottom: 15px;
       border-bottom: solid 1px #dfdfdf; }
+      .body .main-body .section .section-header .section-title {
+        font-weight: 700; }
       .body .main-body .section .section-header .slider-controls {
         float: right;
         margin-top: 10px; }

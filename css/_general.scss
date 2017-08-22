@@ -20,12 +20,38 @@ body{
     $input_height: 60px;
     $input_font_size: 13px;
     .form_input{
-      display: block;
-      padding: 8px 15px;
+      display: flex;
       height: $input_height;
+      background-color: #fff;
       width: 100%;
       border: none;
       font-size: $input_font_size;
+
+      input[type = text]{
+        border: none;
+        flex-grow: 5;
+        padding: 5px 10px;
+      }
+      label{
+        margin: 0;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        input{
+          margin: 0;
+        }
+      }
+    }
+    .col-sm-6{
+      position: relative;
+      .check-button{
+        color: #fff;
+        background-color: $gray-5;
+      }
+
     }
 
     .submit_button{
@@ -98,6 +124,10 @@ end of categories carousel
         overflow: hidden;
         margin-bottom: 15px;
         border-bottom: solid 1px $gray-1;
+
+        .section-title{
+          font-weight: 700;
+        }
 
         .slider-controls{
           float: right;

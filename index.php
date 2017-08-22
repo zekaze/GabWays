@@ -101,10 +101,18 @@
                 <div class="col-sm-9">
                     <div class="row">
                         <div class="col-sm-6">
-                            <input type="text" name="champ_1" placeholder="Champ de recherche 1..." class="form_input">
+                            <div class="form_input">
+                                <label for="champ_1" class="hidden"></label>
+                                <input type="text" name="champ_1" id="champ_1" autocomplete="off" placeholder="Quoi, Qui : Salon de coiffure, ...">
+                            </div>
                         </div>
                         <div class="col-sm-6">
-                            <input type="text" name="champ_2" placeholder="Champ de recherche 2..." class="form_input">
+                            <label for="champ_2" class="hidden"></label>
+                            <div class="form_input">
+                                <input type="text" name="champ_2" id="champ_2" autocomplete="off" placeholder="Où : Libreville, ...">
+                                <label class="check-button">Rechercher à proximité &nbsp; <input type="checkbox"></label>
+                            </div>
+
                         </div>
                     </div>
                 </div>
