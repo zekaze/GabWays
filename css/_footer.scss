@@ -1,0 +1,47 @@
+footer#main-footer{
+  overflow: hidden;
+  padding: 20px 0 15px;
+  background-color: $gray-6;
+  color: #fff;
+
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer-menu{
+    float: left;
+    li{
+      float: left;
+      margin-left: 15px;
+
+      a{
+        color: $gray-2;
+        @include transition(0.3s);
+      }
+      a:hover{
+        color: #fff;
+      }
+    }
+  }
+  .footer-social-media{
+    float: right;
+    li{
+      float: left;
+      margin-left: 15px;
+    }
+  }
+  $nav-social-icon-size: 22px;
+  .social-icon{
+    display: inline-block;
+    font-size: 12px;
+    width: $nav-social-icon-size;
+    height: $nav-social-icon-size;
+    line-height: $nav-social-icon-size;
+    text-align: center;
+    border-radius: 100%;
+    background-color: $gray-0;
+    color: $gray-4;
+  }
+}

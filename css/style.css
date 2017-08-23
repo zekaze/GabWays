@@ -409,6 +409,44 @@ header .navbar {
 .sidebar .calendar {
   font-size: 12px; }
 
+footer#main-footer {
+  overflow: hidden;
+  padding: 20px 0 15px;
+  background-color: #333333;
+  color: #fff; }
+  footer#main-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  footer#main-footer .footer-menu {
+    float: left; }
+    footer#main-footer .footer-menu li {
+      float: left;
+      margin-left: 15px; }
+      footer#main-footer .footer-menu li a {
+        color: #b9b9b9;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      footer#main-footer .footer-menu li a:hover {
+        color: #fff; }
+  footer#main-footer .footer-social-media {
+    float: right; }
+    footer#main-footer .footer-social-media li {
+      float: left;
+      margin-left: 15px; }
+  footer#main-footer .social-icon {
+    display: inline-block;
+    font-size: 12px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #f8f8f8;
+    color: #666666; }
+
 @media (max-width: 1365px) {
   #google-map .etablissements {
     overflow: hidden;
