@@ -260,6 +260,20 @@ end of categories carousel
       line-height: 130px;
       background-color: #666666; }
 
+.page-banner {
+  background-size: cover;
+  background-position: center center; }
+  .page-banner .container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; }
+    .page-banner .container .page-title {
+      margin: 0;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 700; }
+
 #google-map {
   position: relative;
   height: 500px; }
@@ -394,7 +408,7 @@ header #top-nav-menu {
     font-size: 11px;
     text-transform: uppercase; }
 header #top-nav-menu.fixed {
-  margin-bottom: 75px; }
+  margin-bottom: 73px; }
 header .navbar {
   margin: 0;
   border: none;
@@ -539,6 +553,40 @@ footer#main-footer {
     border-radius: 100%;
     background-color: #f8f8f8;
     color: #666666; }
+
+#page-category {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  #page-category .category {
+    width: 48%;
+    margin: 0 1% 10px;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+    #page-category .category .content {
+      position: relative;
+      z-index: 1; }
+      #page-category .category .content .category_name {
+        font-weight: 700;
+        color: #dfdfdf;
+        font-size: 15px; }
+      #page-category .category .content .counter {
+        color: #f8f8f8;
+        font-style: italic;
+        font-size: 14px; }
+    #page-category .category a {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 0;
+      z-index: 0; }
+  #page-category .publicite {
+    width: 100%; }
 
 @media (max-width: 1365px) {
   #google-map .etablissements {
@@ -758,5 +806,12 @@ footer#main-footer {
       color: #666666;
       height: 100px;
       overflow: hidden; } }
+@media (max-width: 480px) {
+  #page-category {
+    display: block; }
+    #page-category .category {
+      width: 100%;
+      margin: 0 0 10px;
+      height: 200px; } }
 
 /*# sourceMappingURL=style.css.map */

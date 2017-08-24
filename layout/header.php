@@ -18,7 +18,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a href="index" class="logo"><img src="holder.js/180x50"></a>
+                <a href="index.php" class="logo"><img src="holder.js/180x50"></a>
 
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                         data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -31,7 +31,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav"> 
                     <li class="active"><a href="index.php">Accueil</a></li>
                     <li><a href="categories.php">Catégories</a></li>
                     <li><a href="#">Événements</a></li>

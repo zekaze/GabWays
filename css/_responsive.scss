@@ -337,5 +337,13 @@
   }
 }
 @media (max-width: 480px){
+  #page-category{
+    display: block;
 
+    .category{
+      width: 100%;
+      margin: 0 0 10px;
+      height: 200px;
+    }
+  }
 }

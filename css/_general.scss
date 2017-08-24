@@ -358,3 +358,22 @@ end of categories carousel
     }
   }
 }
+
+.page-banner{
+  background-size: cover;
+  background-position: center center;
+
+  .container{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .page-title{
+      margin: 0;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 700;
+    }
+  }
+}
