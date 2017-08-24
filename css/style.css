@@ -648,7 +648,7 @@ footer#main-footer {
     .navbar.fixed form .form_input input[type=text] {
       border: none;
       flex-grow: inherit;
-      padding: 5px 10px;
+      padding: 10px;
       width: 100%; }
     .navbar.fixed form .form_input label {
       margin: 0;
@@ -656,11 +656,13 @@ footer#main-footer {
       display: flex;
       align-items: center;
       justify-content: center;
-      cursor: pointer; }
+      cursor: pointer;
+      padding: 8px; }
       .navbar.fixed form .form_input label input {
         margin: 0; }
   .navbar.fixed form .submit_button {
-    border-radius: 0; }
+    border-radius: 0;
+    padding: 8px; }
   .navbar.fixed form > .row {
     margin-left: -15px;
     margin-right: -15px; }
