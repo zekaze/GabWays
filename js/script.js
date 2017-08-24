@@ -327,7 +327,7 @@ $(document).ready(function () {
 
     var eventData = [
         {"date":"2017-08-17","badge":false,"title":"Fête de l'indépendance"},
-        {"date":"2017-08-21","badge":true,"title":"Anniversaire de Freddy"}
+        {"date":"2017-08-21","badge":false,"title":"Anniversaire de Freddy"}
     ];
 
     $('#calendar').zabuto_calendar({
@@ -340,7 +340,7 @@ $(document).ready(function () {
     $(window).scroll(function () {
         var fixedNavbar = $('.navbar-fixed-top'),
             topNav = $('#top-nav-menu'),
-            height = topNav.height(),
+            height = topNav.height() + 5,
             self = $(this);
 
         if(self.scrollTop() >= height){

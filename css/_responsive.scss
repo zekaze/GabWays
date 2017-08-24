@@ -107,6 +107,9 @@
         text-transform: uppercase;
       }
     }
+    #top-nav-menu.fixed{
+      margin-bottom: 0;
+    }
     .navbar{
        margin: 0;
       .icon-bar{
@@ -115,11 +118,16 @@
       .logo{
         margin-left: 15px;
       }
+      .navbar-toggle{
+        margin-top: 15px;
+      }
        .navbar-nav{
          float: none;
        }
      }
     .navbar.fixed{
+      position: relative;
+      top: auto;
 
       .navbar-header{
         float: none;
@@ -145,6 +153,29 @@
     form{
       $input_height: auto;
       $input_font_size: 13px;
+
+      .form_input{
+        display: block;
+
+        input[type = text]{
+          border: none;
+          flex-grow: inherit;
+          padding: 5px 10px;
+          width: 100%;
+        }
+        label{
+          margin: 0;
+          flex-grow: inherit;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+
+          input{
+            margin: 0;
+          }
+        }
+      }
 
       .submit_button{
         border-radius: 0;

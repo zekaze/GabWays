@@ -616,26 +616,49 @@ footer#main-footer {
     font-weight: 700;
     font-size: 11px;
     text-transform: uppercase; }
+  header #top-nav-menu.fixed {
+    margin-bottom: 0; }
   header .navbar {
     margin: 0; }
     header .navbar .icon-bar {
       background-color: #dfdfdf; }
     header .navbar .logo {
       margin-left: 15px; }
+    header .navbar .navbar-toggle {
+      margin-top: 15px; }
     header .navbar .navbar-nav {
       float: none; }
-  header .navbar.fixed .navbar-header {
-    float: none; }
-  header .navbar.fixed .navs {
-    float: none;
-    width: 100%; }
-    header .navbar.fixed .navs a {
-      padding-top: 5px !important;
-      padding-bottom: 5px !important; }
+  header .navbar.fixed {
+    position: relative;
+    top: auto; }
+    header .navbar.fixed .navbar-header {
+      float: none; }
+    header .navbar.fixed .navs {
+      float: none;
+      width: 100%; }
+      header .navbar.fixed .navs a {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important; }
 
   .search_bar form .form_input {
     flex-direction: column; }
 
+  .navbar.fixed form .form_input {
+    display: block; }
+    .navbar.fixed form .form_input input[type=text] {
+      border: none;
+      flex-grow: inherit;
+      padding: 5px 10px;
+      width: 100%; }
+    .navbar.fixed form .form_input label {
+      margin: 0;
+      flex-grow: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer; }
+      .navbar.fixed form .form_input label input {
+        margin: 0; }
   .navbar.fixed form .submit_button {
     border-radius: 0; }
   .navbar.fixed form > .row {
