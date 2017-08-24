@@ -46,24 +46,32 @@ header{
       text-transform: uppercase;
     }
   }
-  .navbar-toggler{
-    font-size: 13px;
-    text-transform: uppercase;
-    color: $gray-1;
-  }
-
-  #nav-menu{
-    padding: 5px 0;
-    background-color: $gray-3;
-    font-size: 12px;
-    overflow: hidden;
-
-    .logo{
-      float: left;
-    }
+  #top-nav-menu.fixed{
+    margin-bottom: 75px;
   }
   .navbar{
     margin: 0;
+    border: none;
+    padding: 5px 0;
+    font-size: 12px;
+    border-radius: 0;
+
+    .logo{
+      margin-left: 5px;
+    }
+
+    .navbar-toggle{
+      border: none;
+
+      .icon-bar{
+        color: $gray-2 !important;
+        background-color: $gray-2 !important;
+      }
+      .fa{
+        color: $gray-2;
+        font-size: 16px;
+      }
+    }
 
     .navbar-nav{
       float: right;
@@ -74,5 +82,39 @@ header{
       text-transform: uppercase;
       font-weight: 700;
     }
+  }
+  .navbar.default{
+    background-color: $gray-3;
+  }
+  .navbar.fixed{
+    background-color: $gray-6;
+    box-shadow: 0 5px 15px rgba($gray-6, 0.4);
+    top: 42px;
+    @include transition(0.3s);
+
+    .searchbar-toggle{
+      padding: 7px;
+    }
+    #searchbar-collapse{
+      margin-top: 3px;
+    }
+
+    .navbar-header{
+      float: left;
+      //desktop
+    }
+    .navs{
+      float: right;
+      width: calc(100% - 160px);
+      //desktop
+      a{
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+      }
+      //desktop
+    }
+  }
+  .navbar.attached{
+    top: 0;
   }
 }

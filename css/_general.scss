@@ -1,9 +1,25 @@
-a:hover, a:focus{
-  text-decoration: none !important;
+html {
+  height: 100%;
+  box-sizing: border-box;
 }
-body{
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
   font-family: $roboto;
   background-color: $gray-0;
+}
+
+a:hover, a:focus{
+  text-decoration: none !important;
 }
 *, *:focus, *:active{
   outline: none !important;
@@ -63,6 +79,73 @@ body{
       background-color: $gray-2;
       height: $input_height;
       cursor: pointer;
+    }
+  }
+}
+
+.navbar.fixed{
+  form{
+
+    $input_height: auto;
+    $input_font_size: 13px;
+    .form_input{
+      display: flex;
+      height: $input_height;
+      background-color: #fff;
+      width: 100%;
+      border: none;
+      font-size: $input_font_size;
+
+      input[type = text]{
+        border: none;
+        flex-grow: 5;
+        padding: 5px 10px;
+      }
+      label{
+        margin: 0;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        input{
+          margin: 0;
+        }
+      }
+    }
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7{
+      position: relative;
+      .check-button{
+        color: #fff;
+        background-color: $gray-5;
+      }
+
+    }
+
+    .submit_button{
+      border-radius: 0 50px 50px 0;
+      font-size: $input_font_size;
+      font-weight: 700;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      color: #fff;
+      background-color: $gray-2;
+      height: $input_height;
+      cursor: pointer;
+    }
+  }
+
+  form > .row{
+    margin-left: -1px;
+    margin-right: -1px;
+
+    .col-sm-7,
+    .col-sm-5,
+    .col-sm-2{
+      padding: 1px;
     }
   }
 }

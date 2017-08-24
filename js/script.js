@@ -336,4 +336,18 @@ $(document).ready(function () {
         today: true,
         data: eventData
     });
+
+    $(window).scroll(function () {
+        var fixedNavbar = $('.navbar-fixed-top'),
+            topNav = $('#top-nav-menu'),
+            height = topNav.height(),
+            self = $(this);
+
+        if(self.scrollTop() > height){
+            fixedNavbar.addClass('attached');
+        }
+        else {
+            fixedNavbar.removeClass('attached');
+        }
+    })
 })
