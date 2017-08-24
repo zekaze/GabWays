@@ -343,7 +343,7 @@ $(document).ready(function () {
             height = topNav.height(),
             self = $(this);
 
-        if(self.scrollTop() > height){
+        if(self.scrollTop() >= height){
             fixedNavbar.addClass('attached');
         }
         else {

@@ -90,7 +90,7 @@ header{
     background-color: $gray-6;
     box-shadow: 0 5px 15px rgba($gray-6, 0.4);
     top: 42px;
-    @include transition(0.3s);
+    @include transition(0.1s);
 
     .searchbar-toggle{
       padding: 7px;

@@ -423,10 +423,10 @@ header .navbar.fixed {
   background-color: #333333;
   box-shadow: 0 5px 15px rgba(51, 51, 51, 0.4);
   top: 42px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out; }
   header .navbar.fixed .searchbar-toggle {
     padding: 7px; }
   header .navbar.fixed #searchbar-collapse {
@@ -570,6 +570,22 @@ footer#main-footer {
           margin-bottom: 5px; }
         #google-map .etablissements .etablissement .details_etablissement .quartier_etablissement {
           font-style: italic; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar.fixed form .col-sm-5,
+  .navbar.fixed form .col-sm-6,
+  .navbar.fixed form .col-sm-7 {
+    position: relative; }
+    .navbar.fixed form .col-sm-5 .check-button,
+    .navbar.fixed form .col-sm-6 .check-button,
+    .navbar.fixed form .col-sm-7 .check-button {
+      font-size: 0; }
+  .navbar.fixed form > .row {
+    margin-left: -1px;
+    margin-right: -1px; }
+    .navbar.fixed form > .row .col-sm-7,
+    .navbar.fixed form > .row .col-sm-5,
+    .navbar.fixed form > .row .col-sm-2 {
+      padding: 1px; } }
 @media (max-width: 767px) {
   header #top-nav-menu .nav-contact {
     clear: both;
@@ -604,15 +620,32 @@ footer#main-footer {
     margin: 0; }
     header .navbar .icon-bar {
       background-color: #dfdfdf; }
+    header .navbar .logo {
+      margin-left: 15px; }
     header .navbar .navbar-nav {
       float: none; }
-    header .navbar a {
-      color: #b9b9b9;
-      text-transform: uppercase;
-      font-weight: 700; }
+  header .navbar.fixed .navbar-header {
+    float: none; }
+  header .navbar.fixed .navs {
+    float: none;
+    width: 100%; }
+    header .navbar.fixed .navs a {
+      padding-top: 5px !important;
+      padding-bottom: 5px !important; }
 
   .search_bar form .form_input {
     flex-direction: column; }
+
+  .navbar.fixed form .submit_button {
+    border-radius: 0; }
+  .navbar.fixed form > .row {
+    margin-left: -15px;
+    margin-right: -15px; }
+    .navbar.fixed form > .row .col-sm-7,
+    .navbar.fixed form > .row .col-sm-5,
+    .navbar.fixed form > .row .col-sm-2 {
+      padding-left: inherit;
+      padding-right: inherit; }
 
   .body .main-body .popular-tags .section-body .popular-tag {
     width: 45%; }
