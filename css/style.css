@@ -198,7 +198,13 @@ end of categories carousel
       left: -8px;
       top: 2px; }
   .body .main-body .section.section-slider .section-title {
-    float: left; }
+    float: left;
+    position: relative; }
+    .body .main-body .section.section-slider .section-title small {
+      position: absolute;
+      left: 0;
+      bottom: -12px;
+      font-size: 13px; }
   .body .main-body .section.section-slider .section-body {
     padding: 0;
     /*end of articles*/ }

@@ -323,6 +323,48 @@ $(document).ready(function () {
         })
     })
 
+    $(function () {
+        
+        var sectionSliders = $('.section-slider');
+
+        sectionSliders.each(function () {
+            var self = $(this),
+                carousel = self.find('.event_list'),
+                prev = self.find('.prev'),
+                next = self.find('.next');
+
+            carousel.slick({
+                infinite: false,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                prevArrow: prev,
+                nextArrow: next,
+                responsive: [
+                    {
+                        breakpoint: 769,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                            infinite: false,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1 ,
+                            infinite: false,
+                            dots: true
+                        }
+                    }
+                ]
+            })
+        });
+
+    })
+
 
 
     var eventData = [

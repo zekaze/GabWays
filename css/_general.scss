@@ -273,6 +273,14 @@ end of categories carousel
     .section.section-slider{
       .section-title{
         float: left;
+        position: relative;
+        small{
+          position: absolute;
+          left: 0;
+          bottom: -12px;
+          font-size: 13px;
+
+        }
       }
       .section-body{
         padding: 0;
