@@ -324,7 +324,7 @@ $(document).ready(function () {
     })
 
     $(function () {
-        
+
         var sectionSliders = $('.section-slider');
 
         sectionSliders.each(function () {
@@ -337,7 +337,6 @@ $(document).ready(function () {
                 infinite: false,
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                autoplay: true,
                 prevArrow: prev,
                 nextArrow: next,
                 responsive: [

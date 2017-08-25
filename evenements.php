@@ -58,24 +58,24 @@
                                     <a href="#">
                                         <div class="article">
                                             <div class="article_picture_frame">
-                                                <img src="holder.js/260x225" alt="Holder">
+                                                <img src="holder.js/560x400" alt="Holder">
                                             </div>
                                             <?php if(is_array($date)):?>
-                                                <div class="event_date double">
+                                                    <div class="event_date double">
                                                     <div class="date">
                                                         <span class="day"><?php echo $date[0];?></span>
-                                                        <span class="month"><?php echo $month;?></span>
+                                                        <span class="month"><?php echo substr($month,0,4);?></span>
                                                     </div>
                                                     <div class="date">
                                                         <span class="day"><?php echo $date[1];?></span>
-                                                        <span class="month"><?php echo $month;?></span>
+                                                        <span class="month"><?php echo substr($month,0,4);?></span>
                                                     </div>
                                                 </div>
                                             <?php else:?>
                                                 <div class="event_date single">
                                                     <div class="date">
                                                         <span class="day"><?php echo $date;?></span>
-                                                        <span class="month"><?php echo $month;?></span>
+                                                        <span class="month"><?php echo substr($month,0,4);?></span>
                                                     </div>
                                                 </div>
                                             <?php endif;?>
