@@ -5,7 +5,6 @@
             <li class="footer-link"><a href="#">Qui sommes nous?</a></li>
             <li class="footer-link"><a href="categories.php">Catégories</a></li>
             <li class="footer-link"><a href="evenements.php">Événements</a></li>
-            <li class="footer-link"><a href="#">Qui sommes nous?</a></li>
             <li class="footer-link"><a href="#">Contact</a></li>
         </ul>
         <ul class="footer-social-media">
