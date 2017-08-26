@@ -1,5 +1,5 @@
 <header>
-    <div id="top-nav-menu" class="fixed">
+    <div id="top-nav-menu" class="fixed hidden-xs">
         <div class="container">
             <ul class="nav-contact">
                 <li><strong>Contact:</strong> +241 00 11 22 33</li>

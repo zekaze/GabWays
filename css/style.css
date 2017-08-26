@@ -594,16 +594,45 @@ footer#main-footer {
   #page-category .publicite {
     width: 100%; }
 
+#page-evenements .months-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+  #page-evenements .months-list li {
+    flex-grow: 1; }
+    #page-evenements .months-list li a {
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #4d4d4d;
+      padding: 5px;
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }
+    #page-evenements .months-list li a:hover {
+      box-shadow: 0 2px #4d4d4d; }
+#page-evenements .months-select {
+  width: 100%;
+  padding: 5px 10px;
+  height: 40px;
+  border: none;
+  border-bottom: solid 2px #b9b9b9; }
 #page-evenements .event_list .article {
   position: relative;
   width: 90%;
-  margin-left: 10%; }
+  margin-left: 10%;
+  padding-bottom: 30px; }
   #page-evenements .event_list .article .article_picture_frame {
     height: 225px;
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 5px; }
   #page-evenements .event_list .article .event_date {
     background-color: #4d4d4d;
     color: #f8f8f8;
@@ -625,6 +654,10 @@ footer#main-footer {
       font-size: 16px; }
     #page-evenements .event_list .article .event_date .month {
       font-size: 10px; }
+  #page-evenements .event_list .article .article_title {
+    color: #333333;
+    font-weight: 700;
+    font-size: 13px; }
   #page-evenements .event_list .article .event_date:before {
     content: '';
     display: inline-block;
@@ -689,58 +722,58 @@ footer#main-footer {
     .navbar.fixed form > .row .col-sm-2 {
       padding: 1px; } }
 @media (max-width: 767px) {
-  header #top-nav-menu .nav-contact {
-    clear: both;
-    margin-bottom: 10px; }
-    header #top-nav-menu .nav-contact li {
-      float: left;
-      margin-right: 15px; }
-  header #top-nav-menu .nav-social-media {
-    float: left; }
-    header #top-nav-menu .nav-social-media li {
-      float: left;
-      margin-left: 15px; }
-  header #top-nav-menu .social-icon {
-    display: inline-block;
-    font-size: 12px;
-    width: 22px;
-    height: 22px;
-    line-height: 22px;
-    text-align: center;
-    border-radius: 100%;
-    background-color: #f8f8f8;
-    color: #666666; }
-  header #top-nav-menu .button {
-    padding: 5px 10px;
-    color: #666666;
-    background-color: #dfdfdf;
-    border-radius: 3px;
-    font-weight: 700;
-    font-size: 11px;
-    text-transform: uppercase; }
-  header #top-nav-menu.fixed {
-    margin-bottom: 0; }
-  header .navbar {
-    margin: 0; }
-    header .navbar .icon-bar {
-      background-color: #dfdfdf; }
-    header .navbar .logo {
-      margin-left: 15px; }
-    header .navbar .navbar-toggle {
-      margin-top: 15px; }
-    header .navbar .navbar-nav {
-      float: none; }
-  header .navbar.fixed {
-    position: relative;
-    top: auto; }
-    header .navbar.fixed .navbar-header {
-      float: none; }
-    header .navbar.fixed .navs {
-      float: none;
-      width: 100%; }
-      header .navbar.fixed .navs a {
-        padding-top: 5px !important;
-        padding-bottom: 5px !important; }
+  header {
+    margin-bottom: 72px; }
+    header #top-nav-menu .nav-contact {
+      clear: both;
+      margin-bottom: 10px; }
+      header #top-nav-menu .nav-contact li {
+        float: left;
+        margin-right: 15px; }
+    header #top-nav-menu .nav-social-media {
+      float: left; }
+      header #top-nav-menu .nav-social-media li {
+        float: left;
+        margin-left: 15px; }
+    header #top-nav-menu .social-icon {
+      display: inline-block;
+      font-size: 12px;
+      width: 22px;
+      height: 22px;
+      line-height: 22px;
+      text-align: center;
+      border-radius: 100%;
+      background-color: #f8f8f8;
+      color: #666666; }
+    header #top-nav-menu .button {
+      padding: 5px 10px;
+      color: #666666;
+      background-color: #dfdfdf;
+      border-radius: 3px;
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase; }
+    header .navbar {
+      margin: 0; }
+      header .navbar .icon-bar {
+        background-color: #dfdfdf; }
+      header .navbar .logo {
+        margin-left: 15px; }
+      header .navbar .navbar-toggle {
+        margin-top: 15px; }
+      header .navbar .navbar-nav {
+        float: none; }
+    header .navbar.fixed {
+      /*position: relative;*/
+      top: 0; }
+      header .navbar.fixed .navbar-header {
+        float: none; }
+      header .navbar.fixed .navs {
+        float: none;
+        width: 100%; }
+        header .navbar.fixed .navs a {
+          padding-top: 5px !important;
+          padding-bottom: 5px !important; }
 
   .search_bar form .form_input {
     flex-direction: column; }

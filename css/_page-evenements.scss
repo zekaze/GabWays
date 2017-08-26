@@ -1,9 +1,41 @@
 #page-evenements{
+  .months-list{
+     list-style: none;
+     padding: 0;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+
+     li{
+       flex-grow: 1;
+
+       a{
+         display: block;
+         text-align: center;
+         text-transform: uppercase;
+         font-weight: 700;
+         color: $gray-5;
+         padding: 5px;
+         @include transition(0.2s);
+       }
+       a:hover{
+         box-shadow: 0 2px $gray-5;
+       }
+     }
+   }
+  .months-select{
+    width: 100%;
+    padding: 5px 10px;
+    height: 40px;
+    border:   none;
+    border-bottom:  solid 2px $gray-2;
+  }
   .event_list{
     .article{
       position: relative;
       width: 90%;
       margin-left: 10%;
+      padding-bottom: 30px;
 
       .article_picture_frame{
         height: 225px;
@@ -11,6 +43,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 5px;
       }
       .event_date{
         background-color: $gray-5;
@@ -39,6 +72,12 @@
           font-size: 10px;
         }
       }
+      .article_title{
+        color: $gray-6;
+        font-weight: 700;
+        font-size: 13px;
+      }
+
       $width: 13px;
       .event_date:before{
         content: '';

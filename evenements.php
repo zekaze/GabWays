@@ -13,7 +13,7 @@
             <div class="col-sm-9">
                 <div id="page-evenements" class="main-body">
                     <h1 class="page-title">Événements</h1>
-                    <ul class="months-list">
+                    <ul class="months-list hidden-xs">
                         <li><a href="#">Janv</a></li>
                         <li><a href="#">Fév</a></li>
                         <li><a href="#">Mar</a></li>
@@ -27,6 +27,21 @@
                         <li><a href="#">Nov</a></li>
                         <li><a href="#">Déc</a></li>
                     </ul>
+
+                    <select name="months" id="choix_du_mois" class="months-select visible-xs">
+                        <option>Janv</option>
+                        <option>Fév</option>
+                        <option>Mar</option>
+                        <option>Avr</option>
+                        <option>Mai</option>
+                        <option>Juin</option>
+                        <option>Juil</option>
+                        <option>Aout</option>
+                        <option>Sep</option>
+                        <option>Oct</option>
+                        <option>Nov</option>
+                        <option>Déc</option>
+                    </select>
                     <?php $months = array('Août', 'Septembre', 'Octobre', 'Novembre');?>
                     <?php $dates = array(
                         '28',

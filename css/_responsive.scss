@@ -69,6 +69,7 @@
 }
 @media (max-width: 767px) {
   header{
+    margin-bottom:  72px;
     #top-nav-menu{
       .nav-contact{
         clear: both;
@@ -107,9 +108,6 @@
         text-transform: uppercase;
       }
     }
-    #top-nav-menu.fixed{
-      margin-bottom: 0;
-    }
     .navbar{
        margin: 0;
       .icon-bar{
@@ -126,8 +124,8 @@
        }
      }
     .navbar.fixed{
-      position: relative;
-      top: auto;
+      /*position: relative;*/
+      top: 0;
 
       .navbar-header{
         float: none;
