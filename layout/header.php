@@ -1,7 +1,7 @@
 <header>
     <div id="top-nav-menu">
         <div class="container">
-            <ul class="nav-contact">
+            <ul class="nav-contact hidden-xs">
                 <li><strong>Contact:</strong> +241 00 11 22 33</li>
                 <li><strong>Email:</strong> info@gabways.com</li>
             </ul>
