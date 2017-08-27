@@ -1,4 +1,10 @@
 #page-evenements{
+  .page-title{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $gray-5;
+    margin-bottom: 30px;
+  }
   .months-list{
      list-style: none;
      padding: 0;

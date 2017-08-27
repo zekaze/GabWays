@@ -413,7 +413,7 @@ header #top-nav-menu {
     font-size: 11px;
     text-transform: uppercase; }
 header #top-nav-menu.fixed {
-  margin-bottom: 73px; }
+  margin-bottom: 72px; }
 header .navbar {
   margin: 0;
   border: none;
@@ -442,10 +442,10 @@ header .navbar.fixed {
   background-color: #333333;
   box-shadow: 0 5px 15px rgba(51, 51, 51, 0.4);
   top: 42px;
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out; }
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
   header .navbar.fixed .searchbar-toggle {
     padding: 7px; }
   header .navbar.fixed #searchbar-collapse {
@@ -593,6 +593,11 @@ footer#main-footer {
   #page-category .publicite {
     width: 100%; }
 
+#page-evenements .page-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4d4d4d;
+  margin-bottom: 30px; }
 #page-evenements .months-list {
   list-style: none;
   padding: 0;
@@ -814,8 +819,7 @@ footer#main-footer {
       header .navbar .navbar-nav {
         float: none; }
     header .navbar.fixed {
-      /*position: relative;*/
-      top: 0; }
+      /*position: relative;*/ }
       header .navbar.fixed .navbar-header {
         float: none; }
       header .navbar.fixed .navs {
