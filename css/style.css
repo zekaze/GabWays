@@ -374,92 +374,93 @@ end of categories carousel
         #google-map .etablissements .etablissement .details_etablissement .quartier_etablissement {
           font-style: italic; }
 
-header #top-nav-menu {
-  background-color: #b9b9b9;
-  overflow: hidden;
-  font-size: 13px;
-  color: #666666;
-  padding: 10px 0; }
-  header #top-nav-menu ul {
-    margin: 0;
-    padding: 0;
-    list-style: none; }
-  header #top-nav-menu .nav-contact {
-    float: left; }
-    header #top-nav-menu .nav-contact li {
-      float: left;
-      margin-right: 15px; }
-  header #top-nav-menu .nav-social-media {
-    float: right; }
-    header #top-nav-menu .nav-social-media li {
-      float: left;
-      margin-left: 15px; }
-  header #top-nav-menu .social-icon {
-    display: inline-block;
-    font-size: 12px;
-    width: 22px;
-    height: 22px;
-    line-height: 22px;
-    text-align: center;
-    border-radius: 100%;
-    background-color: #f8f8f8;
-    color: #666666; }
-  header #top-nav-menu .button {
-    padding: 5px 10px;
+header {
+  background-color: #b9b9b9; }
+  header #top-nav-menu {
+    overflow: hidden;
+    font-size: 13px;
     color: #666666;
-    background-color: #dfdfdf;
-    border-radius: 3px;
-    font-weight: 700;
-    font-size: 11px;
-    text-transform: uppercase; }
-header #top-nav-menu.fixed {
-  margin-bottom: 72px; }
-header .navbar {
-  margin: 0;
-  border: none;
-  padding: 5px 0;
-  font-size: 12px;
-  border-radius: 0; }
-  header .navbar .logo {
-    margin-left: 5px; }
-  header .navbar .navbar-toggle {
-    border: none; }
-    header .navbar .navbar-toggle .icon-bar {
-      color: #b9b9b9 !important;
-      background-color: #b9b9b9 !important; }
-    header .navbar .navbar-toggle .fa {
+    padding: 10px 0; }
+    header #top-nav-menu ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+    header #top-nav-menu .nav-contact {
+      float: left; }
+      header #top-nav-menu .nav-contact li {
+        float: left;
+        margin-right: 15px; }
+    header #top-nav-menu .nav-social-media {
+      float: right; }
+      header #top-nav-menu .nav-social-media li {
+        float: left;
+        margin-left: 15px; }
+    header #top-nav-menu .social-icon {
+      display: inline-block;
+      font-size: 12px;
+      width: 22px;
+      height: 22px;
+      line-height: 22px;
+      text-align: center;
+      border-radius: 100%;
+      background-color: #f8f8f8;
+      color: #666666; }
+    header #top-nav-menu .button {
+      padding: 5px 10px;
+      color: #666666;
+      background-color: #dfdfdf;
+      border-radius: 3px;
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase; }
+  header #top-nav-menu.fixed {
+    padding-bottom: 82px; }
+  header .navbar {
+    margin: 0;
+    border: none;
+    padding: 5px 0;
+    font-size: 12px;
+    border-radius: 0; }
+    header .navbar .logo {
+      margin-left: 5px; }
+    header .navbar .navbar-toggle {
+      border: none; }
+      header .navbar .navbar-toggle .icon-bar {
+        color: #b9b9b9 !important;
+        background-color: #b9b9b9 !important; }
+      header .navbar .navbar-toggle .fa {
+        color: #b9b9b9;
+        font-size: 16px; }
+    header .navbar .navbar-nav {
+      float: right; }
+    header .navbar a {
       color: #b9b9b9;
-      font-size: 16px; }
-  header .navbar .navbar-nav {
-    float: right; }
-  header .navbar a {
-    color: #b9b9b9;
-    text-transform: uppercase;
-    font-weight: 700; }
-header .navbar.default {
-  background-color: #868686; }
-header .navbar.fixed {
-  background-color: #333333;
-  box-shadow: 0 5px 15px rgba(51, 51, 51, 0.4);
-  top: 42px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
-  header .navbar.fixed .searchbar-toggle {
-    padding: 7px; }
-  header .navbar.fixed #searchbar-collapse {
-    margin-top: 3px; }
-  header .navbar.fixed .navbar-header {
-    float: left; }
-  header .navbar.fixed .navs {
-    float: right;
-    width: calc(100% - 160px); }
-    header .navbar.fixed .navs a {
-      padding-top: 5px !important;
-      padding-bottom: 5px !important; }
-header .navbar.attached {
-  top: 0; }
+      text-transform: uppercase;
+      font-weight: 700; }
+  header .navbar.default {
+    background-color: #868686; }
+  header .navbar.fixed {
+    background-color: #333333;
+    box-shadow: 0 5px 15px rgba(51, 51, 51, 0.4);
+    top: 42px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    header .navbar.fixed .searchbar-toggle {
+      padding: 7px; }
+    header .navbar.fixed #searchbar-collapse {
+      margin-top: 3px; }
+    header .navbar.fixed .navbar-header {
+      float: left; }
+    header .navbar.fixed .navs {
+      float: right;
+      width: calc(100% - 160px); }
+      header .navbar.fixed .navs a {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important; }
+  header .navbar.attached {
+    top: 0; }
 
 .sidebar .widget {
   margin-bottom: 20px;
@@ -777,57 +778,55 @@ footer#main-footer {
     .navbar.fixed form > .row .col-sm-2 {
       padding: 1px; } }
 @media (max-width: 767px) {
-  header {
-    margin-bottom: 72px; }
-    header #top-nav-menu .nav-contact {
-      clear: both;
-      margin-bottom: 10px; }
-      header #top-nav-menu .nav-contact li {
-        float: left;
-        margin-right: 15px; }
-    header #top-nav-menu .nav-social-media {
-      float: left; }
-      header #top-nav-menu .nav-social-media li {
-        float: left;
-        margin-left: 15px; }
-    header #top-nav-menu .social-icon {
-      display: inline-block;
-      font-size: 12px;
-      width: 22px;
-      height: 22px;
-      line-height: 22px;
-      text-align: center;
-      border-radius: 100%;
-      background-color: #f8f8f8;
-      color: #666666; }
-    header #top-nav-menu .button {
-      padding: 5px 10px;
-      color: #666666;
-      background-color: #dfdfdf;
-      border-radius: 3px;
-      font-weight: 700;
-      font-size: 11px;
-      text-transform: uppercase; }
-    header .navbar {
-      margin: 0; }
-      header .navbar .icon-bar {
-        background-color: #dfdfdf; }
-      header .navbar .logo {
-        margin-left: 15px; }
-      header .navbar .navbar-toggle {
-        margin-top: 15px; }
-      header .navbar .navbar-nav {
-        float: none; }
-    header .navbar.fixed {
-      /*position: relative;*/ }
-      header .navbar.fixed .navbar-header {
-        float: none; }
-      header .navbar.fixed .navs {
-        float: none;
-        width: 100%; }
-        header .navbar.fixed .navs a {
-          padding-top: 5px !important;
-          padding-bottom: 5px !important; }
+  header #top-nav-menu .nav-contact {
+    clear: both;
+    margin-bottom: 10px; }
+    header #top-nav-menu .nav-contact li {
+      float: left;
+      margin-right: 15px; }
+  header #top-nav-menu .nav-social-media {
+    float: left; }
+    header #top-nav-menu .nav-social-media li {
+      float: left;
+      margin-left: 15px; }
+  header #top-nav-menu .social-icon {
+    display: inline-block;
+    font-size: 12px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #f8f8f8;
+    color: #666666; }
+  header #top-nav-menu .button {
+    padding: 5px 10px;
+    color: #666666;
+    background-color: #dfdfdf;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase; }
+  header .navbar {
+    margin: 0; }
+    header .navbar .icon-bar {
+      background-color: #dfdfdf; }
+    header .navbar .logo {
+      margin-left: 15px; }
+    header .navbar .navbar-toggle {
+      margin-top: 15px; }
+    header .navbar .navbar-nav {
+      float: none; }
+  header .navbar.fixed {
+    /*position: relative;*/ }
+    header .navbar.fixed .navbar-header {
+      float: none; }
+    header .navbar.fixed .navs {
+      float: none;
+      width: 100%; }
+      header .navbar.fixed .navs a {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important; }
 
   .search_bar form .form_input {
     flex-direction: column; }
