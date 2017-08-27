@@ -33,8 +33,7 @@
   .event_list{
     .article{
       position: relative;
-      width: 90%;
-      margin-left: 10%;
+      padding-left: 17px;
       padding-bottom: 30px;
 
       .article_picture_frame{
@@ -55,7 +54,72 @@
         font-weight: 700;
         position: absolute;
         top: 15px;
-        left: -17px;
+        left: 0;
+        z-index: 2;
+
+        .date{
+          float: left;
+          margin: 0 5px;
+        }
+
+        .day{
+          display: block;
+          border-bottom: solid 2px $gray-0;
+          font-size: 16px;
+        }
+        .month{
+          font-size: 10px;
+        }
+      }
+      .article_title{
+        color: $gray-6;
+        font-weight: 700;
+        font-size: 13px;
+      }
+
+      $width: 13px;
+      .event_date:before{
+        content: '';
+        display: inline-block;
+        width: $width;
+        height: $width;
+        border: solid $width transparent;
+        border-left: solid $width $gray-2;
+        position: absolute;
+        left: 5px;
+        bottom: -13px;
+        z-index: 1;
+        @include transform(rotate(-45deg));
+      }
+    }
+  }
+}
+
+.page-banner{
+  .section-slider{
+    .article{
+      position: relative;
+      padding: 10px 0 10px 17px;
+
+      .article_picture_frame{
+        height: 320px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+      }
+      .event_date{
+        background-color: $gray-5;
+        color: $gray-0;
+        padding: 2px 10px;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        position: absolute;
+        top: 30px;
+        left: 0;
         z-index: 2;
 
         .date{
