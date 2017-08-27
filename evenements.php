@@ -167,11 +167,14 @@
                             <li><a href="#" class="page-number">13</a></li>
                             <li><a href="#" class="next"><i class="fa fa-chevron-right"></i></a></li>
                         </ul>
-                        <select name="pages" id="page-select" class="page-select visible-xs">
-                            <?php for ($i = 1; $i <= 11; $i++):?>
-                            <option value="<?php echo $i;?>"><?php echo $i;?></option>
-                            <?php endfor;?>
-                        </select>
+                        <div class="visible-xs">
+                            <select name="pages" id="page-select" class="page-select">
+                                <?php for ($i = 1; $i <= 11; $i++):?>
+                                    <option value="<?php echo $i;?>">Page <?php echo $i;?></option>
+                                <?php endfor;?>
+                            </select>
+                        </div>
+
                     </div>
 
                     <div class="autour_de_moi">

@@ -8,6 +8,12 @@ html {
 *:after {
   box-sizing: inherit;
 }
+select{
+  width: 100%;
+  border:  solid 2px $gray-2;
+  padding: 5px 10px;
+  height: 40px;
+}
 
 body {
   position: relative;
