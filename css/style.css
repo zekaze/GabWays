@@ -279,6 +279,31 @@ end of categories carousel
       color: #fff;
       font-weight: 700; }
 
+.pagination {
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+  position: relative; }
+  .pagination .page-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right; }
+    .pagination .page-list li {
+      float: left; }
+      .pagination .page-list li a,
+      .pagination .page-list li span {
+        padding: 7px 10px;
+        display: block;
+        margin: 0 2px;
+        color: #666666;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      .pagination .page-list li a:hover {
+        background-color: #dfdfdf; }
+
 #google-map {
   position: relative;
   height: 500px; }
@@ -373,6 +398,13 @@ end of categories carousel
           margin-bottom: 5px; }
         #google-map .etablissements .etablissement .details_etablissement .quartier_etablissement {
           font-style: italic; }
+
+.autour_de_moi .section-title {
+  font-weight: 700; }
+.autour_de_moi #google-map {
+  height: 350px; }
+  .autour_de_moi #google-map #map {
+    height: 350px; }
 
 header {
   background-color: #b9b9b9; }

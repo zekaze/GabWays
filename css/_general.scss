@@ -384,3 +384,33 @@ end of categories carousel
     }
   }
 }
+
+.pagination{
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+  position: relative;
+
+  .page-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+
+    li{
+      float: left;
+
+      a,
+      span{
+        padding: 7px 10px;
+        display: block;
+        margin: 0 2px;
+        color: $gray-4;
+        @include transition(0.3s);
+      }
+      a:hover{
+        background-color: $gray-1;
+      }
+    }
+  }
+}
