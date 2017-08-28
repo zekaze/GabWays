@@ -152,7 +152,8 @@ end of categories carousel
   padding: 15px;
   background-color: #fff; }
   .body .main-body .section {
-    border-bottom: solid 1px #dfdfdf; }
+    border-bottom: solid 1px #dfdfdf;
+    padding-bottom: 20px; }
     .body .main-body .section .section-header {
       position: relative;
       overflow: hidden;
@@ -283,7 +284,23 @@ end of categories carousel
       margin: 0;
       text-transform: uppercase;
       color: #fff;
-      font-weight: 700; }
+      font-weight: 700;
+      padding: 70px 0;
+      font-size: 25px; }
+    .page-banner .container .categorie {
+      display: block;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: italic; }
+      .page-banner .container .categorie .fa {
+        display: inline-block;
+        margin-right: 5px;
+        width: 25px;
+        padding: 5px 0;
+        text-align: center;
+        background-color: #dfdfdf;
+        color: #4d4d4d;
+        border-radius: 100%; }
 
 .pagination {
   overflow: hidden;
@@ -753,6 +770,156 @@ footer#main-footer {
     font-weight: 700;
     font-size: 13px; }
   .page-banner .section-slider .article .event_date:before {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border: solid 13px transparent;
+    border-left: solid 13px #b9b9b9;
+    position: absolute;
+    left: 5px;
+    bottom: -13px;
+    z-index: 1;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+
+.page-etablissement ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+.page-etablissement .social-sharing {
+  overflow: hidden; }
+  .page-etablissement .social-sharing ul {
+    list-style: none;
+    overflow: hidden;
+    float: left; }
+    .page-etablissement .social-sharing ul li {
+      float: left;
+      margin: 5px; }
+      .page-etablissement .social-sharing ul li a {
+        color: #4d4d4d;
+        display: block;
+        width: 35px;
+        padding: 10px 0;
+        text-align: center;
+        background-color: #dfdfdf;
+        border-radius: 100%;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      .page-etablissement .social-sharing ul li a:hover {
+        background-color: #868686;
+        color: #fff; }
+  .page-etablissement .social-sharing .incdicateur_ouverture {
+    float: right;
+    padding: 5px 15px;
+    background-color: #4d4d4d;
+    color: #f8f8f8;
+    text-transform: uppercase;
+    border-radius: 2px; }
+.page-etablissement .section .logo_etablissement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 225px;
+  overflow: hidden; }
+.page-etablissement .section .sub-section-title {
+  font-weight: 700;
+  color: #4d4d4d;
+  margin-bottom: 20px; }
+.page-etablissement .section p {
+  font-size: 13px; }
+.page-etablissement .section ul.contact {
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .page-etablissement .section ul.contact li {
+    margin: 5px 0; }
+  .page-etablissement .section ul.contact li:before {
+    font-family: "FontAwesome", sans-serif;
+    color: #4d4d4d;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin-right: 15px; }
+  .page-etablissement .section ul.contact li.telephone:before {
+    content: '\f095'; }
+  .page-etablissement .section ul.contact li.email:before {
+    content: '\f1fa'; }
+  .page-etablissement .section ul.contact li.website:before {
+    content: '\f0ac'; }
+  .page-etablissement .section ul.contact li.facebook:before {
+    content: '\f09a'; }
+  .page-etablissement .section ul.contact li.linkedin:before {
+    content: '\f0e1'; }
+  .page-etablissement .section ul.contact li.twitter:before {
+    content: '\f099'; }
+  .page-etablissement .section ul.contact li.instagram:before {
+    content: '\f16d'; }
+.page-etablissement .section ul.tags {
+  list-style: none;
+  font-size: 11px; }
+  .page-etablissement .section ul.tags li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px 10px;
+    margin: 0 2px 5px 0;
+    border-radius: 2px;
+    border: solid 1px #868686; }
+.page-etablissement .section ul.horaires {
+  font-size: 12px; }
+  .page-etablissement .section ul.horaires .jour {
+    display: inline-block;
+    width: 100px; }
+.page-etablissement .section ul.paiements {
+  font-size: 12px; }
+  .page-etablissement .section ul.paiements li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 15px 5px 0; }
+.page-etablissement .event_list .article {
+  position: relative;
+  padding-left: 17px;
+  padding-bottom: 30px; }
+  .page-etablissement .event_list .article .article_picture_frame {
+    height: 225px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px; }
+  .page-etablissement .event_list .article .event_date {
+    background-color: #4d4d4d;
+    color: #f8f8f8;
+    padding: 2px 10px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    z-index: 2; }
+    .page-etablissement .event_list .article .event_date .date {
+      float: left;
+      margin: 0 5px; }
+    .page-etablissement .event_list .article .event_date .day {
+      display: block;
+      border-bottom: solid 2px #f8f8f8;
+      font-size: 16px; }
+    .page-etablissement .event_list .article .event_date .month {
+      font-size: 10px; }
+  .page-etablissement .event_list .article .article_title {
+    color: #333333;
+    font-weight: 700;
+    font-size: 13px; }
+  .page-etablissement .event_list .article .event_date:before {
     content: '';
     display: inline-block;
     width: 13px;

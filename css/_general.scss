@@ -208,6 +208,7 @@ end of categories carousel
 
     .section{
       border-bottom: solid 1px $gray-1;
+      padding-bottom: 20px;
       .section-header{
         position: relative;
         overflow: hidden;
@@ -387,6 +388,25 @@ end of categories carousel
       text-transform: uppercase;
       color: #fff;
       font-weight: 700;
+      padding: 70px 0;
+      font-size: 25px;
+    }
+    .categorie{
+      display: block;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: italic;
+
+      .fa{
+        display:  inline-block;
+        margin-right:  5px;
+        width: 25px;
+        padding: 5px 0;
+        text-align: center;
+        background-color: $gray-1;
+        color: $gray-5;
+        border-radius:  100%;
+      }
     }
   }
 }
