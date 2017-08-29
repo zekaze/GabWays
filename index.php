@@ -90,18 +90,47 @@
                             <?php for ($j = 1; $j <= 2; $j++):?>
                             <div class="slide">
                                 <div class="articles">
-                                    <?php for ($k = 1; $k <= 4; $k++):?>
+                                    <?php $dates = array(
+                                        '28',
+                                        array('01','05'),
+                                        array('15','16'),
+                                        '17',
+                                        '09',
+                                        '21',
+                                        array('10','11'),
+                                        '25'
+                                    );
+                                    $j = 0;?>
+                                    <?php foreach ($dates as $date):?>
+                                        <?php $j++;?>
                                         <a href="#">
                                             <div class="article">
                                                 <div class="article_picture_frame">
                                                     <img src="holder.js/560x400" alt="Holder">
                                                 </div>
-                                                <div class="article_title">Titre de l'article <?php echo $i;?></div>
-                                                <div class="article_abstract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam consequatur cumque esse ipsum iusto libero magni nemo, omnis quisquam recusandae sunt voluptas voluptatibus. A dolore sed suscipit voluptatem voluptatibus!</div>
+                                                <?php if(is_array($date)):?>
+                                                    <div class="event_date double">
+                                                        <div class="date">
+                                                            <span class="day"><?php echo $date[0];?></span>
+                                                            <span class="month">Aoû</span>
+                                                        </div>
+                                                        <div class="date">
+                                                            <span class="day"><?php echo $date[1];?></span>
+                                                            <span class="month">Aoû</span>
+                                                        </div>
+                                                    </div>
+                                                <?php else:?>
+                                                    <div class="event_date single">
+                                                        <div class="date">
+                                                            <span class="day"><?php echo $date;?></span>
+                                                            <span class="month">Aoû</span>
+                                                        </div>
+                                                    </div>
+                                                <?php endif;?>
+                                                <div class="article_title">Titre de l'événement <?php echo $j;?></div>
                                             </div>
                                         </a>
-                                        <?php $i++;?>
-                                    <?php endfor;?>
+                                    <?php endforeach;?>
                                 </div>
                             </div>
                             <?php endfor;?>

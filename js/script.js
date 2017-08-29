@@ -272,7 +272,7 @@ $(document).ready(function () {
                 }
             ]
         })
-    })
+    });
 
     $(function () {
         var sectionSlider =  $('.top-evenements'),
@@ -287,7 +287,8 @@ $(document).ready(function () {
             prevArrow: prev,
             nextArrow: next
         })
-    })
+    });
+
     $(function () {
         var sectionSlider =  $('.top-categories'),
             carousel = sectionSlider.find('.section-body'),
@@ -321,7 +322,7 @@ $(document).ready(function () {
                 }
             ]
         })
-    })
+    });
 
     $(function () {
 
@@ -362,7 +363,7 @@ $(document).ready(function () {
             })
         });
 
-    })
+    });
 
 
 
@@ -391,4 +392,4 @@ $(document).ready(function () {
             fixedNavbar.removeClass('attached');
         }
     })
-})
+});
