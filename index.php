@@ -99,10 +99,8 @@
                                         '21',
                                         array('10','11'),
                                         '25'
-                                    );
-                                    $j = 0;?>
+                                    ); ?>
                                     <?php foreach ($dates as $date):?>
-                                        <?php $j++;?>
                                         <a href="#">
                                             <div class="article">
                                                 <div class="article_picture_frame">
@@ -127,9 +125,10 @@
                                                         </div>
                                                     </div>
                                                 <?php endif;?>
-                                                <div class="article_title">Titre de l'événement <?php echo $j;?></div>
+                                                <div class="article_title">Titre de l'événement <?php echo $i;?></div>
                                             </div>
                                         </a>
+                                        <?php $i++;?>
                                     <?php endforeach;?>
                                 </div>
                             </div>

@@ -279,6 +279,7 @@ $(document).ready(function () {
             carousel = sectionSlider.find('.section-body'),
             prev = sectionSlider.find('.prev'),
             next = sectionSlider.find('.next');
+
         carousel.slick({
             infinite: false,
             slidesToShow: 1,
