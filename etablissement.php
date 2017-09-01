@@ -145,6 +145,31 @@
 
                     <div class="section section-slider">
                         <div class="section-header">
+                            <h3 class="section-title">Gallerie photos</h3>
+                            <div class="slider-controls">
+                                <span class="prev"></span>
+                                <span class="next"></span>
+                            </div>
+                        </div>
+
+                        <div class="section-body">
+                            <div class="event_list">
+                                <?php for ($i = 0; $i <= 5; $i++):?>
+                                    <a href="#">
+                                        <div class="article">
+                                            <div class="article_picture_frame">
+                                                <img src="holder.js/560x400" alt="Holder">
+                                            </div>
+                                        </div>
+                                    </a>
+                                <?php endfor;?>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of section-->
+
+                    <div class="section section-slider">
+                        <div class="section-header">
                             <h3 class="section-title">Événements</h3>
                             <div class="slider-controls">
                                 <span class="prev"></span>
@@ -195,32 +220,6 @@
                                         </div>
                                     </a>
                                 <?php endforeach;?>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end of section-->
-
-                    <div class="section section-slider">
-                        <div class="section-header">
-                            <h3 class="section-title">Gallerie photos</h3>
-                            <div class="slider-controls">
-                                <span class="prev"></span>
-                                <span class="next"></span>
-                            </div>
-                        </div>
-
-                        <div class="section-body">
-                            <div class="event_list">
-                                <?php for ($i = 0; $i <= 5; $i++):?>
-                                    <?php $j++;?>
-                                    <a href="#">
-                                        <div class="article">
-                                            <div class="article_picture_frame">
-                                                <img src="holder.js/560x400" alt="Holder">
-                                            </div>
-                                        </div>
-                                    </a>
-                                <?php endfor;?>
                             </div>
                         </div>
                     </div>

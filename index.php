@@ -94,11 +94,7 @@
                                         '28',
                                         array('01','05'),
                                         array('15','16'),
-                                        '17',
-                                        '09',
-                                        '21',
-                                        array('10','11'),
-                                        '25'
+                                        '17'
                                     ); ?>
                                     <?php foreach ($dates as $date):?>
                                         <a href="#">
@@ -126,6 +122,8 @@
                                                     </div>
                                                 <?php endif;?>
                                                 <div class="article_title">Titre de l'événement <?php echo $i;?></div>
+                                                <div class="article_location">Ancienne sobraga, Libreville</div>
+                                                <div class="text-right">Nom etablissement</div>
                                             </div>
                                         </a>
                                         <?php $i++;?>

@@ -236,6 +236,17 @@ end of categories carousel
           color: #333333;
           font-weight: 700;
           margin: 5px 0 8px; }
+        .body .main-body .section.section-slider .section-body .articles a .article_location,
+        .body .main-body .section.section-slider .section-body .articles a .text-right {
+          color: #666666;
+          font-size: 13px; }
+        .body .main-body .section.section-slider .section-body .articles a .text-right {
+          font-weight: 700;
+          text-decoration: underline; }
+        .body .main-body .section.section-slider .section-body .articles a .article_location:before {
+          content: '\f041';
+          font-family: "FontAwesome", sans-serif;
+          margin-right: 8px; }
         .body .main-body .section.section-slider .section-body .articles a .article_abstract {
           font-size: 12px;
           color: #666666;
@@ -600,7 +611,7 @@ header {
   text-align: center; }
   .sidebar .publicite .placeholder {
     height: 300px;
-    width: 80%;
+    width: 92%;
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: 700;
@@ -754,6 +765,13 @@ footer#main-footer {
     color: #333333;
     font-weight: 700;
     font-size: 13px; }
+  #page-evenements .event_list .article .article_location,
+  #page-evenements .event_list .article .text-right {
+    color: #666666;
+    font-size: 11px; }
+  #page-evenements .event_list .article .text-right {
+    font-weight: 700;
+    text-decoration: underline; }
   #page-evenements .event_list .article .event_date:before {
     content: '';
     display: inline-block;
@@ -780,7 +798,31 @@ footer#main-footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    position: relative; }
+    .page-banner .section-slider .article .article_picture_frame .event-data {
+      position: absolute;
+      left: 0;
+      bottom: -100%;
+      width: 100%;
+      height: auto;
+      padding: 15px;
+      background-color: rgba(51, 51, 51, 0.3);
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      .page-banner .section-slider .article .article_picture_frame .event-data .article_location,
+      .page-banner .section-slider .article .article_picture_frame .event-data .article_owner {
+        color: #666666;
+        font-size: 13px; }
+      .page-banner .section-slider .article .article_picture_frame .event-data .article_owner {
+        font-weight: 700;
+        text-decoration: underline; }
+      .page-banner .section-slider .article .article_picture_frame .event-data .article_location:before {
+        content: '\f041';
+        font-family: "FontAwesome", sans-serif;
+        margin-right: 8px; }
   .page-banner .section-slider .article .event_date {
     background-color: #4d4d4d;
     color: #f8f8f8;
@@ -822,6 +864,8 @@ footer#main-footer {
     -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg); }
+.page-banner .section-slider .article:hover .article_picture_frame .event-data {
+  bottom: 0; }
 
 .page-etablissement ul {
   margin: 0;

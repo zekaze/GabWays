@@ -28,7 +28,17 @@
                             <!--end of publicite-->
                         <?php endif;?>
                     <?php endfor;?>
+
                 </div>
+                <div class="main-body">
+                    <div class="autour_de_moi">
+                        <h3 class="section-title">Autour de moi</h3>
+                        <div id="google-map">
+                            <div id="map"></div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <!--end of col-sm-9-->
             <div class="col-sm-3">

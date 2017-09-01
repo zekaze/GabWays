@@ -18,6 +18,12 @@
                         <div class="article">
                             <div class="article_picture_frame">
                                 <img src="holder.js/560x400" alt="Holder">
+                                
+                                <div class="event-data">
+                                    <div class="article_title">Titre de l'événement</div>
+                                    <div class="article_location">Quartier Louis, Libreville</div>
+                                    <div class="article_owner">Nom de l'établissement</div>
+                                </div>
                             </div>
                             <?php if(is_array($date)):?>
                                 <div class="event_date double">
@@ -138,6 +144,8 @@
                                                 </div>
                                             <?php endif;?>
                                             <div class="article_title">Titre de l'événement <?php echo $j;?></div>
+                                            <div class="article_location">Ancienne sobraga, Libreville</div>
+                                            <div class="text-right">Nom etablissement</div>
                                         </div>
                                     </a>
                                 <?php endforeach;?>
