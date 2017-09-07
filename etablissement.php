@@ -2,7 +2,7 @@
 <?php include_once "layout/header-2.php";?>
 <div class="page-banner" style="background-image: url('img/grey-bg.jpg')">
     <div class="container">
-        <h1 class="page-title">Nom de l'établissement <span class="categorie"><i class="fa fa-cutlery"></i>  Restaurant</span></h1>
+        <h1 class="page-title">Nom de l'établissement <small>by groupe commercial</small> <span class="categorie"><i class="fa fa-cutlery"></i>  Restaurant</span></h1>
 
     </div>
 </div>

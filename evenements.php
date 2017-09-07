@@ -145,7 +145,7 @@
                                             <?php endif;?>
                                             <div class="article_title">Titre de l'événement <?php echo $j;?></div>
                                             <div class="article_location">Ancienne sobraga, Libreville</div>
-                                            <div class="text-right">Nom etablissement</div>
+                                            <div class="annonceur">Nom etablissement</div>
                                         </div>
                                     </a>
                                 <?php endforeach;?>

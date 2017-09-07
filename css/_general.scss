@@ -213,7 +213,6 @@ end of categories carousel
         position: relative;
         overflow: hidden;
         margin-bottom: 15px;
-        border-bottom: solid 1px $gray-1;
 
         .section-title{
           font-weight: 700;
@@ -446,6 +445,11 @@ end of categories carousel
       font-weight: 700;
       padding: 70px 0;
       font-size: 25px;
+
+      small{
+        text-transform: none;
+        color: $gray-1;
+      }
     }
     .categorie{
       display: block;
