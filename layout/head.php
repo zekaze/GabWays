@@ -20,6 +20,8 @@
     <link href="plugins/slick/slick-theme.css" rel="stylesheet">
     <!--Zabuto calendar-->
     <link href="plugins/zabuto-calendar/zabuto_calendar.css" rel="stylesheet">
+    <!--Magnific popup-->
+    <link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
 </head>

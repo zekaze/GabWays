@@ -14,7 +14,7 @@
             );?>
             <div class="event_list">
                 <?php foreach ($dates as $date):?>
-                    <a href="#">
+                    <a href="evenement.php">
                         <div class="article">
                             <div class="article_picture_frame">
                                 <img src="holder.js/560x400" alt="Holder">
@@ -57,7 +57,7 @@
 <div class="body">
     <div class="container">
         <div class="row">
-            <div class="col-sm-9">
+            <div class="col-md-9">
                 <div id="page-evenements" class="main-body">
                     <h1 class="page-title">Événements</h1>
                     <ul class="months-list hidden-xs">
@@ -119,7 +119,7 @@
                             <div class="event_list">
                                 <?php foreach ($dates as $date):?>
                                     <?php $j++;?>
-                                    <a href="#">
+                                    <a href="evenement.php">
                                         <div class="article">
                                             <div class="article_picture_frame">
                                                 <img src="holder.js/560x400" alt="Holder">
@@ -194,7 +194,7 @@
                 </div>
             </div>
             <!--end of col-sm-9-->
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <?php include_once "layout/sidebar.php";?>
             </div>
             <!--end of col-sm-3-->

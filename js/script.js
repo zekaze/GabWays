@@ -393,4 +393,23 @@ $(document).ready(function () {
             fixedNavbar.removeClass('attached');
         }
     })
+
+
+
+
+    $('.pictures-gallery').each(function () {
+        $(this).magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled:true
+            }
+        });
+    });
+
+    $('.video-player').magnificPopup({
+        delegate: 'a',
+        type: 'iframe'
+    });
+
 });

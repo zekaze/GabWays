@@ -10,7 +10,7 @@
 <div class="body">
     <div class="container">
         <div class="row">
-            <div class="col-sm-9">
+            <div class="col-md-9">
                 <div id="page-category" class="main-body">
                     <?php for($i = 1; $i < 17; $i++):?>
                         <a href="etablissement.php" class="category" style="background-image: url('img/grey-bg.jpg')">
@@ -41,7 +41,7 @@
 
             </div>
             <!--end of col-sm-9-->
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <?php include_once "layout/sidebar.php";?>
             </div>
             <!--end of col-sm-3-->

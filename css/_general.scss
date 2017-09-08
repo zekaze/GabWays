@@ -495,3 +495,34 @@ end of categories carousel
     }
   }
 }
+.video-player{
+  background-color: $gray-6;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+
+  .play-button{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: #fff;
+    background-color: rgba($gray-6,0.4);
+    @include transition(0.3s);
+  }
+  .play-button:after{
+    content: '\f01d';
+    font-family: "FontAwesome", sans-serif;
+    font-size: 7em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    @include transform(translate(-50%, -50%));
+    @include transition(0.3s);
+  }
+  .play-button:hover:after{
+    font-size: 6em;
+  }
+}

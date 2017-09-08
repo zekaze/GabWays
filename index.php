@@ -74,7 +74,7 @@
 <div class="body">
     <div class="container">
         <div class="row">
-            <div class="col-sm-9">
+            <div class="col-md-9">
                 <div class="main-body">
                     <div class="section top-evenements section-slider">
                         <div class="section-header">
@@ -97,7 +97,7 @@
                                         '17'
                                     ); ?>
                                     <?php foreach ($dates as $date):?>
-                                        <a href="#">
+                                        <a href="evenement.php">
                                             <div class="article">
                                                 <div class="article_picture_frame">
                                                     <img src="holder.js/560x400" alt="Holder">
@@ -191,7 +191,7 @@
 <!--end of main body-->
             </div>
 <!--end of clo-sm-9-->
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <?php include_once "layout/sidebar.php";?>
             </div>
         </div>
