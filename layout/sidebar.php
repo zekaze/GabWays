@@ -26,7 +26,7 @@
         </div>
     </div>
     <!--end of publicité-->
-    <div class="widget">
+    <div class="widget" data-animate="fadeInUp">
         <h4 class="widget-title">Établissements à la une</h4>
 
         <ul class="widget-link-list">

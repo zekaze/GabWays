@@ -22,6 +22,8 @@
     <link href="plugins/zabuto-calendar/zabuto_calendar.css" rel="stylesheet">
     <!--Magnific popup-->
     <link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!--Animate CSS-->
+    <link href="plugins/animate-css/animate.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
 </head>

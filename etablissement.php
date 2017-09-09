@@ -26,7 +26,7 @@
                     </div>
                     <!--end of social sharing-->
 
-                    <div class="section">
+                    <div class="section" data-animate="fadeInUp">
                         <div class="section-header">
                             <h3 class="section-title">Informations générales</h3>
                         </div>
@@ -65,7 +65,7 @@
                     </div>
                     <!--end of section-->
 
-                    <div class="section">
+                    <div class="section" data-animate="fadeInUp">
                         <div class="row">
                             <div class="col-sm-5">
                                 <h4 class="sub-section-title">Tags</h4>
@@ -106,7 +106,7 @@
                     </div>
                     <!--end of section-->
 
-                    <div class="section">
+                    <div class="section" data-animate="fadeInUp">
                         <h4 class="sub-section-title">Loisirs</h4>
                         <ul>
                             <li>Billard</li>
@@ -116,7 +116,7 @@
                     </div>
                     <!--end of section-->
 
-                    <div class="section">
+                    <div class="section" data-animate="fadeInUp">
                         <div class="section-header">
                             <h3 class="section-title">Paiements acceptés</h3>
                         </div>
@@ -153,9 +153,9 @@
                         </div>
 
                         <div class="section-body">
-                            <div class="event_list">
+                            <div class="event_list pictures-gallery">
                                 <?php for ($i = 0; $i <= 5; $i++):?>
-                                    <a href="#">
+                                    <a href="#" data-animate="fadeInUp">
                                         <div class="article">
                                             <div class="article_picture_frame">
                                                 <img src="holder.js/560x400" alt="Holder">
@@ -192,7 +192,7 @@
                             <div class="event_list">
                                 <?php foreach ($dates as $date):?>
                                     <?php $j++;?>
-                                    <a href="evenement.php">
+                                    <a href="evenement.php" data-animate="fadeInUp">
                                         <div class="article">
                                             <div class="article_picture_frame">
                                                 <img src="holder.js/560x400" alt="Holder">
@@ -225,7 +225,7 @@
                     </div>
                     <!--end of section-->
 
-                    <div class="autour_de_moi">
+                    <div class="autour_de_moi" data-animate="fadeInUp">
                         <h3 class="section-title">Localisation</h3>
                         <div id="google-map">
                             <div id="map"></div>
@@ -237,7 +237,52 @@
             </div>
             <!--end of col-sm-9-->
             <div class="col-md-3">
-                <?php include_once "layout/sidebar.php";?>
+                <div class="sidebar">
+                    <div class="widget calendar">
+                        <div id="calendar"></div>
+                    </div>
+                    <!--end of calendar-->
+                    <div class="publicite">
+                        <div class="placeholder">
+                            Publicité
+                        </div>
+                    </div>
+                    <!--end of publicité-->
+                    <div class="widget filter">
+                        <h4 class="widget-title">Par quartiers</h4>
+                        <form action="#">
+                            <select name="filtre-quartier" id="filtre-quartier">
+                                <?php for($i = 1; $i <= 10; $i++):?>
+                                    <option value="QUartier <?php echo $i;?>">Quartier <?php echo $i;?></option>
+                                <?php endfor; ?>
+                            </select>
+                        </form>
+                    </div>
+                    <!--end of filter-->
+                    <div class="publicite">
+                        <div class="placeholder">
+                            Publicité
+                        </div>
+                    </div>
+                    <!--end of publicité-->
+                    <div class="widget" data-animate="fadeInUp">
+                        <h4 class="widget-title">Dans la même catégorie</h4>
+
+                        <ul class="widget-link-list">
+                            <?php for($i = 1; $i <= 5; $i++):?>
+                                <li class="list-item">
+                                    <a href="#">
+                                        <div class="photo_etablissement"><img src="holder.js/80x80"></div>
+                                        <div class="details_etablissement">
+                                            <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
+                                            <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
+                                        </div>
+                                    </a>
+                                </li>
+                            <?php endfor; ?>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <!--end of col-md-3-->
         </div>

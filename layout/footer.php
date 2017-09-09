@@ -4,7 +4,7 @@
             <li class="hidden-xs">&copy; Gabways 2017</li>
             <li class="footer-link"><a href="categories.php">Catégories</a></li>
             <li class="footer-link"><a href="evenements.php">Événements</a></li>
-            <li class="footer-link"><a href="#">Qui sommes nous?</a></li>
+            <li class="footer-link"><a href="about-us.php">Qui sommes nous?</a></li>
         </ul>
         <ul class="footer-social-media">
             <li><a href="https://facebook.com"class="social-icon" target="_blank"><i class="fa fa-facebook"></i></a></li>

@@ -41,7 +41,7 @@
                         <li class="active"><a href="index.php">Accueil</a></li>
                         <li><a href="categories.php">Catégories</a></li>
                         <li><a href="evenements.php">Événements</a></li>
-                        <li><a href="#">Qui sommes nous?</a></li>
+                        <li><a href="about-us.php">Qui sommes nous?</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
 

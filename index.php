@@ -97,7 +97,7 @@
                                         '17'
                                     ); ?>
                                     <?php foreach ($dates as $date):?>
-                                        <a href="evenement.php">
+                                        <a href="evenement.php" data-animate="fadeInUp">
                                             <div class="article">
                                                 <div class="article_picture_frame">
                                                     <img src="holder.js/560x400" alt="Holder">
@@ -134,7 +134,7 @@
                         </div>
                     </div>
 <!--end of top evenements-->
-                    <div class="publicite">
+                    <div class="publicite" data-animate="fadeInUp">
                         <div class="placeholder">
                             Publicité
                         </div>
@@ -181,7 +181,7 @@
                     <!--end of popular-tags-->
 
 
-                    <div class="publicite">
+                    <div class="publicite" data-animate="fadeInUp">
                         <div class="placeholder">
                             Publicité
                         </div>
