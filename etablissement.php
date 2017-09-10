@@ -43,8 +43,10 @@
                                         <div class="col-sm-6">
                                             <h4 class="sub-section-title">Description</h4>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor in odio vel gravida. Proin quis est est. Suspendisse vel semper ex. Curabitur imperdiet rhoncus dolor ac eleifend. Nunc pretium luctus nisl id volutpat. Ut nisl magna, hendrerit sit amet aliquam sed, efficitur ornare purus.</p>
+                                            <div class="blank"></div>
                                             <h4 class="sub-section-title">Adresse</h4>
                                             <p>BP 2031, Libreville Gabon. Cras auctor in odio vel gravida. Proin</p>
+                                            <div class="blank"></div>
                                         </div>
 
                                         <div class="col-sm-6">
@@ -57,6 +59,7 @@
                                                 <li class="facebook">facebook.com/nometablissement</li>
                                                 <li class="linkedin">linkedin.com/nometablissement</li>
                                             </ul>
+                                            <div class="blank"></div>
                                         </div>
                                     </div>
                                 </div>

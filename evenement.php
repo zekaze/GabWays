@@ -41,11 +41,15 @@
                                 <div class="col-sm-6">
                                     <h4 class="sub-section-title">Organinsateur</h4>
                                     <a href="etablissement.php" target="_blank">Nom de l'établissement</a>
+                                    <div class="blank"></div>
+
                                     <h4 class="sub-section-title">Date</h4>
                                     <p>01 Août - 05 Août à 20h30</p>
+                                    <div class="blank"></div>
 
                                     <h4 class="sub-section-title">Lieu</h4>
                                     <p>BP 2031, Libreville Gabon. Cras auctor in odio vel gravida. Proin</p>
+                                    <div class="blank"></div>
 
                                     <h4 class="sub-section-title">Contact</h4>
                                     <ul class="contact">
@@ -53,6 +57,7 @@
                                         <li class="telephone">+241 02 44 11 33</li>
                                         <li class="email">consectetur.adipiscing@yahoo.fr</li>
                                     </ul>
+                                    <div class="blank"></div>
                                 </div>
                             </div>
                         </div>

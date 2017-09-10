@@ -416,6 +416,9 @@ end of categories carousel
   .video-player .play-button:hover:after {
     font-size: 6em; }
 
+.blank {
+  margin-bottom: 20px; }
+
 #google-map {
   position: relative;
   height: 500px; }
@@ -962,7 +965,7 @@ footer#main-footer {
 .page-etablissement .section .sub-section-title {
   font-weight: 700;
   color: #4d4d4d;
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
 .page-etablissement .section p {
   font-size: 13px; }
 .page-etablissement .section ul.contact {

@@ -49,20 +49,20 @@
                             <h3 class="h3">Comment nous joindre?</h3>
                             <div class="row">
                                 <div class="col-sm-4">
-                                    <ul class="contact-list">
+                                    <ul class="contact-list-icons">
                                         <li><i class="fa fa-facebook"></i> facebook.com/gabways</li>
                                         <li><i class="fa fa-twitter"></i> twitter.com/gabways</li>
                                         <li><i class="fa fa-youtube"></i> youtube.com/gabways</li>
                                     </ul>
                                 </div>
                                 <div class="col-sm-4">
-                                    <ul class="contact-list">
+                                    <ul class="contact-list-icons">
                                         <li><i class="fa fa-phone"></i> +241 02 11 22 33 / +241 07 77 55 22</li>
                                         <li><i class="fa fa-at"></i> info@gabways.com</li>
                                     </ul>
                                 </div>
                                 <div class="col-sm-4">
-                                    <ul class="contact-list">
+                                    <ul class="contact-list-icons">
                                         <li><i class="fa fa-home"></i> BP 2031, Libreville, Gabon</li>
                                     </ul>
                                 </div>
