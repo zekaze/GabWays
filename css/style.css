@@ -236,7 +236,8 @@ end of categories carousel
           align-items: center; }
         .body .main-body .section.section-slider .section-body .articles a .article_title {
           color: #333333;
-          font-weight: 700; }
+          font-weight: 700;
+          margin-top: 5px; }
         .body .main-body .section.section-slider .section-body .articles a .article_location,
         .body .main-body .section.section-slider .section-body .articles a .annonceur {
           color: #666666;

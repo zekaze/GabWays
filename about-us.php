@@ -59,7 +59,6 @@
                                     <ul class="contact-list">
                                         <li><i class="fa fa-phone"></i> +241 02 11 22 33 / +241 07 77 55 22</li>
                                         <li><i class="fa fa-at"></i> info@gabways.com</li>
-                                        <li><i class="fa fa-youtube"></i> youtube.com/gabways</li>
                                     </ul>
                                 </div>
                                 <div class="col-sm-4">
