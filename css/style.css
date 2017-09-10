@@ -431,6 +431,10 @@ end of categories carousel
     width: 40px;
     text-align: center; }
 
+.bg-cover {
+  background-size: cover;
+  background-position: center center; }
+
 #google-map {
   position: relative;
   height: 500px; }
@@ -1087,6 +1091,11 @@ footer#main-footer {
     -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg); }
+
+.login-page {
+  margin: 100px 0;
+  padding: 15px;
+  background-color: #fff; }
 
 @media (max-width: 1365px) {
   #google-map .etablissements {

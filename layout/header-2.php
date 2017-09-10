@@ -9,7 +9,7 @@
                 <li><a href="https://facebook.com"class="social-icon" target="_blank"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://twitter.com" class="social-icon" target="_blank"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="https://youtube.com" class="social-icon" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-                <li><a href="#" class="button">S'enregistrer</a></li>
+                <li><a href="login.php" class="button">S'enregistrer</a></li>
             </ul>
         </div>
     </div>
