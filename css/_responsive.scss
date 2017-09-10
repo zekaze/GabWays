@@ -303,6 +303,15 @@
       }
     }
   }
+  .page-banner{
+    .container{
+      .page-title{
+        small{
+          display: block;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 640px){

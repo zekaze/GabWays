@@ -33,13 +33,14 @@
                                     <div class="frame logo_etablissement">
                                         <img src="holder.js/560x400" alt="Holder">
                                     </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h4 class="sub-section-title">Description</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor in odio vel
+                                    <p style="padding-top: 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor in odio vel
                                         gravida. Proin quis est est. Suspendisse vel semper ex. Curabitur imperdiet
                                         rhoncus dolor ac eleifend. Nunc pretium luctus nisl id volutpat. Ut nisl magna,
                                         hendrerit sit amet aliquam sed, efficitur ornare purus.</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h4 class="sub-section-title">Organinsateur</h4>
+                                    <a href="etablissement.php" target="_blank">Nom de l'établissement</a>
                                     <h4 class="sub-section-title">Date</h4>
                                     <p>01 Août - 05 Août à 20h30</p>
 

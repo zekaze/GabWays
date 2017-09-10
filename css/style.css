@@ -24,6 +24,9 @@ body {
 a:hover, a:focus {
   text-decoration: none !important; }
 
+a {
+  color: #333333; }
+
 *, *:focus, *:active {
   outline: none !important; }
 
@@ -1266,7 +1269,10 @@ footer#main-footer {
       font-weight: 700;
       color: #fff;
       line-height: 130px;
-      background-color: #666666; } }
+      background-color: #666666; }
+
+  .page-banner .container .page-title small {
+    display: block; } }
 @media (max-width: 640px) {
   .body .main-body .section.section-slider .section-body .articles {
     display: block; }
