@@ -370,6 +370,16 @@
       }
     }
   }
+  .page-404{
+    .container{
+      .content{
+        width: 100%;
+      }
+      .h1{
+        font-size: 10em;
+      }
+    }
+  }
 }
 
 @media (max-width: 640px){
