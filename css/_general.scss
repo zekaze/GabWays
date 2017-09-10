@@ -537,5 +537,16 @@ end of categories carousel
   margin-bottom: 20px;
 }
 .contact-list-icons{
-
+  position: relative;
+  font-size: 13px;
+  z-index: 1;
+  li{
+    display: flex;
+    flex-direction: row;
+  }
+  .fa{
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+  }
 }

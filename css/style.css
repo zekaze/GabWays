@@ -419,6 +419,18 @@ end of categories carousel
 .blank {
   margin-bottom: 20px; }
 
+.contact-list-icons {
+  position: relative;
+  font-size: 13px;
+  z-index: 1; }
+  .contact-list-icons li {
+    display: flex;
+    flex-direction: row; }
+  .contact-list-icons .fa {
+    display: inline-block;
+    width: 40px;
+    text-align: center; }
+
 #google-map {
   position: relative;
   height: 500px; }

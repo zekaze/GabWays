@@ -50,20 +50,20 @@
                             <div class="row">
                                 <div class="col-sm-4">
                                     <ul class="contact-list-icons">
-                                        <li><i class="fa fa-facebook"></i> facebook.com/gabways</li>
-                                        <li><i class="fa fa-twitter"></i> twitter.com/gabways</li>
-                                        <li><i class="fa fa-youtube"></i> youtube.com/gabways</li>
+                                        <li><i class="fa fa-facebook"></i> <a class="info" href="facebook.com/gabways" target="_blank">facebook.com/gabways</a></li>
+                                        <li><i class="fa fa-twitter"></i> <a class="info" href="twitter.com/gabways" target="_blank">twitter.com/gabways</a></li>
+                                        <li><i class="fa fa-youtube"></i> <a class="info" href="youtube.com/gabways" target="_blank">youtube.com/gabways</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-sm-4">
                                     <ul class="contact-list-icons">
-                                        <li><i class="fa fa-phone"></i> +241 02 11 22 33 / +241 07 77 55 22</li>
-                                        <li><i class="fa fa-at"></i> info@gabways.com</li>
+                                        <li><i class="fa fa-phone"></i> <span class="info">+241 02 11 22 33 / +241 07 77 55 22</span></li>
+                                        <li><i class="fa fa-at"></i> <span class="info">info@gabways.com</span></li>
                                     </ul>
                                 </div>
                                 <div class="col-sm-4">
                                     <ul class="contact-list-icons">
-                                        <li><i class="fa fa-home"></i> BP 2031, Libreville, Gabon</li>
+                                        <li><i class="fa fa-home"></i> <span class="info">BP 2031, Libreville, Gabon</span></li>
                                     </ul>
                                 </div>
                             </div>
