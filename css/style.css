@@ -447,6 +447,14 @@ end of categories carousel
     font-weight: 700; }
   .page-404 .container .h3 {
     font-size: 18px; }
+  .page-404 .container .button-large {
+    background-color: #868686;
+    color: #fff;
+    display: inline-block;
+    margin: 20px 0;
+    margin-right: 15px;
+    border: none;
+    padding: 10px 20px; }
 
 #google-map {
   position: relative;
@@ -980,8 +988,8 @@ footer#main-footer {
   .page-etablissement .social-sharing .incdicateur_ouverture {
     float: right;
     padding: 5px 15px;
-    background-color: #4d4d4d;
-    color: #f8f8f8;
+    border: solid 1px #333333;
+    color: #333333;
     text-transform: uppercase;
     border-radius: 2px; }
 .page-etablissement .section .logo_etablissement {

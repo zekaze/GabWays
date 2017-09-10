@@ -572,5 +572,15 @@ end of categories carousel
     .h3{
       font-size: 18px;
     }
+
+    .button-large{
+      background-color: $gray-3;
+      color: #fff;
+      display: inline-block;
+      margin: 20px 0;
+      margin-right: 15px;
+      border: none;
+      padding: 10px 20px;
+    }
   }
 }

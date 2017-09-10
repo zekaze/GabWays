@@ -34,8 +34,8 @@
     .incdicateur_ouverture{
       float: right;
       padding: 5px 15px;
-      background-color: $gray-5;
-      color: $gray-0;
+      border: solid 1px $gray-6;
+      color: $gray-6;
       text-transform: uppercase;
       border-radius: 2px;
     }
