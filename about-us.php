@@ -138,18 +138,7 @@
                             Publicité
                         </div>
                     </div>
-                    <!--end of publicité-->
-                    <div class="widget filter">
-                        <h4 class="widget-title">Par quartiers</h4>
-                        <form action="#">
-                            <select name="filtre-quartier" id="filtre-quartier">
-                                <?php for($i = 1; $i <= 10; $i++):?>
-                                    <option value="QUartier <?php echo $i;?>">Quartier <?php echo $i;?></option>
-                                <?php endfor; ?>
-                            </select>
-                        </form>
-                    </div>
-                    <!--end of filter-->
+                    
                     <div class="publicite">
                         <div class="placeholder">
                             Publicité
@@ -169,6 +158,17 @@
                                             <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
                                         </div>
                                     </a>
+                                </li>
+                            <?php endfor; ?>
+                        </ul>
+                    </div>
+                    <div class="widget" data-animate="fadeInUp">
+                        <h4 class="widget-title">Top catégories</h4>
+
+                        <ul class="widget-simple-list">
+                            <?php for($i = 1; $i <= 10; $i++):?>
+                                <li class="list-item">
+                                    <a href="#">Catégorie <?php echo $i;?></a>
                                 </li>
                             <?php endfor; ?>
                         </ul>

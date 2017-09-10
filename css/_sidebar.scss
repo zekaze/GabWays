@@ -48,6 +48,25 @@
       }
     }
 
+    .widget-simple-list{
+      .list-item:before{
+        content: '\f105';
+        font-family: "FontAwesome", sans-serif;
+        position: absolute;
+        left: -5px;
+        top: 3px;
+      }
+      .list-item{
+        margin: 5px 0;
+        position: relative;
+        a{
+          display: block;
+          padding: 5px;
+          color: $gray-5;
+        }
+      }
+    }
+
     select{
       display: block;
       width: 100%;

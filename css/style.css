@@ -636,6 +636,19 @@ header {
           color: #4d4d4d;
           line-height: 13px;
           font-size: 13px; }
+  .sidebar .widget .widget-simple-list .list-item:before {
+    content: '\f105';
+    font-family: "FontAwesome", sans-serif;
+    position: absolute;
+    left: -5px;
+    top: 3px; }
+  .sidebar .widget .widget-simple-list .list-item {
+    margin: 5px 0;
+    position: relative; }
+    .sidebar .widget .widget-simple-list .list-item a {
+      display: block;
+      padding: 5px;
+      color: #4d4d4d; }
   .sidebar .widget select {
     display: block;
     width: 100%;
