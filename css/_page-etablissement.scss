@@ -161,6 +161,14 @@
         font-weight: 700;
         font-size: 13px;
       }
+      .article_location,
+      .annonceur{
+        color: $gray-4;
+        font-size: 13px;
+      }
+      .annonceur{
+        font-weight: 700;
+      }
 
       $width: 13px;
       .event_date:before{

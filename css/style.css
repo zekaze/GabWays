@@ -1053,6 +1053,12 @@ footer#main-footer {
     color: #333333;
     font-weight: 700;
     font-size: 13px; }
+  .page-etablissement .event_list .article .article_location,
+  .page-etablissement .event_list .article .annonceur {
+    color: #666666;
+    font-size: 13px; }
+  .page-etablissement .event_list .article .annonceur {
+    font-weight: 700; }
   .page-etablissement .event_list .article .event_date:before {
     content: '';
     display: inline-block;
