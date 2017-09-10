@@ -49,6 +49,8 @@
     }
 
     .widget-simple-list{
+      padding-left: 10px;
+
       .list-item:before{
         content: '\f105';
         font-family: "FontAwesome", sans-serif;
@@ -57,11 +59,11 @@
         top: 3px;
       }
       .list-item{
-        margin: 5px 0;
+        margin: 2px 0;
         position: relative;
         a{
           display: block;
-          padding: 5px;
+          padding: 2px 5px;
           color: $gray-5;
         }
       }
