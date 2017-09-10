@@ -1094,8 +1094,46 @@ footer#main-footer {
 
 .login-page {
   margin: 100px 0;
-  padding: 15px;
-  background-color: #fff; }
+  padding: 0 15px;
+  background-color: #fff;
+  box-shadow: 0 15px 10px -5px rgba(0, 0, 0, 0.7); }
+  .login-page .logo {
+    margin-bottom: 40px; }
+  .login-page .page-title {
+    margin-bottom: 30px; }
+  .login-page .col-md-3 {
+    padding: 40px 15px 100px; }
+  .login-page .col-md-9 {
+    padding: 40px 15px; }
+  .login-page .registration-form {
+    border-right: solid 2px #dfdfdf; }
+  .login-page form {
+    padding: 0 15px 30px;
+    width: 100%;
+    font-size: 13px; }
+    .login-page form .form-title {
+      margin-bottom: 50px; }
+    .login-page form .submit_button {
+      background-color: #868686;
+      color: #fff;
+      display: inline-block;
+      margin: 20px 0;
+      margin-right: 15px;
+      border: none;
+      padding: 10px 20px; }
+    .login-page form label {
+      display: none; }
+    .login-page form .form_input {
+      display: block;
+      width: 100%;
+      border: none;
+      border-bottom: solid 2px #b9b9b9;
+      height: 40px;
+      padding: 5px;
+      margin-bottom: 8px; }
+    .login-page form .form_input::-webkit-input-placeholder {
+      color: #4d4d4d;
+      font-weight: 700; }
 
 @media (max-width: 1365px) {
   #google-map .etablissements {

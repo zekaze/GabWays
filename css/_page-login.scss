@@ -1,5 +1,60 @@
 .login-page{
   margin: 100px 0;
-  padding: 15px;
+  padding: 0 15px;
   background-color: #fff;
+  box-shadow: 0 15px 10px -5px rgba(#000, 0.7);
+
+  .logo{
+    margin-bottom: 40px;
+  }
+  .page-title{
+    margin-bottom: 30px;
+  }
+  .col-md-3{
+    padding: 40px 15px 100px;
+  }
+  .col-md-9{
+    padding: 40px 15px;
+  }
+
+  .registration-form{
+    border-right: solid 2px $gray-1;
+  }
+
+  form{
+    padding: 0 15px 30px;
+    width: 100%;
+    font-size: 13px;
+
+    .form-title{
+      margin-bottom: 50px;
+    }
+
+    .submit_button{
+      background-color: $gray-3;
+      color: #fff;
+      display: inline-block;
+      margin: 20px 0;
+      margin-right: 15px;
+      border: none;
+      padding: 10px 20px;
+    }
+
+    label{
+      display: none;
+    }
+    .form_input{
+      display: block;
+      width: 100%;
+      border: none;
+      border-bottom:  solid 2px $gray-2;
+      height: 40px;
+      padding: 5px;
+      margin-bottom: 8px;
+    }
+    .form_input::-webkit-input-placeholder{
+      color: $gray-5;
+      font-weight: 700;
+    }
+  }
 }

@@ -5,7 +5,7 @@
     <div class="container">
         <div class="content login-page">
             <div class="row">
-                <div class="col-md-3 bg-cover">
+                <div class="col-md-3 bg-cover" style="background-color: #f8f8f8">
                     <div class="logo"><img src="holder.js/180x50"></div>
                     <h1 class="page-title">Bienvenue sur GabWays</h1>
                     <h4>Créer un compte gratuitement</h4>
@@ -15,8 +15,8 @@
                 <div class="col-md-9">
                     <div class="row">
                         <div class="col-sm-6 registration-form">
-                            <h3 class="form-title">Créer un compte gratuitement</h3>
                             <form action="">
+                                <h3 class="form-title">Créer un compte gratuitement</h3>
                                 <label for="nom">Nom</label>
                                 <input type="text" class="form_input" id="nom" name="nom" placeholder="Nom">
 
@@ -34,18 +34,16 @@
                         </div>
 
                         <div class="col-sm-6 login-form">
-                            <h3 class="form-title">Identifiez vous</h3>
                             <form action="">
+                                <h3 class="form-title">Identifiez vous</h3>
                                 <label for="log_email">Adresse mail</label>
                                 <input type="email" class="form_input" id="log_mail" name="log_mail" placeholder="Adresse mail">
 
                                 <label for="log_password">Mot de passe</label>
                                 <input type="password" class="form_input" id="log_password" name="log_password" placeholder="Mot de passe">
 
-                                <div class="row">
-                                    <div class="col-sm-6"><button type="submit" class="submit_button">S'identifier</button></div>
-                                    <div class="col-sm-6"><a href="">Mot de passe oublié?</a></div>
-                                </div>
+                                    <button type="submit" class="submit_button">S'identifier</button>
+                                    <a href="#">Mot de passe oublié?</a>
 
 
                             </form>
