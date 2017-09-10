@@ -12,9 +12,13 @@
   }
   .col-md-3{
     padding: 40px 15px 100px;
+    color: $gray-6;
   }
   .col-md-9{
-    padding: 40px 15px;
+    padding: 40px 15px 20px;
+  }
+  .welcome-message {
+    font-size: 13px;
   }
 
   .registration-form{
