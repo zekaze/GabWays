@@ -19,6 +19,20 @@
 
   .registration-form{
     border-right: solid 2px $gray-1;
+    position: relative;
+  }
+  .registration-form:after{
+    content: 'Ou';
+    position: absolute;
+    display: block;
+    width: 60px;
+    padding: 10px 0;
+    background-color: #fff;
+    text-align: center;
+    right: -30px;
+    font-weight: 700;
+    top: 50%;
+    @include transform(translate(0,-50%));
   }
 
   form{

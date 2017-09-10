@@ -312,6 +312,64 @@
       }
     }
   }
+  .login-page{
+    margin: 0;
+
+    .logo{
+      display: none;
+    }
+    .col-md-3{
+      padding: 40px 15px;
+    }
+    .registration-form{
+      border-right: none;
+      border-bottom: solid 2px $gray-1;
+      margin-bottom: 50px;
+    }
+    .registration-form:after{
+      right: 50%;
+      bottom: -40px;
+      top: auto;
+      @include transform(translate(50%,-20px));
+    }
+
+    form{
+      padding: 0 15px 30px;
+      width: 100%;
+      font-size: 13px;
+
+      .form-title{
+        margin-bottom: 50px;
+      }
+
+      .submit_button{
+        background-color: $gray-3;
+        color: #fff;
+        display: inline-block;
+        margin: 20px 0;
+        margin-right: 15px;
+        border: none;
+        padding: 10px 20px;
+      }
+
+      label{
+        display: none;
+      }
+      .form_input{
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom:  solid 2px $gray-2;
+        height: 40px;
+        padding: 5px;
+        margin-bottom: 8px;
+      }
+      .form_input::-webkit-input-placeholder{
+        color: $gray-5;
+        font-weight: 700;
+      }
+    }
+  }
 }
 
 @media (max-width: 640px){

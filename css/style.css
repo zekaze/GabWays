@@ -1106,7 +1106,24 @@ footer#main-footer {
   .login-page .col-md-9 {
     padding: 40px 15px; }
   .login-page .registration-form {
-    border-right: solid 2px #dfdfdf; }
+    border-right: solid 2px #dfdfdf;
+    position: relative; }
+  .login-page .registration-form:after {
+    content: 'Ou';
+    position: absolute;
+    display: block;
+    width: 60px;
+    padding: 10px 0;
+    background-color: #fff;
+    text-align: center;
+    right: -30px;
+    font-weight: 700;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%); }
   .login-page form {
     padding: 0 15px 30px;
     width: 100%;
@@ -1340,7 +1357,54 @@ footer#main-footer {
       background-color: #666666; }
 
   .page-banner .container .page-title small {
-    display: block; } }
+    display: block; }
+
+  .login-page {
+    margin: 0; }
+    .login-page .logo {
+      display: none; }
+    .login-page .col-md-3 {
+      padding: 40px 15px; }
+    .login-page .registration-form {
+      border-right: none;
+      border-bottom: solid 2px #dfdfdf;
+      margin-bottom: 50px; }
+    .login-page .registration-form:after {
+      right: 50%;
+      bottom: -40px;
+      top: auto;
+      -webkit-transform: translate(50%, -20px);
+      -moz-transform: translate(50%, -20px);
+      -o-transform: translate(50%, -20px);
+      -ms-transform: translate(50%, -20px);
+      transform: translate(50%, -20px); }
+    .login-page form {
+      padding: 0 15px 30px;
+      width: 100%;
+      font-size: 13px; }
+      .login-page form .form-title {
+        margin-bottom: 50px; }
+      .login-page form .submit_button {
+        background-color: #868686;
+        color: #fff;
+        display: inline-block;
+        margin: 20px 0;
+        margin-right: 15px;
+        border: none;
+        padding: 10px 20px; }
+      .login-page form label {
+        display: none; }
+      .login-page form .form_input {
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom: solid 2px #b9b9b9;
+        height: 40px;
+        padding: 5px;
+        margin-bottom: 8px; }
+      .login-page form .form_input::-webkit-input-placeholder {
+        color: #4d4d4d;
+        font-weight: 700; } }
 @media (max-width: 640px) {
   .body .main-body .section.section-slider .section-body .articles {
     display: block; }
