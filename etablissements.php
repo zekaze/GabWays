@@ -14,7 +14,7 @@
                 <div id="page-etablissements" class="main-body page-etablissement">
 
                     <div class="pagination">
-                        <div class="">10 résultats sur 1237</div>
+                        <div>10 résultats sur 1237</div>
                         <ul class="page-list hidden-xs">
                             <li><a href="#" class="prev"><i class="fa fa-chevron-left"></i></a></li>
                             <li><a href="#" class="page-number">1</a></li>
@@ -55,7 +55,14 @@
                                 </div>
                                 <div class="col-sm-8">
                                     <div class="list-item-info">
-                                        <h4 class="item-title">Nom de l'établissement <span>Ouvert</span></h4>
+                                        <div class="row header">
+                                            <div class="col-sm-8"><h4 class="item-title">Nom de l'établissement </h4></div>
+                                            <div class="col-sm-4">
+                                                <span class="incdicateur_ouverture" >Ouvert</span>
+                                                <span class="incdicateur_distance">3 Km</span>
+                                            </div>
+                                        </div>
+
                                         <div class="item-location">Plaine Orety, Libreville</div>
                                         <div class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda blanditiis, corporis, cupiditate, debitis dolore doloremque earum enim expedita magnam molestias nobis quas quis quod repellat repellendus sit tempora! Deserunt, odit.</div>
                                         <ul class="tags">

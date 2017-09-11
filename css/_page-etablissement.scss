@@ -207,17 +207,9 @@
     .item-title{
       font-weight: 700;
       position: relative;
-
-      span{
-        float: right;
-        display: inline-block;
-        font-weight: normal;
-        font-size: 13px;
-        padding: 5px 15px;
-        border: solid 1px $gray-6;
-        border-radius: 2px;
-
-      }
+    }
+    .row.header{
+      margin-bottom: 5px;
     }
     .item-location{
       font-weight: 700;
@@ -241,4 +233,24 @@
       padding: 15px 0;
     }
   }
+}
+
+span.incdicateur_ouverture{
+  float: right;
+  display: inline-block;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: solid 1px $gray-6;
+  border-radius: 2px;
+}
+span.incdicateur_distance{
+  float: right;
+  display: inline-block;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: solid 1px $gray-6;
+  border-radius: 2px;
+  font-weight: 700;
+  margin-right: 5px;
 }

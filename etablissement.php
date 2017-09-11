@@ -22,7 +22,10 @@
                             <li><a href="#" class="fa fa-instagram"></a></li>
                             <li><a href="#" class="fa fa-share"></a></li>
                         </ul>
-                        <span class="incdicateur_ouverture">Ouvert</span>
+                        <div>
+                            <span class="incdicateur_ouverture" >Ouvert</span>
+                            <span class="incdicateur_distance">3 Km</span>
+                        </div>
                     </div>
                     <!--end of social sharing-->
 
