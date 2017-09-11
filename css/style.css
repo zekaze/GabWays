@@ -1120,6 +1120,39 @@ footer#main-footer {
     -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg); }
+.page-etablissement .liste-etablissements .list-item {
+  color: #333333;
+  border: solid 1px #dfdfdf;
+  display: block;
+  padding-left: 0;
+  margin-bottom: 10px; }
+.page-etablissement .liste-etablissements .item-title {
+  font-weight: 700;
+  position: relative; }
+  .page-etablissement .liste-etablissements .item-title span {
+    float: right;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 5px 15px;
+    border: solid 1px #333333;
+    border-radius: 2px; }
+.page-etablissement .liste-etablissements .item-location {
+  font-weight: 700;
+  margin-bottom: 5px; }
+.page-etablissement .liste-etablissements .item-description {
+  font-size: 13px;
+  margin-bottom: 15px; }
+.page-etablissement .liste-etablissements .col-sm-4 {
+  padding-left: 0; }
+.page-etablissement .liste-etablissements .list-item-image {
+  overflow: hidden;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+.page-etablissement .liste-etablissements .list-item-info {
+  padding: 15px 0; }
 
 .login-page {
   margin: 100px 0;
@@ -1441,7 +1474,7 @@ footer#main-footer {
   .page-404 .container .content {
     width: 100%; }
   .page-404 .container .h1 {
-    font-size: 10em; } }
+    font-size: 6em; } }
 @media (max-width: 640px) {
   .body .main-body .section.section-slider .section-body .articles {
     display: block; }

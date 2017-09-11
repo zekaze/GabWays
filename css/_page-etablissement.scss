@@ -192,4 +192,53 @@
       }
     }
   }
+
+
+  .liste-etablissements{
+
+    .list-item{
+      color: $gray-6;
+      border: solid 1px $gray-1;
+      display: block;
+      padding-left: 0;
+      margin-bottom: 10px;
+    }
+
+    .item-title{
+      font-weight: 700;
+      position: relative;
+
+      span{
+        float: right;
+        display: inline-block;
+        font-weight: normal;
+        font-size: 13px;
+        padding: 5px 15px;
+        border: solid 1px $gray-6;
+        border-radius: 2px;
+
+      }
+    }
+    .item-location{
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+    .item-description{
+      font-size: 13px;
+      margin-bottom: 15px;
+    }
+    .col-sm-4{
+      padding-left: 0;
+    }
+    .list-item-image{
+      overflow: hidden;
+      height: 220px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .list-item-info{
+      padding: 15px 0;
+    }
+  }
 }

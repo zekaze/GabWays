@@ -2,7 +2,7 @@
 <?php include_once "layout/header-2.php";?>
 <div class="page-banner" style="background-image: url('img/grey-bg.jpg')">
     <div class="container">
-        <h1 class="page-title">Etablissements</h1>
+        <h1 class="page-title">Catégorie restaurants <span class="categorie"> 1237 Résultats trouvés</span></h1>
     </div>
 </div>
 <!--end of page-banner-->
@@ -11,9 +11,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-9">
-                <div id="page-evenements" class="main-body">
+                <div id="page-etablissements" class="main-body page-etablissement">
 
                     <div class="pagination">
+                        <div class="">10 résultats sur 1237</div>
                         <ul class="page-list hidden-xs">
                             <li><a href="#" class="prev"><i class="fa fa-chevron-left"></i></a></li>
                             <li><a href="#" class="page-number">1</a></li>
@@ -33,6 +34,45 @@
                             </select>
                         </div>
 
+                    </div>
+
+                    <div class="section liste-etablissements">
+                        <?php $counter = 0;?>
+                        <?php for($i = 0; $i < 10; $i++):?>
+                            <?php $counter++;?>
+                            <?php if(!($counter %4)):?>
+                                <div class="publicite" data-animate="fadeInUp">
+                                    <div class="placeholder">
+                                        Publicité
+                                    </div>
+                                </div>
+                            <?php endif;?>
+                            <a href="etablissement.php" class="list-item row" data-animate="fadeInUp">
+                                <div class="col-sm-4">
+                                    <div class="list-item-image">
+                                        <img src="holder.js/320x250">
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="list-item-info">
+                                        <h4 class="item-title">Nom de l'établissement <span>Ouvert</span></h4>
+                                        <div class="item-location">Plaine Orety, Libreville</div>
+                                        <div class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda blanditiis, corporis, cupiditate, debitis dolore doloremque earum enim expedita magnam molestias nobis quas quis quod repellat repellendus sit tempora! Deserunt, odit.</div>
+                                        <ul class="tags">
+                                            <li>consectetur</li>
+                                            <li>magna</li>
+                                            <li>marhoncusgna</li>
+                                            <li>imperdiet</li>
+                                            <li>imperdiet</li>
+                                            <li>semper</li>
+                                            <li>Suspendisse</li>
+                                            <li>aliquam</li>
+                                            <li>auctor</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        <?php endfor;?>
                     </div>
 
                     <div class="autour_de_moi">

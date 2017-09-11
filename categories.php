@@ -13,7 +13,7 @@
             <div class="col-md-9">
                 <div id="page-category" class="main-body">
                     <?php for($i = 1; $i < 17; $i++):?>
-                        <a href="etablissement.php" class="category" style="background-image: url('img/grey-bg.jpg')" data-animate="fadeInUp">
+                        <a href="etablissements.php" class="category" style="background-image: url('img/grey-bg.jpg')" data-animate="fadeInUp">
                             <div class="content">
                                 <h4 class="category_name">Nom de la catégorie <?php echo $i;?></h4>
                                 <p class="counter">(<?php echo number_format(1227,0,',',',');?> etablissements)</p>
