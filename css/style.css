@@ -728,7 +728,7 @@ header {
 footer#main-footer {
   overflow: hidden;
   padding: 20px 0 15px;
-  background-color: #333333;
+  background-color: #0c3b31;
   color: #fff;
   position: absolute;
   right: 0;
@@ -744,7 +744,7 @@ footer#main-footer {
       float: left;
       margin-right: 15px; }
       footer#main-footer .footer-menu li a {
-        color: #b9b9b9;
+        color: #118c72;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
@@ -765,7 +765,7 @@ footer#main-footer {
     text-align: center;
     border-radius: 100%;
     background-color: #f8f8f8;
-    color: #666666; }
+    color: #118c72; }
 
 #page-category {
   display: flex;
