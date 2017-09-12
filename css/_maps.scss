@@ -98,6 +98,13 @@
       .photo_etablissement{
         float: left;
         margin-right: 8px;
+        position: relative;
+        height: 100px;
+        width: 160px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .details_etablissement{
         font-size: 12px;

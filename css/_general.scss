@@ -220,6 +220,7 @@ end of categories carousel
 
         .section-title{
           font-weight: 700;
+          color: $primary-color;
         }
 
         .slider-controls{
@@ -284,7 +285,7 @@ end of categories carousel
       .section-title{
         float: left;
         position: relative;
-        color: $secondary-text-color;
+        color: $primary-color;
         small{
           position: absolute;
           left: 0;
@@ -411,7 +412,6 @@ end of categories carousel
 
     .publicite{
       text-align: center;
-      background-color: $gray-2;
       padding: 15px 0;
       margin: 15px 0;
 

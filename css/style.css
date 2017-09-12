@@ -163,7 +163,8 @@ end of categories carousel
       overflow: hidden;
       margin-bottom: 15px; }
       .body .main-body .section .section-header .section-title {
-        font-weight: 700; }
+        font-weight: 700;
+        color: #118c72; }
       .body .main-body .section .section-header .slider-controls {
         float: right;
         margin-top: 10px; }
@@ -210,7 +211,7 @@ end of categories carousel
   .body .main-body .section.section-slider .section-title {
     float: left;
     position: relative;
-    color: #757575; }
+    color: #118c72; }
     .body .main-body .section.section-slider .section-title small {
       position: absolute;
       left: 0;
@@ -307,7 +308,6 @@ end of categories carousel
           color: #4d4d4d; }
   .body .main-body .publicite {
     text-align: center;
-    background-color: #b9b9b9;
     padding: 15px 0;
     margin: 15px 0; }
     .body .main-body .publicite .placeholder {
@@ -541,7 +541,14 @@ end of categories carousel
       cursor: pointer; }
       #google-map .etablissements .etablissement .photo_etablissement {
         float: left;
-        margin-right: 8px; }
+        margin-right: 8px;
+        position: relative;
+        height: 100px;
+        width: 160px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
       #google-map .etablissements .etablissement .details_etablissement {
         font-size: 12px;
         margin-left: 5px;
@@ -667,7 +674,6 @@ header {
       margin: 5px 0; }
       .sidebar .widget .widget-link-list .list-item .photo_etablissement {
         width: 30%;
-        height: 80px;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -1413,7 +1419,6 @@ span.incdicateur_distance {
           color: #4d4d4d; }
   .body .main-body .publicite {
     text-align: center;
-    background-color: #b9b9b9;
     padding: 15px 0;
     margin: 15px 0; }
     .body .main-body .publicite .placeholder {

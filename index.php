@@ -2,12 +2,15 @@
 <?php include_once "layout/header.php";?>
 
 
+<?php include_once "data.php";?>
+
+
 <div id="google-map">
     <div class="etablissements">
         <div class="list">
             <?php for($i =1; $i <= 10; $i++):?>
                 <div class="etablissement">
-                    <div class="photo_etablissement"><img src="https://media-cdn.tripadvisor.com/media/photo-s/0b/24/47/ae/bar-restaurant-de-l-aero.jpg" height="100"></div>
+                    <div class="photo_etablissement"><img src="<?php echo $etablissements[$i];?>" class="img-responsive"></div>
                     <div class="details_etablissement">
                             <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
                         <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
@@ -100,7 +103,7 @@
                                         <a href="evenement.php" data-animate="fadeInUp">
                                             <div class="article">
                                                 <div class="article_picture_frame">
-                                                    <img src="holder.js/560x400" alt="Holder">
+                                                    <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Holder">
                                                 </div>
                                                 <?php if(is_array($date)):?>
                                                     <div class="event_date double">
@@ -135,9 +138,8 @@
                     </div>
 <!--end of top evenements-->
                     <div class="publicite" data-animate="fadeInUp">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $m = rand(0,5); ?>
+                        <img src="<?php echo $banners[$m];?>" class="img-responsive" alt="Publicité">
                     </div>
 <!--end of publicite-->
 
@@ -182,9 +184,8 @@
 
 
                     <div class="publicite" data-animate="fadeInUp">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $m = rand(0,5); ?>
+                        <img src="<?php echo $banners[$m];?>" class="img-responsive" alt="Publicité">
                     </div>
                     <!--end of publicite-->
                 </div>
@@ -192,7 +193,50 @@
             </div>
 <!--end of clo-sm-9-->
             <div class="col-md-3">
-                <?php include_once "layout/sidebar.php";?>
+                <div class="sidebar">
+                    <div class="widget calendar">
+                        <div id="calendar"></div>
+                    </div>
+                    <!--end of calendar-->
+                    <div class="publicite">
+                        <?php $l = rand(0,19); ?>
+                        <img src="<?php echo $evenements[$l];?>" class="img-responsive" alt="Publicité">
+                    </div>
+                    <!--end of publicité-->
+                    <div class="widget filter">
+                        <h4 class="widget-title">Par quartiers</h4>
+                        <form action="#">
+                            <select name="filtre-quartier" id="filtre-quartier">
+                                <?php for($i = 1; $i <= 10; $i++):?>
+                                    <option value="Quartier <?php echo $i;?>">Quartier <?php echo $i;?></option>
+                                <?php endfor; ?>
+                            </select>
+                        </form>
+                    </div>
+                    <!--end of filter-->
+                    <div class="publicite">
+                        <?php $l = rand(0,19); ?>
+                        <img src="<?php echo $evenements[$l];?>" class="img-responsive" alt="Publicité">
+                    </div>
+                    <!--end of publicité-->
+                    <div class="widget" data-animate="fadeInUp">
+                        <h4 class="widget-title">Établissements à la une</h4>
+
+                        <ul class="widget-link-list">
+                            <?php for($i = 1; $i <= 5; $i++):?>
+                                <li class="list-item">
+                                    <a href="#">
+                                        <div class="photo_etablissement"><img src="<?php echo $etablissements[$i];?>" class="img-responsive"></div>
+                                        <div class="details_etablissement">
+                                            <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
+                                            <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
+                                        </div>
+                                    </a>
+                                </li>
+                            <?php endfor; ?>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
