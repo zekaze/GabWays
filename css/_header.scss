@@ -1,10 +1,10 @@
 header{
-  background-color: #eceef7 ;
+  background-color: $primary-color ;
 
   #top-nav-menu{
     overflow: hidden;
     font-size: 13px;
-    color: $primary-text-color;
+    color: $text-icons-color;
     padding: 10px 0;
     ul{
       margin: 0;
@@ -35,12 +35,12 @@ header{
       text-align: center;
       border-radius: 100%;
       background-color: $text-icons-color;
-      color: $primary-color;
+      color: $dark-primary-color;
     }
     .button{
       padding: 5px 10px;
       color: $text-icons-color;
-      background-color: $primary-color;
+      background-color: $dark-primary-color;
       border-radius: 3px;
       font-weight: 700;
       font-size: 11px;

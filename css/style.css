@@ -35,7 +35,7 @@ a {
   padding: 15px 0; }
   .search_bar form {
     padding: 15px;
-    background-color: #2f3f9f; }
+    background-color: #0c3b31; }
     .search_bar form .form_input {
       display: flex;
       height: 60px;
@@ -59,8 +59,8 @@ a {
     .search_bar form .col-sm-6 {
       position: relative; }
       .search_bar form .col-sm-6 .check-button {
-        color: #3e50b5;
-        background-color: #c5cae9; }
+        color: #118c72;
+        background-color: #7bb7ab; }
     .search_bar form .submit_button {
       border-radius: 0;
       font-size: 13px;
@@ -135,7 +135,7 @@ end of search bar
     .categories_carousel .category .fa {
       font-size: 25px;
       line-height: 60px;
-      background-color: #3e50b5;
+      background-color: #118c72;
       color: #fff;
       display: inline-block;
       height: 60px;
@@ -173,7 +173,7 @@ end of categories carousel
           width: 35px;
           font-size: 12px;
           line-height: 35px;
-          background-color: #c5cae9;
+          background-color: #7bb7ab;
           cursor: pointer;
           font-family: "FontAwesome", sans-serif;
           text-align: center;
@@ -487,7 +487,7 @@ end of categories carousel
         height: 40px;
         position: absolute;
         z-index: 101;
-        background-color: rgba(47, 63, 159, 0.2);
+        background-color: rgba(12, 59, 49, 0.2);
         left: 0;
         cursor: pointer;
         font-family: "FontAwesome", sans-serif;
@@ -495,7 +495,7 @@ end of categories carousel
         color: #fff;
         line-height: 40px; }
       #google-map .etablissements .controls span:hover {
-        background-color: rgba(47, 63, 159, 0.8); }
+        background-color: rgba(12, 59, 49, 0.8); }
       #google-map .etablissements .controls .prev {
         top: 0;
         -webkit-transition: all 0.3s ease-in-out;
@@ -561,11 +561,11 @@ end of categories carousel
     height: 350px; }
 
 header {
-  background-color: #eceef7; }
+  background-color: #118c72; }
   header #top-nav-menu {
     overflow: hidden;
     font-size: 13px;
-    color: #212121;
+    color: #fff;
     padding: 10px 0; }
     header #top-nav-menu ul {
       margin: 0;
@@ -590,11 +590,11 @@ header {
       text-align: center;
       border-radius: 100%;
       background-color: #fff;
-      color: #3e50b5; }
+      color: #0c3b31; }
     header #top-nav-menu .button {
       padding: 5px 10px;
       color: #fff;
-      background-color: #3e50b5;
+      background-color: #0c3b31;
       border-radius: 3px;
       font-weight: 700;
       font-size: 11px;
@@ -602,7 +602,7 @@ header {
   header #top-nav-menu.fixed {
     padding-bottom: 82px; }
   header .nav > li > a:focus, header .nav > li > a:hover {
-    background-color: #c5cae9;
+    background-color: #7bb7ab;
     color: #fff; }
   header .navbar {
     margin: 0;
@@ -620,7 +620,7 @@ header {
     header .navbar .navbar-nav {
       float: right; }
     header .navbar a {
-      color: #3e50b5;
+      color: #118c72;
       text-transform: uppercase;
       font-weight: 700; }
   header .navbar.default {
