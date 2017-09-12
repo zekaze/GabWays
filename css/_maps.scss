@@ -28,7 +28,7 @@
         height: 40px;
         position: absolute;
         z-index: 101;
-        background-color: rgba($gray-5,0.2);
+        background-color: rgba($dark-primary-color,0.2);
         left: 0;
         cursor: pointer;
         font-family: "FontAwesome", sans-serif;
@@ -37,7 +37,7 @@
         line-height: 40px;
       }
       span:hover{
-        background-color: rgba($gray-5,0.8);
+        background-color: rgba($dark-primary-color,0.8);
       }
       .prev{
         top: 0;
@@ -91,7 +91,7 @@
 
     .etablissement{
       position: relative;
-      background-color: $gray-2;
+      background-color: $text-icons-color;
       overflow: hidden;
       margin: 1px 0;
       cursor: pointer;

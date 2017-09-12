@@ -31,11 +31,11 @@ a {
   outline: none !important; }
 
 .search_bar {
-  background-color: #4d4d4d;
+  background-color: #3e50b5;
   padding: 15px 0; }
   .search_bar form {
     padding: 15px;
-    background-color: #333333; }
+    background-color: #2f3f9f; }
     .search_bar form .form_input {
       display: flex;
       height: 60px;
@@ -60,7 +60,7 @@ a {
       position: relative; }
       .search_bar form .col-sm-6 .check-button {
         color: #fff;
-        background-color: #4d4d4d; }
+        background-color: #2f3f9f; }
     .search_bar form .submit_button {
       border-radius: 0;
       font-size: 13px;
@@ -485,7 +485,7 @@ end of categories carousel
         height: 40px;
         position: absolute;
         z-index: 101;
-        background-color: rgba(77, 77, 77, 0.2);
+        background-color: rgba(47, 63, 159, 0.2);
         left: 0;
         cursor: pointer;
         font-family: "FontAwesome", sans-serif;
@@ -493,7 +493,7 @@ end of categories carousel
         color: #fff;
         line-height: 40px; }
       #google-map .etablissements .controls span:hover {
-        background-color: rgba(77, 77, 77, 0.8); }
+        background-color: rgba(47, 63, 159, 0.8); }
       #google-map .etablissements .controls .prev {
         top: 0;
         -webkit-transition: all 0.3s ease-in-out;
@@ -533,7 +533,7 @@ end of categories carousel
         display: block; } }
     #google-map .etablissements .etablissement {
       position: relative;
-      background-color: #b9b9b9;
+      background-color: #fff;
       overflow: hidden;
       margin: 1px 0;
       cursor: pointer; }
@@ -559,11 +559,11 @@ end of categories carousel
     height: 350px; }
 
 header {
-  background-color: #b9b9b9; }
+  background-color: #c5cae9; }
   header #top-nav-menu {
     overflow: hidden;
     font-size: 13px;
-    color: #666666;
+    color: #212121;
     padding: 10px 0; }
     header #top-nav-menu ul {
       margin: 0;
@@ -587,18 +587,20 @@ header {
       line-height: 22px;
       text-align: center;
       border-radius: 100%;
-      background-color: #f8f8f8;
-      color: #666666; }
+      background-color: #fff;
+      color: #3e50b5; }
     header #top-nav-menu .button {
       padding: 5px 10px;
-      color: #666666;
-      background-color: #dfdfdf;
+      color: #fff;
+      background-color: #3e50b5;
       border-radius: 3px;
       font-weight: 700;
       font-size: 11px;
       text-transform: uppercase; }
   header #top-nav-menu.fixed {
     padding-bottom: 82px; }
+  header .nav > li > a:focus, header .nav > li > a:hover {
+    background-color: #2f3f9f; }
   header .navbar {
     margin: 0;
     border: none;
@@ -609,20 +611,17 @@ header {
       margin-left: 5px; }
     header .navbar .navbar-toggle {
       border: none; }
-      header .navbar .navbar-toggle .icon-bar {
-        color: #b9b9b9 !important;
-        background-color: #b9b9b9 !important; }
       header .navbar .navbar-toggle .fa {
         color: #b9b9b9;
         font-size: 16px; }
     header .navbar .navbar-nav {
       float: right; }
     header .navbar a {
-      color: #b9b9b9;
+      color: #fff;
       text-transform: uppercase;
       font-weight: 700; }
   header .navbar.default {
-    background-color: #868686; }
+    background-color: #3e50b5; }
   header .navbar.fixed {
     background-color: #333333;
     box-shadow: 0 5px 15px rgba(51, 51, 51, 0.4);
@@ -1243,7 +1242,7 @@ span.incdicateur_distance {
     z-index: 100; }
     #google-map .etablissements .etablissement {
       position: relative;
-      background-color: #b9b9b9;
+      background-color: #fff;
       overflow: hidden;
       margin: 1px 0;
       cursor: pointer; }
@@ -1289,19 +1288,9 @@ span.incdicateur_distance {
       float: left;
       margin-left: 15px; }
   header #top-nav-menu .social-icon {
-    display: inline-block;
-    font-size: 12px;
-    width: 22px;
-    height: 22px;
-    line-height: 22px;
-    text-align: center;
-    border-radius: 100%;
-    background-color: #f8f8f8;
-    color: #666666; }
+    font-size: 12px; }
   header #top-nav-menu .button {
     padding: 5px 10px;
-    color: #666666;
-    background-color: #dfdfdf;
     border-radius: 3px;
     font-weight: 700;
     font-size: 11px;

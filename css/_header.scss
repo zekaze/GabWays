@@ -1,10 +1,10 @@
 header{
-  background-color: $gray-2;
+  background-color: $light-primary-color;
 
   #top-nav-menu{
     overflow: hidden;
     font-size: 13px;
-    color: $gray-4;
+    color: $primary-text-color;
     padding: 10px 0;
     ul{
       margin: 0;
@@ -34,13 +34,13 @@ header{
       line-height: $nav-social-icon-size;
       text-align: center;
       border-radius: 100%;
-      background-color: $gray-0;
-      color: $gray-4;
+      background-color: $text-icons-color;
+      color: $primary-color;
     }
     .button{
       padding: 5px 10px;
-      color: $gray-4;
-      background-color: $gray-1;
+      color: $text-icons-color;
+      background-color: $primary-color;
       border-radius: 3px;
       font-weight: 700;
       font-size: 11px;
@@ -49,6 +49,9 @@ header{
   }
   #top-nav-menu.fixed{
     padding-bottom: 82px;
+  }
+  .nav>li>a:focus, .nav>li>a:hover{
+    background-color: $dark-primary-color;
   }
   .navbar{
     margin: 0;
@@ -64,10 +67,6 @@ header{
     .navbar-toggle{
       border: none;
 
-      .icon-bar{
-        color: $gray-2 !important;
-        background-color: $gray-2 !important;
-      }
       .fa{
         color: $gray-2;
         font-size: 16px;
@@ -79,13 +78,13 @@ header{
     }
 
     a{
-      color: $gray-2;
+      color: $text-icons-color;
       text-transform: uppercase;
       font-weight: 700;
     }
   }
   .navbar.default{
-    background-color: $gray-3;
+    background-color: $primary-color;
   }
   .navbar.fixed{
     background-color: $gray-6;

@@ -12,7 +12,7 @@ function initMap() {
         scaleControl: false,
         streetViewControl: false,
         rotateControl: false,
-        fullscreenControl: false,
+        fullscreenControl: false/*,
         styles: [
             {
                 "elementType": "geometry",
@@ -172,7 +172,7 @@ function initMap() {
                     }
                 ]
             }
-        ]
+        ]*/
     });
 }
 

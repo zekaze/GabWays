@@ -13,7 +13,7 @@
 
       .etablissement{
         position: relative;
-        background-color: $gray-2;
+        background-color: $text-icons-color;
         overflow: hidden;
         margin: 1px 0;
         cursor: pointer;
@@ -87,20 +87,10 @@
       }
       $nav-social-icon-size: 22px;
       .social-icon{
-        display: inline-block;
         font-size: 12px;
-        width: $nav-social-icon-size;
-        height: $nav-social-icon-size;
-        line-height: $nav-social-icon-size;
-        text-align: center;
-        border-radius: 100%;
-        background-color: $gray-0;
-        color: $gray-4;
       }
       .button{
         padding: 5px 10px;
-        color: $gray-4;
-        background-color: $gray-1;
         border-radius: 3px;
         font-weight: 700;
         font-size: 11px;
