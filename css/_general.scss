@@ -34,7 +34,7 @@ a{
   outline: none !important;
 }
 .search_bar{
-  background-color: $primary-color;
+  background-color: $text-icons-color;
   padding: 15px 0;
 
   form{
@@ -73,8 +73,8 @@ a{
     .col-sm-6{
       position: relative;
       .check-button{
-        color: #fff;
-        background-color: $dark-primary-color;
+        color: $primary-color;
+        background-color: $light-primary-color;
       }
 
     }
@@ -84,8 +84,8 @@ a{
       font-size: $input_font_size;
       font-weight: 700;
       letter-spacing: 0.5px;
-      color: #fff;
-      background-color: $gray-2;
+      color: $text-icons-color;
+      background-color: $accent-color;
       height: $input_height;
       cursor: pointer;
     }
@@ -183,8 +183,8 @@ end of search bar
     .fa{
       font-size: 25px;
       line-height: 60px;
-      background-color: $gray-2;
-      color: $gray-4;
+      background-color: $primary-color;
+      color: $text-icons-color;
       display: inline-block;
       height: 60px;
       width: 60px;
@@ -197,6 +197,7 @@ end of search bar
       text-transform: uppercase;
       font-weight: 700;
       font-size: 12px;
+      color: $secondary-text-color;
     }
   }
 }
@@ -230,15 +231,15 @@ end of categories carousel
             width: 35px;
             font-size: 12px;
             line-height: 35px;
-            background-color: $gray-2;
+            background-color: $light-primary-color;
             cursor: pointer;
             font-family: "FontAwesome", sans-serif;
             text-align: center;
-            color: $gray-4;
+            color: $text-icons-color;
             @include transition(0.3s);
           }
           span:hover{
-            background-color: $gray-3;
+            background-color: $accent-color;
             color: #fff;
           }
           .prev:after{
@@ -283,6 +284,7 @@ end of categories carousel
       .section-title{
         float: left;
         position: relative;
+        color: $secondary-text-color;
         small{
           position: absolute;
           left: 0;
@@ -336,8 +338,8 @@ end of categories carousel
               overflow: hidden;
             }
             .event_date{
-              background-color: $gray-5;
-              color: $gray-0;
+              background-color: $accent-color;
+              color: $text-icons-color;
               padding: 2px 10px;
               display: inline-block;
               text-align: center;

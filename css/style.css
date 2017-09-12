@@ -31,7 +31,7 @@ a {
   outline: none !important; }
 
 .search_bar {
-  background-color: #3e50b5;
+  background-color: #fff;
   padding: 15px 0; }
   .search_bar form {
     padding: 15px;
@@ -59,15 +59,15 @@ a {
     .search_bar form .col-sm-6 {
       position: relative; }
       .search_bar form .col-sm-6 .check-button {
-        color: #fff;
-        background-color: #2f3f9f; }
+        color: #3e50b5;
+        background-color: #c5cae9; }
     .search_bar form .submit_button {
       border-radius: 0;
       font-size: 13px;
       font-weight: 700;
       letter-spacing: 0.5px;
       color: #fff;
-      background-color: #b9b9b9;
+      background-color: #ff5151;
       height: 60px;
       cursor: pointer; }
 
@@ -135,8 +135,8 @@ end of search bar
     .categories_carousel .category .fa {
       font-size: 25px;
       line-height: 60px;
-      background-color: #b9b9b9;
-      color: #666666;
+      background-color: #3e50b5;
+      color: #fff;
       display: inline-block;
       height: 60px;
       width: 60px;
@@ -146,7 +146,8 @@ end of search bar
       display: block;
       text-transform: uppercase;
       font-weight: 700;
-      font-size: 12px; }
+      font-size: 12px;
+      color: #757575; }
 
 /*
 end of categories carousel
@@ -172,17 +173,17 @@ end of categories carousel
           width: 35px;
           font-size: 12px;
           line-height: 35px;
-          background-color: #b9b9b9;
+          background-color: #c5cae9;
           cursor: pointer;
           font-family: "FontAwesome", sans-serif;
           text-align: center;
-          color: #666666;
+          color: #fff;
           -webkit-transition: all 0.3s ease-in-out;
           -moz-transition: all 0.3s ease-in-out;
           -o-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out; }
         .body .main-body .section .section-header .slider-controls span:hover {
-          background-color: #868686;
+          background-color: #ff5151;
           color: #fff; }
         .body .main-body .section .section-header .slider-controls .prev:after {
           content: '\f053'; }
@@ -208,7 +209,8 @@ end of categories carousel
       top: 2px; }
   .body .main-body .section.section-slider .section-title {
     float: left;
-    position: relative; }
+    position: relative;
+    color: #757575; }
     .body .main-body .section.section-slider .section-title small {
       position: absolute;
       left: 0;
@@ -250,8 +252,8 @@ end of categories carousel
           height: 100px;
           overflow: hidden; }
         .body .main-body .section.section-slider .section-body .articles a .event_date {
-          background-color: #4d4d4d;
-          color: #f8f8f8;
+          background-color: #ff5151;
+          color: #fff;
           padding: 2px 10px;
           display: inline-block;
           text-align: center;
@@ -559,7 +561,7 @@ end of categories carousel
     height: 350px; }
 
 header {
-  background-color: #c5cae9; }
+  background-color: #eceef7; }
   header #top-nav-menu {
     overflow: hidden;
     font-size: 13px;
@@ -600,7 +602,8 @@ header {
   header #top-nav-menu.fixed {
     padding-bottom: 82px; }
   header .nav > li > a:focus, header .nav > li > a:hover {
-    background-color: #2f3f9f; }
+    background-color: #c5cae9;
+    color: #fff; }
   header .navbar {
     margin: 0;
     border: none;
@@ -617,11 +620,11 @@ header {
     header .navbar .navbar-nav {
       float: right; }
     header .navbar a {
-      color: #fff;
+      color: #3e50b5;
       text-transform: uppercase;
       font-weight: 700; }
   header .navbar.default {
-    background-color: #3e50b5; }
+    background-color: #fff; }
   header .navbar.fixed {
     background-color: #333333;
     box-shadow: 0 5px 15px rgba(51, 51, 51, 0.4);
