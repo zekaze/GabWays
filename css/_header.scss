@@ -48,7 +48,7 @@ header{
     }
   }
   #top-nav-menu.fixed{
-    padding-bottom: 82px;
+    padding-bottom: 76px;
   }
   .nav>li>a:focus, .nav>li>a:hover{
     background-color: $light-primary-color;
@@ -88,7 +88,7 @@ header{
     background-color: $text-icons-color;
   }
   .navbar.fixed{
-    background-color: $gray-6;
+    background-color: $text-icons-color;
     box-shadow: 0 5px 15px rgba($gray-6, 0.4);
     top: 42px;
     @include transition(0.3s);

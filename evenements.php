@@ -1,6 +1,8 @@
 <?php include_once "layout/head.php";?>
 <?php include_once "layout/header-2.php";?>
-<div class="page-banner" style="background-image: url('img/grey-bg.jpg')">
+
+<?php include_once "data.php";?>
+<div class="page-banner" style="background-image: url('https://www.wired.com/wp-content/uploads/2016/11/GoogleMap-1.jpg')">
     <div class="container-fluid">
         <div class="section-slider">
             <?php $dates = array(
@@ -17,7 +19,8 @@
                     <a href="evenement.php">
                         <div class="article">
                             <div class="article_picture_frame">
-                                <img src="holder.js/560x400" alt="Holder">
+                                <?php $i = rand(0, 19);?>
+                                <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                                 
                                 <div class="event-data">
                                     <div class="article_title">Titre de l'événement</div>
@@ -122,7 +125,8 @@
                                     <a href="evenement.php">
                                         <div class="article">
                                             <div class="article_picture_frame">
-                                                <img src="holder.js/560x400" alt="Holder">
+                                                <?php $i = rand(0, 19);?>
+                                                <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                                             </div>
                                             <?php if(is_array($date)):?>
                                                     <div class="event_date double">
@@ -155,9 +159,8 @@
                     <?php
                     if(!($i % 2)): ?>
                         <div class="publicite">
-                            <div class="placeholder">
-                                Publicité
-                            </div>
+                            <?php $i = rand(0, 5);?>
+                            <img src="<?php echo $banners[$i];?>" class="img-responsive" alt="Evenement">
                         </div>
                         <!--end of publicite-->
 
@@ -201,9 +204,8 @@
                     </div>
                     <!--end of calendar-->
                     <div class="publicite">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $i = rand(0, 19);?>
+                        <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                     </div>
                     <!--end of publicité-->
                     <div class="widget filter">
@@ -218,9 +220,8 @@
                     </div>
                     <!--end of filter-->
                     <div class="publicite">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $i = rand(0, 19);?>
+                        <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                     </div>
                     <!--end of publicité-->
                     <div class="widget">
@@ -230,7 +231,11 @@
                             <?php for($i = 1; $i <= 5; $i++):?>
                                 <li class="list-item">
                                     <a href="#">
-                                        <div class="photo_etablissement"><img src="holder.js/80x80"></div>
+
+                                        <div class="photo_etablissement">
+                                            <?php $j = rand(0, 19);?>
+                                            <img src="<?php echo $evenements[$j];?>" class="img-responsive" alt="Evenement">
+                                        </div>
                                         <div class="details_etablissement">
                                             <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
                                             <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>

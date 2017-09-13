@@ -1,6 +1,8 @@
 <?php include_once "layout/head.php";?>
 <?php include_once "layout/header-2.php";?>
-<div class="page-banner" style="background-image: url('img/grey-bg.jpg')">
+
+<?php include_once "data.php";?>
+<div class="page-banner" style="background-image: url('https://www.wired.com/wp-content/uploads/2016/11/GoogleMap-1.jpg')">
     <div class="container">
         <h1 class="page-title">Titre de l'événement <span class="categorie">événement</span></h1>
 
@@ -16,11 +18,11 @@
                     <label>Partager cette page</label>
                     <div class="social-sharing">
                         <ul>
-                            <li><a href="#" class="fa fa-facebook"></a></li>
-                            <li><a href="#" class="fa fa-twitter"></a></li>
-                            <li><a href="#" class="fa fa-linkedin"></a></li>
-                            <li><a href="#" class="fa fa-instagram"></a></li>
-                            <li><a href="#" class="fa fa-share"></a></li>
+                            <li><a href="#" class="fa fa-facebook" style="background-color: #385a99"></a></li>
+                            <li><a href="#" class="fa fa-twitter" style="background-color: #40c8f4"></a></li>
+                            <li><a href="#" class="fa fa-linkedin" style="background-color: #127ab7"></a></li>
+                            <li><a href="#" class="fa fa-instagram" style="background-color: #385a99"></a></li>
+                            <li><a href="#" class="fa fa-share" style="background-color: #f36f21"></a></li>
                         </ul>
                     </div>
                     <!--end of social sharing-->
@@ -31,7 +33,8 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="frame logo_etablissement">
-                                        <img src="holder.js/560x400" alt="Holder">
+                                        <?php $i = rand(0, 19);?>
+                                        <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                                     </div>
                                     <p style="padding-top: 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor in odio vel
                                         gravida. Proin quis est est. Suspendisse vel semper ex. Curabitur imperdiet
@@ -65,7 +68,7 @@
                     <div class="section" data-animate="fadeInUp">
                         <div class="section-body">
                             <div class="video-player">
-                                <a href="https://www.youtube.com/watch?v=lSZqC-Nezlw"><img src="holder.js/600x300">
+                                <a href="https://www.youtube.com/watch?v=SBjQ9tuuTJQ"><img src="http://img.youtube.com/vi/SBjQ9tuuTJQ/maxresdefault.jpg" height="300">
                                     <span class="play-button"></span>
                                 </a>
                             </div>
@@ -100,7 +103,8 @@
                                     <a href="#" data-animate="fadeInUp">
                                         <div class="article">
                                             <div class="article_picture_frame">
-                                                <img src="holder.js/560x400" alt="Holder">
+                                                <?php $i = rand(0, 19);?>
+                                                <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                                             </div>
                                             <?php if(is_array($date)):?>
                                                 <div class="event_date double">
@@ -150,9 +154,8 @@
                     </div>
                     <!--end of calendar-->
                     <div class="publicite">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $i = rand(0, 19);?>
+                        <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                     </div>
                     <!--end of publicité-->
                     <div class="widget filter">
@@ -167,9 +170,8 @@
                     </div>
                     <!--end of filter-->
                     <div class="publicite">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $i = rand(0, 19);?>
+                        <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                     </div>
                     <!--end of publicité-->
                     <div class="widget" data-animate="fadeInUp">
@@ -179,7 +181,10 @@
                             <?php for($i = 1; $i <= 5; $i++):?>
                                 <li class="list-item">
                                     <a href="#">
-                                        <div class="photo_etablissement"><img src="holder.js/80x80"></div>
+                                        <div class="photo_etablissement">
+                                            <?php $i = rand(0, 19);?>
+                                            <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
+                                        </div>
                                         <div class="details_etablissement">
                                             <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
                                             <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>

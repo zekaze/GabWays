@@ -81,7 +81,8 @@ a {
   .navbar.fixed form .form_input input[type=text] {
     border: none;
     flex-grow: 5;
-    padding: 5px 10px; }
+    padding: 5px 10px;
+    background-color: #f8f8f8; }
   .navbar.fixed form .form_input label {
     margin: 0;
     flex-grow: 1;
@@ -99,7 +100,7 @@ a {
   .navbar.fixed form .col-sm-6 .check-button,
   .navbar.fixed form .col-sm-7 .check-button {
     color: #fff;
-    background-color: #4d4d4d; }
+    background-color: #7bb7ab; }
 .navbar.fixed form .submit_button {
   border-radius: 0 50px 50px 0;
   font-size: 13px;
@@ -107,7 +108,7 @@ a {
   padding-top: 4px;
   padding-bottom: 4px;
   color: #fff;
-  background-color: #b9b9b9;
+  background-color: #ff5151;
   height: auto;
   cursor: pointer; }
 .navbar.fixed form > .row {
@@ -320,10 +321,27 @@ end of categories carousel
       line-height: 130px;
       background-color: #666666; }
 
+.page-banner:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0; }
+
 .page-banner {
-  background-size: cover;
+  position: relative;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
   background-position: center center; }
+  .page-banner .container-fluid {
+    position: relative;
+    z-index: 1; }
   .page-banner .container {
+    position: relative;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: flex-start; }
@@ -378,7 +396,7 @@ end of categories carousel
         background-color: #dfdfdf; }
 
 .video-player {
-  background-color: #333333;
+  background-color: #fff;
   text-align: center;
   padding: 10px 0;
   position: relative;
@@ -393,8 +411,7 @@ end of categories carousel
     height: 100%;
     left: 0;
     top: 0;
-    color: #fff;
-    background-color: rgba(51, 51, 51, 0.4);
+    color: #118c72;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -561,7 +578,8 @@ end of categories carousel
           font-style: italic; }
 
 .autour_de_moi .section-title {
-  font-weight: 700; }
+  font-weight: 700;
+  color: #118c72; }
 .autour_de_moi #google-map {
   height: 350px; }
   .autour_de_moi #google-map #map {
@@ -607,7 +625,7 @@ header {
       font-size: 11px;
       text-transform: uppercase; }
   header #top-nav-menu.fixed {
-    padding-bottom: 82px; }
+    padding-bottom: 76px; }
   header .nav > li > a:focus, header .nav > li > a:hover {
     background-color: #7bb7ab;
     color: #fff; }
@@ -633,7 +651,7 @@ header {
   header .navbar.default {
     background-color: #fff; }
   header .navbar.fixed {
-    background-color: #333333;
+    background-color: #fff;
     box-shadow: 0 5px 15px rgba(51, 51, 51, 0.4);
     top: 42px;
     -webkit-transition: all 0.3s ease-in-out;
@@ -663,8 +681,9 @@ header {
   .sidebar .widget .widget-title {
     text-transform: uppercase;
     font-size: 14px;
-    border-bottom: solid 2px #868686;
-    padding-bottom: 8px; }
+    border-bottom: solid 2px #ff5151;
+    padding-bottom: 8px;
+    color: #118c72; }
   .sidebar .widget .widget-link-list {
     list-style: none;
     padding: 0; }
@@ -804,7 +823,7 @@ footer#main-footer {
 #page-evenements .page-title {
   text-transform: uppercase;
   font-weight: 700;
-  color: #4d4d4d;
+  color: #ff5151;
   margin-bottom: 30px; }
 #page-evenements .months-list {
   list-style: none;
@@ -826,7 +845,7 @@ footer#main-footer {
       -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out; }
     #page-evenements .months-list li a:hover {
-      box-shadow: 0 2px #4d4d4d; }
+      box-shadow: 0 2px #118c72; }
 #page-evenements .months-select {
   width: 100%;
   padding: 5px 10px;
@@ -845,7 +864,7 @@ footer#main-footer {
     justify-content: center;
     margin-bottom: 5px; }
   #page-evenements .event_list .article .event_date {
-    background-color: #4d4d4d;
+    background-color: #ff5151;
     color: #f8f8f8;
     padding: 2px 10px;
     display: inline-block;
@@ -910,20 +929,20 @@ footer#main-footer {
       width: 100%;
       height: auto;
       padding: 15px;
-      background-color: rgba(51, 51, 51, 0.3);
+      background-color: rgba(17, 140, 114, 0.8);
       -webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
       -o-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out; }
       .page-banner .section-slider .article .article_picture_frame .event-data .article_location,
       .page-banner .section-slider .article .article_picture_frame .event-data .article_owner {
-        color: #666666;
+        color: #fff;
         font-size: 12px; }
       .page-banner .section-slider .article .article_picture_frame .event-data .article_owner {
         font-weight: 700; }
   .page-banner .section-slider .article .event_date {
-    background-color: #4d4d4d;
-    color: #f8f8f8;
+    background-color: #ff5151;
+    color: #fff;
     padding: 2px 10px;
     display: inline-block;
     text-align: center;
@@ -943,7 +962,7 @@ footer#main-footer {
     .page-banner .section-slider .article .event_date .month {
       font-size: 10px; }
   .page-banner .section-slider .article .article_title {
-    color: #333333;
+    color: #ff5151;
     font-weight: 700;
     font-size: 13px; }
   .page-banner .section-slider .article .event_date:before {
@@ -979,12 +998,11 @@ footer#main-footer {
       float: left;
       margin: 5px; }
       .page-etablissement .social-sharing ul li a {
-        color: #4d4d4d;
+        color: #fff;
         display: block;
         width: 35px;
         padding: 10px 0;
         text-align: center;
-        background-color: #dfdfdf;
         border-radius: 100%;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
@@ -1005,11 +1023,10 @@ footer#main-footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 225px;
   overflow: hidden; }
 .page-etablissement .section .sub-section-title {
   font-weight: 700;
-  color: #4d4d4d;
+  color: #118c72;
   margin-bottom: 10px; }
 .page-etablissement .section p {
   font-size: 13px; }
@@ -1082,7 +1099,7 @@ footer#main-footer {
     justify-content: center;
     margin-bottom: 5px; }
   .page-etablissement .event_list .article .event_date {
-    background-color: #4d4d4d;
+    background-color: #ff5151;
     color: #f8f8f8;
     padding: 2px 10px;
     display: inline-block;

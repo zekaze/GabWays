@@ -1,21 +1,16 @@
 <?php
 $etablissements = array(
-    "http://www.annuem.com/wp-content/uploads/2016/12/Logo-Lyfe-by-Mayena-LAnnuaire-by-Em.jpg",
-    "https://media-cdn.tripadvisor.com/media/photo-s/02/bc/c3/7e/la-dolce-vita.jpg",
-    "http://www.annuem.com/wp-content/uploads/2016/06/Gabon-T%C3%A9l%C3%A9com-LAnnuaire-by-Em1.jpg",
-    "http://www.annuem.com/wp-content/uploads/2015/05/Canalsat-Lannuaire-by-Em.jpg",
-    "http://www.annuem.com/wp-content/uploads/2016/05/Royal-Palm-logo-LAnnuaire-by-Em.jpg",
-    "http://www.annuem.com/wp-content/uploads/2015/11/Naledi-Food-Gabon-LAnnuaire-by-Em.jpg",
-    "http://www.annuem.com/wp-content/uploads/2015/11/Logo-Urban-Fm-LAnnuaire-by-Em.png",
-    "https://media-cdn.tripadvisor.com/media/photo-s/0c/72/99/10/hotel-main-entrance.jpg",
-    "http://gabonews.com/IMG/jpg/logo_canal.jpg",
-    "http://thebnetants.com/wp-content/uploads/2012/04/logo_nestle.gif",
-    "http://www.tana-africa.com/Images/San.png",
-    "http://4.bp.blogspot.com/-Qp3R0oPhXwY/UVDGXLPBm-I/AAAAAAAAAgQ/8QYayVDEe0g/s1600/G%C3%A9ant+CKDO.jpg",
-    "http://frismart.com/img/photo/14258370248.jpg",
-    "https://www.lepratiquedugabon.com/wp-content/files_mf/1453375917ranch.png",
-    "https://www.lepratiquedugabon.com/wp-content/files_mf/1468857144logo_CAFEDEIFGABON.jpg",
-    "http://www.annuem.com/wp-content/uploads/2016/04/Boulangerie-Ste-Marie-01-LAnnuaire-by-Em.jpg"
+"http://frismart.com/img/photo/thumb_144337725547.png",
+"http://frismart.com/img/photo/thumb_144337209596.png",
+"http://frismart.com/img/photo/thumb_144337615324.jpg",
+"http://frismart.com/img/photo/thumb_144337492058.png",
+"http://frismart.com/img/photo/thumb_144337118563.png",
+"http://frismart.com/img/photo/thumb_143188005759.jpg",
+"http://frismart.com/img/photo/thumb_143532990331.jpg",
+"http://economie-gabon.com/wp-content/uploads/2016/03/LOGO-TOTAL-.jpg",
+"http://www.entreprenarium.org/sites/default/files/bbs.png",
+"http://welcome.co.za/wp-content/uploads/2016/07/Radisson_Blu_logo.jpg",
+"https://i.ytimg.com/vi/-3emUot0OUc/maxresdefault.jpg"
 );
 
 

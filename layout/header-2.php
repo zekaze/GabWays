@@ -18,7 +18,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a href="index.php" class="logo"><img src="holder.js/150x62"></a>
+                <a href="index.php" class="logo"><img src="img/logo.png" height="50" style="margin-top: 5px"></a>
 
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                         data-target="#bs-example-navbar-collapse-1" aria-expanded="false">

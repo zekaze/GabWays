@@ -8,8 +8,9 @@
     .widget-title{
       text-transform: uppercase;
       font-size: 14px;
-      border-bottom: solid 2px $gray-3;
+      border-bottom: solid 2px $accent-color;
       padding-bottom: 8px;
+      color: $primary-color;
     }
     //end of widget title
 
