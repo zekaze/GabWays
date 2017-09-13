@@ -35,7 +35,7 @@ a {
   padding: 15px 0; }
   .search_bar form {
     padding: 15px;
-    background-color: #ECE2D0; }
+    background-color: #0c3b31; }
     .search_bar form .form_input {
       display: flex;
       height: 60px;
@@ -59,15 +59,15 @@ a {
     .search_bar form .col-sm-6 {
       position: relative; }
       .search_bar form .col-sm-6 .check-button {
-        color: #2E2D7B;
-        background-color: #D5B9B2; }
+        color: #0c3b31;
+        background-color: #118c72; }
     .search_bar form .submit_button {
       border-radius: 0;
       font-size: 13px;
       font-weight: 700;
       letter-spacing: 0.5px;
       color: #fff;
-      background-color: #A26769;
+      background-color: #df8e00;
       height: 60px;
       cursor: pointer; }
 
@@ -100,7 +100,7 @@ a {
   .navbar.fixed form .col-sm-6 .check-button,
   .navbar.fixed form .col-sm-7 .check-button {
     color: #fff;
-    background-color: #D5B9B2; }
+    background-color: #20504b; }
 .navbar.fixed form .submit_button {
   border-radius: 0 50px 50px 0;
   font-size: 13px;
@@ -108,7 +108,7 @@ a {
   padding-top: 4px;
   padding-bottom: 4px;
   color: #fff;
-  background-color: #A26769;
+  background-color: #df8e00;
   height: auto;
   cursor: pointer; }
 .navbar.fixed form > .row {
@@ -136,7 +136,7 @@ end of search bar
     .categories_carousel .category .fa {
       font-size: 25px;
       line-height: 60px;
-      background-color: #2E2D7B;
+      background-color: #118c72;
       color: #fff;
       display: inline-block;
       height: 60px;
@@ -165,7 +165,7 @@ end of categories carousel
       margin-bottom: 15px; }
       .body .main-body .section .section-header .section-title {
         font-weight: 700;
-        color: #2E2D7B; }
+        color: #118c72; }
       .body .main-body .section .section-header .slider-controls {
         float: right;
         margin-top: 10px; }
@@ -175,7 +175,7 @@ end of categories carousel
           width: 35px;
           font-size: 12px;
           line-height: 35px;
-          background-color: #D5B9B2;
+          background-color: #20504b;
           cursor: pointer;
           font-family: "FontAwesome", sans-serif;
           text-align: center;
@@ -185,7 +185,7 @@ end of categories carousel
           -o-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out; }
         .body .main-body .section .section-header .slider-controls span:hover {
-          background-color: #A26769;
+          background-color: #df8e00;
           color: #fff; }
         .body .main-body .section .section-header .slider-controls .prev:after {
           content: '\f053'; }
@@ -212,7 +212,7 @@ end of categories carousel
   .body .main-body .section.section-slider .section-title {
     float: left;
     position: relative;
-    color: #2E2D7B; }
+    color: #118c72; }
     .body .main-body .section.section-slider .section-title small {
       position: absolute;
       left: 0;
@@ -254,8 +254,8 @@ end of categories carousel
           height: 100px;
           overflow: hidden; }
         .body .main-body .section.section-slider .section-body .articles a .event_date {
-          background-color: #A26769;
-          color: #fff;
+          background-color: #df8e00;
+          color: #0c3b31;
           padding: 2px 10px;
           display: inline-block;
           text-align: center;
@@ -270,7 +270,7 @@ end of categories carousel
             margin: 0 5px; }
           .body .main-body .section.section-slider .section-body .articles a .event_date .day {
             display: block;
-            border-bottom: solid 2px #f8f8f8;
+            border-bottom: solid 2px #0c3b31;
             font-size: 16px; }
           .body .main-body .section.section-slider .section-body .articles a .event_date .month {
             font-size: 10px; }
@@ -411,7 +411,7 @@ end of categories carousel
     height: 100%;
     left: 0;
     top: 0;
-    color: #2E2D7B;
+    color: #118c72;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -504,7 +504,7 @@ end of categories carousel
         height: 40px;
         position: absolute;
         z-index: 101;
-        background-color: rgba(236, 226, 208, 0.2);
+        background-color: rgba(12, 59, 49, 0.2);
         left: 0;
         cursor: pointer;
         font-family: "FontAwesome", sans-serif;
@@ -512,7 +512,7 @@ end of categories carousel
         color: #fff;
         line-height: 40px; }
       #google-map .etablissements .controls span:hover {
-        background-color: rgba(236, 226, 208, 0.8); }
+        background-color: rgba(12, 59, 49, 0.8); }
       #google-map .etablissements .controls .prev {
         top: 0;
         -webkit-transition: all 0.3s ease-in-out;
@@ -579,14 +579,14 @@ end of categories carousel
 
 .autour_de_moi .section-title {
   font-weight: 700;
-  color: #2E2D7B; }
+  color: #118c72; }
 .autour_de_moi #google-map {
   height: 350px; }
   .autour_de_moi #google-map #map {
     height: 350px; }
 
 header {
-  background-color: #2E2D7B; }
+  background-color: #118c72; }
   header #top-nav-menu {
     overflow: hidden;
     font-size: 13px;
@@ -615,11 +615,11 @@ header {
       text-align: center;
       border-radius: 100%;
       background-color: #fff;
-      color: #ECE2D0; }
+      color: #0c3b31; }
     header #top-nav-menu .button {
       padding: 5px 10px;
       color: #fff;
-      background-color: #ECE2D0;
+      background-color: #0c3b31;
       border-radius: 3px;
       font-weight: 700;
       font-size: 11px;
@@ -627,7 +627,7 @@ header {
   header #top-nav-menu.fixed {
     padding-bottom: 76px; }
   header .nav > li > a:focus, header .nav > li > a:hover {
-    background-color: #D5B9B2;
+    background-color: #20504b;
     color: #fff; }
   header .navbar {
     margin: 0;
@@ -645,7 +645,7 @@ header {
     header .navbar .navbar-nav {
       float: right; }
     header .navbar a {
-      color: #2E2D7B;
+      color: #118c72;
       text-transform: uppercase;
       font-weight: 700; }
   header .navbar.default {
@@ -681,9 +681,9 @@ header {
   .sidebar .widget .widget-title {
     text-transform: uppercase;
     font-size: 14px;
-    border-bottom: solid 2px #A26769;
+    border-bottom: solid 2px #df8e00;
     padding-bottom: 8px;
-    color: #2E2D7B; }
+    color: #118c72; }
   .sidebar .widget .widget-link-list {
     list-style: none;
     padding: 0; }
@@ -747,7 +747,7 @@ header {
 footer#main-footer {
   overflow: hidden;
   padding: 20px 0 15px;
-  background-color: #ECE2D0;
+  background-color: #0c3b31;
   color: #fff;
   position: absolute;
   right: 0;
@@ -763,7 +763,7 @@ footer#main-footer {
       float: left;
       margin-right: 15px; }
       footer#main-footer .footer-menu li a {
-        color: #2E2D7B;
+        color: #118c72;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
@@ -784,7 +784,7 @@ footer#main-footer {
     text-align: center;
     border-radius: 100%;
     background-color: #f8f8f8;
-    color: #2E2D7B; }
+    color: #118c72; }
 
 #page-category {
   display: flex;
@@ -823,7 +823,7 @@ footer#main-footer {
 #page-evenements .page-title {
   text-transform: uppercase;
   font-weight: 700;
-  color: #A26769;
+  color: #df8e00;
   margin-bottom: 30px; }
 #page-evenements .months-list {
   list-style: none;
@@ -845,7 +845,7 @@ footer#main-footer {
       -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out; }
     #page-evenements .months-list li a:hover {
-      box-shadow: 0 2px #2E2D7B; }
+      box-shadow: 0 2px #118c72; }
 #page-evenements .months-select {
   width: 100%;
   padding: 5px 10px;
@@ -864,7 +864,7 @@ footer#main-footer {
     justify-content: center;
     margin-bottom: 5px; }
   #page-evenements .event_list .article .event_date {
-    background-color: #A26769;
+    background-color: #df8e00;
     color: #f8f8f8;
     padding: 2px 10px;
     display: inline-block;
@@ -929,7 +929,7 @@ footer#main-footer {
       width: 100%;
       height: auto;
       padding: 15px;
-      background-color: rgba(46, 45, 123, 0.8);
+      background-color: rgba(17, 140, 114, 0.8);
       -webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
       -o-transition: all 0.3s ease-in-out;
@@ -941,7 +941,7 @@ footer#main-footer {
       .page-banner .section-slider .article .article_picture_frame .event-data .article_owner {
         font-weight: 700; }
   .page-banner .section-slider .article .event_date {
-    background-color: #A26769;
+    background-color: #df8e00;
     color: #fff;
     padding: 2px 10px;
     display: inline-block;
@@ -962,7 +962,7 @@ footer#main-footer {
     .page-banner .section-slider .article .event_date .month {
       font-size: 10px; }
   .page-banner .section-slider .article .article_title {
-    color: #A26769;
+    color: #df8e00;
     font-weight: 700;
     font-size: 13px; }
   .page-banner .section-slider .article .event_date:before {
@@ -1026,7 +1026,7 @@ footer#main-footer {
   overflow: hidden; }
 .page-etablissement .section .sub-section-title {
   font-weight: 700;
-  color: #2E2D7B;
+  color: #118c72;
   margin-bottom: 10px; }
 .page-etablissement .section p {
   font-size: 13px; }
@@ -1099,7 +1099,7 @@ footer#main-footer {
     justify-content: center;
     margin-bottom: 5px; }
   .page-etablissement .event_list .article .event_date {
-    background-color: #A26769;
+    background-color: #df8e00;
     color: #f8f8f8;
     padding: 2px 10px;
     display: inline-block;

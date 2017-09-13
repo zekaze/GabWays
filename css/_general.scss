@@ -73,8 +73,8 @@ a{
     .col-sm-6{
       position: relative;
       .check-button{
-        color: $primary-color;
-        background-color: $light-primary-color;
+        color: $dark-primary-color;
+        background-color: $primary-color;
       }
 
     }
@@ -341,7 +341,7 @@ end of categories carousel
             }
             .event_date{
               background-color: $accent-color;
-              color: $text-icons-color;
+              color: $dark-primary-color;
               padding: 2px 10px;
               display: inline-block;
               text-align: center;
@@ -359,7 +359,7 @@ end of categories carousel
 
               .day{
                 display: block;
-                border-bottom: solid 2px $gray-0;
+                border-bottom: solid 2px $dark-primary-color;
                 font-size: 16px;
               }
               .month{
