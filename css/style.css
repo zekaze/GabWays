@@ -254,7 +254,7 @@ end of categories carousel
           height: 100px;
           overflow: hidden; }
         .body .main-body .section.section-slider .section-body .articles a .event_date {
-          background-color: #2d2d7b;
+          background-color: #af1e27;
           color: #fff;
           padding: 2px 10px;
           display: inline-block;
@@ -944,7 +944,7 @@ footer#main-footer {
       .page-banner .section-slider .article .article_picture_frame .event-data .article_owner {
         font-weight: 700; }
   .page-banner .section-slider .article .event_date {
-    background-color: #2d2d7b;
+    background-color: #af1e27;
     color: #fff;
     padding: 2px 10px;
     display: inline-block;
