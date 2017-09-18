@@ -13,7 +13,7 @@ if (!empty($_REQUEST['year']) && !empty($_REQUEST['month'])) {
     $dates = array();
     for ($i = 0; $i <= (rand(4, 10)); $i++) {
         $date = $year . '-' . str_pad($month, 2, '0', STR_PAD_LEFT) . '-' . str_pad(rand(1, $lastday), 2, '0', STR_PAD_LEFT);
-        $dates[$i] = array(
+        $dates[$i] = array( 
             'date' => $date,
             'badge' => ($i & 1) ? true : false,
             'title' => 'Example for ' . $date,
@@ -38,8 +38,9 @@ if (!empty($_REQUEST['year']) && !empty($_REQUEST['month'])) {
             ';
         }
     }
-
-    echo json_encode($dates);
+var_dump($dates);
+    exit;
+    //echo json_encode($dates);
 
 } else {
     echo json_encode(array());

@@ -372,7 +372,7 @@ $(document).ready(function () {
         show_previous: false,
         today: true,
         ajax: {
-            url: "event_data.json",
+            url: "event_data.php",
             modal: true
         }
     });
