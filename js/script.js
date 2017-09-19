@@ -366,6 +366,9 @@ $(document).ready(function () {
 
     });
 
+    //modal body
+
+
 
     $('#calendar').zabuto_calendar({
         language: "fr",
@@ -390,8 +393,6 @@ $(document).ready(function () {
             fixedNavbar.removeClass('attached');
         }
     })
-
-
 
 
     $('.pictures-gallery').each(function () {

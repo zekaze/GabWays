@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" serverName="GabWays" uploadOnCheckin="db9866d3-f1e1-4c57-90b6-e0dac11356eb">
     <serverData>
+      <paths name="Asso-Gabon">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="GabWays">
         <serverdata>
           <mappings>
