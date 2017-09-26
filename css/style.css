@@ -1371,7 +1371,8 @@ span.incdicateur_distance {
   width: 190px;
   padding: 5px 15px;
   background-color: #fff;
-  font-size: 13px; }
+  font-size: 13px;
+  border-top: solid 1px #eee; }
 
 @media (max-width: 767px) {
   .body.admin {
