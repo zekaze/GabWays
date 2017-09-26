@@ -27,4 +27,4 @@
             </div>
         </div>
     </div>
-<?php include_once "layout/footer.php";?>
+<?php include_once "layout/admin-footer.php";?>
