@@ -1327,11 +1327,7 @@ span.incdicateur_distance {
   width: 190px;
   position: relative; }
   .admin-sidebar .header .dashboard-label {
-    padding: 8px 15px;
-    background-color: #af1e27;
-    display: block;
-    font-weight: 700;
-    color: #fff; }
+    padding: 8px 15px; }
   .admin-sidebar .fa {
     margin-right: 10px;
     display: inline-block;
