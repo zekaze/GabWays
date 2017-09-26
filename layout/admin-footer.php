@@ -1,14 +1,5 @@
-<footer id="main-footer">
-    <div class="container">
-        <ul class="footer-menu">
-            <li class="hidden-xs">&copy; Gabways 2017</li>
-        </ul>
-        <ul class="footer-social-media">
-            <li><a href="https://facebook.com"class="social-icon" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com" class="social-icon" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://youtube.com" class="social-icon" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-        </ul>
-    </div>
+<footer id="admin-footer">
+    &copy; Gabways 2017
 </footer>
 
 <!--jQuery-->

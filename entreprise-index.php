@@ -10,8 +10,8 @@
                 </div>
 
                 <ul class="sidebar-menu">
-                    <li><a href="entreprise-index.php"><i class="fa fa-home fa-lg"></i>Accueil administration</a></li>
-                    <li><a href="index.php"><i class="fa fa-home fa-lg"></i>Accueil GabWays</a></li>
+                    <!--<li><a href="entreprise-index.php"><i class="fa fa-home fa-lg"></i>Accueil administration</a></li>-->
+                    <!--<li><a href="index.php"><i class="fa fa-home fa-lg"></i>Accueil GabWays</a></li>-->
                     <li><a href="#"><i class="fa fa-user fa-lg"></i>Mon profil</a></li>
                     <li><a href="#"><i class="fa fa-clipboard fa-lg"></i>Fiche entreprise</a></li>
                     <li><a href="#"><i class="fa fa-photo fa-lg"></i>Media</a></li>

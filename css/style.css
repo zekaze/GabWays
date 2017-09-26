@@ -1347,9 +1347,9 @@ span.incdicateur_distance {
       -o-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out; }
     .admin-sidebar .sidebar-menu li a:hover {
-      background-color: #1f1f1f; }
+      background-color: #f8f8f8; }
   .admin-sidebar a {
-    color: #fff; }
+    color: #2c2c2c; }
 
 .admin-sidebar:after {
   content: '';
@@ -1360,8 +1360,18 @@ span.incdicateur_distance {
   left: 0;
   top: 0;
   z-index: -1;
-  background-color: #2c2c2c;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.4); }
+  background-color: #fff;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); }
+
+#admin-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 190px;
+  padding: 5px 15px;
+  background-color: #fff;
+  font-size: 13px; }
 
 @media (max-width: 767px) {
   .body.admin {
@@ -1369,13 +1379,23 @@ span.incdicateur_distance {
 
   .admin-sidebar {
     width: 100%;
-    background-color: #2c2c2c; }
+    background-color: #fff; }
     .admin-sidebar .sidebar-menu li a {
       padding: 15px;
       font-size: 14px; }
 
   .admin-sidebar:after {
-    display: none; } }
+    display: none; }
+
+  #admin-footer {
+    position: relative;
+    left: unset;
+    bottom: unset;
+    z-index: 1;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    background-color: #2c2c2c; } }
 @media (max-width: 1365px) {
   #google-map .etablissements {
     overflow: hidden;
