@@ -1333,7 +1333,9 @@ span.incdicateur_distance {
     font-weight: 700;
     color: #fff; }
   .admin-sidebar .fa {
-    margin-right: 10px; }
+    margin-right: 10px;
+    display: inline-block;
+    width: 18px; }
   .admin-sidebar .sidebar-menu {
     margin: 0;
     padding: 0;
