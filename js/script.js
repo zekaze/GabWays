@@ -453,4 +453,28 @@ $(document).ready(function () {
     }
 
     $('.form_input').attr('autocomplete','off');
+
+    $('input[type=checkbox]').each(function () {
+        var self = $(this),
+            label = self.parent('label');
+
+        self.change(function () {
+            if(self.is(':checked')){
+                label.addClass('checked');
+                console.log('changed');
+            }
+            else{
+                label.removeClass('checked');
+            }
+        })
+    });
+
+    $(function () {
+        $('.datepicker').wickedpicker({
+            now: "8:00",
+            twentyFour : true,
+            timeSeparator: ':',
+            minutesInterval: 15
+        });
+    })
 });

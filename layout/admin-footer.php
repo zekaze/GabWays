@@ -17,6 +17,9 @@
 <script src="plugins/zabuto-calendar/zabuto_calendar.js"></script>
 <!--MAgnific popup-->
 <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<!--Wicked Picker-->
+<script src="plugins/wickedpicker/dist/wickedpicker.min.js"></script>
 <!--Custom script-->
 <script src="js/script.js"></script>
 <!--Google Maps-->

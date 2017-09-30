@@ -116,6 +116,28 @@
   }
 }
 
+.checkbox{
+  margin: 0;
+  padding: 10px 0;
+  background-color: #eee;
+  color: #999 !important;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.wickedpicker__title{
+  display: none;
+}
+.wickedpicker{
+  height: auto;
+}
+.checkbox.checked{
+  background-color: $primary-color;
+  color: #fff !important;
+}
+.checkbox::selection{
+  background: none;
+}
 @media (max-width: 767px) {
   .body.admin{
     display: inherit;

@@ -105,19 +105,21 @@
                                         'Dimanche' => 'dim',
                                     );?>
 
-                                    <?php foreach ($dates as $date => $short):?>
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <label for="<?php echo $short;?>" class="check"><?php echo $date;?>
-                                                <input type="checkbox" name="<?php echo $short;?>" id="<?php echo $short;?>" class="hidden">
-                                            </label>
+                                    <?php foreach ($dates as $date => $short): ?>
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <label for="<?php echo $short; ?>" class="checkbox"><?php echo $date; ?>
+                                                    <input type="checkbox" name="<?php echo $short; ?>"
+                                                           id="<?php echo $short; ?>" class="hidden">
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <label for="horaire-<?php echo $short; ?>" class="hidden"></label>
+                                                <input type="text" name="horaire-<?php echo $short; ?>"
+                                                       id="horaire-<?php echo $short; ?>" class="form_input datepicker">
+                                            </div>
                                         </div>
-                                        <div class="col-sm-9">
-                                            <label for="horaire-<?php echo $short;?>" class="hidden"></label>
-                                            <input type="text" name="horaire-<?php echo $short;?>" id="horaire-<?php echo $short;?>" class="form_input datepicker">
-                                        </div>
-                                    </div>
-    <?php endforeach;?>
+                                    <?php endforeach; ?>
                                 </div>
                             </div>
                             <div class="col-sm-6">
