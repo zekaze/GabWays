@@ -454,5 +454,21 @@ $(document).ready(function () {
 
     $('.form_input').attr('autocomplete','off');
 
+    $(function () {
+        var readOnly = $('.readonly'),
+            formInputs = readOnly.find('input'),
+            selectInput = readOnly.find('select');
+
+        formInputs.each(function () {
+            var self = $(this);
+            self.attr("readonly", true);
+        });
+
+        selectInput.each(function () {
+            var self = $(this);
+            self.attr("disabled", true);
+        })
+    })
+
 
 });

@@ -1322,11 +1322,15 @@ span.incdicateur_distance {
 .body.admin {
   display: flex;
   flex-direction: row; }
+  .body.admin .main-body {
+    background: none;
+    flex-grow: 1; }
 
 .admin-sidebar {
   width: 190px;
   position: relative; }
   .admin-sidebar .header .dashboard-label {
+    display: block;
     padding: 15px 15px;
     /*border-bottom: solid 1px #eee;*/
     margin-bottom: 15px; }
@@ -1373,6 +1377,35 @@ span.incdicateur_distance {
   background-color: #fff;
   font-size: 13px;
   border-top: solid 1px #eee; }
+
+.admin-section .section-header {
+  display: block;
+  padding-bottom: 5px;
+  margin-bottom: 30px; }
+  .admin-section .section-header h2 {
+    color: #999999;
+    font-weight: bold; }
+.admin-section .section-body {
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 7px #d0d0d0; }
+  .admin-section .section-body .section-title {
+    color: #2d2d7b;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #eee;
+    margin-bottom: 30px; }
+  .admin-section .section-body form label {
+    display: block;
+    color: #af1e27; }
+  .admin-section .section-body form .form_input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #eee;
+    margin-bottom: 20px; }
 
 @media (max-width: 767px) {
   .body.admin {

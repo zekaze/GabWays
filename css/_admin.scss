@@ -1,6 +1,11 @@
 .body.admin{
   display: flex;
   flex-direction: row;
+
+  .main-body{
+    background: none ;
+    flex-grow: 1;
+  }
 }
 .admin-sidebar{
   width: 190px;
@@ -8,6 +13,7 @@
 
   .header{
     .dashboard-label{
+      display: block;
       padding: 15px 15px;
       /*border-bottom: solid 1px #eee;*/
       margin-bottom: 15px;
@@ -62,6 +68,48 @@
   background-color: #fff;
   font-size: 13px;
   border-top: solid 1px #eee;
+}
+
+.admin-section{
+  .section-header{
+    display: block;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    h2{
+      color: #999999;
+      font-weight: bold;
+    }
+  }
+
+  .section-body{
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 7px #d0d0d0;
+
+    .section-title{
+      color: $dark-primary-color;
+      font-weight: 700;
+      padding-bottom: 10px;
+      border-bottom: solid 2px #eee;
+      margin-bottom: 30px;
+    }
+
+    form{
+      label{
+        display: block;
+        color: $primary-color;
+      }
+      .form_input{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: #eee;
+        margin-bottom: 20px;
+      }
+    }
+  }
 }
 
 @media (max-width: 767px) {

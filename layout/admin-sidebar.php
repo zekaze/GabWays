@@ -1,0 +1,13 @@
+<div class="admin-sidebar">
+    <div class="header">
+        <a href="index.php" class="dashboard-label"><img src="img/logo.png" height="40"></a>
+    </div>
+
+    <ul class="sidebar-menu">
+        <li><a href="entreprise-profile.php"><i class="fa fa-user fa-lg"></i>Mon profil</a></li>
+        <li><a href="#"><i class="fa fa-clipboard fa-lg"></i>Fiche entreprise</a></li>
+        <li><a href="#"><i class="fa fa-photo fa-lg"></i>Media</a></li>
+        <li><a href="#"><i class="fa fa-calendar fa-lg"></i>Mes événements</a></li>
+        <li><a href="#"><i class="fa fa-bullhorn fa-lg"></i>Mes publicités</a></li>
+    </ul>
+</div>
