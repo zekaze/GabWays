@@ -87,6 +87,7 @@
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 7px #d0d0d0;
+    margin-bottom: 20px;
 
     .section-title{
       color: $dark-primary-color;
@@ -96,7 +97,6 @@
       margin-bottom: 30px;
     }
 
-    form{
       label{
         display: block;
         color: $primary-color;
@@ -109,6 +109,9 @@
         background-color: #eee;
         margin-bottom: 20px;
       }
+    textarea.form_input{
+      resize: none;
+      height: 180px;
     }
   }
 }

@@ -13,14 +13,14 @@
                         <div class="alert alert-info"><i class="fa fa-info-circle"></i> &nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa necessitatibus soluta tempore voluptatem! Ab atque dolor et facere quasi, suscipit voluptates. Dolor magnam natus nobis praesentium reprehenderit similique tempora.</div>
                     </div>
                     <div class="section-body">
-                        <h4 class="section-title">Mon profile</h4>
-                            <form action="" class="readonly">
+                        <h4 class="section-title">Mon profil</h4>
+                            <form action="">
                                 <div class="row">
                                     <div class="col-md-2">
                                         <label for="entreprise">Nom de l'entreprise</label>
                                     </div>
                                     <div class="col-md-10">
-                                        <input type="text" id="entreprise" class="form_input">
+                                        <input type="text" id="entreprise" class="form_input" readonly>
                                     </div>
                                 </div>
 
@@ -29,7 +29,7 @@
                                         <label for="categorie">Catégorie de l'entreprise</label>
                                     </div>
                                     <div class="col-md-10">
-                                        <select name="category" id="categorie" class="form_input" >
+                                        <select name="category" id="categorie" class="form_input" disabled>
                                             <option value="1">Categorie 1</option>
                                             <option value="2">Categorie 2</option>
                                             <option value="3">Categorie 3</option>
@@ -45,11 +45,11 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <label for="latitude">Latitude</label>
-                                                <input type="text" id="latitude" class="form_input">
+                                                <input type="text" id="latitude" class="form_input" readonly>
                                             </div>
                                             <div class="col-md-6">
                                                 <label for="longitude">Longitude</label>
-                                                <input type="text" id="longitude" class="form_input">
+                                                <input type="text" id="longitude" class="form_input" readonly>
                                             </div>
                                         </div>
                                     </div>
@@ -60,7 +60,7 @@
                                         <label for="nom-responsable">Nom du responsable</label>
                                     </div>
                                     <div class="col-md-10">
-                                        <input type="text" id="nom-responsable" class="form_input">
+                                        <input type="text" id="nom-responsable" class="form_input" readonly>
                                     </div>
                                 </div>
 
@@ -69,7 +69,7 @@
                                         <label for="email-responsable">Adresse mail du responsable</label>
                                     </div>
                                     <div class="col-md-10">
-                                        <input type="email" id="email-responsable" class="form_input">
+                                        <input type="email" id="email-responsable" class="form_input" readonly>
                                     </div>
                                 </div>
                             </form>
