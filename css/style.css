@@ -1324,7 +1324,8 @@ span.incdicateur_distance {
   flex-direction: row; }
   .body.admin .main-body {
     background: none;
-    width: calc(100% - 190px); }
+    width: calc(100% - 190px);
+    padding: 0; }
 
 .admin-sidebar {
   width: 190px;
@@ -1424,7 +1425,8 @@ span.incdicateur_distance {
   display: none; }
 
 .wickedpicker {
-  height: auto; }
+  height: auto;
+  width: auto; }
 
 .checkbox.checked {
   background-color: #af1e27;

@@ -5,6 +5,7 @@
   .main-body{
     background: none ;
     width: calc(100% - 190px);
+    padding: 0;
   }
 }
 
@@ -130,6 +131,7 @@
 }
 .wickedpicker{
   height: auto;
+  width: auto;
 }
 .checkbox.checked{
   background-color: $primary-color;
