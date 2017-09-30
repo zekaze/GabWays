@@ -20,6 +20,11 @@
 
 <!--Wicked Picker-->
 <script src="plugins/wickedpicker/dist/wickedpicker.min.js"></script>
+
+<!--TagsInput-->
+<script src="plugins/tagsinput/bootstrap-tagsinput.min.js"></script>
+<!--TagsInput-->
+<script src="plugins/tagsinput/bootstrap-tagsinput-angular.min.js"></script>
 <!--Custom script-->
 <script src="js/script.js"></script>
 <!--Google Maps-->

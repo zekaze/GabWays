@@ -30,6 +30,9 @@
                                         <option value="3">Categorie 3</option>
                                     </select>
 
+                                    <label for="url">Site internet</label>
+                                    <input type="text" id="url" class="form_input">
+
                                     <label for="description">Description</label>
                                     <textarea name="description" id="description" class="form_input"></textarea>
                                 </div>
@@ -74,9 +77,14 @@
                                         </div>
                                     </div>
 
-
                                     <label for="indications">Indication sur la localisation</label>
                                     <textarea name="indications" id="indications" class="form_input"></textarea>
+                                </div>
+
+                                <div class="section-body">
+                                    <h4 class="section-title">Tags</h4>
+                                    <label for="indications">Tags associés</label>
+                                    <input name="" id="tags" data-role="tagsinput" class="form_input">
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -88,11 +96,7 @@
                                     <label for="longitude">Longitude</label>
                                     <input type="text" id="longitude" class="form_input">
                                 </div>
-                            </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-sm-6">
                                 <div class="section-body">
                                     <h4 class="section-title">Heures d'ouverture</h4>
                                     <?php $dates = array(
@@ -107,13 +111,13 @@
 
                                     <?php foreach ($dates as $date => $short): ?>
                                         <div class="row">
-                                            <div class="col-sm-3">
+                                            <div class="col-lg-4 col-xs-6">
                                                 <label for="<?php echo $short; ?>" class="checkbox"><?php echo $date; ?>
                                                     <input type="checkbox" name="<?php echo $short; ?>"
                                                            id="<?php echo $short; ?>" class="hidden">
                                                 </label>
                                             </div>
-                                            <div class="col-sm-9">
+                                            <div class="col-lg-8 col-xs-6">
                                                 <label for="horaire-<?php echo $short; ?>" class="hidden"></label>
                                                 <input type="text" name="horaire-<?php echo $short; ?>"
                                                        id="horaire-<?php echo $short; ?>" class="form_input datepicker">
@@ -121,9 +125,6 @@
                                         </div>
                                     <?php endforeach; ?>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="section-body"></div>
                             </div>
                         </div>
                     </form>
