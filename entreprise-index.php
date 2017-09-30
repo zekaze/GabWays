@@ -5,7 +5,7 @@
 <?php include_once "data.php";?>
     <div class="body admin">
         <?php include_once "layout/admin-sidebar.php";?>
-        <div class="body">
+        <div class="main-body">
             <div class="container-fluid">
                 <div>
                     Body

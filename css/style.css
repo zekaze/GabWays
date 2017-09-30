@@ -1324,7 +1324,7 @@ span.incdicateur_distance {
   flex-direction: row; }
   .body.admin .main-body {
     background: none;
-    flex-grow: 1; }
+    width: calc(100% - 190px); }
 
 .admin-sidebar {
   width: 190px;
@@ -1410,6 +1410,8 @@ span.incdicateur_distance {
 @media (max-width: 767px) {
   .body.admin {
     display: inherit; }
+    .body.admin .main-body {
+      width: 100%; }
 
   .admin-sidebar {
     width: 100%;
