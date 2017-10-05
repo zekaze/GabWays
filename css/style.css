@@ -1428,12 +1428,28 @@ span.incdicateur_distance {
   height: auto;
   width: auto; }
 
+.bootstrap-tagsinput {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+  background-color: #eee;
+  margin-bottom: 20px; }
+
 .checkbox.checked {
   background-color: #af1e27;
   color: #fff !important; }
 
 .checkbox::selection {
   background: none; }
+
+.label-info {
+  background-color: #af1e27; }
+
+.label {
+  padding: 5px 15px;
+  font-size: 100%; }
 
 @media (max-width: 767px) {
   .body.admin {
