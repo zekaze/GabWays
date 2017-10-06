@@ -26,8 +26,8 @@
                                             <div class="td col-xs-2 col-md-1 text-center"><?php echo $i+1;?></div>
                                             <div class="td col-xs-10 col-md-8 col-lg-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
                                             <div class="td col-md-3 col-lg-2 text-right">
-                                                <a href="#" class="btn">Action 1</a>
-                                                <a href="#" class="btn">Action 2</a>
+                                                <a href="#" class="btn"><i class="fa fa-eye"></i></a>
+                                                <a href="#" class="btn"><i class="fa fa-trash"></i></a>
                                             </div>
                                         </div>
                                     <?php endfor;?>

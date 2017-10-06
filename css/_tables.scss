@@ -1,20 +1,28 @@
 .custom-table{
+  padding: 0 15px;
   .thead{
     border-bottom: solid 2px #eee;
+    background-color: #393939;
+
 
     .th{
       padding: 10px;
       font-weight: 700;
+      color: #fff;
     }
   }
   .tbody{
     .tr{
+      padding: 5px 15px;
+      border-top: solid 1px #eee;
       .td{
-        padding: 5px 10px;
       }
     }
+    .tr:first-of-type{
+      border: none;
+    }
     .tr:nth-of-type(even){
-      background-color: #eee;
+      background-color: #f8f8f8;
     }
   }
 }
