@@ -471,7 +471,10 @@ $(document).ready(function () {
 
 
     $('#tags').tagsinput({
-        maxTags: 3
+        maxTags: 8,
+        typeahead: {
+            source: ['Amsterdam', 'Washington', 'Sydney', 'Beijing', 'Cairo']
+        }
     });
 
     $(function () {

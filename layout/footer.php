@@ -27,6 +27,8 @@
 <script src="plugins/holder.js/holder.min.js"></script>
 <!--Zabuto calendar-->
 <script src="plugins/zabuto-calendar/zabuto_calendar.js"></script>
+
+<script src="plugins/zabuto-calendar/zabuto_calendar.js"></script>
 <!--MAgnific popup-->
 <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
 <!--Custom script-->
