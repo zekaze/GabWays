@@ -84,7 +84,7 @@
                                 <div class="section-body">
                                     <h4 class="section-title">Tags</h4>
                                     <label for="indications">Tags associés</label>
-                                    <input name="" id="tags" data-role="tagsinput" class="form_input">
+                                    <input name="" id="tags" class="form_input tags_field">
                                 </div>
                             </div>
                             <div class="col-md-4">

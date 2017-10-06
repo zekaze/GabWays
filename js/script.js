@@ -469,6 +469,11 @@ $(document).ready(function () {
         })
     });
 
+
+    $('#tags').tagsinput({
+        maxTags: 3
+    });
+
     $(function () {
         $('.datepicker').wickedpicker({
             now: "8:00",
