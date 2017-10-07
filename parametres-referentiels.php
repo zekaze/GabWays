@@ -18,7 +18,7 @@
                                     <div class="th col-xs-3 col-sm-2 col-lg-1">
                                         <label class="checkbox list">
                                             <i class="fa fa-check"></i>
-                                            <input type="checkbox" class="hidden check-all" data-target="tbody1">
+                                            <input type="checkbox" class="hidden check-all" data-target="#tbody1">
                                         </label> &nbsp; #
                                     </div>
                                     <div class="th col-xs-9 col-sm-10 col-lg-11">Libellé</div>
@@ -30,7 +30,7 @@
                                             <div class="td col-xs-3 col-sm-2 col-lg-1">
                                                 <label class="checkbox list">
                                                     <i class="fa fa-check"></i>
-                                                    <input type="checkbox" class="hidden check-all" data-target="tbody1">
+                                                    <input type="checkbox" class="hidden">
                                                 </label> &nbsp;
                                                 <?php echo $i+1;?>
                                             </div>

@@ -461,7 +461,6 @@ $(document).ready(function () {
         self.change(function () {
             if(self.is(':checked')){
                 label.addClass('checked');
-                console.log('changed');
             }
             else{
                 label.removeClass('checked');
@@ -485,4 +484,6 @@ $(document).ready(function () {
             minutesInterval: 15
         });
     })
+
+
 });
