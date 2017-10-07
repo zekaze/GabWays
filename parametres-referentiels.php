@@ -1,5 +1,4 @@
 <?php include_once "layout/head.php";?>
-<?php /*include_once "layout/admin-header.php";*/?>
 
 
 <?php include_once "data.php";?>
@@ -16,16 +15,27 @@
                             <h4 class="section-title">Liste des paramètres</h4>
                             <div class="custom-table">
                                 <div class="row thead">
-                                    <div class="th col-xs-2 col-md-1 text-center">Id</div>
-                                    <div class="th col-xs-10 col-md-11 col-lg-11">Libellé</div>
+                                    <div class="th col-xs-3 col-sm-2 col-lg-1">
+                                        <label class="checkbox list">
+                                            <i class="fa fa-check"></i>
+                                            <input type="checkbox" class="hidden check-all" data-target="tbody1">
+                                        </label> &nbsp; #
+                                    </div>
+                                    <div class="th col-xs-9 col-sm-10 col-lg-11">Libellé</div>
                                 </div>
 
-                                <div class="tbody">
+                                <div id="tbody1" class="tbody">
                                     <?php for($i = 0; $i < 20; $i++):?>
                                         <div class="row tr">
-                                            <div class="td col-xs-2 col-md-1 text-center"><?php echo $i+1;?></div>
-                                            <div class="td col-xs-10 col-md-8 col-lg-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                                            <div class="td col-md-3 col-lg-2 text-right">
+                                            <div class="td col-xs-3 col-sm-2 col-lg-1">
+                                                <label class="checkbox list">
+                                                    <i class="fa fa-check"></i>
+                                                    <input type="checkbox" class="hidden check-all" data-target="tbody1">
+                                                </label> &nbsp;
+                                                <?php echo $i+1;?>
+                                            </div>
+                                            <div class="td col-xs-9 col-sm-7 col-lg-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                                            <div class="td col-sm-3 col-lg-2 text-right">
                                                 <a href="#" class="btn"><i class="fa fa-eye"></i></a>
                                                 <a href="#" class="btn"><i class="fa fa-trash"></i></a>
                                             </div>

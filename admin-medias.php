@@ -16,7 +16,7 @@
                             <h4 class="section-title">Liste des paramètres</h4>
                             <div class="custom-table">
                                 <div class="row thead">
-                                    <div class="th col-xs-2 col-md-1 text-center">Id</div>
+                                    <div class="th col-xs-2 col-md-1 text-center"><input type="checkbox" class="check-all"> #</div>
                                     <div class="th col-xs-10 col-md-11 col-lg-11">Libellé</div>
                                 </div>
 

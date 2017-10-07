@@ -1480,9 +1480,9 @@ span.incdicateur_distance {
   padding: 0 15px; }
   .custom-table .thead {
     border-bottom: solid 2px #eee;
-    background-color: #393939; }
+    background-color: #af1e27;
+    padding: 10px 15px; }
     .custom-table .thead .th {
-      padding: 10px;
       font-weight: 700;
       color: #fff; }
   .custom-table .tbody .tr {
@@ -1492,6 +1492,17 @@ span.incdicateur_distance {
     border: none; }
   .custom-table .tbody .tr:nth-of-type(even) {
     background-color: #f8f8f8; }
+  .custom-table .checkbox.list {
+    display: inline-block;
+    border-radius: 2px;
+    padding: 2px 5px; }
+    .custom-table .checkbox.list .fa {
+      opacity: 0; }
+  .custom-table .checkbox.list.checked {
+    background-color: #eee;
+    color: #393939 !important; }
+    .custom-table .checkbox.list.checked .fa {
+      opacity: 1; }
 
 @media (max-width: 1365px) {
   #google-map .etablissements {
