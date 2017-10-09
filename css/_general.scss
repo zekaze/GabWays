@@ -33,6 +33,11 @@ a{
 *, *:focus, *:active{
   outline: none !important;
 }
+
+.inline-block{
+  display: inline-block !important;
+  width: auto !important;
+}
 .search_bar{
   background-color: $text-icons-color;
   padding: 15px 0;

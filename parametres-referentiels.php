@@ -67,6 +67,22 @@
                                 <i class="fa fa-folder"></i> Ajouter un fichier
                                 <input type="file" name="fichier" class="hidden">
                             </label>
+
+                            <h4>Cases à cocher</h4>
+                            <?php for ($i = 0; $i < 5; $i++): ?>
+                                <label class="old_checkbox">
+                                    <input type="checkbox" name="checkbox[]">
+                                    Case à cocher classique <?php echo $i + 1; ?>
+                                </label>
+                            <?php endfor; ?>
+
+                            <h4>Cases à cocher custom</h4>
+                            <?php for ($i = 0; $i < 5; $i++): ?>
+                                <label class="checkbox inline-block">
+                                    <input type="checkbox" class="hidden" name="checkbox[]">
+                                    Case à cocher custom <?php echo $i + 1; ?>
+                                </label>
+                            <?php endfor; ?>
                         </div>
                     </form>
                 </div>

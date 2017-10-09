@@ -30,6 +30,10 @@ a {
 *, *:focus, *:active {
   outline: none !important; }
 
+.inline-block {
+  display: inline-block !important;
+  width: auto !important; }
+
 .search_bar {
   background-color: #fff;
   padding: 15px 0; }
@@ -1427,7 +1431,7 @@ span.incdicateur_distance {
 
 .checkbox {
   margin: 0;
-  padding: 10px 0;
+  padding: 10px 15px;
   background-color: #eee;
   color: #999 !important;
   border-radius: 5px;
