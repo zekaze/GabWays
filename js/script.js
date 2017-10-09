@@ -487,3 +487,17 @@ $(document).ready(function () {
 
 
 });
+tinymce.init({
+    selector: '.rich-text',
+    height: 200,
+    menubar: false,
+    language: 'fr_FR',
+    branding: false,
+    plugins: [
+        'advlist autolink lists link image charmap print preview anchor textcolor',
+        'wordcount',
+        'searchreplace visualblocks code fullscreen',
+        'insertdatetime media table contextmenu paste code help'
+    ],
+    toolbar: 'insert | undo redo |  styleselect | bold italic backcolor  | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat'
+});

@@ -21,11 +21,14 @@
 <!--Wicked Picker-->
 <script src="plugins/wickedpicker/dist/wickedpicker.min.js"></script>
 
+<!--Tiny MCE-->
+<script src="plugins/tinymce/tinymce.min.js"></script>
+<script src="plugins/tinymce/jquery.tinymce.min.js"></script>
+
 <!--TagsInput-->
 <script src="plugins/tagsinput/bootstrap-tagsinput.min.js"></script>
 <!--TagsInput-->
 <script src="plugins/tagsinput/bootstrap-tagsinput-angular.min.js"></script>
-
 <script src="plugins/typeahead/bootstrap3-typeahead.min.js"></script>
 <!--Custom script-->
 <script src="js/script.js"></script>

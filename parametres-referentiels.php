@@ -22,7 +22,7 @@
                                 </div>
 
                                 <div id="tbody1" class="tbody">
-                                    <?php for($i = 0; $i < 20; $i++):?>
+                                    <?php for($i = 0; $i < 3; $i++):?>
                                         <div class="row tr">
                                             <div class="td col-xs-3 col-sm-2 col-lg-1">
                                                 <?php echo $i+1;?>
@@ -36,7 +36,28 @@
                                     <?php endfor;?>
                                 </div>
                             </div>
+                        </div>
 
+                        <div class="section-body">
+                            <h4 class="section-title">Champs génériques</h4>
+                            <label for="champ_texte">Texte</label>
+                            <input type="text" id="champ_texte" class="form_input" placeholder="Champ de texte...">
+
+                            <label for="champ_mail">Email</label>
+                            <input type="email" id="champ_mail" class="form_input" placeholder="Champ email...">
+
+                            <label for="liste_deroulante">Liste déroulante</label>
+                            <select name="liste_deroulante" id="liste_deroulante" class="form_input">
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                                <option>Option 3</option>
+                            </select>
+
+                            <label for="zone_de_saisie">Zone de saisie simple</label>
+                            <textarea id="zone_de_saisie" class="form_input" placeholder="Zone de saisie simple..."></textarea>
+
+                            <label for="zone_de_saisie_riche">Zone de saisie riche</label>
+                            <textarea id="zone_de_saisie_riche" class="form_input rich-text" placeholder="Zone de saisie riche..."></textarea>
                         </div>
                     </form>
                 </div>
