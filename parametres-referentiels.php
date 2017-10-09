@@ -58,6 +58,10 @@
 
                             <label for="zone_de_saisie_riche">Zone de saisie riche</label>
                             <textarea id="zone_de_saisie_riche" class="form_input rich-text" placeholder="Zone de saisie riche..."></textarea>
+                            <div style="margin-bottom: 15px;"></div>
+
+                            <label for="ajout_fichier">Ajout de fichier classique</label>
+                            <input type="file" name="fichier" id="ajout_fichier" class="form_input">
                         </div>
                     </form>
                 </div>
