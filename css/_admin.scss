@@ -114,6 +114,19 @@
       resize: none;
       height: 180px;
     }
+
+    .file_input{
+      display: inline-block;
+      width: auto;
+      background-color: $primary-color;
+      cursor: pointer;
+      color: #eee;
+      padding: 10px 15px;
+      @include transition(0.3s);
+    }
+    .file_input:hover{
+      background-color: darken($primary-color, 8%);
+    }
   }
 }
 

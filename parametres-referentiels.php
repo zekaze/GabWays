@@ -62,6 +62,11 @@
 
                             <label for="ajout_fichier">Ajout de fichier classique</label>
                             <input type="file" name="fichier" id="ajout_fichier" class="form_input">
+
+                            <label for="ajout_fichier" class="file_input">
+                                <i class="fa fa-folder"></i> Ajouter un fichier
+                                <input type="file" name="fichier" class="hidden">
+                            </label>
                         </div>
                     </form>
                 </div>
