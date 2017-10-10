@@ -83,6 +83,22 @@
                                     Case à cocher custom <?php echo $i + 1; ?>
                                 </label>
                             <?php endfor; ?>
+
+                            <h4>Radio boutons classique</h4>
+                            <?php for ($i = 0; $i < 5; $i++): ?>
+                                <label class="old_checkbox">
+                                    <input type="radio" name="radio1">
+                                    Radio bouton <?php echo $i + 1; ?>
+                                </label>
+                            <?php endfor; ?>
+
+                            <h4>Radio boutons custom</h4>
+                            <?php for ($i = 0; $i < 5; $i++): ?>
+                                <label class="checkbox inline-block">
+                                    <input type="radio" name="radio2">
+                                    Radio bouton <?php echo $i + 1; ?>
+                                </label>
+                            <?php endfor; ?>
                         </div>
                     </form>
                 </div>
