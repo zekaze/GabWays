@@ -1447,7 +1447,15 @@ span.incdicateur_distance {
 
 .old_checkbox {
   font-weight: normal;
-  color: #333; }
+  color: inherit !important;
+  padding: 5px; }
+  .old_checkbox input {
+    margin: 0; }
+
+select.form_input {
+  padding: 0 5px !important; }
+  select.form_input option {
+    padding: 10px; }
 
 .bootstrap-tagsinput {
   width: 100%;

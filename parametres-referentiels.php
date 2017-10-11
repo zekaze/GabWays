@@ -46,11 +46,20 @@
                             <label for="champ_mail">Email</label>
                             <input type="email" id="champ_mail" class="form_input" placeholder="Champ email...">
 
-                            <label for="liste_deroulante">Liste déroulante</label>
+                            <label for="liste_deroulante">Liste déroulante normale</label>
                             <select name="liste_deroulante" id="liste_deroulante" class="form_input">
                                 <option>Option 1</option>
                                 <option>Option 2</option>
                                 <option>Option 3</option>
+                            </select>
+
+                            <label for="liste_deroulante">Liste multichoix</label>
+                            <select name="liste_deroulante" id="liste_deroulante" class="form_input" multiple>
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                                <option>Option 3</option>
+                                <option>Option 4</option>
+                                <option>Option 5</option>
                             </select>
 
                             <label for="zone_de_saisie">Zone de saisie simple</label>

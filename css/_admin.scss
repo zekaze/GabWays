@@ -148,7 +148,19 @@
 }
 .old_checkbox{
   font-weight: normal;
-  color: #333;
+  color: inherit !important;
+  padding: 5px;
+
+  input{
+    margin: 0;
+  }
+}
+
+select.form_input{
+  padding: 0 5px !important;
+  option{
+    padding: 10px;
+  }
 }
 .bootstrap-tagsinput {
   width: 100%;

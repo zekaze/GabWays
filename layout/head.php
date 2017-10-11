@@ -21,9 +21,6 @@
     <link href="plugins/slick/slick-theme.css" rel="stylesheet">
     
     <!--Zabuto calendar-->
-    <link href="plugins/accordion/css/jquery.accordion.css" rel="stylesheet">
-    
-    <!--Zabuto calendar-->
     <link href="plugins/zabuto-calendar/zabuto_calendar.css" rel="stylesheet">
 
     <link href="plugins/wickedpicker/dist/wickedpicker.min.css" rel="stylesheet">
