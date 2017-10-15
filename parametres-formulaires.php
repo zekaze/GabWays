@@ -210,27 +210,28 @@
 
                             <div class="custom-table">
                                 <div class="row thead">
-                                    <div class="th col-sm-2 col-lg-1">#</div>
-                                    <div class="th col-sm-3 col-lg-4">Email</div>
-                                    <div class="th col-sm-3 col-lg-3">Nom d'utilisateur</div>
-                                    <div class="th col-sm-2 col-lg-3">Profil</div>
-                                    <div class="th col-sm-2 col-lg-1">Actif</div>
+                                    <div class="th col-md-1">#</div>
+                                    <div class="th col-md-3">Email</div>
+                                    <div class="th col-md-3">Nom d'utilisateur</div>
+                                    <div class="th col-md-2">Profil</div>
+                                    <div class="th col-md-1">Actif</div>
+                                    <div class="th col-md-2"></div>
                                 </div>
 
                                 <div id="tbody1" class="tbody">
                                     <?php for($i = 0; $i < 3; $i++):?>
                                         <div class="row tr">
-                                            <div class="td col-sm-2 col-lg-1">
+                                            <div class="td col-md-1">
                                                 <?php echo $i+1;?>
                                             </div>
-                                            <div class="td col-sm-3 col-lg-4">utilisateur@gabways.com</div>
-                                            <div class="td col-sm-3 col-lg-3">Utilisateur</div>
-                                            <div class="td col-sm-2 col-lg-3">Profil</div>
-                                            <div class="td col-sm-2 col-lg-1">Actif</div>
-                                            <!--<div class="td col-sm-3 col-lg-3 text-right">
+                                            <div class="td col-md-3">utilisateur@gabways.com</div>
+                                            <div class="td col-md-3">Utilisateur</div>
+                                            <div class="td col-md-2">Profil</div>
+                                            <div class="td col-md-1">Actif</div>
+                                            <div class="td col-md-2 text-right">
                                                 <a href="#" class="btn"><i class="fa fa-eye"></i></a>
                                                 <a href="#" class="btn"><i class="fa fa-trash"></i></a>
-                                            </div>-->
+                                            </div>
                                         </div>
                                     <?php endfor;?>
                                 </div>
@@ -362,29 +363,30 @@
                             <h4 class="section-title">Événements - Liste</h4>
                             <div class="custom-table">
                                 <div class="row thead">
-                                    <div class="th col-sm-1">#</div>
-                                    <div class="th col-sm-3">Entreprise</div>
-                                    <div class="th col-sm-3">Titre</div>
-                                    <div class="th col-sm-2">Date de debut</div>
-                                    <div class="th col-sm-2">Date de fin</div>
-                                    <div class="th col-sm-1">Statut</div>
+                                    <div class="th col-md-1">#</div>
+                                    <div class="th col-md-3">Entreprise</div>
+                                    <div class="th col-md-3">Titre</div>
+                                    <div class="th col-md-1">Debut</div>
+                                    <div class="th col-md-1">Fin</div>
+                                    <div class="th col-md-1">Statut</div>
+                                    <div class="th col-md-2"></div>
                                 </div>
 
                                 <div id="tbody1" class="tbody">
                                     <?php for($i = 0; $i < 3; $i++):?>
                                         <div class="row tr">
-                                            <div class="td col-sm-1">
+                                            <div class="td col-md-1">
                                                 <?php echo $i+1;?>
                                             </div>
-                                            <div class="td col-sm-3">Nom Entreprise</div>
-                                            <div class="td col-sm-3">titre de l'événement</div>
-                                            <div class="td col-sm-2">21-10-2017</div>
-                                            <div class="td col-sm-2">22-10-2017</div>
-                                            <div class="td col-sm-1">Statut</div>
-                                            <!--<div class="td col-sm-3 col-lg-3 text-right">
+                                            <div class="td col-md-3">Nom Entreprise</div>
+                                            <div class="td col-md-3">titre de l'événement</div>
+                                            <div class="td col-md-1">21-10-2017</div>
+                                            <div class="td col-md-1">22-10-2017</div>
+                                            <div class="td col-md-1">Statut</div>
+                                            <div class="td col-md-2 text-right">
                                                 <a href="#" class="btn"><i class="fa fa-eye"></i></a>
                                                 <a href="#" class="btn"><i class="fa fa-trash"></i></a>
-                                            </div>-->
+                                            </div>
                                         </div>
                                     <?php endfor;?>
                                 </div>
@@ -486,27 +488,32 @@
                             <h4 class="section-title">Publicités - Liste (Colonnes)</h4>
                             <div class="custom-table">
                                 <div class="row thead">
-                                    <div class="th col-sm-1">#</div>
-                                    <div class="th col-sm-3">Entreprise</div>
-                                    <div class="th col-sm-3">Libellé</div>
-                                    <div class="th col-sm-1">Début</div>
-                                    <div class="th col-sm-1">Fin</div>
-                                    <div class="th col-sm-2">Coût</div>
-                                    <div class="th col-sm-1">Statut</div>
+                                    <div class="th col-md-1">#</div>
+                                    <div class="th col-md-2">Entreprise</div>
+                                    <div class="th col-md-2">Libellé</div>
+                                    <div class="th col-md-1">Début</div>
+                                    <div class="th col-md-1">Fin</div>
+                                    <div class="th col-md-2">Coût</div>
+                                    <div class="th col-md-1">Statut</div>
+                                    <div class="th col-md-2"></div>
                                 </div>
 
                                 <div id="tbody1" class="tbody">
                                     <?php for($i = 0; $i < 3; $i++):?>
                                         <div class="row tr">
-                                            <div class="td col-sm-1">
+                                            <div class="td col-md-1">
                                                 <?php echo $i+1;?>
                                             </div>
-                                            <div class="td col-sm-3">Nom Entreprise</div>
-                                            <div class="td col-sm-3">Libellé de la pub</div>
-                                            <div class="td col-sm-1">21-10-2017</div>
-                                            <div class="td col-sm-1">22-10-2017</div>
-                                            <div class="td col-sm-2">25,000 FCFA</div>
-                                            <div class="td col-sm-1">Statut</div>
+                                            <div class="td col-md-2">Nom Entreprise</div>
+                                            <div class="td col-md-2">Libellé de la pub</div>
+                                            <div class="td col-md-1">21-10-2017</div>
+                                            <div class="td col-md-1">22-10-2017</div>
+                                            <div class="td col-md-2">25,000 FCFA</div>
+                                            <div class="td col-md-1">Statut</div>
+                                            <div class="td col-md-2 text-right">
+                                                <a href="#" class="btn"><i class="fa fa-eye"></i></a>
+                                                <a href="#" class="btn"><i class="fa fa-trash"></i></a>
+                                            </div>
                                         </div>
                                     <?php endfor;?>
                                 </div>
