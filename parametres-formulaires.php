@@ -22,8 +22,15 @@
 
                             <label for="champ_texte-1">Libellé *</label>
                             <input type="text" id="champ_texte-1" name="champ_texte-1" required class="form_input" placeholder="Libellé...">
-                        </div>
 
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                <button type="reset" class="btn">Annuler</button>
+                            </div>
+                        </div>
+                        </form>
+
+                    <form action="">
                         <div class="section-body">
                             <h4 class="section-title">Catégories</h4>
 
@@ -47,8 +54,15 @@
 
                             <label for="ajout_fichier-1">Image *</label>
                             <input type="file" name="ajout_fichier-1" id="ajout_fichier-1" class="form_input">
-                        </div>
 
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                <button type="reset" class="btn">Annuler</button>
+                            </div>
+                        </div>
+                        </form>
+
+                    <form action="">
                         <div class="section-body">
                             <h4 class="section-title">Modes de paiements</h4>
 
@@ -57,8 +71,15 @@
 
                             <label for="ajout_fichier-2">Image *</label>
                             <input type="file" name="ajout_fichier-2" id="ajout_fichier-2" class="form_input">
-                        </div>
 
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                <button type="reset" class="btn">Annuler</button>
+                            </div>
+                        </div>
+                        </form>
+
+                    <form action="">
                         <div class="section-body">
                             <h4 class="section-title">Options de fiche</h4>
 
@@ -87,9 +108,16 @@
 
                             <label for="champ_texte-7">Valeurs possibles</label>
                             <input type="text" id="champ_texte-7" name="champ_texte-7" class="form_input" placeholder="Valeurs possibles...">
-                        </div>
 
-                        <div class="section-body">
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                <button type="reset" class="btn">Annuler</button>
+                            </div>
+                        </div>
+                        </form>
+
+                    <form action="">
+                    <div class="section-body">
                             <h4 class="section-title">Tags</h4>
 
                             <label for="champ_texte-8">Libellé *</label>
@@ -98,8 +126,15 @@
 
                             <label for="champ_texte-9">Slug *</label>
                             <input type="text" id="champ_texte-9" name="champ_texte-9" required class="form_input" placeholder="Slug...">
-                        </div>
 
+                        <div class="form-footer">
+                            <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                            <button type="reset" class="btn">Annuler</button>
+                        </div>
+                        </div>
+                        </form>
+
+                    <form action="">
                         <div class="section-body">
                             <h4 class="section-title">Ville</h4>
 
@@ -108,9 +143,16 @@
 
                             <label for="champ_texte-11">Slug *</label>
                             <input type="text" id="champ_texte-11" required name="champ_texte-11" class="form_input" placeholder="Slug...">
-                        </div>
 
-                        <div class="section-body">
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                <button type="reset" class="btn">Annuler</button>
+                            </div>
+                        </div>
+                        </form>
+
+                    <form action="">
+                    <div class="section-body">
                             <h4 class="section-title">Quartiers</h4>
 
                             <label for="liste_deroulante-4">Ville *</label>
@@ -125,9 +167,16 @@
 
                             <label for="champ_texte-15">Slug *</label>
                             <input type="text" id="champ_texte-15" required name="champ_texte-15" class="form_input" placeholder="Slug...">
-                        </div>
 
-                        <div class="section-body">
+                        <div class="form-footer">
+                            <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                            <button type="reset" class="btn">Annuler</button>
+                        </div>
+                        </div>
+                        </form>
+
+                    <form action="">
+                    <div class="section-body">
                             <h4 class="section-title">Type de publicités</h4>
 
                             <label for="champ_texte-16">Type *</label>
@@ -147,8 +196,15 @@
                                 <input type="checkbox" class="hidden" name="checkbox[]">
                                 Actif
                             </label>
-                        </div>
 
+                        <div class="form-footer">
+                            <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                            <button type="reset" class="btn">Annuler</button>
+                        </div>
+                        </div>
+                        </form>
+
+                    <form action="">
                         <div class="section-body">
                             <h4 class="section-title">Utilisateurs - Liste</h4>
 
@@ -179,8 +235,15 @@
                                     <?php endfor;?>
                                 </div>
                             </div>
-                        </div>
 
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                <button type="reset" class="btn">Annuler</button>
+                            </div>
+                        </div>
+                        </form>
+
+                    <form action="">
                         <div class="section-body">
                             <h4 class="section-title">Utilisateurs (Détails)</h4>
 
@@ -231,8 +294,15 @@
 
                             <label for="password-confirm">Confirmation du mot de passe *</label>
                             <input type="password" id="password-confirm" required name="password-confirm" class="form_input" placeholder="Confirmation du mot de passe...">
-                        </div>
 
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                <button type="reset" class="btn">Annuler</button>
+                            </div>
+                        </div>
+                        </form>
+
+                    <form action="">
                         <div class="section-body">
                             <h4 class="section-title">Système</h4>
 
@@ -279,8 +349,15 @@
 
                             <label for="champ_texte-36">Lien video Youtube</label>
                             <input type="text" id="champ_texte-36" name="champ_texte-36" class="form_input" placeholder="Lien video Youtube...">
-                        </div>
 
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                <button type="reset" class="btn">Annuler</button>
+                            </div>
+                        </div>
+                        </form>
+
+                    <form action="">
                         <div class="section-body">
                             <h4 class="section-title">Événements - Liste</h4>
                             <div class="custom-table">
@@ -312,8 +389,15 @@
                                     <?php endfor;?>
                                 </div>
                             </div>
-                        </div>
 
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                <button type="reset" class="btn">Annuler</button>
+                            </div>
+                        </div>
+                        </form>
+
+                    <form action="">
                         <div class="section-body">
                             <h4 class="section-title">Événements (Détails)</h4>
 
@@ -389,8 +473,15 @@
                                 <option>Option 2</option>
                                 <option>Option 3</option>
                             </select>
-                        </div>
 
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                <button type="reset" class="btn">Annuler</button>
+                            </div>
+                        </div>
+                        </form>
+
+                    <form action="">
                         <div class="section-body">
                             <h4 class="section-title">Publicités - Liste (Colonnes)</h4>
                             <div class="custom-table">
@@ -416,24 +507,71 @@
                                             <div class="td col-sm-1">22-10-2017</div>
                                             <div class="td col-sm-2">25,000 FCFA</div>
                                             <div class="td col-sm-1">Statut</div>
-                                            <!--<div class="td col-sm-3 col-lg-3 text-right">
-                                                <a href="#" class="btn"><i class="fa fa-eye"></i></a>
-                                                <a href="#" class="btn"><i class="fa fa-trash"></i></a>
-                                            </div>-->
                                         </div>
                                     <?php endfor;?>
                                 </div>
                             </div>
-                        </div>
 
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                <button type="reset" class="btn">Annuler</button>
+                            </div>
+                        </div>
+                        </form>
+
+                    <form action="">
                         <div class="section-body">
                             <h4 class="section-title">Publicités (Détails)</h4>
+
+                            <label for="champ_texte-51">Libellé *</label>
+                            <input type="text" id="champ_texte-51" required name="champ_texte-51" class="form_input" placeholder="Libellé...">
+
+                            <label for="liste_deroulante-9">Type de publicité</label>
+                            <select name="liste_deroulante-9" id="liste_deroulante-9" class="form_input">
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                                <option>Option 3</option>
+                            </select>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label for="champ_texte-52">Date de debut</label>
+                                    <input type="date" id="champ_texte-52"  name="champ_texte-52" class="form_input" placeholder="Date de debut...">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="champ_texte-53">Date de fin</label>
+                                    <input type="date" id="champ_texte-53"  name="champ_texte-53" class="form_input" placeholder="Date de fin...">
+                                </div>
+                            </div>
+
+
+
+
+                            <label for="liste_deroulante-10">Priorité</label>
+                            <select name="liste_deroulante-10" id="liste_deroulante-10" class="form_input">
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                                <option>Option 3</option>
+                            </select
+
+                            <label for="champ_texte-54">Coût</label>
+                            <input type="text" id="champ_texte-54" readonly class="form_input" placeholder="Coût..">
+
+                            <h4>Cases à cocher</h4>
+                            <label class="checkbox inline-block">
+                                <input type="checkbox" class="hidden" name="checkbox[]">
+                                Payé
+                            </label>
+
+
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                <button type="reset" class="btn">Annuler</button>
+                            </div>
                         </div>
+                        </form>
 
-
-
-
-<!--
+                    <!--<form action="">
                         <div class="section-body">
                             <h4 class="section-title">Champs génériques</h4>
                             <label for="champ_texte">Texte</label>
@@ -504,8 +642,8 @@
                                     Radio bouton <?php /*echo $i + 1; */?>
                                 </label>
                             <?php /*endfor; */?>
-                        </div>-->
-                    </form>
+                        </div>
+                    </form>-->
                 </div>
             </div>
         </div>
