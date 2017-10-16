@@ -1484,6 +1484,13 @@ select.form_input {
   border-top: solid 2px #eee;
   padding: 15px 0;
   margin-top: 25px; }
+  .form-footer .btn {
+    border-radius: 0;
+    border: none; }
+  .form-footer .btn-success {
+    background-color: #af1e27; }
+  .form-footer .btn-success:active {
+    background-color: #83171d; }
 
 @media (max-width: 767px) {
   .body.admin {

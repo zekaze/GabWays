@@ -190,6 +190,17 @@ select.form_input{
   border-top: solid 2px #eee;
   padding: 15px 0;
   margin-top: 25px;
+
+  .btn{
+    border-radius: 0;
+    border: none;
+  }
+  .btn-success{
+    background-color: $primary-color;
+  }
+  .btn-success:active{
+    background-color: darken($primary-color, 10%);
+  }
 }
 @media (max-width: 767px) {
   .body.admin{
