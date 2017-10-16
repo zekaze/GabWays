@@ -2,7 +2,11 @@
   margin: 100px 0;
   padding: 0 15px;
   background-color: #fff;
-  box-shadow: 0 15px 10px -5px rgba(#000, 0.7);
+  box-shadow: 0 15px 10px -5px rgba(#000, 0.2);
+
+  .bg-cover{
+    background: -webkit-linear-gradient(45deg, #fff, #eee);
+  }
 
   .logo{
     margin-bottom: 40px;
@@ -49,7 +53,7 @@
     }
 
     .submit_button{
-      background-color: $gray-3;
+      background-color: $primary-color;
       color: #fff;
       display: inline-block;
       margin: 20px 0;
@@ -65,7 +69,7 @@
       display: block;
       width: 100%;
       border: none;
-      border-bottom:  solid 2px $gray-2;
+      border-bottom:  solid 2px #eee;
       height: 40px;
       padding: 5px;
       margin-bottom: 8px;

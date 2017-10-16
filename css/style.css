@@ -1203,7 +1203,9 @@ span.incdicateur_distance {
   margin: 100px 0;
   padding: 0 15px;
   background-color: #fff;
-  box-shadow: 0 15px 10px -5px rgba(0, 0, 0, 0.7); }
+  box-shadow: 0 15px 10px -5px rgba(0, 0, 0, 0.2); }
+  .login-page .bg-cover {
+    background: -webkit-linear-gradient(45deg, #fff, #eee); }
   .login-page .logo {
     margin-bottom: 40px; }
   .login-page .page-title {
@@ -1241,7 +1243,7 @@ span.incdicateur_distance {
     .login-page form .form-title {
       margin-bottom: 50px; }
     .login-page form .submit_button {
-      background-color: #868686;
+      background-color: #af1e27;
       color: #fff;
       display: inline-block;
       margin: 20px 0;
@@ -1254,7 +1256,7 @@ span.incdicateur_distance {
       display: block;
       width: 100%;
       border: none;
-      border-bottom: solid 2px #b9b9b9;
+      border-bottom: solid 2px #eee;
       height: 40px;
       padding: 5px;
       margin-bottom: 8px; }

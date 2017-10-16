@@ -1,12 +1,12 @@
 <?php include_once "layout/head.php";?>
 <?php include_once "layout/header.php";?>
 
-<div class="body bg-cover" style="background-color: #393939">
+<div class="body bg-cover" style="background-image: url('https://www.wired.com/wp-content/uploads/2016/11/GoogleMap-1.jpg')">
     <div class="container">
         <div class="content login-page">
             <div class="row">
-                <div class="col-md-3 bg-cover" style="background-color: #868686">
-                    <div class="logo"><img src="holder.js/180x50"></div>
+                <div class="col-md-3 bg-cover">
+                    <div class="logo"><img src="img/logo.png" height="50"></div>
                     <h1 class="page-title">Bienvenue sur GabWays</h1>
                     <h4>Créer un compte gratuitement</h4>
                     <div class="welcome-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur culpa cum eligendi, enim error, esse ex magni maiores mollitia nesciunt nisi, odio odit officiis optio sint tenetur veniam voluptatem.</div>
