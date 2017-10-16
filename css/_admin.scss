@@ -83,6 +83,13 @@
     }
   }
 
+  .section-body:hover{
+    .section-title{
+      border-color: $primary-color;
+      color: $primary-color;
+    }
+  }
+
   .section-body{
     padding: 10px 15px;
     background-color: #fff;
@@ -96,6 +103,8 @@
       padding-bottom: 10px;
       border-bottom: solid 2px #eee;
       margin-bottom: 30px;
+      cursor: pointer;
+      @include transition(0.5s);
     }
 
       label{

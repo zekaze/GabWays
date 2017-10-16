@@ -12,115 +12,125 @@
                     </div>
                     <form action="">
                         <div class="section-body">
-                            <h4 class="section-title">Activités</h4>
-                            <label for="liste_deroulante-1">Entreprise *</label>
-                            <select name="liste_deroulante-1" id="liste_deroulante-1" class="form_input">
-                                <option>Option 1</option>
-                                <option>Option 2</option>
-                                <option>Option 3</option>
-                            </select>
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse1">Activités <i class="fa fa-caret-down pull-right"></i></h4>
+                            <div class="collapse" id="collapse1">
+                                <label for="liste_deroulante-1">Entreprise *</label>
+                                <select name="liste_deroulante-1" id="liste_deroulante-1" class="form_input">
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                    <option>Option 3</option>
+                                </select>
 
-                            <label for="champ_texte-1">Libellé *</label>
-                            <input type="text" id="champ_texte-1" name="champ_texte-1" required class="form_input" placeholder="Libellé...">
+                                <label for="champ_texte-1">Libellé *</label>
+                                <input type="text" id="champ_texte-1" name="champ_texte-1" required class="form_input" placeholder="Libellé...">
 
-                            <div class="form-footer">
-                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
-                                <button type="reset" class="btn">Annuler</button>
+                                <div class="form-footer">
+                                    <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                    <button type="reset" class="btn">Annuler</button>
+                                </div>
                             </div>
                         </div>
                         </form>
 
                     <form action="">
                         <div class="section-body">
-                            <h4 class="section-title">Catégories</h4>
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse2">Catégories  <i class="fa fa-caret-down pull-right"></i></h4>
 
-                            <label for="champ_texte-2">Libellé *</label>
-                            <input type="text" id="champ_texte-2" required class="form_input" placeholder="Libellé...">
+                            <div class="collapse" id="collapse2">
+                                <label for="champ_texte-2">Libellé *</label>
+                                <input type="text" id="champ_texte-2" required class="form_input" placeholder="Libellé...">
 
-                            <label for="champ_texte-3">Slug *</label>
-                            <input type="text" id="champ_texte-3" name="champ_texte-3" required class="form_input" placeholder="Slug...">
+                                <label for="champ_texte-3">Slug *</label>
+                                <input type="text" id="champ_texte-3" name="champ_texte-3" required class="form_input" placeholder="Slug...">
 
-                            <label for="liste_deroulante-2">Catégorie mère</label>
-                            <select name="liste_deroulante-2" id="liste_deroulante-2" class="form_input">
-                                <option>Option 1</option>
-                                <option>Option 2</option>
-                                <option>Option 3</option>
-                            </select>
-
-
-                            <label for="champ_texte-4">Icone *</label>
-                            <input type="text" id="champ_texte-4" name="champ_texte-4" required class="form_input" placeholder="Icone...">
+                                <label for="liste_deroulante-2">Catégorie mère</label>
+                                <select name="liste_deroulante-2" id="liste_deroulante-2" class="form_input">
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                    <option>Option 3</option>
+                                </select>
 
 
-                            <label for="ajout_fichier-1">Image *</label>
-                            <input type="file" name="ajout_fichier-1" id="ajout_fichier-1" class="form_input">
+                                <label for="champ_texte-4">Icone *</label>
+                                <input type="text" id="champ_texte-4" name="champ_texte-4" required class="form_input" placeholder="Icone...">
 
-                            <div class="form-footer">
-                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
-                                <button type="reset" class="btn">Annuler</button>
+
+                                <label for="ajout_fichier-1">Image *</label>
+                                <input type="file" name="ajout_fichier-1" id="ajout_fichier-1" class="form_input">
+
+                                <div class="form-footer">
+                                    <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                    <button type="reset" class="btn">Annuler</button>
+                                </div>
                             </div>
                         </div>
                         </form>
 
                     <form action="">
                         <div class="section-body">
-                            <h4 class="section-title">Modes de paiements</h4>
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse3">Modes de paiements <i class="fa fa-caret-down pull-right"></i></h4>
+                            <div class="collapse" id="collapse3">
+                                <label for="champ_texte-5">Libellé *</label>
+                                <input type="text" id="champ_texte-5" name="champ_texte-5" required class="form_input"
+                                       placeholder="Libellé...">
 
-                            <label for="champ_texte-5">Libellé *</label>
-                            <input type="text" id="champ_texte-5" name="champ_texte-5" required class="form_input" placeholder="Libellé...">
+                                <label for="ajout_fichier-2">Image *</label>
+                                <input type="file" name="ajout_fichier-2" id="ajout_fichier-2" class="form_input">
 
-                            <label for="ajout_fichier-2">Image *</label>
-                            <input type="file" name="ajout_fichier-2" id="ajout_fichier-2" class="form_input">
-
-                            <div class="form-footer">
-                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
-                                <button type="reset" class="btn">Annuler</button>
+                                <div class="form-footer">
+                                    <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                    <button type="reset" class="btn">Annuler</button>
+                                </div>
                             </div>
                         </div>
                         </form>
 
                     <form action="">
                         <div class="section-body">
-                            <h4 class="section-title">Options de fiche</h4>
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse4">Options de fiche <i class="fa fa-caret-down pull-right"></i></h4>
 
-                            <label for="champ_texte-6">Libellé *</label>
-                            <input type="text" id="champ_texte-6" name="champ_texte-6" required class="form_input"
-                                   placeholder="Libellé...">
-
-
-                            <h4>Obligatoire</h4>
-                            <label class="checkbox inline-block">
-                                <input type="checkbox" class="hidden" name="checkbox[]">
-                                Obligatoire
-                            </label>
-
-                            <label for="liste_deroulante-3">Type *</label>
-                            <select name="liste_deroulante-3" id="liste_deroulante-3" class="form_input">
-                                <option>Option 1</option>
-                                <option>Option 2</option>
-                                <option>Option 3</option>
-                            </select>
+                            <div class="collapse" id="collapse4">
+                                <label for="champ_texte-6">Libellé *</label>
+                                <input type="text" id="champ_texte-6" name="champ_texte-6" required class="form_input"
+                                       placeholder="Libellé...">
 
 
-                            <label for="zone_de_saisie-1">Commentaire</label>
-                            <textarea id="zone_de_saisie-1" name="zone_de_saisie-1" class="form_input" placeholder="Commentaire..."></textarea>
+                                <h4>Obligatoire</h4>
+                                <label class="checkbox inline-block">
+                                    <input type="checkbox" class="hidden" name="checkbox[]">
+                                    Obligatoire
+                                </label>
+
+                                <label for="liste_deroulante-3">Type *</label>
+                                <select name="liste_deroulante-3" id="liste_deroulante-3" class="form_input">
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                    <option>Option 3</option>
+                                </select>
 
 
-                            <label for="champ_texte-7">Valeurs possibles</label>
-                            <input type="text" id="champ_texte-7" name="champ_texte-7" class="form_input" placeholder="Valeurs possibles...">
+                                <label for="zone_de_saisie-1">Commentaire</label>
+                                <textarea id="zone_de_saisie-1" name="zone_de_saisie-1" class="form_input" placeholder="Commentaire..."></textarea>
 
-                            <div class="form-footer">
-                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
-                                <button type="reset" class="btn">Annuler</button>
+
+                                <label for="champ_texte-7">Valeurs possibles</label>
+                                <input type="text" id="champ_texte-7" name="champ_texte-7" class="form_input" placeholder="Valeurs possibles...">
+
+                                <div class="form-footer">
+                                    <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                    <button type="reset" class="btn">Annuler</button>
+                                </div>
                             </div>
+
                         </div>
                         </form>
 
                     <form action="">
                     <div class="section-body">
-                            <h4 class="section-title">Tags</h4>
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse5">Tags <i class="fa fa-caret-down pull-right"></i></h4>
 
-                            <label for="champ_texte-8">Libellé *</label>
+                        <div class="collapse" id="collapse5">
+                        <label for="champ_texte-8">Libellé *</label>
                             <input type="text" id="champ_texte-8" name="champ_texte-8" required class="form_input" placeholder="Libellé...">
 
 
@@ -131,13 +141,15 @@
                             <button type="submit" class="btn btn-success">Enregister les modifications</button>
                             <button type="reset" class="btn">Annuler</button>
                         </div>
+                            </div>
                         </div>
                         </form>
 
                     <form action="">
                         <div class="section-body">
-                            <h4 class="section-title">Ville</h4>
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse6">Ville <i class="fa fa-caret-down pull-right"></i></h4>
 
+                            <div class="collapse" id="collapse6">
                             <label for="champ_texte-10">Nom *</label>
                             <input type="text" id="champ_texte-10" required name="champ_texte-10" class="form_input" placeholder="Nom...">
 
@@ -148,13 +160,14 @@
                                 <button type="submit" class="btn btn-success">Enregister les modifications</button>
                                 <button type="reset" class="btn">Annuler</button>
                             </div>
+                                </div>
                         </div>
                         </form>
 
                     <form action="">
                     <div class="section-body">
-                            <h4 class="section-title">Quartiers</h4>
-
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse7">Quartiers <i class="fa fa-caret-down pull-right"></i></h4>
+                        <div class="collapse" id="collapse7">
                             <label for="liste_deroulante-4">Ville *</label>
                             <select name="liste_deroulante-4" id="liste_deroulante-4" class="form_input">
                                 <option>Option 1</option>
@@ -172,14 +185,16 @@
                             <button type="submit" class="btn btn-success">Enregister les modifications</button>
                             <button type="reset" class="btn">Annuler</button>
                         </div>
+                            </div>
                         </div>
                         </form>
 
                     <form action="">
                     <div class="section-body">
-                            <h4 class="section-title">Type de publicités</h4>
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse8">Type de publicités <i class="fa fa-caret-down pull-right"></i></h4>
 
-                            <label for="champ_texte-16">Type *</label>
+                        <div class="collapse" id="collapse8">
+                        <label for="champ_texte-16">Type *</label>
                             <input type="text" id="champ_texte-16" required name="champ_texte-16" class="form_input" placeholder="Type...">
 
                             <label for="champ_texte-17">Tarif mensuel *</label>
@@ -201,13 +216,14 @@
                             <button type="submit" class="btn btn-success">Enregister les modifications</button>
                             <button type="reset" class="btn">Annuler</button>
                         </div>
+                            </div>
                         </div>
                         </form>
 
                     <form action="">
                         <div class="section-body">
-                            <h4 class="section-title">Utilisateurs - Liste</h4>
-
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse9">Utilisateurs - Liste <i class="fa fa-caret-down pull-right"></i></h4>
+                            <div class="collapse" id="collapse9">
                             <div class="custom-table">
                                 <div class="row thead">
                                     <div class="th col-md-1">#</div>
@@ -241,13 +257,15 @@
                                 <button type="submit" class="btn btn-success">Enregister les modifications</button>
                                 <button type="reset" class="btn">Annuler</button>
                             </div>
+                                </div>
                         </div>
                         </form>
 
                     <form action="">
                         <div class="section-body">
-                            <h4 class="section-title">Utilisateurs (Détails)</h4>
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse10">Utilisateurs (Détails) <i class="fa fa-caret-down pull-right"></i></h4>
 
+                            <div class="collapse" id="collapse10">
                             <label for="champ_texte-19">Email *</label>
                             <input type="text" id="champ_texte-19" required name="champ_texte-19" class="form_input" placeholder="Email...">
 
@@ -300,13 +318,15 @@
                                 <button type="submit" class="btn btn-success">Enregister les modifications</button>
                                 <button type="reset" class="btn">Annuler</button>
                             </div>
+                                </div>
                         </div>
                         </form>
 
                     <form action="">
                         <div class="section-body">
-                            <h4 class="section-title">Système</h4>
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse11">Système <i class="fa fa-caret-down pull-right"></i></h4>
 
+                            <div class="collapse" id="collapse11">
                             <label for="champ_texte-25">Nom *</label>
                             <input type="text" id="champ_texte-25" required name="champ_texte-25" class="form_input" placeholder="Nom...">
 
@@ -355,12 +375,14 @@
                                 <button type="submit" class="btn btn-success">Enregister les modifications</button>
                                 <button type="reset" class="btn">Annuler</button>
                             </div>
+                                </div>
                         </div>
                         </form>
 
                     <form action="">
                         <div class="section-body">
-                            <h4 class="section-title">Événements - Liste</h4>
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse12">Événements - Liste <i class="fa fa-caret-down pull-right"></i></h4>
+                            <div class="collapse" id="collapse12">
                             <div class="custom-table">
                                 <div class="row thead">
                                     <div class="th col-md-1">#</div>
@@ -396,13 +418,14 @@
                                 <button type="submit" class="btn btn-success">Enregister les modifications</button>
                                 <button type="reset" class="btn">Annuler</button>
                             </div>
+                                </div>
                         </div>
                         </form>
 
                     <form action="">
                         <div class="section-body">
-                            <h4 class="section-title">Événements (Détails)</h4>
-
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse13">Événements (Détails) <i class="fa fa-caret-down pull-right"></i></h4>
+                            <div class="collapse" id="collapse13">
                             <label for="liste_deroulante-6">Entreprise *</label>
                             <select name="liste_deroulante-6" id="liste_deroulante-6" class="form_input">
                                 <option>Option 1</option>
@@ -480,12 +503,15 @@
                                 <button type="submit" class="btn btn-success">Enregister les modifications</button>
                                 <button type="reset" class="btn">Annuler</button>
                             </div>
+                                </div>
                         </div>
                         </form>
 
                     <form action="">
                         <div class="section-body">
-                            <h4 class="section-title">Publicités - Liste (Colonnes)</h4>
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse14">Publicités - Liste (Colonnes) <i class="fa fa-caret-down pull-right"></i></h4>
+
+                            <div class="collapse" id="collapse14">
                             <div class="custom-table">
                                 <div class="row thead">
                                     <div class="th col-md-1">#</div>
@@ -523,13 +549,15 @@
                                 <button type="submit" class="btn btn-success">Enregister les modifications</button>
                                 <button type="reset" class="btn">Annuler</button>
                             </div>
+                                </div>
                         </div>
                         </form>
 
                     <form action="">
                         <div class="section-body">
-                            <h4 class="section-title">Publicités (Détails)</h4>
+                            <h4 class="section-title" data-toggle="collapse" data-target="#collapse15">Publicités (Détails) <i class="fa fa-caret-down pull-right"></i></h4>
 
+                            <div class="collapse" id="collapse15">
                             <label for="champ_texte-51">Libellé *</label>
                             <input type="text" id="champ_texte-51" required name="champ_texte-51" class="form_input" placeholder="Libellé...">
 
@@ -575,6 +603,7 @@
                                 <button type="submit" class="btn btn-success">Enregister les modifications</button>
                                 <button type="reset" class="btn">Annuler</button>
                             </div>
+                                </div>
                         </div>
                         </form>
 

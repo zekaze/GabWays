@@ -1408,6 +1408,9 @@ span.incdicateur_distance {
   .admin-section .section-header h2 {
     color: #999999;
     font-weight: bold; }
+.admin-section .section-body:hover .section-title {
+  border-color: #af1e27;
+  color: #af1e27; }
 .admin-section .section-body {
   padding: 10px 15px;
   background-color: #fff;
@@ -1419,7 +1422,12 @@ span.incdicateur_distance {
     font-weight: 700;
     padding-bottom: 10px;
     border-bottom: solid 2px #eee;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
   .admin-section .section-body label {
     display: block;
     color: #af1e27; }
