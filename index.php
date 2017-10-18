@@ -208,7 +208,7 @@
                         <form action="#">
                             <select name="filtre-quartier" id="filtre-quartier">
                                 <?php for($i = 1; $i <= 10; $i++):?>
-                                    <option value="Quartier <?php echo $i;?>">Quartier <?php echo $i;?></option>
+                                    <option value="https://google.com">Quartier <?php echo $i;?></option>
                                 <?php endfor; ?>
                             </select>
                         </form>

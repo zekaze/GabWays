@@ -330,6 +330,13 @@ $(document).ready(function () {
     })
 
 
+        var filtreQuartiers = $('#filtre-quartier');
+        filtreQuartiers.on("change",function () {
+            var url = filtreQuartiers.val();
+            window.location = url;
+        })
+
+
 });
 tinymce.init({
     selector: '.rich-text',
