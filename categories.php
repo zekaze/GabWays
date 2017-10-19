@@ -31,6 +31,27 @@
 
                 </div>
                 <div class="main-body">
+                    <div class="pagination">
+                        <ul class="page-list hidden-xs">
+                            <li><a href="#" class="prev"><i class="fa fa-chevron-left"></i></a></li>
+                            <li><a href="#" class="page-number">1</a></li>
+                            <li><a href="#" class="page-number">2</a></li>
+                            <li><a href="#" class="page-number">3</a></li>
+                            <li><span href="#" class="dots">...</span></li>
+                            <li><a href="#" class="page-number">11</a></li>
+                            <li><a href="#" class="page-number">12</a></li>
+                            <li><a href="#" class="page-number">13</a></li>
+                            <li><a href="#" class="next"><i class="fa fa-chevron-right"></i></a></li>
+                        </ul>
+                        <div class="visible-xs">
+                            <select name="pages" id="page-select" class="page-select">
+                                <?php for ($i = 1; $i <= 11; $i++):?>
+                                    <option value="<?php echo $i;?>">Page <?php echo $i;?></option>
+                                <?php endfor;?>
+                            </select>
+                        </div>
+
+                    </div>
                     <div class="autour_de_moi" data-animate="fadeInUp">
                         <h3 class="section-title">Autour de moi</h3>
                         <div id="google-map">
