@@ -3,7 +3,12 @@
 
     <style>
         body{
-            background: #ddd;
+            background: url("img/compass.jpg") no-repeat right center;
+        }
+        @media (max-width: 480px) {
+            body{
+                background-position: center center;
+            }
         }
     </style>
 
