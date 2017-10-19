@@ -867,10 +867,12 @@ footer#main-footer {
   padding-bottom: 30px; }
   #page-evenements .event_list .article .article_picture_frame {
     height: 225px;
+    margin: 0 auto;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+                 /*
+display: flex;
+align-items: center;
+justify-content: center;*/
     margin-bottom: 5px; }
     #page-evenements .event_list .article .article_picture_frame img {
       height: 100%; }

@@ -45,10 +45,11 @@
 
       .article_picture_frame{
         height: 225px;
-        overflow: hidden;
+        margin: 0 auto;
+        overflow: hidden;/*
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center;*/
         margin-bottom: 5px;
 
         img{
