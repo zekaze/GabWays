@@ -1680,6 +1680,9 @@ select.form_input {
 
   .search_bar form .form_input {
     flex-direction: column; }
+  .search_bar form .col-sm-6 .check-button {
+    padding: 15px 0;
+    margin-bottom: 1px; }
 
   .navbar.fixed form .form_input {
     display: block; }

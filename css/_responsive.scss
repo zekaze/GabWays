@@ -138,6 +138,13 @@
       .form_input{
         flex-direction: column;
       }
+      .col-sm-6{
+        .check-button{
+          padding: 15px 0;
+          margin-bottom: 1px;
+        }
+
+      }
     }
   }
   .navbar.fixed{
