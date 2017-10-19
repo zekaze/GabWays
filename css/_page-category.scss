@@ -8,6 +8,8 @@
     margin: 0 1% 10px;
     overflow: hidden;
     position: relative;
+    background-size: cover;
+    background-position: center top;
     height: 200px;
     display: flex;
     align-items: center;
@@ -20,8 +22,8 @@
 
       .category_name{
         font-weight: 700;
-        color: $gray-1;
-        font-size: 15px;
+        color: #fff;
+        font-size: 18px;
       }
       .counter{
         color: $gray-0;
@@ -36,6 +38,9 @@
       top: 0;
       z-index: 0;
     }
+  }
+  .category:after{
+    @include after(#000, 0.7);
   }
 
   .publicite{

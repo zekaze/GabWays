@@ -804,6 +804,8 @@ footer#main-footer {
     margin: 0 1% 10px;
     overflow: hidden;
     position: relative;
+    background-size: cover;
+    background-position: center top;
     height: 200px;
     display: flex;
     align-items: center;
@@ -814,8 +816,8 @@ footer#main-footer {
       z-index: 1; }
       #page-category .category .content .category_name {
         font-weight: 700;
-        color: #dfdfdf;
-        font-size: 15px; }
+        color: #fff;
+        font-size: 18px; }
       #page-category .category .content .counter {
         color: #f8f8f8;
         font-style: italic;
@@ -826,6 +828,16 @@ footer#main-footer {
       left: 0;
       top: 0;
       z-index: 0; }
+  #page-category .category:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7); }
   #page-category .publicite {
     width: 100%; }
 

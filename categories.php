@@ -1,6 +1,7 @@
 <?php include_once "layout/head.php";?>
 <?php include_once "layout/header-2.php";?>
-<div class="page-banner" style="background-image: url('img/grey-bg.jpg')">
+<?php include_once "data.php";?>
+<div class="page-banner" style="background-image: url('https://www.wired.com/wp-content/uploads/2016/11/GoogleMap-1.jpg')">
     <div class="container">
         <h1 class="page-title">Catégories</h1>
     </div>
@@ -13,7 +14,7 @@
             <div class="col-md-9">
                 <div id="page-category" class="main-body">
                     <?php for($i = 1; $i < 17; $i++):?>
-                        <a href="etablissements.php" class="category" style="background-image: url('img/grey-bg.jpg')" data-animate="fadeInUp">
+                        <a href="etablissements.php" class="category" style="background-image: url('<?php echo $evenements[$i];?>')" data-animate="fadeInUp">
                             <div class="content">
                                 <h4 class="category_name">Nom de la catégorie <?php echo $i;?></h4>
                                 <p class="counter">(<?php echo number_format(1227,0,',',',');?> etablissements)</p>
@@ -21,9 +22,8 @@
                         </a>
                         <?php if(!($i%8)):?>
                             <div class="publicite" data-animate="fadeInUp">
-                                <div class="placeholder">
-                                    Publicité
-                                </div>
+                                <?php $m = rand(0,5); ?>
+                                <img src="<?php echo $banners[$m];?>" class="img-responsive" alt="Publicité">
                             </div>
                             <!--end of publicite-->
                         <?php endif;?>
@@ -48,9 +48,8 @@
                     </div>
                     <!--end of calendar-->
                     <div class="publicite">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $l = rand(0,19); ?>
+                        <img src="<?php echo $evenements[$l];?>" class="img-responsive" alt="Publicité">
                     </div>
                     <!--end of publicité-->
                     <div class="widget filter" data-animate="fadeInUp">
@@ -58,16 +57,15 @@
                         <form action="#">
                             <select name="filtre-quartier" id="filtre-quartier">
                                 <?php for($i = 1; $i <= 10; $i++):?>
-                                    <option value="QUartier <?php echo $i;?>">Quartier <?php echo $i;?></option>
+                                    <option value="https://facebook.com">Quartier <?php echo $i;?></option>
                                 <?php endfor; ?>
                             </select>
                         </form>
                     </div>
                     <!--end of filter-->
                     <div class="publicite">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $l = rand(0,19); ?>
+                        <img src="<?php echo $evenements[$l];?>" class="img-responsive" alt="Publicité">
                     </div>
                     <!--end of publicité-->
                     <div class="widget" data-animate="fadeInUp">
@@ -77,7 +75,7 @@
                             <?php for($i = 1; $i <= 5; $i++):?>
                                 <li class="list-item">
                                     <a href="#">
-                                        <div class="photo_etablissement"><img src="holder.js/80x80"></div>
+                                        <div class="photo_etablissement"><img src="<?php echo $etablissements[$i];?>" class="img-responsive"></div>
                                         <div class="details_etablissement">
                                             <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
                                             <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
