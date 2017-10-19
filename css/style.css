@@ -872,6 +872,8 @@ footer#main-footer {
     align-items: center;
     justify-content: center;
     margin-bottom: 5px; }
+    #page-evenements .event_list .article .article_picture_frame img {
+      height: 100%; }
   #page-evenements .event_list .article .event_date {
     background-color: #af1e27;
     color: #f8f8f8;

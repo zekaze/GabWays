@@ -126,7 +126,7 @@
                                         <div class="article">
                                             <div class="article_picture_frame">
                                                 <?php $i = rand(0, 19);?>
-                                                <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
+                                                <img src="<?php echo $evenements[$i];?>" alt="Evenement">
                                             </div>
                                             <?php if(is_array($date)):?>
                                                     <div class="event_date double">
