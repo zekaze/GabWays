@@ -467,8 +467,7 @@ end of categories carousel
   display: flex;
   align-items: center; }
   .page-404 .container .content {
-    width: 70%;
-    background-color: rgba(255, 255, 255, 0.8); }
+    width: 45%; }
   .page-404 .container .h1 {
     font-size: 10em;
     font-weight: 700;
@@ -1634,7 +1633,10 @@ select.form_input {
     .navbar.fixed form > .row .col-sm-7,
     .navbar.fixed form > .row .col-sm-5,
     .navbar.fixed form > .row .col-sm-2 {
-      padding: 1px; } }
+      padding: 1px; }
+
+  .page-404 .container {
+    background-color: rgba(255, 255, 255, 0.8); } }
 @media (max-width: 767px) {
   header #top-nav-menu .nav-contact {
     clear: both;
@@ -1824,10 +1826,12 @@ select.form_input {
         color: #4d4d4d;
         font-weight: 700; }
 
-  .page-404 .container .content {
-    width: 100%; }
-  .page-404 .container .h1 {
-    font-size: 6em; }
+  .page-404 .container {
+    background-color: rgba(255, 255, 255, 0.8); }
+    .page-404 .container .content {
+      width: 100%; }
+    .page-404 .container .h1 {
+      font-size: 6em; }
 
   .page-etablissement .social-sharing {
     overflow: hidden; }

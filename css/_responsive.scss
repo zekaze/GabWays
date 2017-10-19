@@ -66,6 +66,11 @@
       }
     }
   }
+  .page-404{
+    .container{
+      background-color: rgba(#fff, 0.8);
+    }
+  }
 }
 @media (max-width: 767px) {
   header{
@@ -351,6 +356,7 @@
   }
   .page-404{
     .container{
+      background-color: rgba(#fff, 0.8);
       .content{
         width: 100%;
       }
