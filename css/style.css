@@ -739,6 +739,8 @@ header {
 .sidebar .publicite {
   margin: 30px 0;
   text-align: center; }
+  .sidebar .publicite img {
+    margin: 0 auto; }
   .sidebar .publicite .placeholder {
     height: 300px;
     width: 92%;
