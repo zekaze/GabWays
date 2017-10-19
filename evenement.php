@@ -36,13 +36,13 @@
                                         <?php $i = rand(0, 19);?>
                                         <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                                     </div>
-                                    <p style="padding-top: 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor in odio vel
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor in odio vel
                                         gravida. Proin quis est est. Suspendisse vel semper ex. Curabitur imperdiet
                                         rhoncus dolor ac eleifend. Nunc pretium luctus nisl id volutpat. Ut nisl magna,
                                         hendrerit sit amet aliquam sed, efficitur ornare purus.</p>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h4 class="sub-section-title">Organinsateur</h4>
+                                    <h4 class="sub-section-title">Organisateur</h4>
                                     <a href="etablissement.php" target="_blank">Nom de l'établissement</a>
                                     <div class="blank"></div>
 

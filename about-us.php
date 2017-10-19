@@ -1,6 +1,7 @@
 <?php include_once "layout/head.php";?>
 <?php include_once "layout/header-2.php";?>
-<div class="page-banner" style="background-image: url('img/grey-bg.jpg')">
+<?php include_once "data.php";?>
+<div class="page-banner" style="background-image: url('https://www.wired.com/wp-content/uploads/2016/11/GoogleMap-1.jpg')">
     <div class="container">
         <h1 class="page-title">Qui sommes nous?</h1>
 
@@ -82,10 +83,11 @@
                         <div class="section-body">
                             <div class="event_list pictures-gallery">
                                 <?php for ($i = 0; $i <= 5; $i++):?>
-                                    <a href="#" data-animate="fadeInUp">
+                                    <?php $k = rand(0, 19);?>
+                                    <a href="<?php echo $evenements[$k];?>" data-animate="fadeInUp">
                                         <div class="article">
                                             <div class="article_picture_frame">
-                                                <img src="holder.js/560x400" alt="Holder">
+                                                <img src="<?php echo $evenements[$k];?>" class="img-responsive" alt="Holder">
                                             </div>
                                         </div>
                                     </a>
@@ -133,15 +135,13 @@
                     </div>
                     <!--end of calendar-->
                     <div class="publicite">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $k = rand(0, 19);?>
+                        <img src="<?php echo $evenements[$k];?>" class="img-responsive" alt="publicité">
                     </div>
                     
                     <div class="publicite">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $k = rand(0, 19);?>
+                        <img src="<?php echo $evenements[$k];?>" class="img-responsive" alt="publicité">
                     </div>
                     <!--end of publicité-->
                     <div class="widget" data-animate="fadeInUp">
@@ -151,7 +151,7 @@
                             <?php for($i = 1; $i <= 5; $i++):?>
                                 <li class="list-item">
                                     <a href="#">
-                                        <div class="photo_etablissement"><img src="holder.js/80x80"></div>
+                                        <div class="photo_etablissement"><img src="<?php echo $etablissements[$i];?>" class="img-responsive"></div>
                                         <div class="details_etablissement">
                                             <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
                                             <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
