@@ -6,7 +6,7 @@
         <div class="content login-page">
             <div class="row">
                 <div class="col-md-3 bg-cover">
-                    <div class="logo"><img src="img/logo.png" height="50"></div>
+                    <div class="logo"><img src="img/logo.png" height="60"></div>
                     <h1 class="page-title">Bienvenue sur GabWays</h1>
                     <h4>Créer un compte gratuitement</h4>
                     <div class="welcome-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur culpa cum eligendi, enim error, esse ex magni maiores mollitia nesciunt nisi, odio odit officiis optio sint tenetur veniam voluptatem.</div>
