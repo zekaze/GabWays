@@ -1,6 +1,7 @@
 <?php include_once "layout/head.php";?>
 <?php include_once "layout/header-2.php";?>
-<div class="page-banner" style="background-image: url('img/grey-bg.jpg')">
+<?php include_once "data.php";?>
+<div class="page-banner" style="background-image: url('https://www.wired.com/wp-content/uploads/2016/11/GoogleMap-1.jpg')">
     <div class="container">
         <h1 class="page-title">Nom de l'établissement <small>by groupe commercial</small> <span class="categorie"><i class="fa fa-cutlery"></i>  Restaurant</span></h1>
 
@@ -16,11 +17,11 @@
                     <label>Partager cette page</label>
                     <div class="social-sharing">
                         <ul>
-                            <li><a href="#" class="fa fa-facebook"></a></li>
-                            <li><a href="#" class="fa fa-twitter"></a></li>
-                            <li><a href="#" class="fa fa-linkedin"></a></li>
-                            <li><a href="#" class="fa fa-instagram"></a></li>
-                            <li><a href="#" class="fa fa-share"></a></li>
+                            <li><a href="#" class="fa fa-facebook" style='background: #385a99'></a></li>
+                            <li><a href="#" class="fa fa-twitter" style="background: #40c8f4"></a></li>
+                            <li><a href="#" class="fa fa-linkedin" style="background: #127ab7"></a></li>
+                            <li><a href="#" class="fa fa-instagram" style="background: #385a99"></a></li>
+                            <li><a href="#" class="fa fa-share" style="background: #f36f21"></a></li>
                         </ul>
                         <div>
                             <span class="incdicateur_ouverture" >Ouvert</span>
@@ -38,7 +39,8 @@
                             <div class="row">
                                 <div class="col-sm-4">
                                     <div class="frame logo_etablissement">
-                                        <img src="holder.js/560x400" alt="Holder">
+                                        <?php $k = rand(0, 5);?>
+                                        <img src="<?php echo $etablissements[$k];?>" class="img-responsive" alt="Holder">
                                     </div>
                                 </div>
                                 <div class="col-sm-8">
@@ -161,10 +163,11 @@
                         <div class="section-body">
                             <div class="event_list pictures-gallery">
                                 <?php for ($i = 0; $i <= 5; $i++):?>
-                                    <a href="#" data-animate="fadeInUp">
+                                    <?php $k = rand(0, 19);?>
+                                    <a href="<?php echo $evenements[$k];?>" data-animate="fadeInUp">
                                         <div class="article">
                                             <div class="article_picture_frame">
-                                                <img src="holder.js/560x400" alt="Holder">
+                                                <img src="<?php echo $evenements[$k];?>" class="img-responsive" alt="Holder">
                                             </div>
                                         </div>
                                     </a>
@@ -198,10 +201,11 @@
                             <div class="event_list">
                                 <?php foreach ($dates as $date):?>
                                     <?php $j++;?>
+                                    <?php $k = rand(0, 19);?>
                                     <a href="evenement.php" data-animate="fadeInUp">
                                         <div class="article">
                                             <div class="article_picture_frame">
-                                                <img src="holder.js/560x400" alt="Holder">
+                                                <img src="<?php echo $evenements[$k];?>" alt="Holder">
                                             </div>
                                             <?php if(is_array($date)):?>
                                                 <div class="event_date double">
@@ -251,9 +255,8 @@
                     </div>
                     <!--end of calendar-->
                     <div class="publicite">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $k = rand(0, 19);?>
+                        <img src="<?php echo $evenements[$k];?>" class="img-responsive" alt="publicité">
                     </div>
                     <!--end of publicité-->
                     <div class="widget filter">
@@ -268,9 +271,8 @@
                     </div>
                     <!--end of filter-->
                     <div class="publicite">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $k = rand(0, 19);?>
+                        <img src="<?php echo $evenements[$k];?>" class="img-responsive" alt="publicité">
                     </div>
                     <!--end of publicité-->
                     <div class="widget" data-animate="fadeInUp">
@@ -278,9 +280,10 @@
 
                         <ul class="widget-link-list">
                             <?php for($i = 1; $i <= 5; $i++):?>
+                                <?php $k = rand(0, 5);?>
                                 <li class="list-item">
                                     <a href="#">
-                                        <div class="photo_etablissement"><img src="holder.js/80x80"></div>
+                                        <div class="photo_etablissement"><img src="<?php echo $etablissements[$k];?>" class="img-responsive"></div>
                                         <div class="details_etablissement">
                                             <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
                                             <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
