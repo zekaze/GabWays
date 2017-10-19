@@ -24,17 +24,7 @@ $evenements = array(
     "https://i.pinimg.com/736x/53/ff/d1/53ffd146ef1a51971ebed20cac216572--event-posters-flyers.jpg",
     "https://i.pinimg.com/originals/32/11/21/32112120a4920fb6fcb141e766ee61e1.jpg",
     "https://images.template.net/wp-content/uploads/2016/03/30092042/Adonai-and-Hallelujah-Church-Flyer.jpeg",
-    "https://i.pinimg.com/originals/2a/db/68/2adb68181fc2e5fb53cfe84101aa6b6d.jpg",
-    "https://i.pinimg.com/736x/7e/d0/85/7ed0852b1b2b96e6128fda442057c3eb--flyer-design-brochure-design.jpg",
-    "https://i.pinimg.com/736x/3f/09/70/3f097094bf63c54e9a9041f29b206010--club-poster-gig-poster.jpg",
-    "https://marketplace.canva.com/MAB1BpjSUAM/2/0/thumbnail_large/canva-bike-themed-event-flyer-MAB1BpjSUAM.jpg",
-    "https://i.pinimg.com/originals/8f/c6/06/8fc606a266a8d365f46ba3f9e9fbe9d6.png",
-    "https://i.pinimg.com/originals/15/01/67/150167ad0347228654f7d02eb5b701d8.jpg",
-    "https://i.pinimg.com/736x/7c/84/2c/7c842c044f6f70876ac73d8078220240--ibiza-events-space-ibiza.jpg",
-    "https://i.pinimg.com/736x/7c/84/2c/7c842c044f6f70876ac73d8078220240--ibiza-events-space-ibiza.jpg",
-    "http://www.petwebpro.com/images/flyer_2013_04_400.jpg",
-    "https://i.pinimg.com/736x/d5/f8/0e/d5f80ed26ebb98467d8a0bab2d9bf6c7--flyer-design-poster-design.jpg",
-    "https://i.pinimg.com/736x/35/8e/89/358e8914332a2421a5a2124e1fcb410d--poster-templates-event-flyers.jpg"
+    "https://i.pinimg.com/originals/2a/db/68/2adb68181fc2e5fb53cfe84101aa6b6d.jpg"
 );
 
 $banners = array(

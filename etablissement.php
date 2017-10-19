@@ -201,7 +201,7 @@
                             <div class="event_list">
                                 <?php foreach ($dates as $date):?>
                                     <?php $j++;?>
-                                    <?php $k = rand(0, 19);?>
+                                    <?php $k = rand(0, 7);?>
                                     <a href="evenement.php" data-animate="fadeInUp">
                                         <div class="article">
                                             <div class="article_picture_frame">
@@ -255,7 +255,7 @@
                     </div>
                     <!--end of calendar-->
                     <div class="publicite">
-                        <?php $k = rand(0, 19);?>
+                        <?php $k = rand(0, 7);?>
                         <img src="<?php echo $evenements[$k];?>" class="img-responsive" alt="publicité">
                     </div>
                     <!--end of publicité-->

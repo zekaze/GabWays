@@ -199,7 +199,7 @@
                     </div>
                     <!--end of calendar-->
                     <div class="publicite">
-                        <?php $l = rand(0,19); ?>
+                        <?php $l = rand(0,7); ?>
                         <img src="<?php echo $evenements[$l];?>" class="img-responsive" alt="Publicité">
                     </div>
                     <!--end of publicité-->
@@ -215,7 +215,7 @@
                     </div>
                     <!--end of filter-->
                     <div class="publicite">
-                        <?php $l = rand(0,19); ?>
+                        <?php $l = rand(0,7); ?>
                         <img src="<?php echo $evenements[$l];?>" class="img-responsive" alt="Publicité">
                     </div>
                     <!--end of publicité-->

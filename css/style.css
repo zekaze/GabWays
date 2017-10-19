@@ -883,8 +883,8 @@ footer#main-footer {
     margin: 0 auto;
     overflow: hidden;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
     margin-bottom: 5px; }
   #page-evenements .event_list .article .event_date {
     background-color: #af1e27;
@@ -941,7 +941,7 @@ footer#main-footer {
     height: 320px;
     overflow: hidden;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     margin-bottom: 5px;
     position: relative; }

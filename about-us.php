@@ -83,7 +83,7 @@
                         <div class="section-body">
                             <div class="event_list pictures-gallery">
                                 <?php for ($i = 0; $i <= 5; $i++):?>
-                                    <?php $k = rand(0, 19);?>
+                                    <?php $k = rand(0, 7);?>
                                     <a href="<?php echo $evenements[$k];?>" data-animate="fadeInUp">
                                         <div class="article">
                                             <div class="article_picture_frame">
@@ -135,12 +135,12 @@
                     </div>
                     <!--end of calendar-->
                     <div class="publicite">
-                        <?php $k = rand(0, 19);?>
+                        <?php $k = rand(0, 7);?>
                         <img src="<?php echo $evenements[$k];?>" class="img-responsive" alt="publicité">
                     </div>
                     
                     <div class="publicite">
-                        <?php $k = rand(0, 19);?>
+                        <?php $k = rand(0, 7);?>
                         <img src="<?php echo $evenements[$k];?>" class="img-responsive" alt="publicité">
                     </div>
                     <!--end of publicité-->

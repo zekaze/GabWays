@@ -33,7 +33,7 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="frame logo_etablissement">
-                                        <?php $i = rand(0, 19);?>
+                                        <?php $i = rand(0, 7);?>
                                         <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                                     </div>
                                 </div>
@@ -103,7 +103,7 @@
                                     <a href="#" data-animate="fadeInUp">
                                         <div class="article">
                                             <div class="article_picture_frame">
-                                                <?php $i = rand(0, 19);?>
+                                                <?php $i = rand(0, 7);?>
                                                 <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                                             </div>
                                             <?php if(is_array($date)):?>
@@ -154,7 +154,7 @@
                     </div>
                     <!--end of calendar-->
                     <div class="publicite">
-                        <?php $i = rand(0, 19);?>
+                        <?php $i = rand(0, 7);?>
                         <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                     </div>
                     <!--end of publicité-->
@@ -170,7 +170,7 @@
                     </div>
                     <!--end of filter-->
                     <div class="publicite">
-                        <?php $i = rand(0, 19);?>
+                        <?php $i = rand(0, 7);?>
                         <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                     </div>
                     <!--end of publicité-->
