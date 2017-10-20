@@ -9,7 +9,7 @@ $l = rand(0, 19);
 $m = rand(0, 19);
 
 $dates = array(
-    "2017-09-20" => array(
+    "2017-10-20" => array(
         array(
             "titre" => "Titre de l'événement 1",
             "ville" => "Libreville",
@@ -36,7 +36,7 @@ $dates = array(
             "url" => "evenement.php",
         )
     ),
-    "2017-09-19" => array(
+    "2017-10-14" => array(
         array(
             "titre" => "Titre de l'événement 3",
             "ville" => "Libreville",
@@ -46,7 +46,7 @@ $dates = array(
             "url" => "evenement.php",
         )
     ),
-    "2017-09-28" => array(
+    "2017-10-05" => array(
         array(
             "titre" => "Titre de l'événement 4",
             "ville" => "Libreville",
