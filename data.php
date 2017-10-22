@@ -1,16 +1,16 @@
 <?php
 $etablissements = array(
-"http://frismart.com/img/photo/thumb_144337725547.png",
-"http://frismart.com/img/photo/thumb_144337209596.png",
-"http://frismart.com/img/photo/thumb_144337615324.jpg",
-"http://frismart.com/img/photo/thumb_144337492058.png",
-"http://frismart.com/img/photo/thumb_144337118563.png",
-"http://frismart.com/img/photo/thumb_143188005759.jpg",
-"http://frismart.com/img/photo/thumb_143532990331.jpg",
-"http://economie-gabon.com/wp-content/uploads/2016/03/LOGO-TOTAL-.jpg",
-"http://www.entreprenarium.org/sites/default/files/bbs.png",
-"http://welcome.co.za/wp-content/uploads/2016/07/Radisson_Blu_logo.jpg",
-"https://i.ytimg.com/vi/-3emUot0OUc/maxresdefault.jpg"
+    "http://frismart.com/img/photo/thumb_144337725547.png",
+    "http://frismart.com/img/photo/thumb_144337209596.png",
+    "http://frismart.com/img/photo/thumb_144337615324.jpg",
+    "http://frismart.com/img/photo/thumb_144337492058.png",
+    "http://frismart.com/img/photo/thumb_144337118563.png",
+    "http://frismart.com/img/photo/thumb_143188005759.jpg",
+    "http://frismart.com/img/photo/thumb_143532990331.jpg",
+    "http://economie-gabon.com/wp-content/uploads/2016/03/LOGO-TOTAL-.jpg",
+    "http://www.entreprenarium.org/sites/default/files/bbs.png",
+    "https://www.lookin3d.fr/wp-content/uploads/2017/06/radisson-blu-logo.png",
+    "https://i.ytimg.com/vi/-3emUot0OUc/maxresdefault.jpg"
 );
 
 
