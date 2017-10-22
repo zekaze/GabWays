@@ -1880,6 +1880,10 @@ select.form_input {
     .page-404 .container .h1 {
       font-size: 6em; }
 
+  .page-etablissement .social-sharing ul {
+    margin-bottom: 15px;
+    display: block;
+    width: 100%; }
   .page-etablissement .social-sharing .incdicateur_ouverture {
     float: right;
     padding: 5px 15px;
@@ -2000,7 +2004,11 @@ select.form_input {
       -ms-transform: rotate(-45deg);
       transform: rotate(-45deg); }
   .page-etablissement .liste-etablissements .col-sm-4 {
-    padding-left: 15px; } }
+    padding-left: 15px; }
+
+  span.indicateur_ouverture,
+  span.indicateur_distance {
+    float: none; } }
 @media (max-width: 640px) {
   .body .main-body .section.section-slider .section-body .articles {
     display: block; }
