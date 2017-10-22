@@ -39,8 +39,8 @@
                                                 $ouvert = array('ouvert','fermé');
                                                 ?>
 
-                                                <span class="incdicateur_ouverture <?php echo $ouvert[$y];?>"><?php echo $ouvert[$y];?></span>
-                                                <span class="incdicateur_distance">3 Km</span>
+                                                <span class="indicateur_ouverture <?php echo $ouvert[$y];?>"><?php echo $ouvert[$y];?></span>
+                                                <span class="indicateur_distance">3 Km</span>
                                             </div>
                                         </div>
 

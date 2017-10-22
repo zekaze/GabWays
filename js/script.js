@@ -349,7 +349,8 @@ Typeahead
             source:data,
             minLength: 3,
             autoSelect: false,
-            fitToElement: true
+            fitToElement: true,
+            items: 5
         });
     },'json');
 
@@ -358,7 +359,8 @@ Typeahead
             source:data,
             minLength: 3,
             autoSelect: false,
-            fitToElement: true
+            fitToElement: true,
+            items: 5
         });
     },'json');
 

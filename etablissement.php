@@ -166,7 +166,7 @@
                         <div class="section-body">
                             <div class="event_list pictures-gallery">
                                 <?php for ($i = 0; $i <= 5; $i++):?>
-                                    <?php $k = rand(0, 19);?>
+                                    <?php $k = rand(0, 7);?>
                                     <a href="<?php echo $evenements[$k];?>" data-animate="fadeInUp">
                                         <div class="article">
                                             <div class="article_picture_frame">
@@ -208,7 +208,7 @@
                                     <a href="evenement.php" data-animate="fadeInUp">
                                         <div class="article">
                                             <div class="article_picture_frame">
-                                                <img src="<?php echo $evenements[$k];?>" alt="Holder">
+                                                <img src="<?php echo $evenements[$k];?>" class="img-responsive" alt="Holder">
                                             </div>
                                             <?php if(is_array($date)):?>
                                                 <div class="event_date double">
@@ -274,7 +274,7 @@
                     </div>
                     <!--end of filter-->
                     <div class="publicite">
-                        <?php $k = rand(0, 19);?>
+                        <?php $k = rand(0, 7);?>
                         <img src="<?php echo $evenements[$k];?>" class="img-responsive" alt="publicité">
                     </div>
                     <!--end of publicité-->
