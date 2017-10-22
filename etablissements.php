@@ -1,6 +1,7 @@
 <?php include_once "layout/head.php";?>
 <?php include_once "layout/header-2.php";?>
-<div class="page-banner" style="background-image: url('img/grey-bg.jpg')">
+<?php include_once "data.php";?>
+<div class="page-banner" style="background-image: url('https://www.wired.com/wp-content/uploads/2016/11/GoogleMap-1.jpg')">
     <div class="container">
         <h1 class="page-title">Catégorie restaurants <span class="categorie"> 1237 Résultats trouvés</span></h1>
     </div>
@@ -12,45 +13,21 @@
         <div class="row">
             <div class="col-md-9">
                 <div id="page-etablissements" class="main-body page-etablissement">
-
-                    <div class="pagination">
-                        <div>10 résultats sur 1237</div>
-                        <ul class="page-list hidden-xs">
-                            <li><a href="#" class="prev"><i class="fa fa-chevron-left"></i></a></li>
-                            <li><a href="#" class="page-number">1</a></li>
-                            <li><a href="#" class="page-number">2</a></li>
-                            <li><a href="#" class="page-number">3</a></li>
-                            <li><span href="#" class="dots">...</span></li>
-                            <li><a href="#" class="page-number">11</a></li>
-                            <li><a href="#" class="page-number">12</a></li>
-                            <li><a href="#" class="page-number">13</a></li>
-                            <li><a href="#" class="next"><i class="fa fa-chevron-right"></i></a></li>
-                        </ul>
-                        <div class="visible-xs">
-                            <select name="pages" id="page-select" class="page-select">
-                                <?php for ($i = 1; $i <= 11; $i++):?>
-                                    <option value="<?php echo $i;?>">Page <?php echo $i;?></option>
-                                <?php endfor;?>
-                            </select>
-                        </div>
-
-                    </div>
-
+                    <div>10 résultats sur 1237</div>
                     <div class="section liste-etablissements">
                         <?php $counter = 0;?>
                         <?php for($i = 0; $i < 10; $i++):?>
                             <?php $counter++;?>
-                            <?php if(!($counter %4)):?>
+                            <?php if(!($counter %3)):?>
                                 <div class="publicite" data-animate="fadeInUp">
-                                    <div class="placeholder">
-                                        Publicité
-                                    </div>
+                                    <?php $m = rand(0,5); ?>
+                                    <img src="<?php echo $banners[$m];?>" class="img-responsive" alt="Publicité">
                                 </div>
                             <?php endif;?>
                             <a href="etablissement.php" class="list-item row" data-animate="fadeInUp">
                                 <div class="col-sm-4">
                                     <div class="list-item-image">
-                                        <img src="holder.js/320x250">
+                                        <img src="<?php echo $etablissements[$i];?>" class="img-responsive">
                                     </div>
                                 </div>
                                 <div class="col-sm-8">
@@ -58,7 +35,11 @@
                                         <div class="row header">
                                             <div class="col-sm-8"><h4 class="item-title">Nom de l'établissement </h4></div>
                                             <div class="col-sm-4">
-                                                <span class="incdicateur_ouverture" >Ouvert</span>
+                                                <?php $y = rand(0,1);
+                                                $ouvert = array('ouvert','fermé');
+                                                ?>
+
+                                                <span class="incdicateur_ouverture <?php echo $ouvert[$y];?>"><?php echo $ouvert[$y];?></span>
                                                 <span class="incdicateur_distance">3 Km</span>
                                             </div>
                                         </div>
@@ -82,6 +63,28 @@
                         <?php endfor;?>
                     </div>
 
+                    <div class="pagination">
+                        <ul class="page-list hidden-xs">
+                            <li><a href="#" class="prev"><i class="fa fa-chevron-left"></i></a></li>
+                            <li><a href="#" class="page-number">1</a></li>
+                            <li><a href="#" class="page-number">2</a></li>
+                            <li><a href="#" class="page-number">3</a></li>
+                            <li><span href="#" class="dots">...</span></li>
+                            <li><a href="#" class="page-number">11</a></li>
+                            <li><a href="#" class="page-number">12</a></li>
+                            <li><a href="#" class="page-number">13</a></li>
+                            <li><a href="#" class="next"><i class="fa fa-chevron-right"></i></a></li>
+                        </ul>
+                        <div class="visible-xs">
+                            <select name="pages" id="page-select" class="page-select">
+                                <?php for ($i = 1; $i <= 11; $i++):?>
+                                    <option value="<?php echo $i;?>">Page <?php echo $i;?></option>
+                                <?php endfor;?>
+                            </select>
+                        </div>
+
+                    </div>
+
                     <div class="autour_de_moi">
                         <h3 class="section-title">Autour de moi</h3>
                         <div id="google-map">
@@ -98,9 +101,8 @@
                     </div>
                     <!--end of calendar-->
                     <div class="publicite">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $l = rand(0,7); ?>
+                        <img src="<?php echo $evenements[$l];?>" class="img-responsive" alt="Publicité">
                     </div>
                     <!--end of publicité-->
                     <div class="widget filter">
@@ -115,9 +117,8 @@
                     </div>
                     <!--end of filter-->
                     <div class="publicite">
-                        <div class="placeholder">
-                            Publicité
-                        </div>
+                        <?php $l = rand(0,7); ?>
+                        <img src="<?php echo $evenements[$l];?>" class="img-responsive" alt="Publicité">
                     </div>
                     <!--end of publicité-->
                     <div class="widget">
@@ -127,7 +128,7 @@
                             <?php for($i = 1; $i <= 5; $i++):?>
                                 <li class="list-item">
                                     <a href="#">
-                                        <div class="photo_etablissement"><img src="holder.js/80x80"></div>
+                                        <div class="photo_etablissement">><img src="<?php echo $etablissements[$i];?>" class="img-responsive"></div>
                                         <div class="details_etablissement">
                                             <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
                                             <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>

@@ -241,6 +241,11 @@ span.incdicateur_ouverture{
   padding: 5px 10px;
   border: solid 1px $gray-6;
   border-radius: 2px;
+  text-transform: uppercase;
+}
+span.incdicateur_ouverture.ouvert{
+  border-color: green;
+  color: green;
 }
 span.incdicateur_distance{
   float: right;
