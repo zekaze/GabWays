@@ -18,6 +18,11 @@ select{
   position: relative;
   bottom: 0;
   margin-top: 10px;
+  li.slick-active{
+    button:before{
+      color: $primary-color;
+    }
+  }
 }
 .slick-next{
   right: -10px;
@@ -645,5 +650,19 @@ div.zabuto_calendar {
   }
   .badge-event{
     background-color: $primary-color;
+  }
+}
+.typeahead.dropdown-menu{
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+
+  .dropdown-item{
+    padding: 10px 20px;
+  }
+  .active{
+    .dropdown-item{
+      background-color: $dark-primary-color;
+    }
   }
 }

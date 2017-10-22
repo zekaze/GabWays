@@ -116,6 +116,7 @@
     .article{
         position: relative;
         padding: 10px 0 10px 17px;
+      color: #333;
 
         .article_picture_frame{
           height: 320px;
@@ -133,12 +134,11 @@
             width: 100%;
             height: auto;
             padding: 15px;
-            background-color: rgba($primary-color, 0.8);
-            @include transition(0.3s);
+            background-color: rgba(#fff, 0.95);
+            @include transition(0.5s);
 
             .article_location,
             .article_owner{
-              color: $text-icons-color;
               font-size: 12px;
             }
             .article_owner{
@@ -174,9 +174,9 @@
           }
         }
         .article_title{
-          color: $dark-primary-color;
+          color: $primary-color;
           font-weight: 700;
-          font-size: 13px;
+          font-size: 14px;
         }
 
         $width: 13px;

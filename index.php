@@ -38,13 +38,13 @@
                             <div class="col-sm-6">
                                 <div class="form_input">
                                     <label for="champ_1" class="hidden"></label>
-                                    <input type="text" name="champ_1" id="champ_1" autocomplete="off" placeholder="Quoi, Qui : Salon de coiffure, ...">
+                                    <input type="text" name="champ_1" id="champ_1" data-provide="typeahead" class="typeahead" autocomplete="off" placeholder="Quoi, Qui : Salon de coiffure, ...">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <label for="champ_2" class="hidden"></label>
                                 <div class="form_input">
-                                    <input type="text" name="champ_2" id="champ_2" autocomplete="off" placeholder="Où : Libreville, ...">
+                                    <input type="text" name="champ_2" id="champ_2" data-provide="typeahead" class="typeahead" autocomplete="off" placeholder="Où : Libreville, ...">
                                     <label class="check-button">Rechercher à proximité &nbsp; <input type="checkbox"></label>
                                 </div>
 

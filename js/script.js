@@ -336,6 +336,64 @@ $(document).ready(function () {
             window.location = url;
         })
 
+/*
+Typeahead
+*/
+
+    var $champ1 = $("#champ_1"),
+        $champ2 = $("#champ_2");
+
+
+    $.get("typeahead/question.php", function(data){
+        $champ1.typeahead({
+            source:data,
+            minLength: 3,
+            autoSelect: false
+        });
+    },'json');
+
+    $.get("typeahead/quartiers.php", function(data){
+        $champ2.typeahead({
+            source:data,
+            minLength: 3,
+            autoSelect: false
+        });
+    },'json');
+
+    $champ1.change(function() {
+        var current = $input.typeahead("getActive");
+        if (current) {
+            // Some item from your model is active!
+            if (current.name == $input.val()) {
+                // This means the exact match is found. Use toLowerCase() if you want case insensitive match.
+            } else {
+                // This means it is only a partial match, you can either add a new item
+                // or take the active if you don't want new items
+            }
+        } else {
+            // Nothing is active so it is a new value (or maybe empty value)
+        }
+    });
+
+    $champ2.change(function() {
+        var current = $input.typeahead("getActive");
+        if (current) {
+            // Some item from your model is active!
+            if (current.name == $input.val()) {
+                // This means the exact match is found. Use toLowerCase() if you want case insensitive match.
+            } else {
+                // This means it is only a partial match, you can either add a new item
+                // or take the active if you don't want new items
+            }
+        } else {
+            // Nothing is active so it is a new value (or maybe empty value)
+        }
+    });
+
+
+
+
+
 
 });
 tinymce.init({

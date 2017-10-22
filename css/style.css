@@ -17,6 +17,8 @@ select {
   position: relative;
   bottom: 0;
   margin-top: 10px; }
+  .slick-dots li.slick-active button:before {
+    color: #af1e27; }
 
 .slick-next {
   right: -10px; }
@@ -504,6 +506,15 @@ div.zabuto_calendar .table tr td.event div.day {
 div.zabuto_calendar .badge-event {
   background-color: #af1e27; }
 
+.typeahead.dropdown-menu {
+  border-radius: 0;
+  border: 0;
+  padding: 0; }
+  .typeahead.dropdown-menu .dropdown-item {
+    padding: 10px 20px; }
+  .typeahead.dropdown-menu .active .dropdown-item {
+    background-color: #2d2d7b; }
+
 #google-map {
   position: relative;
   height: 500px; }
@@ -957,7 +968,8 @@ footer#main-footer {
 
 .page-banner .section-slider .article {
   position: relative;
-  padding: 10px 0 10px 17px; }
+  padding: 10px 0 10px 17px;
+  color: #333; }
   .page-banner .section-slider .article .article_picture_frame {
     height: 320px;
     overflow: hidden;
@@ -973,14 +985,13 @@ footer#main-footer {
       width: 100%;
       height: auto;
       padding: 15px;
-      background-color: rgba(175, 30, 39, 0.8);
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
-      -o-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out; }
+      background-color: rgba(255, 255, 255, 0.95);
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out; }
       .page-banner .section-slider .article .article_picture_frame .event-data .article_location,
       .page-banner .section-slider .article .article_picture_frame .event-data .article_owner {
-        color: #fff;
         font-size: 12px; }
       .page-banner .section-slider .article .article_picture_frame .event-data .article_owner {
         font-weight: 700; }
@@ -1006,9 +1017,9 @@ footer#main-footer {
     .page-banner .section-slider .article .event_date .month {
       font-size: 10px; }
   .page-banner .section-slider .article .article_title {
-    color: #2d2d7b;
+    color: #af1e27;
     font-weight: 700;
-    font-size: 13px; }
+    font-size: 14px; }
   .page-banner .section-slider .article .event_date:before {
     content: '';
     display: inline-block;
@@ -1033,7 +1044,8 @@ footer#main-footer {
   padding: 0;
   list-style: none; }
 .page-etablissement .social-sharing {
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 15px; }
   .page-etablissement .social-sharing ul {
     list-style: none;
     overflow: hidden;
@@ -1106,6 +1118,8 @@ footer#main-footer {
   list-style: none;
   font-size: 11px; }
   .page-etablissement .section ul.tags li {
+    display: inline-block; }
+  .page-etablissement .section ul.tags a {
     display: inline-block;
     vertical-align: top;
     padding: 2px 10px;
@@ -1117,8 +1131,9 @@ footer#main-footer {
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
-  .page-etablissement .section ul.tags li:hover {
-    background-color: #666666;
+  .page-etablissement .section ul.tags a:hover {
+    background-color: #af1e27;
+    border-color: #af1e27;
     color: #fff; }
 .page-etablissement .section ul.horaires {
   font-size: 12px; }
@@ -1217,7 +1232,7 @@ footer#main-footer {
 .page-etablissement .liste-etablissements .list-item-info {
   padding: 15px 0; }
 
-span.incdicateur_ouverture {
+span.indicateur_ouverture {
   float: right;
   display: inline-block;
   font-weight: normal;
@@ -1227,11 +1242,11 @@ span.incdicateur_ouverture {
   border-radius: 2px;
   text-transform: uppercase; }
 
-span.incdicateur_ouverture.ouvert {
+span.indicateur_ouverture.ouvert {
   border-color: green;
   color: green; }
 
-span.incdicateur_distance {
+span.indicateur_distance {
   float: right;
   display: inline-block;
   font-size: 12px;
@@ -1813,6 +1828,8 @@ select.form_input {
       line-height: 130px;
       background-color: #666666; }
 
+  .page-banner .section-slider .article .article_picture_frame .event-data {
+    bottom: 0; }
   .page-banner .container .page-title small {
     display: block; }
 
@@ -1862,44 +1879,21 @@ select.form_input {
     .page-404 .container .h1 {
       font-size: 6em; }
 
-  .page-etablissement .social-sharing {
-    overflow: hidden; }
-    .page-etablissement .social-sharing ul {
-      list-style: none;
-      overflow: hidden;
-      float: left; }
-      .page-etablissement .social-sharing ul li {
-        float: left;
-        margin: 5px; }
-        .page-etablissement .social-sharing ul li a {
-          color: #4d4d4d;
-          display: block;
-          width: 35px;
-          padding: 10px 0;
-          text-align: center;
-          background-color: #dfdfdf;
-          border-radius: 100%;
-          -webkit-transition: all 0.3s ease-in-out;
-          -moz-transition: all 0.3s ease-in-out;
-          -o-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out; }
-        .page-etablissement .social-sharing ul li a:hover {
-          background-color: #868686;
-          color: #fff; }
-    .page-etablissement .social-sharing .incdicateur_ouverture {
-      float: right;
-      padding: 5px 15px;
-      border: solid 1px #333333;
-      color: #333333;
-      text-transform: uppercase;
-      border-radius: 2px; }
+  .page-etablissement .social-sharing .incdicateur_ouverture {
+    float: right;
+    padding: 5px 15px;
+    border: solid 1px #333333;
+    color: #333333;
+    text-transform: uppercase;
+    border-radius: 2px; }
   .page-etablissement .section .logo_etablissement {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 225px;
-    overflow: hidden; }
+    overflow: hidden;
+    margin-bottom: 15px; }
   .page-etablissement .section .sub-section-title {
     font-weight: 700;
     color: #4d4d4d;

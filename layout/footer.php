@@ -25,6 +25,8 @@
 <script src="plugins/slick/slick.min.js"></script>
 <!--Holder.js-->
 <script src="plugins/holder.js/holder.min.js"></script>
+<!--Typeahead.js-->
+<script src="plugins/typeahead/bootstrap3-typeahead.min.js"></script>
 <!--Zabuto calendar-->
 <script src="plugins/zabuto-calendar/zabuto_calendar.js"></script>
 <!--MAgnific popup-->

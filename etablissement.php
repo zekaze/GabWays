@@ -24,8 +24,11 @@
                             <li><a href="#" class="fa fa-share" style="background: #f36f21"></a></li>
                         </ul>
                         <div>
-                            <span class="incdicateur_ouverture" >Ouvert</span>
-                            <span class="incdicateur_distance">3 Km</span>
+                            <?php $y = rand(0,1);
+                            $ouvert = array('ouvert','fermé');
+                            ?>
+                            <span class="indicateur_ouverture <?php echo $ouvert[0];?>"><?php echo $ouvert[0];?></span>
+                            <span class="indicateur_distance">3 Km</span>
                         </div>
                     </div>
                     <!--end of social sharing-->
@@ -78,15 +81,15 @@
                             <div class="col-sm-5">
                                 <h4 class="sub-section-title">Tags</h4>
                                 <ul class="tags">
-                                    <li>consectetur</li>
-                                    <li>magna</li>
-                                    <li>marhoncusgna</li>
-                                    <li>imperdiet</li>
-                                    <li>imperdiet</li>
-                                    <li>semper</li>
-                                    <li>Suspendisse</li>
-                                    <li>aliquam</li>
-                                    <li>auctor</li>
+                                    <li><a href="#">consectetur</a></li>
+                                    <li><a href="#">magna</a></li>
+                                    <li><a href="">marhoncusgna</a></li>
+                                    <li><a href="#">imperdiet</a></li>
+                                    <li><a href="#">imperdiet</a></li>
+                                    <li><a href="#">semper</a></li>
+                                    <li><a href="#">Suspendisse</a></li>
+                                    <li><a href="#">aliquam</a></li>
+                                    <li><a href="#">auctor</a></li>
                                 </ul>
                             </div>
 
