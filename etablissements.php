@@ -128,7 +128,7 @@
                             <?php for($i = 1; $i <= 5; $i++):?>
                                 <li class="list-item">
                                     <a href="#">
-                                        <div class="photo_etablissement">><img src="<?php echo $etablissements[$i];?>" class="img-responsive"></div>
+                                        <div class="photo_etablissement"><img src="<?php echo $etablissements[$i];?>" class="img-responsive"></div>
                                         <div class="details_etablissement">
                                             <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
                                             <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
