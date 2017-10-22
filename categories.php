@@ -13,14 +13,15 @@
         <div class="row">
             <div class="col-md-9">
                 <div id="page-category" class="main-body">
-                    <?php for($i = 1; $i < 17; $i++):?>
-                        <a href="etablissements.php" class="category" style="background-image: url('<?php echo $evenements[$i];?>')" data-animate="fadeInUp">
+                    <?php for($i = 1; $i <= 10; $i++):?>
+                        <?php $z = rand(0,8);?>
+                        <a href="etablissements.php" class="category" style="background-image: url('<?php echo $evenements[$z];?>')" data-animate="fadeInUp">
                             <div class="content">
                                 <h4 class="category_name">Nom de la catégorie <?php echo $i;?></h4>
                                 <p class="counter">(<?php echo number_format(1227,0,',',',');?> etablissements)</p>
                             </div>
                         </a>
-                        <?php if(!($i%8)):?>
+                        <?php if(!($i%4)):?>
                             <div class="publicite" data-animate="fadeInUp">
                                 <?php $m = rand(0,5); ?>
                                 <img src="<?php echo $banners[$m];?>" class="img-responsive" alt="Publicité">
@@ -69,7 +70,7 @@
                     </div>
                     <!--end of calendar-->
                     <div class="publicite">
-                        <?php $l = rand(0,19); ?>
+                        <?php $l = rand(0,8); ?>
                         <img src="<?php echo $evenements[$l];?>" class="img-responsive" alt="Publicité">
                     </div>
                     <!--end of publicité-->

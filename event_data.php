@@ -2,11 +2,11 @@
 
 include_once "data.php";
 
-$i = rand(0, 19);
-$j = rand(0, 19);
-$k = rand(0, 19);
-$l = rand(0, 19);
-$m = rand(0, 19);
+$i = rand(0, 8);
+$j = rand(0, 8);
+$k = rand(0, 8);
+$l = rand(0, 8);
+$m = rand(0, 8);
 
 $dates = array(
     "2017-10-20" => array(
@@ -28,7 +28,6 @@ $dates = array(
         ),
         array(
             "titre" => "Titre de l'événement 5",
-            "date" => "2017-09-20",
             "ville" => "Libreville",
             "quartier" => "Charbonnages",
             "annonceur" => "Nom de l'établissement",

@@ -9,14 +9,14 @@
     <div class="etablissements">
         <div class="list">
             <?php for($i =1; $i <= 10; $i++):?>
-                <div class="etablissement">
+                <a href="etablissement.php" class="etablissement">
                     <div class="photo_etablissement"><img src="<?php echo $etablissements[$i];?>" class="img-responsive"></div>
                     <div class="details_etablissement">
                             <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>
                         <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
                         <div class="desc_etablissement">Aenean faucibus, arcu sed posuere congue, neque orci scelerisque purus</div>
                     </div>
-                </div>
+                </a>
             <?php endfor; ?>
         </div>
 

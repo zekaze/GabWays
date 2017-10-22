@@ -225,7 +225,7 @@
                     </div>
                     <!--end of publicité-->
                     <div class="widget">
-                        <h4 class="widget-title">Choix de la semaine</h4>
+                        <h4 class="widget-title">Événements de la semaine</h4>
 
                         <ul class="widget-link-list">
                             <?php for($i = 1; $i <= 5; $i++):?>

@@ -13,6 +13,20 @@ select {
   padding: 5px 10px;
   height: 40px; }
 
+.slick-dots {
+  position: relative;
+  bottom: 0;
+  margin-top: 10px; }
+
+.slick-next {
+  right: -10px; }
+
+.slick-prev {
+  left: -10px; }
+
+.etablissement.slick-slide:hover {
+  color: #af1e27; }
+
 body {
   position: relative;
   margin: 0;
@@ -482,6 +496,13 @@ end of categories carousel
     margin-right: 15px;
     border: none;
     padding: 10px 20px; }
+
+div.zabuto_calendar .badge-today {
+  background-color: #2d2d7b; }
+div.zabuto_calendar .table tr td.event div.day {
+  background-color: #af1e27; }
+div.zabuto_calendar .badge-event {
+  background-color: #af1e27; }
 
 #google-map {
   position: relative;
