@@ -511,7 +511,8 @@ div.zabuto_calendar .badge-event {
   border: 0;
   padding: 0; }
   .typeahead.dropdown-menu .dropdown-item {
-    padding: 10px 20px; }
+    padding: 10px 20px;
+    text-transform: none !important; }
   .typeahead.dropdown-menu .active .dropdown-item {
     background-color: #2d2d7b; }
 
