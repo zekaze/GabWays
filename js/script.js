@@ -348,7 +348,8 @@ Typeahead
         $champ1.typeahead({
             source:data,
             minLength: 3,
-            autoSelect: false
+            autoSelect: false,
+            fitToElement: true
         });
     },'json');
 
@@ -356,7 +357,8 @@ Typeahead
         $champ2.typeahead({
             source:data,
             minLength: 3,
-            autoSelect: false
+            autoSelect: false,
+            fitToElement: true
         });
     },'json');
 
