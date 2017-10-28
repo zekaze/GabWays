@@ -43,7 +43,7 @@
                                 <input type="password" class="form_input" required id="log_password" name="log_password" placeholder="Mot de passe">
 
                                     <button type="submit" class="submit_button">S'identifier</button>
-                                    <a href="#">Mot de passe oublié?</a>
+                                    <a href="mot-de-passe.php">Mot de passe oublié?</a>
 
 
                             </form>

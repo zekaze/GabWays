@@ -5,7 +5,7 @@ var map;
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 0.504099, lng: 9.404849},
-        zoom: 14,
+        zoom: 16,
         gestureHandling: 'cooperative',
         zoomControl: false,
         mapTypeControl: false,
@@ -14,6 +14,22 @@ function initMap() {
         rotateControl: false,
         fullscreenControl: false
     });
+
+    var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+    var icons = {
+        category1: {
+            icon: iconBase + 'parking_lot_maps.png'
+        },
+        category2: {
+            icon: iconBase + 'library_maps.png'
+        },
+        category3: {
+            icon: iconBase + 'info-i_maps.png'
+        },
+        category4: {
+            icon: iconBase + 'info-i_maps.png'
+        }
+    };
 }
 
 
@@ -340,7 +356,30 @@ $(document).ready(function () {
 Typeahead
 */
 
-    var $champ1 = $("#champ_1"),
+    var quartiers = new Bloodhound({
+        datumTokenizer: Bloodhound.tokenizers.whitespace,
+        queryTokenizer: Bloodhound.tokenizers.whitespace,
+        prefetch: 'typeahead/quartiers.php'
+    });
+
+// passing in `null` for the `options` arguments will result in the default
+// options being used
+
+    $('.typeahead').each(function () {
+        $(this).typeahead(
+            {
+                hint: true,
+                highlight: true,
+                minLength: 1
+            },
+            {
+                name: 'quartiers',
+                source: quartiers,
+            });
+    });
+
+
+/*    var $champ1 = $("#champ_1"),
         $champ2 = $("#champ_2");
 
 
@@ -392,7 +431,7 @@ Typeahead
         } else {
             // Nothing is active so it is a new value (or maybe empty value)
         }
-    });
+    });*/
 
 
 

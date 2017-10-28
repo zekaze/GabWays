@@ -17,11 +17,11 @@
                     <label>Partager cette page</label>
                     <div class="social-sharing">
                         <ul>
-                            <li><a href="#" class="fa fa-facebook"></a></li>
-                            <li><a href="#" class="fa fa-twitter"></a></li>
-                            <li><a href="#" class="fa fa-linkedin"></a></li>
-                            <li><a href="#" class="fa fa-instagram"></a></li>
-                            <li><a href="#" class="fa fa-share"></a></li>
+                            <li><a href="#" class="fa fa-facebook" style='background: #385a99'></a></li>
+                            <li><a href="#" class="fa fa-twitter" style="background: #40c8f4"></a></li>
+                            <li><a href="#" class="fa fa-linkedin" style="background: #127ab7"></a></li>
+                            <li><a href="#" class="fa fa-instagram" style="background: #385a99"></a></li>
+                            <li><a href="#" class="fa fa-share" style="background: #f36f21"></a></li>
                         </ul>
                     </div>
                     <!--end of social sharing-->
