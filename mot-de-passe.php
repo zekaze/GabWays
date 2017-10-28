@@ -15,7 +15,11 @@
             <div class="section" data-animate="fadeInUp">
                 <div class="section-body">
                     <h3 class="h3">Réinitialiser votre mot de passe</h3>
-                    Veuillez entrer votre adresse mail.Vous recevrez un email contenant les instructions pour changer votre mot de passe
+                    Veuillez entrer votre adresse mail.Vous recevrez un email contenant les instructions pour changer votre mot de passe.
+                    <form action="">
+                        <label for="email" class="hidden">Adresse mail</label>
+                        <input type="text" class="form_input" placeholder="Votre adresse mail">
+                    </form>
                 </div>
             </div>
         </div>

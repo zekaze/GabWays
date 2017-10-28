@@ -35,10 +35,9 @@
                 <div class="row">
                     <div class="col-sm-9">
                         <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form_input">
-                                    <label for="champ_1" class="hidden"></label>
-                                    <input type="text" name="champ_1" id="champ_1" data-provide="typeahead" class="typeahead" autocomplete="off" placeholder="Quoi, Qui : Salon de coiffure, ...">
+                            <div class="col-sm-6 typeahead__container">
+                                <div class="form_input typeahead__field">
+                                    <input class="js-typeahead" name="q" type="search" placeholder="Quoi, Qui : Salon de coiffure, ...">
                                 </div>
                             </div>
                             <div class="col-sm-6">

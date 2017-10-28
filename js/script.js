@@ -359,22 +359,26 @@ Typeahead
 
 
     $.typeahead({
-        input: '.typeahead',
+        input: '.js-typeahead',
         minLength: 1,
-        maxItem: 8,
+        maxItem: 5,
         order: "asc",
         hint: true,
         accent: true,
-        searchOnFocus: true,
+        searchOnFocus: false,
+        highlight: true,
         backdrop: {
             "background-color": "#3879d9",
             "opacity": "0.1",
             "filter": "alpha(opacity=10)"
         },
         source: {
-            ab: "/typeahead/quartiers.php"
-        },
-        debug: true
+            groupName: {
+                ajax: {
+                    url: "typeahead/quartiers.php"
+                }
+            }
+        }
     });
 
 
