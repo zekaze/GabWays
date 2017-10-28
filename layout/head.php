@@ -19,7 +19,10 @@
     <!-- Slick Carousel -->
     <link href="plugins/slick/slick.css" rel="stylesheet">
     <link href="plugins/slick/slick-theme.css" rel="stylesheet">
-    
+
+
+    <link href="plugins/jquery-typeahead/jquery.typeahead.css" rel="stylesheet">
+
     <!--Zabuto calendar-->
     <link href="plugins/zabuto-calendar/zabuto_calendar.css" rel="stylesheet">
 

@@ -356,85 +356,26 @@ $(document).ready(function () {
 Typeahead
 */
 
-    var quartiers = new Bloodhound({
-        datumTokenizer: Bloodhound.tokenizers.whitespace,
-        queryTokenizer: Bloodhound.tokenizers.whitespace,
-        prefetch: 'typeahead/quartiers.php'
+
+
+    $.typeahead({
+        input: '.typeahead',
+        minLength: 1,
+        maxItem: 8,
+        order: "asc",
+        hint: true,
+        accent: true,
+        searchOnFocus: true,
+        backdrop: {
+            "background-color": "#3879d9",
+            "opacity": "0.1",
+            "filter": "alpha(opacity=10)"
+        },
+        source: {
+            ab: "/typeahead/quartiers.php"
+        },
+        debug: true
     });
-
-// passing in `null` for the `options` arguments will result in the default
-// options being used
-
-    $('.typeahead').each(function () {
-        $(this).typeahead(
-            {
-                hint: true,
-                highlight: true,
-                minLength: 1
-            },
-            {
-                name: 'quartiers',
-                source: quartiers,
-            });
-    });
-
-
-/*    var $champ1 = $("#champ_1"),
-        $champ2 = $("#champ_2");
-
-
-    $.get("typeahead/question.php", function(data){
-        $champ1.typeahead({
-            source:data,
-            minLength: 3,
-            autoSelect: false,
-            fitToElement: true,
-            items: 5
-        });
-    },'json');
-
-    $.get("typeahead/quartiers.php", function(data){
-        $champ2.typeahead({
-            source:data,
-            minLength: 3,
-            autoSelect: false,
-            fitToElement: true,
-            items: 5
-        });
-    },'json');
-
-    $champ1.change(function() {
-        var current = $input.typeahead("getActive");
-        if (current) {
-            // Some item from your model is active!
-            if (current.name == $input.val()) {
-                // This means the exact match is found. Use toLowerCase() if you want case insensitive match.
-            } else {
-                // This means it is only a partial match, you can either add a new item
-                // or take the active if you don't want new items
-            }
-        } else {
-            // Nothing is active so it is a new value (or maybe empty value)
-        }
-    });
-
-    $champ2.change(function() {
-        var current = $input.typeahead("getActive");
-        if (current) {
-            // Some item from your model is active!
-            if (current.name == $input.val()) {
-                // This means the exact match is found. Use toLowerCase() if you want case insensitive match.
-            } else {
-                // This means it is only a partial match, you can either add a new item
-                // or take the active if you don't want new items
-            }
-        } else {
-            // Nothing is active so it is a new value (or maybe empty value)
-        }
-    });*/
-
-
-
 
 
 
