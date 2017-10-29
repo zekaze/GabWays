@@ -8,6 +8,8 @@
         width: 100%;
         padding: 10px 15px;
         margin: 20px 0;
+        border: none;
+        border-bottom: solid 1px #ddd;
     }
     .reset-form .btn{
         border-radius: 0;
