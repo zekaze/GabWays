@@ -366,11 +366,6 @@ Typeahead
         searchOnFocus: false,
         highlight: true,
         cancelButton: false,
-        backdrop: {
-            "background-color": "#3879d9",
-            "opacity": "0.1",
-            "filter": "alpha(opacity=10)"
-        },
         source: {
             groupName: {
                 ajax: {
