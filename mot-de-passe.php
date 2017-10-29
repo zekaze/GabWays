@@ -9,7 +9,7 @@
         padding: 10px 15px;
         margin: 20px 0;
         border: none;
-        border-bottom: solid 1px #ddd;
+        border-bottom: solid 2px #ddd;
     }
     .reset-form .btn{
         border-radius: 0;
