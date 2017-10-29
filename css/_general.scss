@@ -90,6 +90,8 @@ a{
 
         .fa{
           color: darken($primary-color, 9%);
+          display: inline-block;
+          margin-left: 10px;
         }
 
         input{

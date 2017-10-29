@@ -75,7 +75,9 @@ a {
         justify-content: center;
         cursor: pointer; }
         .search_bar form .form_input label .fa {
-          color: #88171e; }
+          color: #88171e;
+          display: inline-block;
+          margin-left: 10px; }
         .search_bar form .form_input label input {
           margin: 0; }
       .search_bar form .form_input label.checked .fa {
