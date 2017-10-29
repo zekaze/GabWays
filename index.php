@@ -44,7 +44,10 @@
                                 <label for="champ_2" class="hidden"></label>
                                 <div class="form_input typeahead__field">
                                     <input type="text" name="champ_2" id="champ_2" data-provide="typeahead" class="js-typeahead  " autocomplete="off" placeholder="Où : Libreville, ...">
-                                    <label class="check-button">Rechercher à proximité &nbsp; <input type="checkbox"></label>
+                                    <label class="check-button">
+                                        Rechercher à proximité <i class="fa fa-lg fa-check-circle"></i>
+                                        <input type="checkbox" name="proximite" class="hidden">
+                                    </label>
                                 </div>
 
                             </div>
