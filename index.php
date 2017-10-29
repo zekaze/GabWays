@@ -40,10 +40,10 @@
                                     <input class="js-typeahead" id="cham_1" name="q" type="search" autocomplete="off" placeholder="Quoi, Qui : Salon de coiffure, ...">
                                 </div>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 typeahead__container">
                                 <label for="champ_2" class="hidden"></label>
-                                <div class="form_input">
-                                    <input type="text" name="champ_2" id="champ_2" data-provide="typeahead" class="typeahead" autocomplete="off" placeholder="Où : Libreville, ...">
+                                <div class="form_input typeahead__field">
+                                    <input type="text" name="champ_2" id="champ_2" data-provide="typeahead" class="js-typeahead  " autocomplete="off" placeholder="Où : Libreville, ...">
                                     <label class="check-button">Rechercher à proximité &nbsp; <input type="checkbox"></label>
                                 </div>
 

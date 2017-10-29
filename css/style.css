@@ -1640,6 +1640,9 @@ select.form_input {
       .typeahead__container .typeahead__result .typeahead__list li a {
         padding: 10px 15px;
         font-size: 14px; }
+      .typeahead__container .typeahead__result .typeahead__list li a:hover {
+        background-color: #2d2d7b;
+        color: #fff; }
       .typeahead__container .typeahead__result .typeahead__list li:first-child {
         border-top: solid 1px #ccc; }
 
@@ -1737,7 +1740,8 @@ select.form_input {
         padding-bottom: 5px !important; }
 
   .search_bar form .form_input {
-    flex-direction: column; }
+    flex-direction: column;
+    height: auto; }
   .search_bar form .col-sm-6 .check-button {
     padding: 15px 0;
     margin-bottom: 1px; }

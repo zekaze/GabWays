@@ -13,6 +13,10 @@
           padding: 10px 15px;
           font-size: 14px;
         }
+        a:hover{
+          background-color: $dark-primary-color;
+          color: #fff;
+        }
       }
       li:first-child{
         border-top: solid 1px #ccc;

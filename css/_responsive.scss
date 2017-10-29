@@ -73,6 +73,7 @@
   }
 }
 @media (max-width: 767px) {
+
   header{
     #top-nav-menu{
       .nav-contact{
@@ -137,6 +138,7 @@
     form{
       .form_input{
         flex-direction: column;
+        height: auto;
       }
       .col-sm-6{
         .check-button{
@@ -165,6 +167,7 @@
           margin: 0;
           flex-grow: inherit;
           display: flex;
+
           align-items: center;
           justify-content: center;
           cursor: pointer;
