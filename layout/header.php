@@ -10,7 +10,7 @@
                 <li><a href="https://twitter.com" class="social-icon" target="_blank"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="https://youtube.com" class="social-icon" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
                 <?php if (isset($_GET['s']) && ($_GET['s'] == 'v')):; ?>
-                    <li><a href="login.php" class="button"><i class="fa fa-user"></i><span class="hidden-xs"> &nbsp; Mon profil</span></a></li>
+                    <li><a href="mon-profil.php" class="button"><i class="fa fa-user"></i><span class="hidden-xs"> &nbsp; Mon profil</span></a></li>
                     <li><a href="login.php" class="button"><i class="fa fa-power-off"></i><span
                                 class="hidden-xs"> &nbsp; Se deconnecter</span></a></li>
                 <?php else: ?>
