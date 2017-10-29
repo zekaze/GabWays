@@ -356,8 +356,6 @@ $(document).ready(function () {
 Typeahead
 */
 
-
-
     $.typeahead({
         input: '.js-typeahead',
         minLength: 1,
@@ -367,6 +365,7 @@ Typeahead
         accent: true,
         searchOnFocus: false,
         highlight: true,
+        cancelButton: false,
         backdrop: {
             "background-color": "#3879d9",
             "opacity": "0.1",

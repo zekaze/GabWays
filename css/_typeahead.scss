@@ -1,0 +1,25 @@
+.typeahead__container{
+  position: relative;
+
+  .typeahead__result{
+    position: relative;
+
+    .typeahead__list{
+      margin: 0;
+      border: 0;
+
+      li{
+        a{
+          padding: 10px 15px;
+          font-size: 14px;
+        }
+      }
+      li:first-child{
+        border-top: solid 1px #ccc;
+      }
+    }
+  }
+}
+.js-typeahead{
+  border: none !important;
+}

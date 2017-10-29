@@ -1630,6 +1630,22 @@ select.form_input {
     .custom-table .checkbox.list.checked .fa {
       opacity: 1; }
 
+.typeahead__container {
+  position: relative; }
+  .typeahead__container .typeahead__result {
+    position: relative; }
+    .typeahead__container .typeahead__result .typeahead__list {
+      margin: 0;
+      border: 0; }
+      .typeahead__container .typeahead__result .typeahead__list li a {
+        padding: 10px 15px;
+        font-size: 14px; }
+      .typeahead__container .typeahead__result .typeahead__list li:first-child {
+        border-top: solid 1px #ccc; }
+
+.js-typeahead {
+  border: none !important; }
+
 @media (max-width: 1365px) {
   #google-map .etablissements {
     overflow: hidden;
