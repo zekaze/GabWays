@@ -88,8 +88,17 @@ a{
         justify-content: center;
         cursor: pointer;
 
+        .fa{
+          color: darken($primary-color, 9%);
+        }
+
         input{
           margin: 0;
+        }
+      }
+      label.checked{
+        .fa{
+          color: #fff;
         }
       }
     }
