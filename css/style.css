@@ -1521,6 +1521,33 @@ span.indicateur_distance {
   .admin-section .section-body .file_input:hover {
     background-color: #8c181f; }
 
+.admin-form label {
+  display: block;
+  color: #af1e27; }
+.admin-form .form_input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #eee;
+  margin-bottom: 20px; }
+.admin-form textarea.form_input {
+  resize: none;
+  height: 180px; }
+.admin-form .file_input {
+  display: inline-block;
+  width: auto;
+  background-color: #af1e27;
+  cursor: pointer;
+  color: #eee;
+  padding: 10px 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+.admin-form .file_input:hover {
+  background-color: #8c181f; }
+
 .checkbox {
   margin: 0;
   padding: 10px 15px;

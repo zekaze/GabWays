@@ -72,32 +72,32 @@
   border-top: solid 1px #eee;
 }
 
-.admin-section{
-  .section-header{
+.admin-section {
+  .section-header {
     display: block;
     padding-bottom: 5px;
     margin-bottom: 30px;
-    h2{
+    h2 {
       color: #999999;
       font-weight: bold;
     }
   }
 
-  .section-body:hover{
-    .section-title{
+  .section-body:hover {
+    .section-title {
       border-color: $primary-color;
       color: $primary-color;
     }
   }
 
-  .section-body{
+  .section-body {
     padding: 10px 15px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 7px #d0d0d0;
     margin-bottom: 10px;
 
-    .section-title{
+    .section-title {
       color: $dark-primary-color;
       font-weight: 700;
       border-bottom: solid 2px #eee;
@@ -105,28 +105,28 @@
       @include transition(0.5s);
     }
 
-    .collapse{
+    .collapse {
       margin-top: 30px;
     }
 
-      label{
-        display: block;
-        color: $primary-color;
-      }
-      .form_input{
-        display: block;
-        width: 100%;
-        padding: 10px;
-        border: none;
-        background-color: #eee;
-        margin-bottom: 20px;
-      }
-    textarea.form_input{
+    label {
+      display: block;
+      color: $primary-color;
+    }
+    .form_input {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #eee;
+      margin-bottom: 20px;
+    }
+    textarea.form_input {
       resize: none;
       height: 180px;
     }
 
-    .file_input{
+    .file_input {
       display: inline-block;
       width: auto;
       background-color: $primary-color;
@@ -135,9 +135,40 @@
       padding: 10px 15px;
       @include transition(0.3s);
     }
-    .file_input:hover{
+    .file_input:hover {
       background-color: darken($primary-color, 8%);
     }
+  }
+}
+.admin-form{
+  label {
+    display: block;
+    color: $primary-color;
+  }
+  .form_input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #eee;
+    margin-bottom: 20px;
+  }
+  textarea.form_input {
+    resize: none;
+    height: 180px;
+  }
+
+  .file_input {
+    display: inline-block;
+    width: auto;
+    background-color: $primary-color;
+    cursor: pointer;
+    color: #eee;
+    padding: 10px 15px;
+    @include transition(0.3s);
+  }
+  .file_input:hover {
+    background-color: darken($primary-color, 8%);
   }
 }
 
