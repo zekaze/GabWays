@@ -49,9 +49,6 @@
       .col-sm-6,
       .col-sm-7{
         position: relative;
-        .check-button{
-          font-size: 0;
-        }
       }
     }
 
@@ -182,6 +179,16 @@
       .submit_button{
         border-radius: 0;
         padding: 8px;
+      }
+
+
+      .col-sm-5,
+      .col-sm-6,
+      .col-sm-7{
+        .check-button{
+          padding: 8px 20px;
+        }
+
       }
     }
 

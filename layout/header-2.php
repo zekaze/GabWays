@@ -65,8 +65,12 @@
                                     <div class="col-sm-7 typeahead__container">
                                         <label for="champ_2" class="hidden"></label>
                                         <div class="form_input typeahead__field">
-                                            <input type="text" name="champ_2" id="champ_2" class="js-typeahead" autocomplete="off" placeholder="Où : Libreville, ...">
-                                            <label class="check-button">Rechercher à proximité &nbsp; <input type="checkbox"></label>
+                                            <input type="text" name="champ_2" id="champ_2" data-provide="typeahead" class="js-typeahead  " autocomplete="off" placeholder="Où : Libreville, ...">
+                                            <label class="check-button" data-toggle="tooltip" title="Rechercher à proximité">
+                                                <i class="fa fa-street-view fa-lg hidden-xs"></i> &nbsp;&nbsp;
+                                                <span class="visible-xs">Rechercher à proximité &nbsp;</span> <i class="fa fa-lg fa-check-circle"></i>
+                                                <input type="checkbox" name="proximite" class="hidden">
+                                            </label>
                                         </div>
 
                                     </div>

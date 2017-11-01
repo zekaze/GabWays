@@ -118,12 +118,12 @@
                                         <div class="row">
                                             <div class="col-xs-6">
                                                 <label for="horaire-<?php echo $short; ?>" class="hidden"></label>
-                                                <input type="text" name="horaire-<?php echo $short; ?>" placeholder="Heure"
+                                                <input type="text" name="horaire-<?php echo $short; ?>" placeholder="Ouverture"
                                                        id="horaire-<?php echo $short; ?>" class="form_input datepicker">
                                             </div>
                                             <div class="col-xs-6">
                                                 <label for="horaire-<?php echo $short; ?>" class="hidden"></label>
-                                                <input type="text" name="horaire-<?php echo $short; ?>" placeholder="Heure"
+                                                <input type="text" name="horaire-<?php echo $short; ?>" placeholder="Fermeture"
                                                        id="horaire-<?php echo $short; ?>" class="form_input datepicker">
                                             </div>
                                         </div>

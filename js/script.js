@@ -222,6 +222,12 @@ $(document).ready(function () {
 
     });
 
+    $(function () {
+        $("[data-toggle='tooltip']").tooltip({
+            placement: 'bottom',
+            delay: { show: 300, hide: 100 }
+        });
+    });
     //modal body
 
 

@@ -108,7 +108,7 @@ a {
   .navbar.fixed form .form_input input[type=text] {
     border: none;
     flex-grow: 5;
-    padding: 5px 10px;
+    padding: 6px 10px;
     background-color: #f8f8f8; }
   .navbar.fixed form .form_input label {
     margin: 0;
@@ -117,8 +117,12 @@ a {
     align-items: center;
     justify-content: center;
     cursor: pointer; }
+    .navbar.fixed form .form_input label .fa-check-circle {
+      color: #88171e; }
     .navbar.fixed form .form_input label input {
       margin: 0; }
+  .navbar.fixed form .form_input label.checked .fa-check-circle {
+    color: #fff; }
 .navbar.fixed form .col-sm-5,
 .navbar.fixed form .col-sm-6,
 .navbar.fixed form .col-sm-7 {
@@ -127,6 +131,7 @@ a {
   .navbar.fixed form .col-sm-6 .check-button,
   .navbar.fixed form .col-sm-7 .check-button {
     color: #fff;
+    padding: 0 20px;
     background-color: #af1e27; }
 .navbar.fixed form .submit_button {
   border-radius: 0 50px 50px 0;
@@ -1727,10 +1732,6 @@ select.form_input {
   .navbar.fixed form .col-sm-6,
   .navbar.fixed form .col-sm-7 {
     position: relative; }
-    .navbar.fixed form .col-sm-5 .check-button,
-    .navbar.fixed form .col-sm-6 .check-button,
-    .navbar.fixed form .col-sm-7 .check-button {
-      font-size: 0; }
   .navbar.fixed form > .row {
     margin-left: -1px;
     margin-right: -1px; }
@@ -1809,6 +1810,10 @@ select.form_input {
   .navbar.fixed form .submit_button {
     border-radius: 0;
     padding: 8px; }
+  .navbar.fixed form .col-sm-5 .check-button,
+  .navbar.fixed form .col-sm-6 .check-button,
+  .navbar.fixed form .col-sm-7 .check-button {
+    padding: 8px 20px; }
   .navbar.fixed form > .row {
     margin-left: -15px;
     margin-right: -15px; }
