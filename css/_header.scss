@@ -76,12 +76,11 @@ header{
 
     .navbar-nav{
       float: right;
-    }
-
-    a{
-      color: $primary-color;
-      text-transform: uppercase;
-      font-weight: 700;
+      a{
+        color: $primary-color;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
     }
   }
   .navbar.default{

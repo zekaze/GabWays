@@ -105,11 +105,11 @@ a {
   width: 100%;
   border: none;
   font-size: 13px; }
-  .navbar.fixed form .form_input input[type=text] {
+  .navbar.fixed form .form_input input[type=search] {
     border: none;
     flex-grow: 5;
     padding: 6px 10px;
-    background-color: #f8f8f8; }
+    background-color: #eee; }
   .navbar.fixed form .form_input label {
     margin: 0;
     flex-grow: 1;
@@ -697,10 +697,10 @@ header {
         font-size: 16px; }
     header .navbar .navbar-nav {
       float: right; }
-    header .navbar a {
-      color: #af1e27;
-      text-transform: uppercase;
-      font-weight: 700; }
+      header .navbar .navbar-nav a {
+        color: #af1e27;
+        text-transform: uppercase;
+        font-weight: 700; }
   header .navbar.default {
     background-color: #fff; }
   header .navbar.fixed {
@@ -1796,11 +1796,12 @@ select.form_input {
 
   .navbar.fixed form .form_input {
     display: block; }
-    .navbar.fixed form .form_input input[type=text] {
+    .navbar.fixed form .form_input input[type=search] {
       border: none;
       flex-grow: inherit;
       padding: 10px;
-      width: 100%; }
+      width: 100%;
+      margin-bottom: 3px; }
     .navbar.fixed form .form_input label {
       margin: 0;
       flex-grow: inherit;
@@ -1817,7 +1818,7 @@ select.form_input {
   .navbar.fixed form .col-sm-5 .check-button,
   .navbar.fixed form .col-sm-6 .check-button,
   .navbar.fixed form .col-sm-7 .check-button {
-    padding: 8px 20px; }
+    padding: 10px 20px; }
   .navbar.fixed form > .row {
     margin-left: -15px;
     margin-right: -15px; }

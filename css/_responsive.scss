@@ -160,11 +160,12 @@
       .form_input{
         display: block;
 
-        input[type = text]{
+        input[type = search]{
           border: none;
           flex-grow: inherit;
           padding: 10px;
           width: 100%;
+          margin-bottom: 3px;
         }
         label{
           margin: 0;
@@ -192,7 +193,7 @@
       .col-sm-6,
       .col-sm-7{
         .check-button{
-          padding: 8px 20px;
+          padding: 10px 20px;
         }
 
       }

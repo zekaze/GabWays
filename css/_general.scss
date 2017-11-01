@@ -140,11 +140,11 @@ a{
       border: none;
       font-size: $input_font_size;
 
-      input[type = text]{
+      input[type = search]{
         border: none;
         flex-grow: 5;
         padding: 6px 10px;
-        background-color: #f8f8f8;
+        background-color: #eee;
       }
       label{
         margin: 0;

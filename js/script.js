@@ -363,7 +363,26 @@ Typeahead
 */
 
     $.typeahead({
-        input: '.js-typeahead',
+        input: '#champ_1',
+        minLength: 1,
+        maxItem: 5,
+        order: "asc",
+        hint: true,
+        accent: true,
+        searchOnFocus: false,
+        highlight: true,
+        cancelButton: false,
+        source: {
+            groupName: {
+                ajax: {
+                    url: "typeahead/question.php"
+                }
+            }
+        }
+    });
+
+    $.typeahead({
+        input: '#champ_2',
         minLength: 1,
         maxItem: 5,
         order: "asc",
