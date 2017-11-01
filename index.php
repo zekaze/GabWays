@@ -37,7 +37,7 @@
                         <div class="row">
                             <div class="col-sm-6 typeahead__container">
                                 <div class="form_input typeahead__field">
-                                    <input class="js-typeahead" id="cham_1" name="q" type="search" autocomplete="off" placeholder="Quoi, Qui : Salon de coiffure, ...">
+                                    <input class="js-typeahead" id="champ_1" name="q" type="search" autocomplete="off" placeholder="Quoi, Qui : Salon de coiffure, ...">
                                 </div>
                             </div>
                             <div class="col-sm-6 typeahead__container">
