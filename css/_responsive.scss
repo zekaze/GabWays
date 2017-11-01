@@ -131,16 +131,22 @@
       }
     }
   }
-  .search_bar{
+  .search_bar.scrollable{
     form{
       .form_input{
         flex-direction: column;
         height: auto;
+         background: none;
+
+        input[type = search]{
+          padding: 15px 10px;
+          margin-bottom: 5px;
+        }
       }
       .col-sm-6{
         .check-button{
           padding: 15px 0;
-          margin-bottom: 1px;
+          margin-bottom: 2px;
         }
 
       }

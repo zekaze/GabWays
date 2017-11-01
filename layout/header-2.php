@@ -59,13 +59,13 @@
                                     <div class="col-sm-5 typeahead__container">
                                         <div class="form_input typeahead__field">
                                             <label for="champ_1" class="hidden"></label>
-                                            <input type="text" name="champ_1" id="champ_1" class="js-typeahead" autocomplete="off" placeholder="Quoi, Qui : Salon de coiffure, ...">
+                                            <input type="search" name="champ_1" id="champ_1" class="js-typeahead" autocomplete="off" placeholder="Quoi, Qui : Salon de coiffure, ...">
                                         </div>
                                     </div>
                                     <div class="col-sm-7 typeahead__container">
                                         <label for="champ_2" class="hidden"></label>
                                         <div class="form_input typeahead__field">
-                                            <input type="text" name="champ_2" id="champ_2" data-provide="typeahead" class="js-typeahead  " autocomplete="off" placeholder="Où : Libreville, ...">
+                                            <input type="search" name="champ_2" id="champ_2" data-provide="typeahead" class="js-typeahead  " autocomplete="off" placeholder="Où : Libreville, ...">
                                             <label class="check-button" data-toggle="tooltip" title="Rechercher à proximité">
                                                 <i class="fa fa-street-view fa-lg hidden-xs"></i> &nbsp;&nbsp;
                                                 <span class="visible-xs">Rechercher à proximité &nbsp;</span> <i class="fa fa-lg fa-check-circle"></i>

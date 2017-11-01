@@ -56,7 +56,7 @@ a{
   display: inline-block !important;
   width: auto !important;
 }
-.search_bar{
+.search_bar.scrollable{
   background-color: $text-icons-color;
   padding: 15px 0;
 
@@ -75,7 +75,7 @@ a{
       border: none;
       font-size: $input_font_size;
 
-      input[type = text]{
+      input[type = search]{
         border: none;
         flex-grow: 5;
         padding: 5px 10px;
@@ -88,7 +88,7 @@ a{
         justify-content: center;
         cursor: pointer;
 
-        .fa{
+        .fa-check-circle{
           color: darken($primary-color, 9%);
           display: inline-block;
           margin-left: 10px;
@@ -99,7 +99,7 @@ a{
         }
       }
       label.checked{
-        .fa{
+        .fa-check-circle{
           color: #fff;
         }
       }

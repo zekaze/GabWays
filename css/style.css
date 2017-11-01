@@ -50,45 +50,45 @@ a {
   display: inline-block !important;
   width: auto !important; }
 
-.search_bar {
+.search_bar.scrollable {
   background-color: #fff;
   padding: 15px 0; }
-  .search_bar form {
+  .search_bar.scrollable form {
     padding: 15px;
     background-color: #e6e6e6; }
-    .search_bar form .form_input {
+    .search_bar.scrollable form .form_input {
       display: flex;
       height: 60px;
       background-color: #fff;
       width: 100%;
       border: none;
       font-size: 13px; }
-      .search_bar form .form_input input[type=text] {
+      .search_bar.scrollable form .form_input input[type=search] {
         border: none;
         flex-grow: 5;
         padding: 5px 10px; }
-      .search_bar form .form_input label {
+      .search_bar.scrollable form .form_input label {
         margin: 0;
         flex-grow: 1;
         display: flex;
         align-items: center;
         justify-content: center;
         cursor: pointer; }
-        .search_bar form .form_input label .fa {
+        .search_bar.scrollable form .form_input label .fa-check-circle {
           color: #88171e;
           display: inline-block;
           margin-left: 10px; }
-        .search_bar form .form_input label input {
+        .search_bar.scrollable form .form_input label input {
           margin: 0; }
-      .search_bar form .form_input label.checked .fa {
+      .search_bar.scrollable form .form_input label.checked .fa-check-circle {
         color: #fff; }
-    .search_bar form .col-sm-6 {
+    .search_bar.scrollable form .col-sm-6 {
       position: relative; }
-      .search_bar form .col-sm-6 .check-button {
+      .search_bar.scrollable form .col-sm-6 .check-button {
         color: #fff;
         background-color: #af1e27;
         padding: 10px 15px; }
-    .search_bar form .submit_button {
+    .search_bar.scrollable form .submit_button {
       border-radius: 0;
       font-size: 13px;
       font-weight: 700;
@@ -1783,12 +1783,16 @@ select.form_input {
         padding-top: 5px !important;
         padding-bottom: 5px !important; }
 
-  .search_bar form .form_input {
+  .search_bar.scrollable form .form_input {
     flex-direction: column;
-    height: auto; }
-  .search_bar form .col-sm-6 .check-button {
+    height: auto;
+    background: none; }
+    .search_bar.scrollable form .form_input input[type=search] {
+      padding: 15px 10px;
+      margin-bottom: 5px; }
+  .search_bar.scrollable form .col-sm-6 .check-button {
     padding: 15px 0;
-    margin-bottom: 1px; }
+    margin-bottom: 2px; }
 
   .navbar.fixed form .form_input {
     display: block; }
