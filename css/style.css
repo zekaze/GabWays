@@ -1432,6 +1432,10 @@ span.indicateur_distance {
     padding: 0;
     list-style: none;
     font-size: 13px; }
+    .admin-sidebar .sidebar-menu .collapse,
+    .admin-sidebar .sidebar-menu .collapsing {
+      list-style: none;
+      padding-left: 20px; }
     .admin-sidebar .sidebar-menu li a {
       padding: 9px 15px;
       display: block;
@@ -1496,7 +1500,12 @@ span.indicateur_distance {
     margin-top: 30px; }
   .admin-section .section-body label {
     display: block;
-    color: #af1e27; }
+    color: #af1e27;
+    position: relative; }
+    .admin-section .section-body label .visible-xs {
+      position: absolute;
+      left: 30px;
+      bottom: 10px; }
   .admin-section .section-body .form_input {
     display: block;
     width: 100%;
@@ -1551,9 +1560,9 @@ span.indicateur_distance {
 .checkbox {
   margin: 0;
   padding: 10px 15px;
-  background-color: #eee;
-  color: #999 !important;
-  border-radius: 5px;
+  background-color: #ccc;
+  color: #393939 !important;
+  border-radius: 0;
   text-align: center;
   cursor: pointer; }
 
@@ -2063,7 +2072,10 @@ select.form_input {
 
   span.indicateur_ouverture,
   span.indicateur_distance {
-    float: none; } }
+    float: none; }
+
+  .admin-section .horaires .form_input {
+    margin: 5px 0; } }
 @media (max-width: 640px) {
   .body .main-body .section.section-slider .section-body .articles {
     display: block; }

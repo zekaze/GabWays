@@ -32,6 +32,11 @@
     list-style: none;
     font-size: 13px;
 
+    .collapse,
+    .collapsing{
+      list-style: none;
+      padding-left: 20px;
+    }
     li{
       a{
         padding: 9px 15px;
@@ -112,6 +117,13 @@
     label {
       display: block;
       color: $primary-color;
+      position: relative;
+
+      .visible-xs{
+        position: absolute;
+        left: 30px;
+        bottom: 10px;
+      }
     }
     .form_input {
       display: block;
@@ -175,9 +187,9 @@
 .checkbox{
   margin: 0;
   padding: 10px 15px;
-  background-color: #eee;
-  color: #999 !important;
-  border-radius: 5px;
+  background-color: #ccc;
+  color: #393939 !important;
+  border-radius: 0;
   text-align: center;
   cursor: pointer;
 }
