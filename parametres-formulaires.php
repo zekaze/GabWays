@@ -553,7 +553,7 @@
                         </div>
                         </form>
 
-                    <form action="">
+                    <form action="" enctype="multipart/form-data">
                         <div class="section-body">
                             <h4 class="section-title" data-toggle="collapse" data-target="#collapse15">Publicités
                                 (Détails) <i class="fa fa-caret-down pull-right"></i></h4>
@@ -568,7 +568,7 @@
                                     </div>
                                     <div class="col-md-8">
                                         <label for="champ_texte-51">Libellé *</label>
-                                        <input type="text" id="champ_texte-51" required name="champ_texte-51"
+                                        <input type="text" id="champ_texte-51" accept="image/*" required name="champ_texte-51"
                                                class="form_input"
                                                placeholder="Libellé...">
 

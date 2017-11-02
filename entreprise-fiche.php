@@ -11,7 +11,7 @@
                     <div class="section-header">
                         <h2>Fiche entreprise</h2>
                     </div>
-                    <form action="">
+                    <form action="" enctype="multipart/form-data">
                         <div class="section-body">
                             <h4 class="section-title">Informations générales</h4>
                             <div class="row">
@@ -19,7 +19,7 @@
                                     <label for="description">Logo</label>
                                     <div class="image-preview">
                                         <label for="image-upload-1" class="image-label">Choisir un fichier</label>
-                                        <input type="file" name="image" id="image-upload-1" class="image-upload" />
+                                        <input type="file" name="image" accept="image/*" id="image-upload-1" class="image-upload" />
                                     </div>
 
                                 </div>
