@@ -34,6 +34,29 @@ function initMap() {
 
 
 $(document).ready(function () {
+
+    $(window).on('scroll',function () {
+        var $window = $(window),
+        top = $window.scrollTop(),
+        formFooter = $('.form-footer.sticky');
+        console.log(top);
+        if(top > 200){
+            formFooter.addClass('fixed');
+        }
+        else {
+            formFooter.removeClass('fixed');
+        }
+    });
+
+    $.uploadPreview({
+        input_field: ".image-upload",   // Default: .image-upload
+        preview_box: ".image-preview",  // Default: .image-preview
+        label_field: ".image-label",    // Default: .image-label
+        label_default: "Choisir un fichier",   // Default: Choose File
+        label_selected: "Changer de fichier",  // Default: Change File
+        no_label: false                 // Default: false
+    });
+
     $(function () {
         var categories_carousel = $('.categories_carousel'),
             carousel = categories_carousel.find('.carousel');
@@ -230,8 +253,6 @@ $(document).ready(function () {
     });
     //modal body
 
-
-
     $('#calendar').zabuto_calendar({
         language: "fr",
         show_previous: false,
@@ -274,13 +295,6 @@ $(document).ready(function () {
 
 
 
-    var $animation_elements = jQuery('*[data-animate]');
-    var $window = jQuery(window);
-
-
-
-    $window.on('scroll',check_if_in_view);
-
     function check_if_in_view() {
         var window_height = $window.height();
         var window_top_position = $window.scrollTop();
@@ -313,6 +327,16 @@ $(document).ready(function () {
         });
 
     }
+
+
+
+$(function () {
+    var $animation_elements = jQuery('*[data-animate]');
+    var $window = jQuery(window);
+    $window.on('scroll',check_if_in_view);
+})
+
+
 
     $('.form_input').attr('autocomplete','off');
 
@@ -381,6 +405,7 @@ Typeahead
         }
     });
 
+
     $.typeahead({
         input: '#champ_2',
         minLength: 1,
@@ -399,10 +424,8 @@ Typeahead
             }
         }
     });
-
-
-
 });
+
 tinymce.init({
     selector: '.rich-text',
     height: 200,

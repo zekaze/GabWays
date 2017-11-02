@@ -98,7 +98,7 @@
                                 <h4>Obligatoire</h4>
                                 <label class="checkbox inline-block">
                                     <input type="checkbox" class="hidden" name="checkbox[]">
-                                    Obligatoire
+                                    Obligatoire &nbsp; <i class="fa fa-check-circle"></i>
                                 </label>
 
                                 <label for="liste_deroulante-3">Type *</label>
@@ -209,7 +209,7 @@
                             <h4>Actif</h4>
                             <label class="checkbox inline-block">
                                 <input type="checkbox" class="hidden" name="checkbox[]">
-                                Actif
+                                Actif &nbsp; <i class="fa fa-check-circle"></i>
                             </label>
 
                         <div class="form-footer">
@@ -305,7 +305,7 @@
                             <h4>Actif</h4>
                                 <label class="checkbox inline-block">
                                     <input type="checkbox" class="hidden" name="checkbox[]">
-                                    Actif
+                                    Actif &nbsp; <i class="fa fa-check-circle"></i>
                                 </label>
 
                             <label for="password">Mot de passe *</label>
@@ -558,52 +558,60 @@
                             <h4 class="section-title" data-toggle="collapse" data-target="#collapse15">Publicités (Détails) <i class="fa fa-caret-down pull-right"></i></h4>
 
                             <div class="collapse" id="collapse15">
-                            <label for="champ_texte-51">Libellé *</label>
-                            <input type="text" id="champ_texte-51" required name="champ_texte-51" class="form_input" placeholder="Libellé...">
+                                <label for="champ_texte-51">Libellé *</label>
+                                <input type="text" id="champ_texte-51" required name="champ_texte-51" class="form_input"
+                                       placeholder="Libellé...">
 
-                            <label for="liste_deroulante-9">Type de publicité</label>
-                            <select name="liste_deroulante-9" id="liste_deroulante-9" class="form_input">
-                                <option>Option 1</option>
-                                <option>Option 2</option>
-                                <option>Option 3</option>
-                            </select>
+                                <label for="liste_deroulante-9">Type de publicité</label>
+                                <select name="liste_deroulante-9" id="liste_deroulante-9" class="form_input">
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                    <option>Option 3</option>
+                                </select>
 
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <label for="champ_texte-52">Date de debut</label>
-                                    <input type="date" id="champ_texte-52"  name="champ_texte-52" class="form_input" placeholder="Date de debut...">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <label for="champ_texte-52">Date de debut</label>
+                                        <input type="date" id="champ_texte-52" name="champ_texte-52" class="form_input"
+                                               placeholder="Date de debut...">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="champ_texte-53">Date de fin</label>
+                                        <input type="date" id="champ_texte-53" name="champ_texte-53" class="form_input"
+                                               placeholder="Date de fin...">
+                                    </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <label for="champ_texte-53">Date de fin</label>
-                                    <input type="date" id="champ_texte-53"  name="champ_texte-53" class="form_input" placeholder="Date de fin...">
+
+
+                                <label for="liste_deroulante-10">Priorité</label>
+                                <select name="liste_deroulante-10" id="liste_deroulante-10" class="form_input">
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                    <option>Option 3</option>
+                                </select
+
+                                <label for="champ_texte-54">Coût</label>
+                                <input type="text" id="champ_texte-54" readonly class="form_input" placeholder="Coût..">
+
+                                <h4>Cases à cocher</h4>
+                                <label class="checkbox inline-block">
+                                    <input type="checkbox" class="hidden" name="checkbox[]">
+                                    Payé &nbsp; <i class="fa fa-check-circle"></i>
+                                </label>
+
+                                <label for="liste_deroulante-11">Statut</label>
+                                <select name="liste_deroulante-11" id="liste_deroulante-11" class="form_input">
+                                    <option>Statut 1</option>
+                                    <option>Statut 2</option>
+                                    <option>Statut 3</option>
+                                </select
+
+
+                                <div class="form-footer">
+                                    <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                                    <button type="reset" class="btn">Annuler</button>
                                 </div>
                             </div>
-
-
-
-
-                            <label for="liste_deroulante-10">Priorité</label>
-                            <select name="liste_deroulante-10" id="liste_deroulante-10" class="form_input">
-                                <option>Option 1</option>
-                                <option>Option 2</option>
-                                <option>Option 3</option>
-                            </select
-
-                            <label for="champ_texte-54">Coût</label>
-                            <input type="text" id="champ_texte-54" readonly class="form_input" placeholder="Coût..">
-
-                            <h4>Cases à cocher</h4>
-                            <label class="checkbox inline-block">
-                                <input type="checkbox" class="hidden" name="checkbox[]">
-                                Payé
-                            </label>
-
-
-                            <div class="form-footer">
-                                <button type="submit" class="btn btn-success">Enregister les modifications</button>
-                                <button type="reset" class="btn">Annuler</button>
-                            </div>
-                                </div>
                         </div>
                         </form>
 

@@ -17,9 +17,20 @@
                             <div class="row">
                                 <div class="col-lg-3 col-md-4">
                                     <label for="description">Logo</label>
+                                    <div class="image-preview">
+                                        <label for="image-upload-1" class="image-label">Choisir un fichier</label>
+                                        <input type="file" name="image" id="image-upload-1" class="image-upload" />
+                                    </div>
 
                                 </div>
                                 <div class="col-lg-9 col-md-8">
+                                    <label for="categorie">Statut</label>
+                                    <select name="category" id="categorie" class="form_input">
+                                        <option value="1">Statut 1</option>
+                                        <option value="2">Statut 2</option>
+                                        <option value="3">Statut 3</option>
+                                    </select>
+
                                     <label for="entreprise">Nom de l'entreprise</label>
                                     <input type="text" id="entreprise" class="form_input">
 
@@ -45,7 +56,7 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <label for="telephone-1">Téléphone 1</label>
-                                    <input type="tel" id="telephone-1" class="form_input">
+                                    <input type="tel" id="telephone-1" required class="form_input">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="telephone-2">Téléphone 2</label>
@@ -56,7 +67,7 @@
                             <div class="row">
                                 <div class="col-sm-4">
                                     <label for="ville">Ville</label>
-                                    <select name="ville" id="ville" class="form_input" >
+                                    <select name="ville" id="ville" required class="form_input" >
                                         <option value="1">Ville 1</option>
                                         <option value="2">Ville 2</option>
                                         <option value="3">Ville 3</option>
@@ -64,7 +75,7 @@
                                 </div>
                                 <div class="col-sm-4">
                                     <label for="quartier">Quartier</label>
-                                    <select name="quartier" id="quartier" class="form_input" >
+                                    <select name="quartier" id="quartier" required class="form_input" >
                                         <option value="1">Quartier 1</option>
                                         <option value="2">Quartier 2</option>
                                         <option value="3">Quartier 3</option>
@@ -83,7 +94,7 @@
                         <div class="section-body">
                             <h4 class="section-title">Tags</h4>
                             <label for="indications">Tags associés</label>
-                            <input name="" id="tags" class="form_input tags_field">
+                            <input name="" id="tags" required class="form_input tags_field">
                             <p class="italic">Le nombre de tags est limité à 5. Seuls les tags proposés sont disponibles</p>
                         </div>
                         <div class="section-body">
@@ -130,6 +141,10 @@
                                     </div>
                                 </div>
                             <?php endforeach; ?>
+                        </div>
+                        <div class="form-footer sticky">
+                            <button type="submit" class="btn btn-success">Enregister les modifications</button>
+                            <button type="reset" class="btn">Annuler</button>
                         </div>
                     </form>
                 </div>

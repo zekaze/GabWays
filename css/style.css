@@ -1616,7 +1616,11 @@ select.form_input {
 .form-footer {
   border-top: solid 2px #eee;
   padding: 15px 0;
-  margin-top: 25px; }
+  margin-top: 25px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
   .form-footer .btn {
     border-radius: 0;
     border: none; }
@@ -1624,6 +1628,42 @@ select.form_input {
     background-color: #af1e27; }
   .form-footer .btn-success:active {
     background-color: #83171d; }
+
+.form-footer.fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 10px 15px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center; }
+
+.image-preview {
+  width: 100%;
+  height: 230px;
+  position: relative;
+  border: dashed 2px #eee; }
+  .image-preview input {
+    line-height: 200px;
+    position: absolute;
+    opacity: 0;
+    z-index: 10; }
+  .image-preview label {
+    cursor: pointer;
+    color: #fff !important;
+    display: inline-block;
+    background-color: #af1e27;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px; }
+  .image-preview label:after {
+    content: '\f030';
+    font-family: 'FontAwesome', sans-serif;
+    display: inline-block;
+    margin-left: 10px; }
 
 @media (max-width: 767px) {
   .body.admin {

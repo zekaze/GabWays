@@ -244,6 +244,7 @@ select.form_input{
   border-top: solid 2px #eee;
   padding: 15px 0;
   margin-top: 25px;
+  @include transition(0.3s);
 
   .btn{
     border-radius: 0;
@@ -256,6 +257,47 @@ select.form_input{
     background-color: darken($primary-color, 10%);
   }
 }
+.form-footer.fixed{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 10px 15px;
+  box-shadow: 0 5px 5px rgba(#000, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+.image-preview {
+  width: 100%;
+  height: 230px;
+  position: relative;
+  border: dashed 2px #eee;
+
+  input {
+    line-height: 200px;
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+  }
+  label {
+    cursor: pointer;
+    color: #fff !important;
+    display: inline-block;
+    background-color: $primary-color;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  label:after{
+    content: '\f030';
+    font-family: 'FontAwesome', sans-serif;
+    display: inline-block;
+    margin-left: 10px;
+  }
+}
+
 @media (max-width: 767px) {
   .body.admin{
     display: inherit;
