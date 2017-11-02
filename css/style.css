@@ -1665,6 +1665,9 @@ select.form_input {
     display: inline-block;
     margin-left: 10px; }
 
+@media (max-width: 991px) {
+  .image-preview {
+    margin-bottom: 50px; } }
 @media (max-width: 767px) {
   .body.admin {
     display: inherit; }
