@@ -275,7 +275,6 @@ select.form_input{
   border: dashed 2px #eee;
 
   input {
-    line-height: 200px;
     position: absolute;
     opacity: 0;
     z-index: 10;
@@ -283,12 +282,13 @@ select.form_input{
   label {
     cursor: pointer;
     color: #fff !important;
-    display: inline-block;
     background-color: $primary-color;
     padding: 10px 15px;
     text-align: center;
     font-size: 15px;
-    border-radius: 5px;
+    border-radius: 0;
+    position: absolute !important;
+    bottom: -50px;
   }
   label:after{
     content: '\f030';

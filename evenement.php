@@ -174,16 +174,17 @@
                         <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
                     </div>
                     <!--end of publicité-->
-                    <div class="widget" data-animate="fadeInUp">
+                    <div class="widget">
                         <h4 class="widget-title">Événements de la semaine</h4>
 
                         <ul class="widget-link-list">
                             <?php for($i = 1; $i <= 5; $i++):?>
                                 <li class="list-item">
                                     <a href="#">
+
                                         <div class="photo_etablissement">
-                                            <?php $i = rand(0, 19);?>
-                                            <img src="<?php echo $evenements[$i];?>" class="img-responsive" alt="Evenement">
+                                            <?php $j = rand(0, 7);?>
+                                            <img src="<?php echo $evenements[$j];?>" class="img-responsive" alt="Evenement">
                                         </div>
                                         <div class="details_etablissement">
                                             <div class="nom_etablissement"><?php echo $i;?>. Lorem ipsum dolor sit amet, consectetur</div>

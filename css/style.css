@@ -1646,19 +1646,19 @@ select.form_input {
   position: relative;
   border: dashed 2px #eee; }
   .image-preview input {
-    line-height: 200px;
     position: absolute;
     opacity: 0;
     z-index: 10; }
   .image-preview label {
     cursor: pointer;
     color: #fff !important;
-    display: inline-block;
     background-color: #af1e27;
     padding: 10px 15px;
     text-align: center;
     font-size: 15px;
-    border-radius: 5px; }
+    border-radius: 0;
+    position: absolute !important;
+    bottom: -50px; }
   .image-preview label:after {
     content: '\f030';
     font-family: 'FontAwesome', sans-serif;
