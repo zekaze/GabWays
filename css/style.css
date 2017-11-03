@@ -1617,10 +1617,10 @@ select.form_input {
   border-top: solid 2px #eee;
   padding: 15px 0;
   margin-top: 25px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; }
   .form-footer .btn {
     border-radius: 0;
     border: none; }
@@ -1629,16 +1629,21 @@ select.form_input {
   .form-footer .btn-success:active {
     background-color: #83171d; }
 
-.form-footer.fixed {
+.form-footer.sticky {
   position: fixed;
   left: 0;
-  top: 0;
+  top: -100%;
   width: 100%;
   margin: 0;
   padding: 10px 15px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
   background-color: #fff;
+  opacity: 0;
   text-align: center; }
+
+.form-footer.sticky.fixed {
+  top: 0;
+  opacity: 1; }
 
 .image-preview {
   width: 100%;
