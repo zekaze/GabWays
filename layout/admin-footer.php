@@ -3,10 +3,12 @@
 </footer>
 
 <!--jQuery-->
-<script
+<!--<script
     src="https://code.jquery.com/jquery-2.2.4.min.js"
     integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>-->
+
+<script src="js/jquery.js"></script>
 <!--Bootstrap-->
 <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
 <!--Slick Carousel-->
@@ -17,15 +19,13 @@
 <script src="plugins/zabuto-calendar/zabuto_calendar.js"></script>
 <!--MAgnific popup-->
 <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-
 <!--Tiny MCE-->
 <script src="plugins/tinymce/tinymce.min.js"></script>
 <script src="plugins/tinymce/jquery.tinymce.min.js"></script>
-
 <!--TagsInput-->
 <script src="plugins/tagsinput/bootstrap-tagsinput.min.js"></script>
 <!--Upload preview-->
-<script src="plugins/upload-preview/jquery.uploadPreview.min.js"></script>
+<script src="plugins/jquery-upload-preview/jquery.upload_preview.min.js"></script>
 <!--TagsInput-->
 <script src="plugins/tagsinput/bootstrap-tagsinput-angular.min.js"></script>
 <!--Custom script-->

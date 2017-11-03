@@ -1665,9 +1665,22 @@ select.form_input {
     display: inline-block;
     margin-left: 10px; }
 
-@media (max-width: 991px) {
-  .image-preview {
-    margin-bottom: 50px; } }
+.gallery-fields {
+  display: flex;
+  flex-wrap: wrap; }
+  .gallery-fields .image-input,
+  .gallery-fields .plus {
+    width: calc(25% - 10px);
+    margin: 5px; }
+  .gallery-fields .plus {
+    background: none;
+    border: dashed 2px #ddd;
+    font-weight: 700;
+    height: 200px;
+    border-radius: 10px; }
+    .gallery-fields .plus .fa {
+      display: block; }
+
 @media (max-width: 767px) {
   .body.admin {
     display: inherit; }
@@ -1784,7 +1797,11 @@ select.form_input {
       padding: 1px; }
 
   .page-404 .container {
-    background-color: rgba(255, 255, 255, 0.8); } }
+    background-color: rgba(255, 255, 255, 0.8); }
+
+  .gallery-fields .image-input,
+  .gallery-fields .plus {
+    width: calc(50% - 10px); } }
 @media (max-width: 767px) {
   header #top-nav-menu .nav-contact {
     clear: both;
@@ -2128,7 +2145,14 @@ select.form_input {
     float: none; }
 
   .admin-section .horaires .form_input {
-    margin: 5px 0; } }
+    margin: 5px 0; }
+
+  .gallery-fields {
+    display: block; }
+    .gallery-fields .image-input,
+    .gallery-fields .plus {
+      width: 100%;
+      margin: 5px 0; } }
 @media (max-width: 640px) {
   .body .main-body .section.section-slider .section-body .articles {
     display: block; }

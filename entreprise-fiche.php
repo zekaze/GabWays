@@ -18,10 +18,8 @@
                                 <div class="col-lg-3 col-md-4">
                                     <label for="description">Logo</label>
                                     <div class="image-preview">
-                                        <label for="image-upload-1" class="image-label">Choisir un fichier</label>
-                                        <input type="file" name="image" accept="image/*" id="image-upload-1" class="image-upload" />
+                                        <input type="file" name="logo-entreprise" accept="image/*" id="logo-entreprise" class="image-upload" />
                                     </div>
-
                                 </div>
                                 <div class="col-lg-9 col-md-8">
                                     <label for="categorie">Statut</label>
@@ -142,6 +140,24 @@
                                 </div>
                             <?php endforeach; ?>
                         </div>
+
+
+                        <div class="section-body">
+                            <h4 class="section-title">Gallerie</h4>
+                            <div class="gallery-fields">
+                                <?php for($i = 0; $i <= 10; $i++):?>
+
+                                <div class="image-input<?php echo ($i == 0 ? null : ' hidden');?>">
+                                    <div class="image-preview">
+                                        <input type="file" name="image-<?php echo $i;?>" accept="image/*" id="image-<?php echo $i;?>" class="image-upload" />
+                                    </div>
+                                </div>
+    <?php endfor;?>
+
+                                <button class="plus" type="button">Ajouter un champ <i class="fa fa-plus-circle fa-2x"></i></button>
+                            </div>
+                        </div>
+
                         <div class="form-footer sticky">
                             <button type="submit" class="btn btn-success">Enregister les modifications</button>
                             <button type="reset" class="btn">Annuler</button>

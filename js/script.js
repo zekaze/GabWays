@@ -39,7 +39,6 @@ $(document).ready(function () {
         var $window = $(window),
         top = $window.scrollTop(),
         formFooter = $('.form-footer.sticky');
-        console.log(top);
         if(top > 200){
             formFooter.addClass('fixed');
         }
@@ -48,14 +47,19 @@ $(document).ready(function () {
         }
     });
 
-    $.uploadPreview({
-        input_field: ".image-upload",   // Default: .image-upload
-        preview_box: ".image-preview",  // Default: .image-preview
-        label_field: ".image-label",    // Default: .image-label
-        label_default: "Choisir un fichier",   // Default: Choose File
-        label_selected: "Changer de fichier",  // Default: Change File
-        no_label: false                 // Default: false
+    $('.image-preview').each(function () {
+        var self = $(this);
+        self.uploadPreview({
+            width: '100%',
+            height: '200px',
+            backgroundSize: 'cover',
+            fontSize: '16px',
+            borderRadius: '0',
+            border: '1px solid #ddd',
+            lang: 'en'
+        });
     });
+
 
     $(function () {
         var categories_carousel = $('.categories_carousel'),
@@ -95,7 +99,7 @@ $(document).ready(function () {
                 }
             ]
         });
-    })
+    });
 
     $(function () {
         var windowWidth = $(window).width(),
@@ -251,6 +255,19 @@ $(document).ready(function () {
             delay: { show: 300, hide: 100 }
         });
     });
+
+    var revealedFields = 0;
+
+    $('.gallery-fields').each(function () {
+        var self = $(this),
+            hiddenFields = self.find('.image-input.hidden'),
+            plusBtn = self.find('.plus');
+
+        plusBtn.click(function () {
+            revealedFields++;
+            hiddenFields.eq(revealedFields).removeClass('hidden');
+        });
+    });
     //modal body
 
     $('#calendar').zabuto_calendar({
@@ -275,7 +292,7 @@ $(document).ready(function () {
         else {
             fixedNavbar.removeClass('attached');
         }
-    })
+    });
 
 
     $('.pictures-gallery').each(function () {
@@ -373,14 +390,14 @@ $(function () {
             timeSeparator: ':',
             minutesInterval: 15
         });
-    })
+    });
 
 
         var filtreQuartiers = $('#filtre-quartier');
         filtreQuartiers.on("change",function () {
             var url = filtreQuartiers.val();
             window.location = url;
-        })
+        });
 
 /*
 Typeahead

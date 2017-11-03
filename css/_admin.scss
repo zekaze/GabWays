@@ -297,10 +297,24 @@ select.form_input{
     margin-left: 10px;
   }
 }
+.gallery-fields{
+  display: flex;
+  flex-wrap: wrap;
 
-@media (max-width: 991px) {
-  .image-preview{
-    margin-bottom: 50px;
+  .image-input,
+  .plus{
+    width: calc(25% - 10px);
+    margin: 5px;
+  }
+  .plus{
+    background: none;
+    border: dashed 2px #ddd;
+    font-weight: 700;
+    height: 200px;
+    border-radius: 10px;
+    .fa{
+      display: block;
+    }
   }
 }
 

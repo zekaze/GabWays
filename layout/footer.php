@@ -15,11 +15,13 @@
 </footer>
 
 <!--jQuery-->
-<script
+<!--<script
     src="https://code.jquery.com/jquery-2.2.4.min.js"
     integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>-->
 <!--Bootstrap-->
+<script src="js/jquery.js"></script>
+
 <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
 <!--Slick Carousel-->
 <script src="plugins/slick/slick.min.js"></script>
@@ -31,9 +33,9 @@
 <script src="plugins/zabuto-calendar/zabuto_calendar.js"></script>
 <!--MAgnific popup-->
 <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-<!--Upload preview-->
-<script src="plugins/upload-preview/jquery.uploadPreview.min.js"></script>
 <!--Custom script-->
+<script src="plugins/jquery-upload-preview/jquery.upload_preview.min.js"></script>
+
 <script src="js/script.js"></script>
 <!--Google Maps-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApxXN5unjrDLDHHrq2gcVlKt_zncDvpWA&callback=initMap" async defer></script>
