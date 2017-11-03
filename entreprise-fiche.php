@@ -158,6 +158,23 @@
                             </div>
                         </div>
 
+                        <div class="section-body">
+                            <h4 class="section-title">Options</h4>
+                            <div class="option-fields">
+<?php for($i = 0; $i <= 5; $i++):?>
+                                <div class="option-field<?php echo ($i == 0 ? null : ' hidden');?>">
+                                    <label for="option-<?php echo $i;?>">Libellé</label>
+                                    <input type="text" id="option-<?php echo $i;?>" class="form_input">
+
+                                    <label for="desc-<?php echo $i;?>">Description</label>
+                                    <textarea name="desc-<?php echo $i;?>" id="desc-<?php echo $i;?>" class="form_input"></textarea>
+
+                                </div>
+    <?php endfor;?>
+                                <button class="plus" type="button">Ajouter un champ <i class="fa fa-plus-circle fa-2x"></i></button>
+                            </div>
+                        </div>
+
                         <div class="form-footer sticky">
                             <button type="submit" class="btn btn-success">Enregister les modifications</button>
                             <button type="reset" class="btn">Annuler</button>

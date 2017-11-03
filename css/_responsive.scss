@@ -68,8 +68,10 @@
       background-color: rgba(#fff, 0.8);
     }
   }
-  .gallery-fields{
+  .gallery-fields,
+  .option-fields{
     .image-input,
+  .option-field,
     .plus{
       width: calc(50% - 10px);
     }
@@ -573,9 +575,11 @@
   .admin-section .horaires .form_input{
     margin: 5px 0;
   }
-  .gallery-fields{
+  .gallery-fields,
+  .option-fields{
     display: block;
     .image-input,
+    .option-field,
     .plus{
       width: 100%;
       margin: 5px 0;

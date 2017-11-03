@@ -268,6 +268,17 @@ $(document).ready(function () {
             hiddenFields.eq(revealedFields).removeClass('hidden');
         });
     });
+
+    $('.option-fields').each(function () {
+        var self = $(this),
+            hiddenFields = self.find('.option-field.hidden'),
+            plusBtn = self.find('.plus');
+
+        plusBtn.click(function () {
+            revealedFields++;
+            hiddenFields.eq(revealedFields).removeClass('hidden');
+        });
+    });
     //modal body
 
     $('#calendar').zabuto_calendar({

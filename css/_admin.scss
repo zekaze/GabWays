@@ -297,11 +297,17 @@ select.form_input{
     margin-left: 10px;
   }
 }
-.gallery-fields{
+.gallery-fields,
+.option-fields{
   display: flex;
   flex-wrap: wrap;
 
+  textarea.form_input{
+    height: 90px !important;
+  }
+
   .image-input,
+  .option-field,
   .plus{
     width: calc(25% - 10px);
     margin: 5px;

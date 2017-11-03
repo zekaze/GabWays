@@ -1665,20 +1665,30 @@ select.form_input {
     display: inline-block;
     margin-left: 10px; }
 
-.gallery-fields {
+.gallery-fields,
+.option-fields {
   display: flex;
   flex-wrap: wrap; }
+  .gallery-fields textarea.form_input,
+  .option-fields textarea.form_input {
+    height: 90px !important; }
   .gallery-fields .image-input,
-  .gallery-fields .plus {
+  .gallery-fields .option-field,
+  .gallery-fields .plus,
+  .option-fields .image-input,
+  .option-fields .option-field,
+  .option-fields .plus {
     width: calc(25% - 10px);
     margin: 5px; }
-  .gallery-fields .plus {
+  .gallery-fields .plus,
+  .option-fields .plus {
     background: none;
     border: dashed 2px #ddd;
     font-weight: 700;
     height: 200px;
     border-radius: 10px; }
-    .gallery-fields .plus .fa {
+    .gallery-fields .plus .fa,
+    .option-fields .plus .fa {
       display: block; }
 
 @media (max-width: 767px) {
@@ -1800,7 +1810,11 @@ select.form_input {
     background-color: rgba(255, 255, 255, 0.8); }
 
   .gallery-fields .image-input,
-  .gallery-fields .plus {
+  .gallery-fields .option-field,
+  .gallery-fields .plus,
+  .option-fields .image-input,
+  .option-fields .option-field,
+  .option-fields .plus {
     width: calc(50% - 10px); } }
 @media (max-width: 767px) {
   header #top-nav-menu .nav-contact {
@@ -2147,10 +2161,15 @@ select.form_input {
   .admin-section .horaires .form_input {
     margin: 5px 0; }
 
-  .gallery-fields {
+  .gallery-fields,
+  .option-fields {
     display: block; }
     .gallery-fields .image-input,
-    .gallery-fields .plus {
+    .gallery-fields .option-field,
+    .gallery-fields .plus,
+    .option-fields .image-input,
+    .option-fields .option-field,
+    .option-fields .plus {
       width: 100%;
       margin: 5px 0; } }
 @media (max-width: 640px) {
