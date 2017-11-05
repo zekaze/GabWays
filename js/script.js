@@ -15,21 +15,30 @@ function initMap() {
         fullscreenControl: false
     });
 
-    var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
-    var icons = {
-        category1: {
-            icon: iconBase + 'parking_lot_maps.png'
-        },
-        category2: {
-            icon: iconBase + 'library_maps.png'
-        },
-        category3: {
-            icon: iconBase + 'info-i_maps.png'
-        },
-        category4: {
-            icon: iconBase + 'info-i_maps.png'
+    var locations = [
+        ['Etablissement 1', 0.504099, 9.404849, 4],
+        ['Etablissement 2', 0.502093, 9.406029, 5],
+        ['Etablissement 3', 0.499776, 9.403272, 3],
+        ['Etablissement 4', 0.504743, 9.407263, 2],
+        ['Etablissement 5', 0.506664, 9.404570, 1]
+    ];
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+        });
+    }
+
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+            infowindow.setContent(locations[i][0]);
+            infowindow.open(map, marker);
         }
-    };
+    })(marker, i));
+
 }
 
 
