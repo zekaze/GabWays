@@ -24,6 +24,8 @@
 <script src="plugins/tinymce/jquery.tinymce.min.js"></script>
 <!--TagsInput-->
 <script src="plugins/tagsinput/bootstrap-tagsinput.min.js"></script>
+
+<script src="plugins/wickedpicker/dist/wickedpicker.min.js"></script>
 <!--Upload preview-->
 <script src="plugins/jquery-upload-preview/jquery.upload_preview.min.js"></script>
 <!--TagsInput-->

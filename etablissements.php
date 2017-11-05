@@ -24,7 +24,7 @@
                                     <img src="<?php echo $banners[$m];?>" class="img-responsive" alt="Publicité">
                                 </div>
                             <?php endif;?>
-                            <a href="etablissement.php" class="list-item row" data-animate="fadeInUp">
+                            <div class="list-item row" data-animate="fadeInUp">
                                 <div class="col-sm-4">
                                     <div class="list-item-image">
                                         <img src="<?php echo $etablissements[$i];?>" class="img-responsive">
@@ -32,34 +32,37 @@
                                 </div>
                                 <div class="col-sm-8">
                                     <div class="list-item-info">
-                                        <div class="row header">
-                                            <div class="col-sm-8"><h4 class="item-title">Nom de l'établissement </h4></div>
-                                            <div class="col-sm-4">
+                                        <a href="etablissement.php">
+                                            <div class="header">
+                                                <h4 class="item-title">Nom de l'établissement </h4>
                                                 <?php $y = rand(0,1);
                                                 $ouvert = array('ouvert','fermé');
                                                 ?>
 
-                                                <span class="indicateur_ouverture <?php echo $ouvert[$y];?>"><?php echo $ouvert[$y];?></span>
-                                                <span class="indicateur_distance">3 Km</span>
+                                                <div style="margin-bottom: 10px">
+                                                    <span class="indicateur_ouverture <?php echo $ouvert[$y];?>"><?php echo $ouvert[$y];?></span>
+                                                    <span class="indicateur_distance">3 Km</span>
+                                                </div>
                                             </div>
-                                        </div>
 
-                                        <div class="item-location">Plaine Orety, Libreville</div>
-                                        <div class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda blanditiis, corporis, cupiditate, debitis dolore doloremque earum enim expedita magnam molestias nobis quas quis quod repellat repellendus sit tempora! Deserunt, odit.</div>
+                                            <div class="item-location">Plaine Orety, Libreville</div>
+                                            <div class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda blanditiis, corporis, cupiditate, debitis dolore doloremque earum enim expedita magnam molestias nobis quas quis quod repellat repellendus sit tempora! Deserunt, odit.</div>
+                                        </a>
+
                                         <ul class="tags">
-                                            <li>consectetur</li>
-                                            <li>magna</li>
-                                            <li>marhoncusgna</li>
-                                            <li>imperdiet</li>
-                                            <li>imperdiet</li>
-                                            <li>semper</li>
-                                            <li>Suspendisse</li>
-                                            <li>aliquam</li>
-                                            <li>auctor</li>
+                                            <li><a href="">consectetur</a href=""></li>
+                                            <li><a href="">magna</a href=""></li>
+                                            <li><a href="">marhoncusgna</a href=""></li>
+                                            <li><a href="">imperdiet</a href=""></li>
+                                            <li><a href="">imperdiet</a href=""></li>
+                                            <li><a href="">semper</a href=""></li>
+                                            <li><a href="">Suspendisse</a href=""></li>
+                                            <li><a href="">aliquam</a href=""></li>
+                                            <li><a href="">auctor</a href=""></li>
                                         </ul>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         <?php endfor;?>
                     </div>
 

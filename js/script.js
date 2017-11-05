@@ -39,7 +39,7 @@ $(document).ready(function () {
         var $window = $(window),
         top = $window.scrollTop(),
         formFooter = $('.form-footer.sticky');
-        if(top > 200){
+        if(top > 50){
             formFooter.addClass('fixed');
         }
         else {
@@ -394,14 +394,15 @@ $(function () {
 
 
 
-    $(function () {
-        $('.datepicker').wickedpicker({
-            now: "8:00",
-            twentyFour : true,
-            timeSeparator: ':',
-            minutesInterval: 15
+        $('.datepicker').each(function () {
+           var self =$(this);
+            self.wickedpicker({
+                now: "8:00",
+                twentyFour : true,
+                timeSeparator: ':',
+                minutesInterval: 15
+            });
         });
-    });
 
 
         var filtreQuartiers = $('#filtre-quartier');

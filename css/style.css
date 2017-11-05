@@ -38,7 +38,8 @@ body {
   background-color: #f8f8f8; }
 
 a:hover, a:focus {
-  text-decoration: none !important; }
+  text-decoration: none !important;
+  color: inherit; }
 
 a {
   color: #333333; }
@@ -880,7 +881,7 @@ footer#main-footer {
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     left: 0;
     top: 0;
     background: rgba(0, 0, 0, 0.7); }
@@ -1132,7 +1133,8 @@ footer#main-footer {
   font-size: 11px; }
   .page-etablissement .section ul.tags li {
     display: inline-block; }
-  .page-etablissement .section ul.tags a {
+  .page-etablissement .section ul.tags a,
+  .page-etablissement .section ul.tags span {
     display: inline-block;
     vertical-align: top;
     padding: 2px 10px;
@@ -1144,7 +1146,8 @@ footer#main-footer {
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
-  .page-etablissement .section ul.tags a:hover {
+  .page-etablissement .section ul.tags a:hover,
+  .page-etablissement .section ul.tags span:hover {
     background-color: #af1e27;
     border-color: #af1e27;
     color: #fff; }
@@ -1246,7 +1249,6 @@ footer#main-footer {
   padding: 15px 0; }
 
 span.indicateur_ouverture {
-  float: right;
   display: inline-block;
   font-weight: normal;
   font-size: 12px;
@@ -1260,7 +1262,6 @@ span.indicateur_ouverture.ouvert {
   color: green; }
 
 span.indicateur_distance {
-  float: right;
   display: inline-block;
   font-size: 12px;
   padding: 5px 10px;
@@ -1288,7 +1289,7 @@ span.indicateur_distance {
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     left: 0;
     top: 0;
     background: rgba(0, 0, 0, 0.5); }
@@ -2158,10 +2159,6 @@ select.form_input {
       transform: rotate(-45deg); }
   .page-etablissement .liste-etablissements .col-sm-4 {
     padding-left: 15px; }
-
-  span.indicateur_ouverture,
-  span.indicateur_distance {
-    float: none; }
 
   .admin-section .horaires .form_input {
     margin: 5px 0; }
