@@ -23,16 +23,16 @@
                                placeholder="Nom d'utilisateur...">
 
                         <label for="champ_texte-21">Nom</label>
-                        <input type="text" id="champ_texte-21" name="champ_texte-21" class="form_input"
+                        <input type="text" id="champ_texte-21" required name="champ_texte-21" class="form_input"
                                placeholder="Nom...">
 
                         <label for="champ_texte-22">Prénom</label>
-                        <input type="text" id="champ_texte-22" name="champ_texte-22" class="form_input"
+                        <input type="text" id="champ_texte-22" required name="champ_texte-22" class="form_input"
                                placeholder="Prénom...">
 
                         <label for="champ_texte-22">Genre</label>
                         <label class="old_checkbox">
-                            <input type="radio" name="genre">
+                            <input type="radio" name="genre" required>
                             Homme
                         </label>
                         <label class="old_checkbox">
@@ -41,7 +41,7 @@
                         </label>
 
                         <label for="champ_texte-23">Date de naissance</label>
-                        <input type="date" id="champ_texte-23" required name="champ_texte-23" class="form_input">
+                        <input type="date" id="champ_texte-23" required required name="champ_texte-23" class="form_input">
 
 
                         <label for="champ_texte-24">Téléphone</label>
@@ -49,7 +49,7 @@
                                placeholder="Telephone...">
 
                         <label for="liste_deroulante-5">Profil</label>
-                        <select name="liste_deroulante-5" required id="liste_deroulante-5" class="form_input">
+                        <select name="liste_deroulante-5" required required id="liste_deroulante-5" class="form_input">
                             <option>Option 1</option>
                             <option>Option 2</option>
                             <option>Option 3</option>
@@ -58,7 +58,7 @@
                         <h4>Actif</h4>
                         <label class="checkbox inline-block">
                             <input type="checkbox" class="hidden" name="checkbox[]">
-                            Actif
+                            Actif &nbsp; <i class="fa fa-check-circle"></i>
                         </label>
 
                         <label for="password">Mot de passe *</label>
