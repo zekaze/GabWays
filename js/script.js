@@ -15,24 +15,50 @@ function initMap() {
         fullscreenControl: false
     });
 
-    var locations = [
-        ['Etablissement 1', 0.504099, 9.404849, 4],
-        ['Etablissement 2', 0.502093, 9.406029, 5],
-        ['Etablissement 3', 0.499776, 9.403272, 3],
-        ['Etablissement 4', 0.504743, 9.407263, 2],
-        ['Etablissement 5', 0.506664, 9.404570, 1]
+    var baseIcon = 'img/map-markers/marker.png';
+
+    var locations = [{
+        lat: 0.504099,
+        lng: 9.404849,
+        category: "\uf086"
+        },
+        {
+           lat: 0.502093,
+           lng: 9.406029,
+           category: '\uf083'
+        },
+        {
+            lat: 0.499776,
+            lng: 9.403272,
+            category: '\uf127'
+        },
+        {
+            lat: 0.504743,
+            lng: 9.407263,
+            category: '\uf017'
+        },
+        {
+            lat: 0.506664,
+            lng: 9.404570,
+            category: '\uf058'
+        }
     ];
 
-    var marker, i;
 
-    for (i = 0; i < locations.length; i++) {
-        marker = new google.maps.Marker({
-            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-            map: map
+    locations.forEach(function (location) {
+
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(location.lat, location.lng),
+            icon: baseIcon,
+            map: map,
+            label:{
+                fontFamily: 'FontAwesome',
+                text: location.category, //code for font-awesome icon
+                fontSize: '18px',
+                color: '#2d2d7b'
+            }
         });
-    }
-
-
+    });
 }
 
 
