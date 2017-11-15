@@ -22,7 +22,7 @@
                                 </div>
                             </a>
 
-                            <a href="#" class="dashboard-item" style="background-color: #2d2d7b">
+                            <a href="" class="dashboard-item" style="background-color: #2d2d7b">
                                 <i class="fa fa-building"></i>
                                 <div class="label">
                                     <div class="counter">312</div>
