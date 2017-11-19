@@ -180,3 +180,68 @@
 </div>
 
 <?php include_once "layout/footer.php";?>
+
+<script type="text/javascript">
+    var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 0.504099, lng: 9.404849},
+            zoom: 16,
+            gestureHandling: 'cooperative',
+            zoomControl: false,
+            mapTypeControl: false,
+            scaleControl: false,
+            streetViewControl: false,
+            rotateControl: false,
+            fullscreenControl: false
+        });
+
+        var baseIcon = {
+            url: 'img/map-markers/marker.png',
+            labelOrigin: new google.maps.Point(14, 14)
+        };
+
+        var locations = [{
+            lat: 0.504099,
+            lng: 9.404849,
+            index: '1'
+        },
+            {
+                lat: 0.502093,
+                lng: 9.406029,
+                index: '2'
+            },
+            {
+                lat: 0.499776,
+                lng: 9.403272,
+                index: '3'
+            },
+            {
+                lat: 0.504743,
+                lng: 9.407263,
+                index: '4'
+            },
+            {
+                lat: 0.506664,
+                lng: 9.404570,
+                index: '5'
+            }
+        ];
+
+
+        locations.forEach(function (location) {
+
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(location.lat, location.lng),
+                icon: baseIcon,
+                map: map,
+                label:{
+                    text: location.index,
+                    fontSize: '14px',
+                    color: '#af1e27',
+                    fontWeight: '800'
+                }
+            });
+        });
+    }
+</script>
