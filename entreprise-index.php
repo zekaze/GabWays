@@ -68,17 +68,17 @@
                                     <div class="panel-body">
                                         <table class="table">
                                             <thead>
-                                            <th>logo</th>
-                                            <th>nom entreprise</th>
-                                            <th>categorie</th>
+                                            <th></th>
+                                            <th>Nom</th>
+                                            <th>Catégorie</th>
                                             </thead>
 
                                             <tbody>
                                             <?php for($i = 0; $i <5; $i++):?>
                                                 <tr>
-                                                    <td>logo</td>
-                                                    <td>nom entreprise</td>
-                                                    <td>categorie</td>
+                                                    <td width="100"><img src="<?php echo $etablissements[$i];?>" class="img-responsive" alt=""></td>
+                                                    <td>Nom entreprise</td>
+                                                    <td>Catégorie</td>
                                                 </tr>
                                             <?php endfor;?>
                                             </tbody>
