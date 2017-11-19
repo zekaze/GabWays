@@ -1745,6 +1745,10 @@ select.form_input {
       transform: scale(1.4);
       transform-origin: center center; }
 
+.panel .btn-block {
+  border-top: solid 1px #ddd;
+  border-radius: 0; }
+
 @media (max-width: 1025px) {
   .dashboard {
     display: block; } }

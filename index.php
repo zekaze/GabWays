@@ -253,7 +253,10 @@
             center: {lat: 0.504099, lng: 9.404849},
             zoom: 16,
             gestureHandling: 'cooperative',
-            zoomControl: false,
+            zoomControl: true,
+            zoomControlOptions: {
+                position: google.maps.ControlPosition.LEFT_CENTER
+            },
             mapTypeControl: false,
             scaleControl: false,
             streetViewControl: false,

@@ -387,6 +387,13 @@ select.form_input{
   }
 }
 
+.panel{
+  .btn-block{
+    border-top: solid 1px #ddd;
+    border-radius: 0;
+  }
+}
+
 @media (max-width: 1025px) {
   .dashboard{
     display: block;

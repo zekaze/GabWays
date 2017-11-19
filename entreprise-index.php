@@ -63,7 +63,7 @@
                             <div class="table-responsive">
                                 <div class="panel">
                                     <div class="panel-heading">
-                                        <h4>Top entreprises</h4>
+                                        <h3>Top entreprises</h3>
                                     </div>
                                     <div class="panel-body">
                                         <table class="table">
@@ -83,6 +83,7 @@
                                             <?php endfor;?>
                                             </tbody>
                                         </table>
+                                        <a href="#" class="btn btn-block">Afficher toute la liste</a>
                                     </div>
                                 </div>
                             </div>
