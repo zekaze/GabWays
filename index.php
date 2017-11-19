@@ -265,8 +265,8 @@
         });
 
         var baseIcon = {
-            url: 'img/map-markers/marker.png',
-            labelOrigin: new google.maps.Point(14, 14)
+            url: 'img/map-markers/map-marker.png',
+            labelOrigin: new google.maps.Point(16, 13)
         };
 
         var locations = [{
