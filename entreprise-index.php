@@ -65,12 +65,12 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="table-responsive">
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <h3 class="h3"><i class="fa fa-building"></i> Top entreprises</h3>
-                                    </div>
-                                    <div class="panel-body">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h3 class="h3"><i class="fa fa-building"></i> Top entreprises</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="table-responsive">
                                         <table class="table">
                                             <?php for($i = 0; $i <5; $i++):?>
                                                 <tr>
@@ -89,12 +89,12 @@
                         </div>
 
                         <div class="col-sm-6 col-lg-4">
-                            <div class="table-responsive">
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <h3 class="h3"><i class="fa fa-tag"></i> Top catégories</h3>
-                                    </div>
-                                    <div class="panel-body">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h3 class="h3"><i class="fa fa-tag"></i> Top catégories</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="table-responsive">
                                         <table class="table">
                                             <?php for($i = 0; $i <5; $i++):?>
                                                 <tr>
@@ -110,43 +110,42 @@
                             </div>
                         </div>
                     </div>
-                    <div class="table-responsive">
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <h3 class="h3"><i class="fa fa-building"></i> Entreprises non validéees</h3>
-                                    </div>
-                                    <div class="panel-body">
-                                        <table class="table">
-                                            <?php for($i = 0; $i <5; $i++):?>
-                                                <tr>
-                                                    <td width="70">
-                                                        <a href="#">
-                                                            <img src="<?php echo $etablissements[$i];?>" class="img-responsive" alt="">
-                                                        </a>
-                                                        </td>
-                                                    <td width="40"><?php echo $i+1;?></td>
-                                                    <td class="details_etablissement">
-                                                        <a href="#">
-                                                            <div class="nom_etablissement">Nom entreprise</div>
-                                                            <div class="quartier_etablissement">Catégorie</div>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                            <?php endfor;?>
-                                        </table>
-                                        <a href="#" class="btn btn-block">Voir toutes les entreprises</a>
-                                    </div>
-                                </div>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h3 class="h3"><i class="fa fa-building"></i> Entreprises non validéees</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <?php for($i = 0; $i <5; $i++):?>
+                                        <tr>
+                                            <td width="70">
+                                                <a href="#">
+                                                    <img src="<?php echo $etablissements[$i];?>" class="img-responsive" alt="">
+                                                </a>
+                                            </td>
+                                            <td width="40"><?php echo $i+1;?></td>
+                                            <td class="details_etablissement">
+                                                <a href="#">
+                                                    <div class="nom_etablissement">Nom entreprise</div>
+                                                    <div class="quartier_etablissement">Catégorie</div>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    <?php endfor;?>
+                                </table>
                             </div>
-
+                            <a href="#" class="btn btn-block">Voir toutes les entreprises</a>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="table-responsive">
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <h3 class="h3"><i class="fa fa-bullhorn"></i> Publicités non validées</h3>
-                                    </div>
-                                    <div class="panel-body">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h3 class="h3"><i class="fa fa-bullhorn"></i> Publicités non validées</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="table-responsive">
                                         <table class="table">
                                             <thead>
                                             <th></th>
@@ -174,19 +173,19 @@
                                                 </tr>
                                             <?php endfor;?>
                                         </table>
-                                        <a href="#" class="btn btn-block">Voir toutes les publicités</a>
                                     </div>
+                                    <a href="#" class="btn btn-block">Voir toutes les publicités</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <div class="table-responsive">
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <h3 class="h3"><i class="fa fa-calendar"></i> Événements non validées</h3>
-                                    </div>
-                                    <div class="panel-body">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h3 class="h3"><i class="fa fa-calendar"></i> Événements non validées</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="table-responsive">
                                         <table class="table">
                                             <thead>
                                             <th></th>
@@ -214,8 +213,8 @@
                                                 </tr>
                                             <?php endfor;?>
                                         </table>
-                                        <a href="#" class="btn btn-block">Voir toutes les événements</a>
                                     </div>
+                                    <a href="#" class="btn btn-block">Voir toutes les événements</a>
                                 </div>
                             </div>
                         </div>
