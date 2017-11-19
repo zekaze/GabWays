@@ -388,9 +388,25 @@ select.form_input{
 }
 
 .panel{
+  .h3{
+    font-weight: 700;
+
+  }
   .btn-block{
     border-top: solid 1px #ddd;
     border-radius: 0;
+  }
+  .details_etablissement{
+    padding: 5px;
+    font-size: 12px;
+    color: $gray-3;
+
+    .nom_etablissement{
+      font-weight: 700;
+      color: $gray-5;
+      line-height: 13px;
+      font-size: 13px;
+    }
   }
 }
 

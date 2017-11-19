@@ -1745,9 +1745,20 @@ select.form_input {
       transform: scale(1.4);
       transform-origin: center center; }
 
+.panel .h3 {
+  font-weight: 700; }
 .panel .btn-block {
   border-top: solid 1px #ddd;
   border-radius: 0; }
+.panel .details_etablissement {
+  padding: 5px;
+  font-size: 12px;
+  color: #868686; }
+  .panel .details_etablissement .nom_etablissement {
+    font-weight: 700;
+    color: #4d4d4d;
+    line-height: 13px;
+    font-size: 13px; }
 
 @media (max-width: 1025px) {
   .dashboard {
@@ -1857,6 +1868,9 @@ select.form_input {
           margin-bottom: 5px; }
         #google-map .etablissements .etablissement .details_etablissement .quartier_etablissement {
           font-style: italic; } }
+@media (max-width: 991px) {
+  .col-sm-6.text-right {
+    text-align: left; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar.fixed form .col-sm-5,
   .navbar.fixed form .col-sm-6,
