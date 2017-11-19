@@ -72,26 +72,16 @@
                                     </div>
                                     <div class="panel-body">
                                         <table class="table">
-                                            <thead>
-                                            <th></th>
-                                            <th></th>
-                                            <th>Nom</th>
-                                            <th>Catégorie</th>
-                                            </thead>
-
-                                            <tbody>
                                             <?php for($i = 0; $i <5; $i++):?>
                                                 <tr>
                                                     <td width="70"><img src="<?php echo $etablissements[$i];?>" class="img-responsive" alt=""></td>
-                                                    <td><?php echo $i+1;?></td>
+                                                    <td width="40"><?php echo $i+1;?></td>
                                                     <td class="details_etablissement">
                                                         <div class="nom_etablissement">Nom entreprise</div>
-                                                        <div class="quartier_etablissement">Angondjé 1ère cité, Akanda</div>
+                                                        <div class="quartier_etablissement">Catégorie</div>
                                                     </td>
-                                                    <td>Catégorie</td>
                                                 </tr>
                                             <?php endfor;?>
-                                            </tbody>
                                         </table>
                                     </div>
                                 </div>
@@ -106,11 +96,6 @@
                                     </div>
                                     <div class="panel-body">
                                         <table class="table">
-                                            <thead>
-                                            <th colspan="2">Catégorie</th>
-                                            </thead>
-
-                                            <tbody>
                                             <?php for($i = 0; $i <5; $i++):?>
                                                 <tr>
                                                     <td width="40"><?php echo $i+1;?></td>
@@ -119,7 +104,6 @@
                                                     </td>
                                                 </tr>
                                             <?php endfor;?>
-                                            </tbody>
                                         </table>
                                     </div>
                                 </div>
