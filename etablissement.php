@@ -15,21 +15,25 @@
             <div class="col-md-9">
                 <div class="main-body">
                     <label>Partager cette page</label>
-                    <div class="social-sharing">
-                        <ul>
-                            <li><a href="#" class="fa fa-facebook" style='background: #385a99'></a></li>
-                            <li><a href="#" class="fa fa-twitter" style="background: #40c8f4"></a></li>
-                            <li><a href="#" class="fa fa-linkedin" style="background: #127ab7"></a></li>
-                            <li><a href="#" class="fa fa-instagram" style="background: #385a99"></a></li>
-                            <li><a href="#" class="fa fa-share" style="background: #f36f21"></a></li>
-                        </ul>
-                        <div>
-                            <?php $y = rand(0,1);
-                            $ouvert = array('ouvert','fermé');
-                            ?>
-                            <span class="indicateur_ouverture <?php echo $ouvert[0];?>"><?php echo $ouvert[0];?></span>
-                            <span class="indicateur_distance">3 Km</span>
-                        </div>
+                    <div class="row">
+                         <div class="col-sm-6">
+                             <div class="social-sharing">
+                                 <ul>
+                                     <li><a href="#" class="fa fa-facebook" style='background: #385a99'></a></li>
+                                     <li><a href="#" class="fa fa-twitter" style="background: #40c8f4"></a></li>
+                                     <li><a href="#" class="fa fa-linkedin" style="background: #127ab7"></a></li>
+                                     <li><a href="#" class="fa fa-instagram" style="background: #385a99"></a></li>
+                                     <li><a href="#" class="fa fa-share" style="background: #f36f21"></a></li>
+                                 </ul>
+                             </div>
+                         </div>
+                         <div class="col-sm-6 text-right">
+                             <?php $y = rand(0,1);
+                             $ouvert = array('ouvert','fermé');
+                             ?>
+                             <span class="indicateur_ouverture <?php echo $ouvert[0];?>"><?php echo $ouvert[0];?></span>
+                             <span class="indicateur_distance">3 Km</span>
+                         </div>
                     </div>
                     <!--end of social sharing-->
 
