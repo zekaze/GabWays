@@ -12,42 +12,84 @@
                         <h2>Tableau de bord</h2>
                     </div>
 
-                    <div class="dashboard">
-                        <div class="dashboard-row">
-                            <a href="#" class="dashboard-item" style="background-color: #af1e27">
-                                <i class="fa fa-user"></i>
-                                <div class="label">
-                                    <div class="counter">237</div>
-                                    utilisateurs
-                                </div>
-                            </a>
+                        <div class="dashboard">
+                            <div class="dashboard-row">
+                                <a href="#" class="dashboard-item" style="background-color: #af1e27">
+                                    <i class="fa fa-users"></i>
+                                    <div class="label">
+                                        <div class="counter">237</div>
+                                        utilisateurs
+                                    </div>
+                                </a>
 
-                            <a href="" class="dashboard-item" style="background-color: #2d2d7b">
-                                <i class="fa fa-building"></i>
-                                <div class="label">
-                                    <div class="counter">312</div>
-                                    entreprises
-                                </div>
-                            </a>
+                                <a href="" class="dashboard-item" style="background-color: #2d2d7b">
+                                    <i class="fa fa-building"></i>
+                                    <div class="label">
+                                        <div class="counter">312</div>
+                                        entreprises
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="dashboard-row">
+                                <a href="#" class="dashboard-item" style="background-color: #df8e00">
+                                    <i class="fa fa-calendar"></i>
+                                    <div class="label">
+                                        <div class="counter">22</div>
+                                        événements
+                                    </div>
+                                </a>
+
+                                <a href="#" class="dashboard-item" style="background-color: #079615">
+                                    <i class="fa fa-bullhorn"></i>
+                                    <div class="label">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <div class="counter">15</div>
+                                                publicités payées
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <strong>Total</strong> <br>
+                                                275,000 XAF
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                        <div class="dashboard-row">
-                            <a href="#" class="dashboard-item" style="background-color: #df8e00">
-                                <i class="fa fa-calendar"></i>
-                                <div class="label">
-                                    <div class="counter">22</div>
-                                    événements
-                                </div>
-                            </a>
 
-                            <a href="#" class="dashboard-item" style="background-color: #079615">
-                                <i class="fa fa-bullhorn"></i>
-                                <div class="label">
-                                    <div class="counter">15</div>
-                                    publicités
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="table-responsive">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <h4>Top entreprises</h4>
+                                    </div>
+                                    <div class="panel-body">
+                                        <table class="table">
+                                            <thead>
+                                            <th>logo</th>
+                                            <th>nom entreprise</th>
+                                            <th>categorie</th>
+                                            </thead>
+
+                                            <tbody>
+                                            <?php for($i = 0; $i <5; $i++):?>
+                                                <tr>
+                                                    <td>logo</td>
+                                                    <td>nom entreprise</td>
+                                                    <td>categorie</td>
+                                                </tr>
+                                            <?php endfor;?>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
+                        <div class="col-md-6">
 
+                        </div>
                     </div>
                 </div>
             </div>

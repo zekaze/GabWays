@@ -1745,7 +1745,7 @@ select.form_input {
       transform: scale(1.4);
       transform-origin: center center; }
 
-@media (max-width: 991px) {
+@media (max-width: 1025px) {
   .dashboard {
     display: block; } }
 @media (max-width: 767px) {

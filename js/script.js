@@ -15,32 +15,35 @@ function initMap() {
         fullscreenControl: false
     });
 
-    var baseIcon = 'img/map-markers/marker.png';
+    var baseIcon = {
+        url: 'img/map-markers/marker.png',
+        labelOrigin: new google.maps.Point(14, 14)
+    };
 
     var locations = [{
         lat: 0.504099,
         lng: 9.404849,
-        category: "\uf086"
+        index: '1'
         },
         {
            lat: 0.502093,
            lng: 9.406029,
-           category: '\uf083'
+           index: '2'
         },
         {
             lat: 0.499776,
             lng: 9.403272,
-            category: '\uf127'
+            index: '3'
         },
         {
             lat: 0.504743,
             lng: 9.407263,
-            category: '\uf017'
+            index: '4'
         },
         {
             lat: 0.506664,
             lng: 9.404570,
-            category: '\uf058'
+            index: '5'
         }
     ];
 
@@ -52,10 +55,10 @@ function initMap() {
             icon: baseIcon,
             map: map,
             label:{
-                fontFamily: 'FontAwesome',
-                text: location.category, //code for font-awesome icon
-                fontSize: '18px',
-                color: '#2d2d7b'
+                text: location.index, //code for font-awesome icon
+                fontSize: '14px',
+                color: '#af1e27',
+                fontWeight: '800'
             }
         });
     });
