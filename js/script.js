@@ -352,15 +352,17 @@ $(function () {
     });
 
 
-    $(function () {
-        $('#tags').tagsinput({
-            maxTags: 8,
-            typeahead: {
-                source: ['Amsterdam', 'Washington', 'Sydney', 'Beijing', 'Cairo']
-            }
-        });
-    });
 
+
+
+    $('#tags').tagsinput({
+        maxTags: 5,
+        typeahead: {
+            source: function(query) {
+                return $.get('typeahead/tags.php');
+            }
+        }
+    });
 
 
         $('.datepicker').each(function () {

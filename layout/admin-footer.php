@@ -22,14 +22,17 @@
 <!--Tiny MCE-->
 <script src="plugins/tinymce/tinymce.min.js"></script>
 <script src="plugins/tinymce/jquery.tinymce.min.js"></script>
+<!--Typeahead-->
+<script src="plugins/typeahead/typeahead.bundle.js"></script>
+<!--<script src="plugins/jquery-typeahead/jquery.typeahead.js"></script>-->
 <!--TagsInput-->
+<!--<script src="plugins/tagsinput/bootstrap-tagsinput-angular.min.js"></script>-->
 <script src="plugins/tagsinput/bootstrap-tagsinput.min.js"></script>
 
 <script src="plugins/wickedpicker/dist/wickedpicker.min.js"></script>
 <!--Upload preview-->
 <script src="plugins/jquery-upload-preview/jquery.upload_preview.min.js"></script>
 <!--TagsInput-->
-<script src="plugins/tagsinput/bootstrap-tagsinput-angular.min.js"></script>
 <!--Custom script-->
 <script src="js/script.js"></script>
 <!--Google Maps-->
